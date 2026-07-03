@@ -13494,7 +13494,7 @@
     "category": "UniqueArmours",
     "flavourText": "A gift, a braid, of golden hair.\r\nThe war, forgotten.\r\nThe reason, remembered.",
     "explicitModifiers": [
-      "(56-59)% increased Energy Shield",
+      "(50-59)% increased Energy Shield",
       "(31-38)% increased Mana Regeneration Rate",
       "20% increased Light Radius",
       "(8-9)% increased Spell Damage per 10 Spirit"
@@ -14577,7 +14577,7 @@
       "+(25-33)% to Fire Resistance",
       "+(25-35)% to Cold Resistance",
       "Increases and Reductions to Mana Regeneration Rate also\napply to Energy Shield Recharge Rate",
-      "Gain (31-49)% of Maximum Mana as Armour"
+      "Gain (31-50)% of Maximum Mana as Armour"
     ],
     "implicitModifiers": [],
     "levelRequired": 65
@@ -20505,7 +20505,7 @@
     "category": "UniqueJewels",
     "flavourText": "Only a madman would ignore a god's instructions.",
     "explicitModifiers": [
-      "Allocates (2-3) Sinister Jewel sockets"
+      "Allocates (2-4) Sinister Jewel sockets"
     ],
     "implicitModifiers": [],
     "levelRequired": 0
@@ -20722,6 +20722,7 @@
       "(5-9)% reduced Slowing Potency of Debuffs on You",
       "Minions have (3-12)% additional Physical Damage Reduction",
       "(8-14)% increased speed of Recoup Effects",
+      "+(2.18-3.42)% to Thorns Critical Hit Chance",
       "Recover (2-3)% of maximum Life on Killing a Poisoned Enemy",
       "(42-60)% increased Ice Crystal Life",
       "Charms applied to you have (15-24)% increased Effect",
@@ -20737,7 +20738,6 @@
       "(15-25)% chance for Lightning Damage with Hits to be Lucky",
       "(20-30)% increased Mana Regeneration Rate while moving",
       "Minions Regenerate (1-2.8)% of maximum Life per second",
-      "+(2.18-3.33)% to Thorns Critical Hit Chance",
       "Minions have (6-12)% increased Critical Hit Chance",
       "(40-58)% increased Energy Shield from Equipped Body Armour"
     ],
@@ -20876,10 +20876,12 @@
       "+(1-2) to Level of all Blood Hunt Skills",
       "+(1-2) to Level of all Stampede Skills",
       "+(1-2) to Level of all Blink Skills",
+      "+(1-2) to Level of all Forge Hammer Skills",
       "+(1-2) to Level of all Lunar Blessing Skills",
       "+2 to Level of all Rampage Skills",
       "+1 to Level of all Tempest Bell Skills",
       "+1 to Level of all Wolf Pack Skills",
+      "+1 to Level of all Oil Barrage Skills",
       "+(1-2) to Level of all Leap Slam Skills",
       "+1 to Level of all Contagion Skills",
       "+2 to Level of all Savage Fury Skills",
@@ -21014,7 +21016,6 @@
       "+1 to Level of all Mana Tempest Skills",
       "+1 to Level of all Perfect Strike Skills",
       "+2 to Level of all Walking Calamity Skills",
-      "+2 to Level of all Forge Hammer Skills",
       "+1 to Level of all Shockchain Arrow Skills",
       "+(1-2) to Level of all Freezing Mark Skills",
       "+(1-2) to Level of all Bloodhound's Mark Skills",
@@ -21563,5 +21564,18 @@
     "levelRequired": 0,
     "wikiDescription": "Upgrades a Magic item to a Rare item, adding a guaranteed modifier Belt, Boots, Gloves, Helmet or Jewellery: +(25-34) to maximum Mana",
     "wikiHelpText": "Right click this item then left click a Magic item to apply it."
+  },
+  {
+    "id": "regal-shard",
+    "name": "Regal Shard",
+    "baseType": "",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmVTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e4128abe92/CurrencyUpgradeMagicToRareShard.png",
+    "category": "Currency",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0,
+    "wikiDescription": "",
+    "wikiHelpText": "A stack of 10 shards becomes a Regal Orb."
   }
 ]
