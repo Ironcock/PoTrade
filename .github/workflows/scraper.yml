@@ -1,0 +1,33 @@
+name: PoE2 Economy Scraper
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Run every 30 minutes
+  workflow_dispatch: # Enable manual run trigger from the actions UI
+
+permissions:
+  contents: write # Give the GHA runner push permission to update database files
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Scraper Loop
+        run: |
+          python scripts/poeninja_scraper.py --loop
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # Commit and push only if the database files changed
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update database snapshots" && git push)
