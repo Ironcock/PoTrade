@@ -515,6 +515,7 @@ if __name__ == "__main__":
     )
 
     any_league_changed = False
+    has_failed = False
     for lg in leagues:
         try:
             changed = update_own_db(lg)
@@ -522,6 +523,7 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"[FATAL] League '{lg}' failed: {e}")
             import traceback; traceback.print_exc()
+            has_failed = True
 
-    # Exit code signals to the bash loop whether to push to GitHub
-    sys.exit(0 if any_league_changed else 1)
+    # Exit 1 only on actual fatal error/exception (otherwise exit 0 even if no prices changed)
+    sys.exit(1 if has_failed else 0)
