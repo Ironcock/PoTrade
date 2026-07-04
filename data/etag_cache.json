@@ -34,7 +34,7 @@
     "__ov_ex_Runes": "W/e8c8741c877f973aa11180ba0abd268a",
     "__ov_ex_Ritual": "W/98603c27e80cdad521120e967aec456b",
     "__ov_ex_Expedition": "W/e0d8962a2c4260924c72c277337db4f2",
-    "__ov_ex_Delirium": "W/9bf914989bd620999e2a99b20ca6519c",
+    "__ov_ex_Delirium": "W/7ad0dfe2417c19ad0bef8ba1f134c36b",
     "__ov_ex_Breach": "W/0a16b49f972121c6608517a2250b9283",
     "__ov_ex_Verisium": "W/8bfed6beb794cd9b7d78aaa9801f2096",
     "i_chaos": "W/942843a90863c06439453cd57927e927",
@@ -161,7 +161,7 @@
     "i_uncut-spirit-gem-14": "W/3382d961fd0d9af6d93cd65cef529040",
     "i_uncut-spirit-gem-16": "W/070d5022caea474fff6da70af2310fae",
     "i_uncut-spirit-gem-17": "W/c872b6a824c2291383105e3ff956257f",
-    "i_uncut-spirit-gem-20": "W/84a3d353efb63105f56b9b6fec5abe22",
+    "i_uncut-spirit-gem-20": "W/7b5e7e44044142a74b860d97316f0ff5",
     "i_uncut-spirit-gem-7": "W/e15b550df403853d6b7431f43e01d41f",
     "i_uncut-spirit-gem-8": "W/85fb36ed0b42d1ccd2cf0fa2e0c3c8bf",
     "i_uncut-spirit-gem-9": "W/66479344bd00bfbffd3f3ecff37a0c2c",
@@ -1411,7 +1411,15 @@
     "__404_omen-of-secret-compartments": true,
     "__404_omen-of-the-hunt": true,
     "__404_omen-of-amelioration": true,
-    "__404_thaumaturgic-flux-11": true
+    "__404_thaumaturgic-flux-11": true,
+    "__404_yaomacs-orb-of-sacrifice": true,
+    "__404_uncut-skill-gem-13": true,
+    "__404_arbiters-reach": true,
+    "__404_seraphs-heart": true,
+    "__404_her-declaration": true,
+    "__404_thane-lelds-rune-of-spring": true,
+    "__404_emergent-vigour": true,
+    "__404_warding-rune-of-symbiosis": true
   },
   "standard": {
     "Currency": "W/4ada545de4fd3eb637535792f2577413",
@@ -2133,7 +2141,14 @@
     "__404_the-runebinders-alloy": true,
     "__404_uhtreds-crest-of-the-chalice": true,
     "__404_voranas-crest-of-the-scythe": true,
-    "__404_warding-starlit-ore": true
+    "__404_warding-starlit-ore": true,
+    "__404_lesser-jewellers-orb": true,
+    "__404_uncut-spirit-gem-15": true,
+    "__404_greater-essence-of-insulation": true,
+    "__404_perfect-essence-of-alacrity": true,
+    "__404_perfect-essence-of-ruin": true,
+    "__404_perfect-essence-of-sorcery": true,
+    "__404_citaqualotls-thesis": true
   },
   "hardcore": {
     "Currency": "W/17020e4c496c7a5722c46aa099e3aeb0",
