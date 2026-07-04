@@ -20452,9 +20452,7 @@
     "flavourText": "",
     "explicitModifiers": [],
     "implicitModifiers": [],
-    "levelRequired": 0,
-    "wikiDescription": "",
-    "wikiHelpText": "A stack of 10 shards becomes a Regal Orb."
+    "levelRequired": 0
   },
   {
     "id": "ironbound-runeforged-warden-bow",
