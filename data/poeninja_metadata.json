@@ -8254,9 +8254,9 @@
       "200% increased effect of Socketed Runes"
     ],
     "implicitModifiers": [
-      "(37-49)% increased Mana Regeneration Rate",
-      "(38-50)% chance for Spell Skills to fire 2 additional Projectiles",
-      "+300 to maximum Runic Ward"
+      "+300 to maximum Runic Ward",
+      "(30-50)% increased Mana Regeneration Rate",
+      "(30-50)% chance for Spell Skills to fire 2 additional Projectiles"
     ],
     "levelRequired": 84
   },
@@ -8347,7 +8347,7 @@
     "explicitModifiers": [
       "(150-250)% increased Physical Damage",
       "Adds 1 to (200-300) Lightning Damage",
-      "+(5.04-8)% to Critical Hit Chance",
+      "+(5-7.99)% to Critical Hit Chance",
       "Life Leech recovers based on your Lightning damage as well as Physical damage",
       "Create a Fragment of Divinity in your Presence every 4 seconds"
     ],
@@ -8435,7 +8435,7 @@
     "flavourText": "\"His approach to the gate was met with sounding trumpets\r\nand an unfurling of banners. He never saw it coming.\"\r\n- anonymous Brotherhood of Silence report",
     "explicitModifiers": [
       "(40-60)% increased Physical Damage",
-      "(31-40)% increased Attack Speed",
+      "(30-40)% increased Attack Speed",
       "30% reduced Reload Speed",
       "Bolts fired by Crossbow Attacks have 100% chance to not\nexpend Ammunition if you've Reloaded Recently"
     ],
@@ -8470,17 +8470,17 @@
     "category": "UniqueWeapons",
     "flavourText": "Infinite mutations over endless eons borne upon it in a singular moment.",
     "explicitModifiers": [
-      "(84-100)% increased Physical Damage",
-      "Adds (155-191) to (362-400) Cold Damage",
-      "+(316-366) to maximum Mana",
-      "+(4.05-5.88)% to Critical Hit Chance",
+      "(80-100)% increased Physical Damage",
+      "Adds (150-200) to (350-400) Cold Damage",
+      "+(300-400) to maximum Mana",
+      "+(4-6)% to Critical Hit Chance",
       "(10-20)% of Damage is taken from Mana before Life",
       "Attacks with this Weapon have Added Cold Damage equal to (6-8)% to (10-12)% of maximum Mana",
       "Convert 100% of Fire Damage with Mace Skills to Cold Damage"
     ],
     "implicitModifiers": [
-      "278% increased Freeze Buildup",
-      "Skills which create Fissures have a 50% chance to create an additional Fissure"
+      "Skills which create Fissures have a 50% chance to create an additional Fissure",
+      "(200-299)% increased Freeze Buildup"
     ],
     "levelRequired": 84
   },
@@ -8511,13 +8511,13 @@
     "explicitModifiers": [
       "+200 Intelligence Requirement",
       "+100 Strength Requirement",
-      "(260-345)% increased Physical Damage",
-      "(11-19)% increased Attack Speed",
-      "+(3-4) to Level of all Lightning Skills"
+      "(250-350)% increased Physical Damage",
+      "(10-20)% increased Attack Speed",
+      "+(2-4) to Level of all Lightning Skills"
     ],
     "implicitModifiers": [
-      "(41-57)% increased Lightning Damage",
-      "(68-78)% chance for Lightning Skills to Chain an additional time"
+      "(50-100)% chance for Lightning Skills to Chain an additional time",
+      "(40-60)% increased Lightning Damage"
     ],
     "levelRequired": 84
   },
@@ -8530,7 +8530,7 @@
     "flavourText": "Darkness howls through ancient bones, a wistful cry\r\non hollow winds. The moon listens. The pack gathers.",
     "explicitModifiers": [
       "(50-75)% increased Spirit",
-      "Allies in your Presence Regenerate (50-99.8) Life per second",
+      "Allies in your Presence Regenerate (50-100) Life per second",
       "+(6-12) to all Attributes",
       "Companions deal (50-100)% increased damage to your Marked targets",
       "You can have any number of Companions of different types"
@@ -8617,7 +8617,7 @@
     "explicitModifiers": [
       "(70-100)% increased Physical Damage",
       "5% increased Movement Speed",
-      "+(9-15) to Strength",
+      "+(8-15) to Strength",
       "+(8-15) to Intelligence",
       "(5-8)% increased Damage per Minion"
     ],
@@ -8670,7 +8670,7 @@
     "flavourText": "\"A sprinkle of liquid encouragement is often\r\nrequired to garnish the perfect confession.\"\r\n- Brutus, Warden of Axiom",
     "explicitModifiers": [
       "Hits with this Weapon have 5% chance to Trigger Molten Shower per 25 Strength",
-      "(85-120)% increased Physical Damage",
+      "(80-120)% increased Physical Damage",
       "(5-10)% increased Attack Speed",
       "+(15-25) to Strength",
       "5 to 10 Added Attack Fire Damage per 25 Strength"
@@ -8688,7 +8688,7 @@
     "explicitModifiers": [
       "100% increased Attack Speed",
       "+(10-20) to Dexterity",
-      "(54-98)% increased Arrow Speed",
+      "(50-100)% increased Arrow Speed",
       "40% less Attack Damage"
     ],
     "implicitModifiers": [
@@ -8722,10 +8722,10 @@
     "category": "UniqueWeapons",
     "flavourText": "The mournful music of the strings,\r\nThe creaking arch, the arrow sings.\r\nA choking cry, a rattled breath,\r\nThe Reaper's Song, the Harp of Death.",
     "explicitModifiers": [
-      "+(20-24)% to Critical Damage Bonus",
-      "Gain (21-28) Life per enemy killed",
-      "Gain (16-17) Mana per enemy killed",
-      "+(252-282)% Surpassing chance to fire an additional Arrow"
+      "+(20-25)% to Critical Damage Bonus",
+      "Gain (20-30) Life per enemy killed",
+      "Gain (12-18) Mana per enemy killed",
+      "+(250-330)% Surpassing chance to fire an additional Arrow"
     ],
     "implicitModifiers": [
       "+50% Surpassing chance to fire an additional Arrow"
@@ -8742,8 +8742,8 @@
     "explicitModifiers": [
       "(80-100)% increased Physical Damage",
       "Adds (150-200) to (350-400) Cold Damage",
-      "+(302-399) to maximum Mana",
-      "+(4-5.99)% to Critical Hit Chance",
+      "+(300-400) to maximum Mana",
+      "+(4-6)% to Critical Hit Chance",
       "(10-20)% of Damage is taken from Mana before Life",
       "Attacks with this Weapon have Added Cold Damage equal to (6-8)% to (10-12)% of maximum Mana",
       "Convert 100% of Fire Damage with Mace Skills to Cold Damage"
@@ -8759,13 +8759,13 @@
     "category": "UniqueWeapons",
     "flavourText": "\"The crack of bone, the spray of blood.\r\nIs there sweeter music?\"\r\n- Hrimnor of the Ezomytes.",
     "explicitModifiers": [
-      "(82-114)% increased Physical Damage",
+      "(80-120)% increased Physical Damage",
       "+(10-15) to Strength",
-      "Gain (13-20) Life per enemy killed",
+      "Gain (10-20) Life per enemy killed",
       "Slam Skills you use yourself cause an additional Aftershock"
     ],
     "implicitModifiers": [
-      "Causes (20-38)% increased Stun Buildup"
+      "Causes (20-40)% increased Stun Buildup"
     ],
     "levelRequired": 38
   },
@@ -8777,8 +8777,8 @@
     "category": "UniqueWeapons",
     "flavourText": "\"The finest prosperity grows from the direst\r\ncarnage. Such is the nature of progress.\"\r\n- Doryani of the Vaal",
     "explicitModifiers": [
-      "(103-143)% increased Physical Damage",
-      "+(11-15) to all Attributes",
+      "(100-150)% increased Physical Damage",
+      "+(10-15) to all Attributes",
       "Gain 30 Life per enemy killed",
       "Hits with this Weapon have no Critical Damage Bonus",
       "This Weapon's Critical Hit Chance is 100%"
@@ -8813,8 +8813,8 @@
     "category": "UniqueWeapons",
     "flavourText": "The mind may have no limits, but the skull sure does.",
     "explicitModifiers": [
-      "Adds 1 to 112 Lightning Damage",
-      "14% increased Attack Speed",
+      "Adds 1 to (110-115) Lightning Damage",
+      "(10-15)% increased Attack Speed",
       "All damage with this Weapon causes Electrocution buildup"
     ],
     "implicitModifiers": [],
@@ -8829,9 +8829,9 @@
     "flavourText": "Heads fall to the sand, just as the star fell from the sky",
     "explicitModifiers": [
       "No Physical Damage",
-      "Adds 1 to (82-120) Lightning Damage",
+      "Adds 1 to (80-120) Lightning Damage",
       "(15-30)% increased Attack Speed",
-      "(51-100)% increased chance to Shock",
+      "(50-100)% increased chance to Shock",
       "Rolls only the minimum or maximum Damage value for each Damage Type"
     ],
     "implicitModifiers": [],
@@ -8913,10 +8913,10 @@
     "category": "UniqueWeapons",
     "flavourText": "The sea strikes the rock relentlessly.\r\nWhether in one day or in ten thousand years,\r\neventually the rock will crumble,\r\nand the Brine King's domain will grow.",
     "explicitModifiers": [
-      "(131-149)% increased Physical Damage",
+      "(120-150)% increased Physical Damage",
       "+(2-3) to Level of all Melee Skills",
-      "+(21-26) to Intelligence",
-      "Causes (163-185)% increased Stun Buildup",
+      "+(20-30) to Intelligence",
+      "Causes (150-200)% increased Stun Buildup",
       "All Damage from Hits with this Weapon Contributes to Chill Magnitude"
     ],
     "implicitModifiers": [
@@ -8958,7 +8958,7 @@
     ],
     "implicitModifiers": [
       "+(5-10)% to Critical Damage Bonus",
-      "(31-39)% increased effect of Fully Broken Armour"
+      "(30-40)% increased effect of Fully Broken Armour"
     ],
     "levelRequired": 38
   },
@@ -8970,7 +8970,7 @@
     "category": "UniqueWeapons",
     "flavourText": "The forests of the Vastiri held many secrets\r\nmystical and dark. Men learned not to wander,\r\nlest they return with a strange new purpose.",
     "explicitModifiers": [
-      "(121-160)% increased Physical Damage",
+      "(120-160)% increased Physical Damage",
       "+(50-70) to Accuracy Rating",
       "(20-30)% increased Projectile Speed",
       "Projectiles Split towards +2 targets"
@@ -8986,8 +8986,8 @@
     "category": "UniqueWeapons",
     "flavourText": "A merciful murderer swept through the streets of Sarn\r\nRobbing breath from the weak and worthless.",
     "explicitModifiers": [
-      "Adds (10-12) to (17-20) Physical Damage",
-      "Adds (9-12) to (17-19) Cold Damage",
+      "Adds (8-12) to (16-20) Physical Damage",
+      "Adds (8-12) to (16-20) Cold Damage",
       "+5% to Critical Hit Chance",
       "All Damage from Hits with this Weapon Contributes to Freeze Buildup",
       "Culling Strike against Frozen Enemies"
@@ -9053,7 +9053,7 @@
     "flavourText": "The faithful may continue to serve, even after death.",
     "explicitModifiers": [
       "+100 Intelligence Requirement",
-      "Adds (58-65) to (103-110) Physical Damage",
+      "Adds (58-65) to (102-110) Physical Damage",
       "+(80-100) to maximum Mana",
       "+50 to Spirit",
       "+(2-3) to Level of all Minion Skills",
@@ -9144,14 +9144,14 @@
     "flavourText": "\"True heroes grow stronger in the face of adversity.\"\r\n- Fourth Tenet of the Knights of the Sun",
     "explicitModifiers": [
       "Adds 1 to (60-80) Lightning Damage",
-      "+(303-391) to Accuracy Rating",
-      "(6-30)% increased Attack Speed",
+      "+(300-400) to Accuracy Rating",
+      "(5-30)% increased Attack Speed",
       "On Hitting an enemy, gains maximum added Lightning damage equal to\nthe enemy's Power for 20 seconds, up to a total of 500"
     ],
     "implicitModifiers": [
-      "+(1.5-2) metres to Melee Strike Range",
+      "Skills Gain (4-6)% of damage as Extra Lightning damage per 50 Runic Ward Cost",
       "100% of Lightning Damage Converted to Cold Damage",
-      "Skills Gain (4-5)% of damage as Extra Lightning damage per 50 Runic Ward Cost"
+      "+(1.5-2) metres to Melee Strike Range"
     ],
     "levelRequired": 65
   },
@@ -9267,7 +9267,7 @@
     "category": "UniqueWeapons",
     "flavourText": "For those without a home in the Vastiri, the\r\nhot day is harsh, but the chill night is far worse.",
     "explicitModifiers": [
-      "Adds (15-21) to (25-37) Physical Damage",
+      "Adds (14-21) to (25-37) Physical Damage",
       "+5% to Critical Hit Chance",
       "(15-25)% increased Reload Speed",
       "When you reload, triggers Gemini Surge to alternately\ngain (2-6) Cold Surges or (2-6) Fire Surges"
@@ -9287,7 +9287,7 @@
     "explicitModifiers": [
       "Adds (12-15) to (22-25) Physical Damage",
       "(10-15)% increased Attack Speed",
-      "Causes (31-48)% increased Stun Buildup",
+      "Causes (30-50)% increased Stun Buildup",
       "Always deals Critical Hits against Heavy Stunned Enemies"
     ],
     "implicitModifiers": [
@@ -9322,10 +9322,10 @@
     "category": "UniqueWeapons",
     "flavourText": "A hundred blind heads, each seeking the taste of prey on the air.",
     "explicitModifiers": [
-      "Adds (40-47) to (65-72) Physical Damage",
-      "+(4.03-5.9)% to Critical Hit Chance",
-      "Leeches (5.02-7.97)% of Physical Damage as Life",
-      "Leeches (4.18-6.71)% of Physical Damage as Mana",
+      "Adds (40-48) to (65-72) Physical Damage",
+      "+(4-6)% to Critical Hit Chance",
+      "Leeches (5-8)% of Physical Damage as Life",
+      "Leeches (4-7)% of Physical Damage as Mana",
       "Arrows Fork",
       "Arrows Pierce all targets after Forking"
     ],
@@ -9340,14 +9340,14 @@
     "category": "UniqueWeapons",
     "flavourText": "The mark of the smith was widely known.",
     "explicitModifiers": [
-      "Adds 11 to (16-17) Physical Damage",
-      "+(41-42) to Accuracy Rating",
+      "Adds (10-14) to (16-20) Physical Damage",
+      "+(30-50) to Accuracy Rating",
       "20% reduced Attack Speed",
-      "+(13-16) to Strength",
+      "+(10-20) to Strength",
       "Causes Double Stun Buildup"
     ],
     "implicitModifiers": [
-      "(28-30)% increased Area of Effect for Attacks"
+      "(20-30)% increased Area of Effect for Attacks"
     ],
     "levelRequired": 38
   },
@@ -9363,7 +9363,7 @@
       "+(20-30)% to Critical Damage Bonus",
       "(12-22)% increased Attack Speed",
       "Gain Finality for 0.5 seconds per Combo expended when using Skills",
-      "Gain (501-999) Guard for 0.5 seconds per Combo expended when using Skills"
+      "Gain (500-999) Guard for 0.5 seconds per Combo expended when using Skills"
     ],
     "implicitModifiers": [
       "+(30-50) to maximum Runic Ward"
@@ -9394,10 +9394,10 @@
     "category": "UniqueWeapons",
     "flavourText": "For those without a home in the Vastiri, the\r\nhot day is harsh, but the chill night is far worse.",
     "explicitModifiers": [
-      "Adds (14-20) to (31-36) Physical Damage",
+      "Adds (14-21) to (25-37) Physical Damage",
       "+5% to Critical Hit Chance",
-      "(17-25)% increased Reload Speed",
-      "When you reload, triggers Gemini Surge to alternately\ngain (4-6) Cold Surges or (2-6) Fire Surges"
+      "(15-25)% increased Reload Speed",
+      "When you reload, triggers Gemini Surge to alternately\ngain (2-6) Cold Surges or (2-6) Fire Surges"
     ],
     "implicitModifiers": [
       "Loads an additional bolt"
@@ -9447,14 +9447,14 @@
     "category": "UniqueWeapons",
     "flavourText": "The mark of the smith was widely known.",
     "explicitModifiers": [
-      "Adds (11-13) to (16-18) Physical Damage",
-      "+(33-36) to Accuracy Rating",
+      "Adds (10-14) to (16-20) Physical Damage",
+      "+(30-50) to Accuracy Rating",
       "20% reduced Attack Speed",
-      "+(11-20) to Strength",
+      "+(10-20) to Strength",
       "Causes Double Stun Buildup"
     ],
     "implicitModifiers": [
-      "(23-24)% increased Area of Effect for Attacks"
+      "(20-30)% increased Area of Effect for Attacks"
     ],
     "levelRequired": 55
   },
@@ -9483,8 +9483,8 @@
     "category": "UniqueWeapons",
     "flavourText": "\"Kinslayer, you dishonour your own traditions to turn the tide of battle! \r\nLet us see which is stronger... Karui savagery or the might of the Empire!\"\r\n- General Marceus Lioneye",
     "explicitModifiers": [
-      "(150-240)% increased Physical Damage",
-      "+(300-499) to Accuracy Rating",
+      "(150-239)% increased Physical Damage",
+      "+(300-500) to Accuracy Rating",
       "10% increased Attack Speed",
       "+(20-30) to Dexterity",
       "+2 metres to Dodge Roll distance if you haven't Dodge Rolled Recently",
@@ -9539,10 +9539,10 @@
     "category": "UniqueWeapons",
     "flavourText": "If you see the blushing tree of the northern woods,\r\nremember: \"Blossoms of red, the tree's been fed.\r\nBlossoms of white, prepare for a fight.\"",
     "explicitModifiers": [
-      "(69-90)% increased Physical Damage",
+      "(60-90)% increased Physical Damage",
       "(6-10)% increased Attack Speed",
       "+(7-14) to Strength",
-      "(21-30)% chance to cause Bleeding on Hit",
+      "(20-30)% chance to cause Bleeding on Hit",
       "Every 5 Rage also grants 5% of Damage taken Recouped as Life"
     ],
     "implicitModifiers": [],
@@ -9558,7 +9558,7 @@
     "explicitModifiers": [
       "+50 Dexterity Requirement",
       "-15 Strength Requirement",
-      "(89-120)% increased Physical Damage",
+      "(80-120)% increased Physical Damage",
       "50% increased Attack Speed",
       "(15-25)% increased Light Radius",
       "Always Hits"
@@ -9574,7 +9574,7 @@
     "category": "UniqueWeapons",
     "flavourText": "\"The time has passed for diplomacy!\r\nIf they will not respect House Azadi, \r\nthen let them die gloriously... and loudly.\r\nWe are the masters of the Death Trades!\"\r\n- Ratha Azadi",
     "explicitModifiers": [
-      "(300-400)% increased Physical Damage",
+      "(300-398)% increased Physical Damage",
       "Hits with this Weapon have no Critical Damage Bonus",
       "(20-40)% reduced Cooldown Recovery Rate",
       "Gain 1 Explosive Rhythm every (2-3) times you use a Grenade Skill\n Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour for 10 Seconds"
@@ -9592,10 +9592,10 @@
     "category": "UniqueWeapons",
     "flavourText": "Touch not the thorn, for only blood and pain await.",
     "explicitModifiers": [
-      "Adds (9-12) to (16-18) Physical Damage",
+      "Adds (8-12) to (16-18) Physical Damage",
       "+(10-15) to Strength",
       "Causes Bleeding on Hit",
-      "5 to (8-10) Physical Thorns damage"
+      "(4-5) to (8-10) Physical Thorns damage"
     ],
     "implicitModifiers": [
       "50% increased Magnitude of Bleeding you inflict"
@@ -9611,14 +9611,14 @@
     "flavourText": "A common soldier from a common family kept hammering into the night\r\nafter each grueling march, his eyes afire with starlight and determination.\r\nFew suspected that he would one day become the greatest among them.",
     "explicitModifiers": [
       "Maximum Quality is 40%",
-      "Adds (23-30) to (35-54) Physical Damage",
+      "Adds (23-30) to (35-55) Physical Damage",
       "+(20-30) to Strength",
       "Skills which Empower an Attack have (10-20)% chance to not count that Attack",
-      "(40-50) to (80-99) added Physical Thorns damage per Runic Plate"
+      "(40-50) to (80-100) added Physical Thorns damage per Runic Plate"
     ],
     "implicitModifiers": [
       "Has 3 Sockets",
-      "+(100-128) to maximum Runic Ward"
+      "+(100-150) to maximum Runic Ward"
     ],
     "levelRequired": 72
   },
@@ -9630,7 +9630,7 @@
     "category": "UniqueWeapons",
     "flavourText": "The might of the Eternal Empire was formidable,\r\nbut rebels of every culture stood together as one.",
     "explicitModifiers": [
-      "(150-200)% increased Physical Damage",
+      "(150-199)% increased Physical Damage",
       "(10-15)% reduced Attack Speed",
       "+(15-30) to Strength",
       "Strikes deal Splash Damage",
@@ -9648,7 +9648,7 @@
     "category": "UniqueWeapons",
     "flavourText": "Dannig saw Seren in his mind's eye, a public ornament of\r\nextravagance. Until she bore Cadigan a son and vanished.\r\nDecadence covering brutality, like all Kalguuran customs.",
     "explicitModifiers": [
-      "(200-300)% increased Physical Damage",
+      "(200-297)% increased Physical Damage",
       "+(20-30)% to Critical Damage Bonus",
       "(12-22)% increased Attack Speed",
       "Gain Finality for 0.5 seconds per Combo expended when using Skills",
@@ -9667,15 +9667,15 @@
     "category": "UniqueWeapons",
     "flavourText": "Secrecy and silence are powers all their own.",
     "explicitModifiers": [
-      "Adds (26-35) to (42-48) Physical Damage",
+      "Adds (25-35) to (40-50) Physical Damage",
       "Leeches 10% of Physical Damage as Life",
-      "(10-16)% chance to cause Bleeding on Hit",
+      "(10-20)% chance to cause Bleeding on Hit",
       "All Attacks count as Empowered Attacks",
       "Cannot use Warcries"
     ],
     "implicitModifiers": [
       "Strikes deal Splash Damage",
-      "(20-26)% increased Bleeding Duration"
+      "(20-30)% increased Bleeding Duration"
     ],
     "levelRequired": 40
   },
@@ -9690,7 +9690,7 @@
       "(250-300)% increased Physical Damage",
       "(10-20)% increased Attack Speed",
       "(40-60)% reduced Reload Speed",
-      "Leeches (5.02-10)% of Physical Damage as Life",
+      "Leeches (5-10)% of Physical Damage as Life",
       "(10-20)% chance to load a bolt into all Crossbow skills on Kill",
       "Sacrifice 300 Life to not consume the last bolt when firing"
     ],
@@ -9741,7 +9741,7 @@
     "category": "UniqueWeapons",
     "flavourText": "There was a very clear and delicious\r\nreason why the Ezomytes chose to\r\nstop their flight and settle in Phaaryl.",
     "explicitModifiers": [
-      "Adds (17-19) to (23-27) Physical Damage",
+      "Adds (16-20) to (23-27) Physical Damage",
       "+15% to Critical Hit Chance",
       "10% reduced Attack Speed",
       "+10 to Strength",
@@ -9759,7 +9759,7 @@
     "flavourText": "\"In the hands of Orbala, it made a god bleed.\"\r\n- Wranga, tale-woman of the Wahida akhara",
     "explicitModifiers": [
       "Adds (14-18) to (30-36) Physical Damage",
-      "+(5.33-8)% to Critical Hit Chance",
+      "+(5-8)% to Critical Hit Chance",
       "+(15-25) to Intelligence",
       "Bifurcates Critical Hits",
       "10% of Skill Mana Costs Converted to Life Costs"
@@ -9776,7 +9776,7 @@
     "flavourText": "The spear was specially forged to assassinate Voll,\r\nbut Maligaro never got a chance to use it...",
     "explicitModifiers": [
       "(15-20)% increased Attack Speed",
-      "Leeches (10.04-19.99)% of Physical Damage as Life",
+      "Leeches (10-19.99)% of Physical Damage as Life",
       "Adds (167-201) to (267-333) Chaos damage",
       "When you Consume a Charge Trigger Chaotic Surge to gain 2 Chaos Surges",
       "Life Leech recovers based on your Chaos damage instead of Physical damage"
@@ -9877,7 +9877,7 @@
     "category": "UniqueWeapons",
     "flavourText": "The edges bend, the world flexes, the infinite spills into view.",
     "explicitModifiers": [
-      "+(5.06-9.91)% to Critical Hit Chance",
+      "+(5-9.99)% to Critical Hit Chance",
       "+(2-4) to Level of all Elemental Skills",
       "100% increased Elemental Damage",
       "Trigger skills refund half of Energy spent"
@@ -9893,7 +9893,7 @@
     "category": "UniqueWeapons",
     "flavourText": "The eldritch storm descended upon us, and bruised lightning\r\nrained down. Metal withered and flesh melted before its\r\narcane power. There was no escape, no shelter. Only despair.",
     "explicitModifiers": [
-      "Adds 1 to (301-499) Lightning Damage",
+      "Adds 1 to (300-500) Lightning Damage",
       "(10-15)% increased Attack Speed",
       "100% of Lightning Damage Converted to Chaos Damage",
       "Chaos Damage from Hits also Contributes to Shock Chance"
@@ -9927,30 +9927,30 @@
     "flavourText": "In ghastly pits beneath the world,\r\nKulemak grows countless new bodies,\r\neach more powerful than the last.\r\nNot all of his abominations survive.",
     "explicitModifiers": [
       "(60-80)% increased Desecrated Modifier magnitudes",
-      "+(59-105) to Spirit",
-      "(166-275)% increased Spell Physical Damage",
-      "(198-284)% increased Chaos Damage",
-      "(17-36)% increased Duration of Elemental Ailments on Enemies",
-      "Gain (66-85)% of Damage as Extra Chaos Damage",
-      "(46-97)% increased Magnitude of Unholy Might buffs you grant",
-      "(41-60)% increased Archon Buff duration",
-      "+(19-42)% to Block chance",
-      "Enemies you Curse have -(13-8)% to Chaos Resistance",
-      "(244-307)% increased Spell Damage with Spells that cost Life",
-      "Archon recovery period expires (40-59)% faster",
-      "+(4-7) maximum stacks of Puppet Master",
-      "(6-8)% increased Spell Damage per 100 maximum Mana",
+      "(160-279)% increased Spell Physical Damage",
+      "+(56-108) to Spirit",
+      "(164-286)% increased Chaos Damage",
+      "(45-99)% increased Magnitude of Unholy Might buffs you grant",
+      "Gain (64-90)% of Damage as Extra Chaos Damage",
+      "Enemies you Curse have -(14-8)% to Chaos Resistance",
+      "+(22-44)% to Block chance",
+      "(32-54)% chance to inflict Bleeding on Hit",
+      "(40-63)% increased Archon Buff duration",
+      "Enemies you kill have a (8-18)% chance to explode, dealing a quarter of their maximum Life as Chaos damage",
+      "(48-72)% increased Cast Speed when on Low Life",
+      "(16-35)% increased Duration of Elemental Ailments on Enemies",
+      "(238-311)% increased Spell Damage with Spells that cost Life",
+      "Archon recovery period expires (40-63)% faster",
       "(9-18)% increased Spirit Reservation Efficiency of Skills",
       "You have Unholy Might",
-      "(6-8)% increased Spell Damage per 100 Maximum Life",
-      "(33-51)% chance to inflict Bleeding on Hit",
-      "(182-284)% increased Elemental Damage",
-      "Enemies you kill have a (9-16)% chance to explode, dealing a quarter of their maximum Life as Chaos damage",
-      "+3 to maximum number of Elemental Infusions",
-      "(41-62)% chance for Spell Skills to fire 2 additional Projectiles",
-      "(73-104)% increased Magnitude of Damaging Ailments you inflict",
-      "(41-62)% of Spell Mana Cost Converted to Life Cost",
-      "(50-71)% increased Cast Speed when on Low Life"
+      "(6-8)% increased Spell Damage per 100 maximum Mana",
+      "(164-278)% increased Elemental Damage",
+      "(40-63)% of Spell Mana Cost Converted to Life Cost",
+      "+(4-7) maximum stacks of Puppet Master",
+      "(40-63)% chance for Spell Skills to fire 2 additional Projectiles",
+      "+(1-3) to maximum number of Elemental Infusions",
+      "(6-9)% increased Spell Damage per 100 Maximum Life",
+      "(67-110)% increased Magnitude of Damaging Ailments you inflict"
     ],
     "implicitModifiers": [],
     "levelRequired": 78
@@ -9982,7 +9982,7 @@
     "explicitModifiers": [
       "Adds (8-10) to (13-15) Cold Damage",
       "Gain 5 Mana per enemy killed",
-      "(30-49)% increased Freeze Buildup",
+      "(30-50)% increased Freeze Buildup",
       "30% increased Chill Duration on Enemies",
       "Attacks Chain 2 additional times"
     ],
@@ -10016,8 +10016,8 @@
     "flavourText": "The night Draven attacked,\r\nErian was asleep at his post.",
     "explicitModifiers": [
       "No Physical Damage",
-      "Adds (31-32) to (43-50) Fire Damage",
-      "+(31-48) to Accuracy Rating",
+      "Adds (25-32) to (40-50) Fire Damage",
+      "+(30-50) to Accuracy Rating",
       "+20% to Fire Resistance",
       "100% increased Flammability Magnitude",
       "30% increased Light Radius"
@@ -10103,8 +10103,8 @@
       "(10-20)% increased Cast Speed",
       "Lose 10 Life per enemy killed",
       "(30-50)% increased Mana Regeneration Rate",
-      "+4 to Level of Elemental Weakness Skills",
       "+4 to Level of Despair Skills",
+      "+4 to Level of Elemental Weakness Skills",
       "+4 to Level of Enfeeble Skills",
       "+4 to Level of Temporal Chains Skills"
     ],
@@ -10384,7 +10384,7 @@
       "Gain 1 Druidic Prowess for every 20 total Rage spent"
     ],
     "implicitModifiers": [],
-    "levelRequired": 0
+    "levelRequired": 15
   },
   {
     "id": "the-burden-of-shadows-chiming-staff",
@@ -10411,7 +10411,7 @@
     "explicitModifiers": [
       "Adds (6-9) to (10-15) Cold Damage",
       "Adds 1 to (19-29) Lightning Damage",
-      "+(3.01-5)% to Critical Hit Chance",
+      "+(3-5)% to Critical Hit Chance",
       "(15-20)% increased Attack Speed",
       "(25-40)% increased Mana Regeneration Rate",
       "Skills reserve 50% less Spirit"
@@ -10465,7 +10465,7 @@
     "flavourText": "\"In the hands of Orbala, it made a god bleed.\"\r\n- Wranga, tale-woman of the Wahida akhara",
     "explicitModifiers": [
       "Adds (14-18) to (30-36) Physical Damage",
-      "+(5-7.99)% to Critical Hit Chance",
+      "+(5-7.94)% to Critical Hit Chance",
       "+(15-25) to Intelligence",
       "Bifurcates Critical Hits",
       "10% of Skill Mana Costs Converted to Life Costs"
@@ -10504,7 +10504,7 @@
       "Always Poison on Hit with this weapon"
     ],
     "implicitModifiers": [],
-    "levelRequired": 15
+    "levelRequired": 30
   },
   {
     "id": "chainsting-hunting-spear",
@@ -10598,7 +10598,7 @@
     "category": "UniqueWeapons",
     "flavourText": "\"His approach to the gate was met with sounding trumpets\r\nand an unfurling of banners. He never saw it coming.\"\r\n- anonymous Brotherhood of Silence report",
     "explicitModifiers": [
-      "(40-60)% increased Physical Damage",
+      "(40-59)% increased Physical Damage",
       "(30-40)% increased Attack Speed",
       "30% reduced Reload Speed",
       "Bolts fired by Crossbow Attacks have 100% chance to not\nexpend Ammunition if you've Reloaded Recently"
@@ -10606,7 +10606,7 @@
     "implicitModifiers": [
       "(20-30)% increased Bolt Speed"
     ],
-    "levelRequired": 15
+    "levelRequired": 30
   },
   {
     "id": "the-flesh-poppet-vicious-talisman",
@@ -10689,7 +10689,7 @@
     "category": "UniqueWeapons",
     "flavourText": "\"I loosed a volley of arrows into the heart of the man\r\nwho slew my beloved. There was no satisfaction, no\r\nhealing, no revenge. There was only... emptiness.\"",
     "explicitModifiers": [
-      "(154-245)% increased bonuses gained from Equipped Quiver"
+      "(151-250)% increased bonuses gained from Equipped Quiver"
     ],
     "implicitModifiers": [],
     "levelRequired": 55
@@ -10848,7 +10848,7 @@
       "(4-5) to (8-10) Physical Thorns damage"
     ],
     "implicitModifiers": [],
-    "levelRequired": 30
+    "levelRequired": 15
   },
   {
     "id": "temporalis-silk-robe",
@@ -10858,11 +10858,11 @@
     "category": "UniqueArmours",
     "flavourText": "The final element the tale-women\r\nmastered was Time itself.",
     "explicitModifiers": [
-      "+(107-150) to maximum Energy Shield",
+      "+(100-150) to maximum Energy Shield",
       "+(10-20)% to all Elemental Resistances",
-      "(6-28)% of Damage taken Recouped as Life",
-      "(8-26)% of Damage taken Recouped as Mana",
-      "Skills have -(1.99-1.14) seconds to Cooldown"
+      "(5-30)% of Damage taken Recouped as Life",
+      "(5-30)% of Damage taken Recouped as Mana",
+      "Skills have -(2-1) seconds to Cooldown"
     ],
     "implicitModifiers": [],
     "levelRequired": 64
@@ -10927,7 +10927,7 @@
     "flavourText": "\"The mind at the center of the swarm... K'Tash does\r\nthe thinking... but it has only one thought... hate.\"\r\n- Rantings of a Templar prisoner, page ninety-four",
     "explicitModifiers": [
       "(100-150)% increased Armour and Evasion",
-      "(6-10)% increased Attack Speed",
+      "(5-10)% increased Attack Speed",
       "+(17-23)% to Chaos Resistance",
       "Lose 5% of maximum Life per second",
       "Regenerate 5 Rage per second",
@@ -10974,9 +10974,9 @@
     "category": "UniqueArmours",
     "flavourText": "The first Karui born on the fringes of the Vaal empire developed a blood fever born of corruption.",
     "explicitModifiers": [
-      "(301-397)% increased Armour",
+      "(300-400)% increased Armour",
       "Gain (3-6) Rage on Hit",
-      "Gain a random Charge on reaching Maximum Rage, no more than once every (3.06-5.95) seconds",
+      "Gain a random Charge on reaching Maximum Rage, no more than once every (3-6) seconds",
       "Lose all Rage on reaching Maximum Rage",
       "(-10-10) to Maximum Rage"
     ],
@@ -11015,16 +11015,16 @@
     "flavourText": "The Unblinking Eye did not cower and wail.\r\nThey stood against the end.",
     "explicitModifiers": [
       "(300-400)% increased Armour, Evasion and Energy Shield",
-      "+(50-60) to maximum Mana per Socket filled",
       "+(5-7) to all Attributes per Socket filled",
-      "+(10-13)% to Chaos Resistance per Socket filled",
       "+(45-60) to maximum Life per Socket filled",
-      "Hits against you have (15-20)% reduced Critical Damage Bonus per Socket filled",
+      "(8-12) Life Regeneration per second per Socket filled",
+      "+(50-60) to maximum Mana per Socket filled",
+      "+(10-13)% to Chaos Resistance per Socket filled",
       "+(8-10)% to all Elemental Resistances per Socket filled",
-      "(9-12)% increased Global Armour, Evasion and Energy Shield per Socket filled",
-      "+(70-90) to Stun Threshold per Socket filled",
       "+(10-14) to Spirit per Socket filled",
-      "(8-12) Life Regeneration per second per Socket filled"
+      "Hits against you have (15-20)% reduced Critical Damage Bonus per Socket filled",
+      "(9-12)% increased Global Armour, Evasion and Energy Shield per Socket filled",
+      "+(70-90) to Stun Threshold per Socket filled"
     ],
     "implicitModifiers": [],
     "levelRequired": 65
@@ -11099,9 +11099,9 @@
     "category": "UniqueArmours",
     "flavourText": "The end always comes sooner than we think.",
     "explicitModifiers": [
-      "(52-53)% increased Evasion Rating",
-      "+(110-128) to Accuracy Rating",
-      "+(48-51) to maximum Mana",
+      "(40-60)% increased Evasion Rating",
+      "+(100-150) to Accuracy Rating",
+      "+(40-60) to maximum Mana",
       "100% increased Culling Strike Threshold"
     ],
     "implicitModifiers": [],
@@ -11132,11 +11132,11 @@
     "flavourText": "\"A queen should be seen, admired, but never touched.\"\r\n- Atziri, Queen of the Vaal",
     "explicitModifiers": [
       "Has no Attribute Requirements",
-      "(108-140)% increased Evasion and Energy Shield",
+      "(100-150)% increased Evasion and Energy Shield",
       "(20-30)% increased Critical Hit Chance",
       "+(13-17)% to Chaos Resistance",
-      "Skill Gems have no Attribute Requirements",
-      "Equipment has no Attribute Requirements"
+      "Equipment has no Attribute Requirements",
+      "Skill Gems have no Attribute Requirements"
     ],
     "implicitModifiers": [],
     "levelRequired": 52
@@ -11149,11 +11149,11 @@
     "category": "UniqueArmours",
     "flavourText": "A gift from the Dra\u00edocht, lost in Darkness.\r\nThe bronze hums. The cloth sighs.\r\nLiving pieces of her, yearning to exist.",
     "explicitModifiers": [
-      "+(70-98) to Deflection Rating per 50 missing Energy Shield",
-      "(217-300)% increased Evasion and Energy Shield",
+      "+(70-100) to Deflection Rating per 50 missing Energy Shield",
+      "(200-300)% increased Evasion and Energy Shield",
       "+(20-30) to Dexterity",
-      "Companions have (33-50)% increased maximum Life",
-      "(10-14)% of Damage from Deflected Hits is taken from Damageable Companion's Life before you"
+      "Companions have (30-50)% increased maximum Life",
+      "(10-15)% of Damage from Deflected Hits is taken from Damageable Companion's Life before you"
     ],
     "implicitModifiers": [],
     "levelRequired": 80
@@ -11182,12 +11182,12 @@
     "category": "UniqueArmours",
     "flavourText": "\"Lundara held back the hordes, while Solerai rose to split the sky.\r\nWith a single stroke, she ended the Winter of the World.\"\r\n- Wranga, tale-woman of the Wahida akhara",
     "explicitModifiers": [
-      "(121-241)% increased Evasion Rating",
-      "+1 to Level of all Fire Skills",
-      "+(2-3) to Level of all Cold Skills",
-      "+(2-3) to Level of all Lightning Skills",
+      "(100-300)% increased Evasion Rating",
+      "+(1-3) to Level of all Fire Skills",
+      "+(1-3) to Level of all Cold Skills",
+      "+(1-3) to Level of all Lightning Skills",
       "+(1-3)% to Maximum Fire Resistance",
-      "+2% to Maximum Cold Resistance",
+      "+(1-3)% to Maximum Cold Resistance",
       "+(1-3)% to Maximum Lightning Resistance"
     ],
     "implicitModifiers": [],
@@ -11252,10 +11252,10 @@
     "category": "UniqueArmours",
     "flavourText": "A fell wind brings death.",
     "explicitModifiers": [
-      "+(85-120) to maximum Energy Shield",
+      "+(80-120) to maximum Energy Shield",
       "+(20-30) to Dexterity",
       "Enemies in your Presence are Blinded",
-      "Every second, inflicts Critical Weakness on enemies in your Presence for (17-20) seconds"
+      "Every second, inflicts Critical Weakness on enemies in your Presence for (15-20) seconds"
     ],
     "implicitModifiers": [],
     "levelRequired": 52
@@ -11268,12 +11268,12 @@
     "category": "UniqueArmours",
     "flavourText": "The desert is ever flowing.",
     "explicitModifiers": [
-      "(54-98)% increased Evasion Rating",
-      "+(66-69) to maximum Mana",
-      "+(18-19) to Dexterity",
-      "+(13-14) to Intelligence",
-      "+(11-12)% to Fire Resistance",
-      "(15-24)% increased Cooldown Recovery Rate"
+      "(50-100)% increased Evasion Rating",
+      "+(50-80) to maximum Mana",
+      "+(10-20) to Dexterity",
+      "+(10-20) to Intelligence",
+      "+(10-15)% to Fire Resistance",
+      "(15-30)% increased Cooldown Recovery Rate"
     ],
     "implicitModifiers": [],
     "levelRequired": 38
@@ -11286,13 +11286,13 @@
     "category": "UniqueArmours",
     "flavourText": "The turtle's shell one day becomes its tomb.",
     "explicitModifiers": [
-      "(502-598)% increased Armour",
+      "(500-600)% increased Armour",
       "-(5-1)% to all Maximum Elemental Resistances",
-      "+(202-300) to Stun Threshold",
+      "+(200-300) to Stun Threshold",
       "Take no Extra Damage from Critical Hits"
     ],
     "implicitModifiers": [
-      "+(752-1000) to maximum Runic Ward"
+      "+(750-999) to maximum Runic Ward"
     ],
     "levelRequired": 58
   },
@@ -11305,9 +11305,9 @@
     "flavourText": "\"Soar. Be swift. Let none trespass here, from\r\nabove or below, lest your purpose be forfeit.\"",
     "explicitModifiers": [
       "30% increased Movement Speed",
-      "(163-197)% increased Armour and Energy Shield",
-      "(21-30)% faster Dodge Roll",
-      "Gain Guard equal to (12-18)% of missing Energy Shield for 4 seconds when you Dodge Roll",
+      "(150-200)% increased Armour and Energy Shield",
+      "(20-30)% faster Dodge Roll",
+      "Gain Guard equal to (10-20)% of missing Energy Shield for 4 seconds when you Dodge Roll",
       "Maximum amount of Guard is based on maximum Energy Shield instead",
       "Divine Flight"
     ],
@@ -11322,10 +11322,10 @@
     "category": "UniqueArmours",
     "flavourText": "Maligaro operated effortlessly,\r\nwith great speed and terrible consequences.",
     "explicitModifiers": [
-      "(60-79)% increased Evasion Rating",
+      "(60-80)% increased Evasion Rating",
       "(20-30)% increased Critical Hit Chance",
       "5% increased Attack Speed",
-      "+(11-20) to Dexterity",
+      "+(10-20) to Dexterity",
       "Your Critical Hit Chance cannot be Rerolled",
       "Your Critical Damage Bonus is 250%"
     ],
@@ -11372,7 +11372,7 @@
     "category": "UniqueArmours",
     "flavourText": "\"Do not despair! Give yourself to the woods!\r\nBecome empty, and the Goddess will find you.\r\nFrom within her roots... you shall be restored.\"\r\n- Cirel of Caer Tarth",
     "explicitModifiers": [
-      "(110-149)% increased Armour and Energy Shield",
+      "(100-150)% increased Armour and Energy Shield",
       "-10% to Fire Resistance",
       "+(17-23)% to Chaos Resistance",
       "Cannot use Life Flasks\nNon-Unique Life Flasks apply their Effects constantly\nRecovery from Life Flasks cannot be Instant\nRecovery from your Life Flasks cannot be applied to anything other than you",
@@ -11392,7 +11392,7 @@
       "(250-300)% increased Evasion Rating",
       "-(15-10)% to Fire Resistance",
       "+(25-30)% to Cold Resistance",
-      "+(10-14)% to Lightning Resistance",
+      "+(10-15)% to Lightning Resistance",
       "Increases Movement Speed by 25%, plus 1% per 600 Evasion Rating, up to a maximum of 75%\nOther Modifiers to Movement Speed except for Sprinting do not apply"
     ],
     "implicitModifiers": [],
@@ -11406,8 +11406,8 @@
     "category": "UniqueArmours",
     "flavourText": "She thinks and we act.\r\nShe acts and we think.\r\nFragments of the whole that washes clean the skies.",
     "explicitModifiers": [
-      "+(22-25) to Dexterity",
-      "+(20-25) to Intelligence",
+      "+(15-25) to Dexterity",
+      "+(15-25) to Intelligence",
       "1% increased Attack Speed per 20 Dexterity",
       "Adds 1 to 10 Lightning Damage to Attacks per 20 Intelligence"
     ],
@@ -11442,7 +11442,7 @@
       "You have no Spirit"
     ],
     "implicitModifiers": [
-      "(34-39)% increased Stun Threshold"
+      "(30-40)% increased Stun Threshold"
     ],
     "levelRequired": 68
   },
@@ -11472,15 +11472,15 @@
     "category": "UniqueArmours",
     "flavourText": "The Twilight Order rejected the gods, choosing\r\ninstead to put their faith in each other.",
     "explicitModifiers": [
-      "101% increased Armour and Energy Shield",
-      "+23 to Strength",
-      "+30 to Intelligence",
-      "+20% to Chaos Resistance",
-      "13% of Damage taken Recouped as Life",
+      "(80-120)% increased Armour and Energy Shield",
+      "+(20-30) to Strength",
+      "+(20-30) to Intelligence",
+      "+(17-23)% to Chaos Resistance",
+      "(10-20)% of Damage taken Recouped as Life",
       "Damage taken Recouped as Life is also Recouped as Energy Shield"
     ],
     "implicitModifiers": [
-      "+29 to Spirit"
+      "+(20-30) to Spirit"
     ],
     "levelRequired": 70
   },
@@ -11528,12 +11528,19 @@
     "flavourText": "\"When you have nothing to hide,\r\nyou have nothing to fear.\"\r\n- Atziri, Queen of the Vaal",
     "explicitModifiers": [
       "Only Soul Cores can be Socketed in this item",
-      "This item gains bonuses from Socketed Soul Cores as though it was also Gloves",
+      "This item gains bonuses from Socketed Soul Cores as though it was also Boots",
+      "This item gains bonuses from Socketed Soul Cores as though it was also a Shield",
       "This item gains bonuses from Socketed Soul Cores as though it was also a Helmet",
+      "This item gains bonuses from Socketed Soul Cores as though it was also Gloves",
       "Has no Attribute Requirements",
-      "(145-155)% increased Armour and Evasion",
-      "251% increased Armour",
-      "+(12-20)% to all Elemental Resistances",
+      "(210-300)% increased Energy Shield",
+      "(124-180)% increased Evasion and Energy Shield",
+      "(200-300)% increased Armour",
+      "(120-179)% increased Armour and Evasion",
+      "(80-120)% increased Armour, Evasion and Energy Shield",
+      "(120-180)% increased Armour and Energy Shield",
+      "(200-300)% increased Evasion Rating",
+      "+(10-20)% to all Elemental Resistances",
       "Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs"
     ],
     "implicitModifiers": [
@@ -11549,8 +11556,8 @@
     "category": "UniqueArmours",
     "flavourText": "From the flesh of the gods, Xibaqua was born.\r\nFrom the carnage of Xibaqua, we were born.\r\nIt is our duty to return to the gods what was once theirs.",
     "explicitModifiers": [
-      "130% increased Energy Shield",
-      "+19% to Chaos Resistance",
+      "(123-160)% increased Energy Shield",
+      "+(17-23)% to Chaos Resistance",
       "Cannot have Energy Shield",
       "Regenerate 0.05 Life per second per Maximum Energy Shield"
     ],
@@ -11565,14 +11572,14 @@
     "category": "UniqueArmours",
     "flavourText": "Hallowed Dordalus was cast into the pit as a heretic,\r\nbut his piety was so great, he would not burn.\r\nHe rose again, lauded, his faith forever changed...\r\nbut not the way the Templar believed.",
     "explicitModifiers": [
-      "(183-187)% increased Energy Shield",
-      "+(45-47) to Spirit",
-      "+27 to Intelligence",
-      "(37-40)% increased Energy Shield Recharge Rate",
+      "(150-200)% increased Energy Shield",
+      "+(30-50) to Spirit",
+      "+(20-30) to Intelligence",
+      "(30-50)% increased Energy Shield Recharge Rate",
       "Current Energy Shield also grants Elemental Damage reduction"
     ],
     "implicitModifiers": [
-      "(45-46)% increased Mana Regeneration Rate"
+      "(40-50)% increased Mana Regeneration Rate"
     ],
     "levelRequired": 75
   },
@@ -11584,8 +11591,8 @@
     "category": "UniqueArmours",
     "flavourText": "Curse their vile Council,\r\nThey cast me aside as if I am some bastard child.\r\nIf they only knew the power I possess.",
     "explicitModifiers": [
-      "(163-181)% increased Evasion and Energy Shield",
-      "+(23-28)% to Chaos Resistance",
+      "(150-200)% increased Evasion and Energy Shield",
+      "+(23-29)% to Chaos Resistance",
       "Curses you inflict have infinite Duration",
       "Curses you inflict can affect Hexproof Enemies",
       "Withered you inflict has infinite Duration"
@@ -11722,7 +11729,7 @@
     "category": "UniqueArmours",
     "flavourText": "\"Lundara held back the hordes, while Solerai rose to split the sky.\r\nWith a single stroke, she ended the Winter of the World.\"\r\n- Wranga, tale-woman of the Wahida akhara",
     "explicitModifiers": [
-      "(101-299)% increased Evasion Rating",
+      "(100-300)% increased Evasion Rating",
       "+(1-3) to Level of all Fire Skills",
       "+(1-3) to Level of all Cold Skills",
       "+(1-3) to Level of all Lightning Skills",
@@ -11759,18 +11766,18 @@
     "flavourText": "\"When you have nothing to hide,\r\nyou have nothing to fear.\"\r\n- Atziri, Queen of the Vaal",
     "explicitModifiers": [
       "Only Soul Cores can be Socketed in this item",
+      "This item gains bonuses from Socketed Soul Cores as though it was also a Helmet",
       "This item gains bonuses from Socketed Soul Cores as though it was also Boots",
       "This item gains bonuses from Socketed Soul Cores as though it was also a Shield",
-      "This item gains bonuses from Socketed Soul Cores as though it was also a Helmet",
       "This item gains bonuses from Socketed Soul Cores as though it was also Gloves",
       "Has no Attribute Requirements",
-      "(201-284)% increased Energy Shield",
-      "(200-300)% increased Armour",
+      "(207-290)% increased Energy Shield",
+      "(120-180)% increased Armour and Energy Shield",
+      "(120-180)% increased Armour and Evasion",
       "(80-120)% increased Armour, Evasion and Energy Shield",
       "(120-180)% increased Evasion and Energy Shield",
-      "(120-177)% increased Armour and Evasion",
-      "(120-180)% increased Armour and Energy Shield",
-      "(201-300)% increased Evasion Rating",
+      "(200-300)% increased Evasion Rating",
+      "(200-300)% increased Armour",
       "+(10-20)% to all Elemental Resistances",
       "Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs"
     ],
@@ -11823,72 +11830,76 @@
     "category": "UniqueArmours",
     "flavourText": "The collector need not even speak. Each ring\r\nregaled them with tales of his conquest.",
     "explicitModifiers": [
-      "Adds (1-4) to (6-16) Physical Damage to Attacks",
-      "+(-117-300) to Accuracy Rating",
-      "+(-5-30) to maximum Mana",
-      "19% reduced Rarity of Items found",
-      "42% reduced Rarity of Items found\nYour other Modifiers to Rarity of Items found do not apply",
-      "(59-84)% increased Rarity of Items found\nYour other Modifiers to Rarity of Items found do not apply",
-      "(1-15)% increased Rarity of Items found",
-      "+(1-7)% to Quality of all Skills",
-      "(3-15)% reduced Cast Speed",
-      "(1-13)% increased Cast Speed",
-      "Your Maximum Resistances are (52-80)%",
-      "Inflict Abyssal Wasting on Hit",
-      "All Damage taken from Hits while Bleeding Contributes to Magnitude of Chill on you",
-      "Enemies have an Accuracy Penalty against you based on Distance",
-      "Allies in your Presence Gain (7-15)% of Damage as Extra Chaos Damage",
+      "Adds (0-5) to (7-15) Physical Damage to Attacks",
+      "+(-172-392) to Accuracy Rating",
+      "+(6-36) to maximum Mana",
+      "(3-15)% increased Rarity of Items found",
+      "(56-85)% increased Rarity of Items found\nYour other Modifiers to Rarity of Items found do not apply",
+      "(8-11)% reduced Rarity of Items found",
+      "+(2-5)% to Quality of all Skills",
+      "(1-15)% reduced Cast Speed",
+      "(3-10)% increased Cast Speed",
+      "Your Maximum Resistances are (53-80)%",
       "You cannot be Chilled or Frozen",
-      "Fire Damage also Contributes to Bleeding Magnitude",
-      "Ignite you inflict deals Chaos Damage instead of Fire Damage",
+      "All Damage taken from Hits while Bleeding Contributes to Magnitude of Chill on you",
       "Gain (10-15)% of Damage as Extra Chaos Damage",
-      "Bleeding you inflict deals Fire Damage instead of Physical Damage",
+      "Ignite you inflict deals Chaos Damage instead of Fire Damage",
       "Ignites you inflict spread to other Enemies that stay within 1.5 metres for 1 second",
+      "Enemies Chilled by your Hits can be Shattered as though Frozen",
+      "Enemies have an Accuracy Penalty against you based on Distance",
+      "Inflict Abyssal Wasting on Hit",
+      "(147-300) Physical Damage taken on Minion Death",
+      "(25-81)% chance to Intimidate Enemies for 4 seconds on Hit",
+      "100% of Cold Damage Converted to Lightning Damage",
       "100% of Lightning Damage Converted to Cold Damage",
+      "50% reduced Duration of Curses on you",
       "You gain Onslaught for 4 seconds on Kill",
-      "You have Consecrated Ground around you while stationary",
+      "You take Fire Damage instead of Physical Damage from Bleeding",
+      "Curses you inflict spread to enemies within 3 metres when Cursed enemy dies",
+      "Curses you inflict can affect Hexproof Enemies",
+      "6% increased Spirit Reservation Efficiency of Skills",
+      "Recover (3-5)% of your maximum Mana when an Enemy dies in your Presence",
+      "Gain Onslaught for 4 seconds when a Minion Dies",
+      "Gain 1 Dark Whisper every second there is a Cursed Enemy in your Presence",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Ignited and Chilled Ground",
+      "Projectiles have (10-16)% chance to Chain an additional time from terrain",
+      "Bleeding you inflict deals Fire Damage instead of Physical Damage",
       "All Damage from Hits against Bleeding targets Contributes to Chill Magnitude",
       "All Damage taken from Hits while Poisoned Contributes to Magnitude of Chill on you",
-      "Withered you inflict also increases Fire Damage taken",
-      "Minions Revive (2-4)% slower",
-      "Gain Arcane Surge when a Minion Dies",
-      "(205-287) Physical Damage taken on Minion Death",
+      "Fire Damage also Contributes to Bleeding Magnitude",
       "Lightning Damage of Enemies Hitting you is Unlucky",
-      "Withered does not expire on Enemies Ignited by you",
-      "Recover (3-4)% of your maximum Life when an Enemy dies in your Presence",
-      "Minions Revive (10-15)% faster",
-      "All Damage from Hits against Poisoned targets Contributes to Chill Magnitude",
-      "You can apply an additional Curse",
-      "Curses you inflict spread to enemies within 3 metres when Cursed enemy dies",
-      "Enemies Chilled by your Hits can be Shattered as though Frozen",
-      "(10-14)% increased Quantity of Gold Dropped by Slain Enemies",
-      "100% of Cold Damage Converted to Lightning Damage",
-      "100% of Elemental Damage Converted to Chaos Damage",
-      "Projectiles from Spells Chain +1 times",
-      "+(22-23) to Spirit while you have at least 200 Intelligence",
-      "+(21-22) to Spirit while you have at least 200 Dexterity",
-      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Shocked Ground",
-      "Curses you inflict can affect Hexproof Enemies",
-      "+(10-20)% of Armour also applies to Chaos Damage",
-      "Projectiles from Spells cannot Pierce",
-      "You and Allies in your Presence have 11% increased Attack Speed",
-      "You and Allies in your Presence have +(18-21)% to Chaos Resistance",
-      "(6-9)% increased Spirit Reservation Efficiency of Skills",
-      "Projectiles from Spells Fork",
-      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Ignited Ground",
-      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Chilled Ground",
+      "Withered you inflict also increases Fire Damage taken",
       "Lightning Skills Chain +1 times",
-      "50% reduced Duration of Curses on you",
-      "(15-27)% chance to deal your Thorns Damage to Enemies you Hit with Melee Attacks",
-      "(25-70)% chance to Intimidate Enemies for 4 seconds on Hit",
-      "Gain 1 Dark Whisper every second there is a Cursed Enemy in your Presence",
-      "(16-27)% chance for Spell Damage with Critical Hits to be Lucky",
+      "Allies in your Presence Gain (2-15)% of Damage as Extra Chaos Damage",
       "Attacks have added Physical damage equal to 3% of maximum Life",
-      "You and Allies in your Presence have (11-15)% increased Cast Speed",
-      "You take Fire Damage instead of Physical Damage from Bleeding",
-      "You and Allies in your Presence have (20-22)% increased Accuracy Rating",
-      "Recover 5% of your maximum Mana when an Enemy dies in your Presence",
-      "Using a Mana Flask grants Guard equal to (90-100)% of Flask's recovery amount for 4 seconds"
+      "+(10-20)% of Armour also applies to Chaos Damage",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Shocked and Chilled Ground",
+      "100% of Elemental Damage Converted to Chaos Damage",
+      "(10-15)% increased Quantity of Gold Dropped by Slain Enemies",
+      "(15-25)% chance to deal your Thorns Damage to Enemies you Hit with Melee Attacks",
+      "+(20-25) to Spirit while you have at least 200 Dexterity",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Ignited and Shocked Ground",
+      "+(20-24) to Spirit while you have at least 200 Intelligence",
+      "Recover (3-5)% of your maximum Life when an Enemy dies in your Presence",
+      "You and Allies in your Presence have (20-28)% increased Accuracy Rating",
+      "You and Allies in your Presence have (11-16)% increased Cast Speed",
+      "Withered does not expire on Enemies Ignited by you",
+      "All Damage from Hits against Poisoned targets Contributes to Chill Magnitude",
+      "Minions Revive (10-15)% faster",
+      "Projectiles from Spells cannot Pierce",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Chilled Ground",
+      "You and Allies in your Presence have (10-14)% increased Cooldown Recovery Rate",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Ignited Ground",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Shocked Ground",
+      "Using a Mana Flask grants Guard equal to 100% of Flask's recovery amount for 4 seconds",
+      "You can apply an additional Curse",
+      "You have Consecrated Ground around you while stationary",
+      "Projectiles from Spells Fork",
+      "(15-30)% chance for Spell Damage with Critical Hits to be Lucky",
+      "Gain Arcane Surge when a Minion Dies",
+      "You and Allies in your Presence have (7-12)% increased Attack Speed",
+      "+(20-25) to Spirit while you have at least 200 Strength",
+      "You and Allies in your Presence have +(17-23)% to Chaos Resistance"
     ],
     "implicitModifiers": [],
     "levelRequired": 43
@@ -11901,33 +11912,77 @@
     "category": "UniqueArmours",
     "flavourText": "The collector need not even speak. Each ring\r\nregaled them with tales of his conquest.",
     "explicitModifiers": [
-      "Adds (1-4) to (8-12) Physical Damage to Attacks",
-      "+(205-289) to Accuracy Rating",
-      "+(20-29) to maximum Mana",
-      "64% increased Rarity of Items found\nYour other Modifiers to Rarity of Items found do not apply",
-      "(6-14)% increased Rarity of Items found",
-      "+(2-5)% to Quality of all Skills",
-      "(8-10)% increased Cast Speed",
-      "Your Maximum Resistances are (75-80)%",
-      "Gain (10-11)% of Damage as Extra Chaos Damage",
+      "Adds (1-5) to (6-17) Physical Damage to Attacks",
+      "+(-182-397) to Accuracy Rating",
+      "+(-6-36) to maximum Mana",
+      "(5-15)% increased Rarity of Items found",
+      "(2-4)% reduced Rarity of Items found",
+      "(57-84)% increased Rarity of Items found\nYour other Modifiers to Rarity of Items found do not apply",
+      "+(2-7)% to Quality of all Skills",
+      "(7-10)% increased Cast Speed",
+      "(4-14)% reduced Cast Speed",
+      "Your Maximum Resistances are (55-81)%",
+      "Gain Arcane Surge when a Minion Dies",
+      "Ignite you inflict deals Chaos Damage instead of Fire Damage",
+      "100% of Lightning Damage Converted to Cold Damage",
       "You cannot be Chilled or Frozen",
-      "You can apply an additional Curse",
-      "100% of Cold Damage Converted to Lightning Damage",
-      "All Damage from Hits against Poisoned targets Contributes to Chill Magnitude",
+      "Fire Damage also Contributes to Bleeding Magnitude",
       "You gain Onslaught for 4 seconds on Kill",
-      "Ignites you inflict spread to other Enemies that stay within 1.5 metres for 1 second",
-      "Attacks have added Physical damage equal to 3% of maximum Life",
-      "(228-257) Physical Damage taken on Minion Death",
-      "Allies in your Presence Gain 9% of Damage as Extra Chaos Damage",
-      "All Damage taken from Hits while Bleeding Contributes to Magnitude of Chill on you",
-      "100% of Elemental Damage Converted to Chaos Damage",
-      "25% chance to Intimidate Enemies for 4 seconds on Hit",
       "You take Fire Damage instead of Physical Damage from Bleeding",
-      "Lightning Damage of Enemies Hitting you is Unlucky",
-      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Ignited Ground",
-      "Minions Revive 13% faster",
+      "+(10-20)% of Armour also applies to Chaos Damage",
+      "Inflict Abyssal Wasting on Hit",
+      "All Damage from Hits against Poisoned targets Contributes to Chill Magnitude",
+      "All Damage taken from Hits while Bleeding Contributes to Magnitude of Chill on you",
+      "All Damage taken from Hits while Poisoned Contributes to Magnitude of Chill on you",
+      "Gain (10-15)% of Damage as Extra Chaos Damage",
+      "Ignites you inflict spread to other Enemies that stay within 1.5 metres for 1 second",
+      "Withered you inflict also increases Fire Damage taken",
+      "You can apply an additional Curse",
+      "Curses you inflict can affect Hexproof Enemies",
+      "25% chance to Intimidate Enemies for 4 seconds on Hit",
+      "100% of Cold Damage Converted to Lightning Damage",
+      "50% reduced Duration of Curses on you",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Shocked and Chilled Ground",
+      "(15-30)% chance for Spell Damage with Critical Hits to be Lucky",
+      "Withered does not expire on Enemies Ignited by you",
+      "You and Allies in your Presence have (12-13)% increased Cast Speed",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Ignited and Chilled Ground",
+      "Projectiles have 10% chance to Chain an additional time from terrain",
+      "Allies in your Presence Gain (8-15)% of Damage as Extra Chaos Damage",
+      "Attacks have added Physical damage equal to 3% of maximum Life",
+      "Bleeding you inflict deals Fire Damage instead of Physical Damage",
+      "All Damage from Hits against Bleeding targets Contributes to Chill Magnitude",
       "Enemies Chilled by your Hits can be Shattered as though Frozen",
-      "24% chance for Spell Damage with Critical Hits to be Lucky"
+      "Enemies have an Accuracy Penalty against you based on Distance",
+      "Curses you inflict spread to enemies within 3 metres when Cursed enemy dies",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Ignited and Shocked Ground",
+      "(15-25)% chance to deal your Thorns Damage to Enemies you Hit with Melee Attacks",
+      "(201-297) Physical Damage taken on Minion Death",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Ignited Ground",
+      "Minions Revive (10-15)% faster",
+      "You and Allies in your Presence have 10% increased Attack Speed",
+      "Using a Mana Flask grants Guard equal to (27-100)% of Flask's recovery amount for 4 seconds",
+      "(9-10)% increased Spirit Reservation Efficiency of Skills",
+      "Gain 1 Dark Whisper every second there is a Cursed Enemy in your Presence",
+      "100% of Elemental Damage Converted to Chaos Damage",
+      "Gain Onslaught for 4 seconds when a Minion Dies",
+      "Projectiles from Spells Fork",
+      "You have Consecrated Ground around you while stationary",
+      "You and Allies in your Presence have (23-28)% increased Accuracy Rating",
+      "Recover (3-5)% of your maximum Mana when an Enemy dies in your Presence",
+      "You and Allies in your Presence have (10-14)% increased Cooldown Recovery Rate",
+      "Lightning Damage of Enemies Hitting you is Unlucky",
+      "Projectiles from Spells cannot Pierce",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Chilled Ground",
+      "Recover (3-5)% of your maximum Life when an Enemy dies in your Presence",
+      "Lightning Skills Chain +1 times",
+      "Wind Skills which can be boosted by Elemental Ground Surfaces count\nas being boosted by Shocked Ground",
+      "You and Allies in your Presence have +(17-23)% to Chaos Resistance",
+      "Projectiles from Spells Chain +1 times",
+      "+22 to Spirit while you have at least 200 Intelligence",
+      "(10-15)% increased Quantity of Gold Dropped by Slain Enemies",
+      "+(20-25) to Spirit while you have at least 200 Dexterity",
+      "+(23-25) to Spirit while you have at least 200 Strength"
     ],
     "implicitModifiers": [],
     "levelRequired": 55
@@ -11956,9 +12011,9 @@
     "category": "UniqueArmours",
     "flavourText": "Turning, gazing, blinking,\r\nbehold the eyes of void.\r\nBurning, razing, drinking,\r\nyour mind is destroyed.",
     "explicitModifiers": [
-      "(121-140)% increased Energy Shield",
-      "+(159-197) to Accuracy Rating",
-      "+(11-15) to all Attributes",
+      "(100-140)% increased Energy Shield",
+      "+(150-200) to Accuracy Rating",
+      "+(10-15) to all Attributes",
       "-10% to Fire Resistance",
       "Increases and Reductions to Spell damage also apply to Attacks"
     ],
@@ -11988,13 +12043,14 @@
     "category": "UniqueArmours",
     "flavourText": "The Trickster God turned the very Day and Night against each other.\r\nWhat hope have you?",
     "explicitModifiers": [
-      "444% increased Armour and Evasion",
-      "17% chance to Avoid Physical Damage from Hits",
-      "27% chance to Avoid Fire Damage from Hits",
-      "17% chance to Avoid Cold Damage from Hits",
-      "23% chance to Avoid Lightning Damage from Hits",
-      "29% chance to Avoid Chaos Damage from Hits",
-      "Enemies in your Presence are Intimidated"
+      "(300-450)% increased Armour and Evasion",
+      "(10-30)% chance to Avoid Physical Damage from Hits",
+      "(10-30)% chance to Avoid Fire Damage from Hits",
+      "(10-30)% chance to Avoid Cold Damage from Hits",
+      "(10-30)% chance to Avoid Lightning Damage from Hits",
+      "(10-30)% chance to Avoid Chaos Damage from Hits",
+      "Enemies in your Presence are Intimidated",
+      "Raven-Touched"
     ],
     "implicitModifiers": [],
     "levelRequired": 55
@@ -12055,9 +12111,9 @@
     "category": "UniqueArmours",
     "flavourText": "\"Stitches? Wouldn't that defeat the purpose?\" \r\n- Jeffry, Torturer's Apprentice",
     "explicitModifiers": [
-      "51% increased Evasion and Energy Shield",
-      "+37 to maximum Life",
-      "22% increased Critical Damage Bonus",
+      "(30-60)% increased Evasion and Energy Shield",
+      "+(30-50) to maximum Life",
+      "(20-30)% increased Critical Damage Bonus",
       "Flasks do not recover Life",
       "On-Kill Effects happen twice"
     ],
@@ -12072,10 +12128,10 @@
     "category": "UniqueArmours",
     "flavourText": "The darkest clouds clashed and coupled,\r\ngiving birth to four lightning children of hate.",
     "explicitModifiers": [
-      "(54-55)% increased Evasion and Energy Shield",
-      "Adds 1 to (38-40) Lightning damage to Attacks",
-      "+(16-25) to Intelligence",
-      "+(27-32)% to Lightning Resistance",
+      "(50-70)% increased Evasion and Energy Shield",
+      "Adds 1 to (30-50) Lightning damage to Attacks",
+      "+(15-25) to Intelligence",
+      "+(25-35)% to Lightning Resistance",
       "Life Leech is Converted to Energy Shield Leech"
     ],
     "implicitModifiers": [],
@@ -12122,9 +12178,9 @@
     "category": "UniqueArmours",
     "flavourText": "In the end, even heroes fade away.",
     "explicitModifiers": [
-      "+(30-36) to Strength",
-      "+(44-45) to Dexterity",
-      "+(30-38) to Intelligence",
+      "+(30-50) to Strength",
+      "+(30-50) to Dexterity",
+      "+(30-50) to Intelligence",
       "-1 to all Attributes per Level"
     ],
     "implicitModifiers": [],
@@ -12138,8 +12194,8 @@
     "category": "UniqueArmours",
     "flavourText": "The priests found the Great Shield the night it fell to Middengard,\r\nbut it was the smiths who delved into the secrets it held.",
     "explicitModifiers": [
-      "+(53-98) to maximum Runic Ward",
-      "(203-294)% increased Armour",
+      "+(50-100) to maximum Runic Ward",
+      "(200-300)% increased Armour",
       "Chance to Block Damage is Lucky",
       "You take (1-20)% of damage from Blocked Hits"
     ],
@@ -12194,10 +12250,10 @@
     "category": "UniqueArmours",
     "flavourText": "Ulcers, scabs, and pocks, the third army makes its claim.",
     "explicitModifiers": [
-      "(31-48)% increased Evasion and Energy Shield",
-      "(5-6)% increased Attack Speed",
+      "(30-50)% increased Evasion and Energy Shield",
+      "(4-6)% increased Attack Speed",
       "Cannot inflict Elemental Ailments",
-      "30% chance to Poison on Hit",
+      "(20-30)% chance to Poison on Hit",
       "All Damage from Hits Contributes to Poison Magnitude"
     ],
     "implicitModifiers": [],
@@ -12243,10 +12299,10 @@
     "category": "UniqueArmours",
     "flavourText": "\"What lies beneath your feet?!\"\r\n\"Sacred ground, watered with tears of blood!\"",
     "explicitModifiers": [
-      "(601-800)% increased Armour and Evasion",
+      "(600-800)% increased Armour and Evasion",
       "+(200-300) to Accuracy Rating",
       "100% increased Critical Hit Chance",
-      "(30.5-59.5) Life Regeneration per second",
+      "(30-60) Life Regeneration per second",
       "Can't use Body Armour",
       "You can wield Two-Handed Axes, Maces and Swords in one hand",
       "This item gains bonuses from Socketed Items as though it was a Body Armour"
@@ -12275,13 +12331,13 @@
     "category": "UniqueArmours",
     "flavourText": "No man burns alone.",
     "explicitModifiers": [
-      "(83-97)% increased Evasion Rating",
-      "+(17-25)% to Fire Resistance",
+      "(80-100)% increased Evasion Rating",
+      "+(15-25)% to Fire Resistance",
       "30% increased Light Radius",
       "Enemies in your Presence are Ignited as though dealt 200 Base Fire Damage"
     ],
     "implicitModifiers": [
-      "(32-47)% increased Ignite Magnitude"
+      "(30-50)% increased Ignite Magnitude"
     ],
     "levelRequired": 38
   },
@@ -12328,9 +12384,9 @@
     "flavourText": "The cursed ones march forever,\r\nOn their hopeless, last endeavour.\r\n",
     "explicitModifiers": [
       "15% increased Movement Speed",
-      "(117-138)% increased Evasion and Energy Shield",
-      "+(33-45) to maximum Mana",
-      "+(18-23)% to Chaos Resistance",
+      "(100-150)% increased Evasion and Energy Shield",
+      "+(30-50) to maximum Mana",
+      "+(17-23)% to Chaos Resistance",
       "Dodge Roll passes through Enemies"
     ],
     "implicitModifiers": [
@@ -12346,8 +12402,8 @@
     "category": "UniqueArmours",
     "flavourText": "A swift mind solves problems before they occur.",
     "explicitModifiers": [
-      "+(18-24)% to Fire Resistance",
-      "+(20-25)% to Cold Resistance",
+      "+(15-25)% to Fire Resistance",
+      "+(15-25)% to Cold Resistance",
       "+(15-25)% to Lightning Resistance",
       "Cannot Block",
       "Modifiers to Maximum Block Chance instead apply to Maximum Resistances"
@@ -12468,8 +12524,8 @@
     "category": "UniqueArmours",
     "flavourText": "One warrior alone survived to face the Arbiter.",
     "explicitModifiers": [
-      "200% increased Armour, Evasion and Energy Shield",
-      "+99 to maximum Mana",
+      "(151-200)% increased Armour, Evasion and Energy Shield",
+      "+(63-100) to maximum Mana",
       "25% increased Light Radius",
       "Equipment and Skill Gems have 25% increased Attribute Requirements",
       "You can Socket 2 additional copies of each Lineage Support Gem, in different Skills"
@@ -12486,7 +12542,7 @@
     "flavourText": "\"You think us savages?\" mused the Red Wolf, as\r\nhe pulled teeth from the Eternal's skull. \"I will\r\nshow your kind the way of tooth and claw.\"",
     "explicitModifiers": [
       "Has 8 to 12 Physical damage, +3 to +4 per Boss's Face Broken",
-      "(31-48)% increased Stun Buildup",
+      "(30-50)% increased Stun Buildup",
       "1% more Unarmed Damage per 5 Strength",
       "+0.3 metres to Melee Strike Range while Unarmed",
       "+1 to Armour per Strength",
@@ -12503,9 +12559,9 @@
     "category": "UniqueArmours",
     "flavourText": "There was no hero made out of Starkonja's death,\r\nbut merely a long sleep made eternal.",
     "explicitModifiers": [
-      "(139-200)% increased Evasion Rating",
+      "(100-200)% increased Evasion Rating",
       "(15-25)% increased Critical Hit Chance",
-      "+(32-40) to Dexterity",
+      "+(30-40) to Dexterity",
       "150% increased Global Evasion Rating when on Low Life",
       "15% of Damage from Hits is taken from your Damageable Companion's Life before you"
     ],
@@ -12611,7 +12667,7 @@
     "flavourText": "The dead man walks where\r\nthe living fear to tread.",
     "explicitModifiers": [
       "(5-15)% increased Movement Speed",
-      "(40-59)% increased Energy Shield",
+      "(40-60)% increased Energy Shield",
       "+(20-40) to maximum Life",
       "+(20-40) to maximum Mana",
       "(20-30)% increased Reservation Efficiency of Skills which create Undead Minions"
@@ -12629,8 +12685,8 @@
     "category": "UniqueArmours",
     "flavourText": "\"The heart is the herald. \r\nIt will tell me when it is best to strike.\"\r\n- Atziri, Queen of the Vaal",
     "explicitModifiers": [
-      "(167-191)% increased Armour",
-      "+(126-133) to maximum Life",
+      "(151-200)% increased Armour",
+      "+(100-150) to maximum Life",
       "Leech 10% of Physical Attack Damage as Life",
       "10% of Physical damage dealt by your Hits causes Blood Loss",
       "Vaal Pact"
@@ -12646,10 +12702,10 @@
     "category": "UniqueArmours",
     "flavourText": "Anticipation is a gift.",
     "explicitModifiers": [
-      "(107-141)% increased Armour and Evasion",
-      "10% increased Attack Speed",
-      "Gain (28-30) Life per enemy killed",
-      "Gain (25-30) Mana per enemy killed",
+      "(100-150)% increased Armour and Evasion",
+      "(5-10)% increased Attack Speed",
+      "Gain (20-30) Life per enemy killed",
+      "Gain (20-30) Mana per enemy killed",
       "Culling Strike"
     ],
     "implicitModifiers": [],
@@ -12713,11 +12769,11 @@
     "category": "UniqueArmours",
     "flavourText": "As the serpent wills.",
     "explicitModifiers": [
-      "73% increased Evasion Rating",
-      "+71 to maximum Life",
-      "+20% to Chaos Resistance",
-      "Gain Deflection Rating equal to 57% of Evasion Rating",
-      "10.8 Life Regeneration per second",
+      "(60-80)% increased Evasion Rating",
+      "+(60-80) to maximum Life",
+      "+(17-23)% to Chaos Resistance",
+      "Gain Deflection Rating equal to (40-60)% of Evasion Rating",
+      "(10.1-20) Life Regeneration per second",
       "Cannot be Poisoned"
     ],
     "implicitModifiers": [],
@@ -12751,7 +12807,7 @@
     "explicitModifiers": [
       "+150 Strength Requirement",
       "(10-20)% increased Block chance",
-      "(350-450)% increased Armour",
+      "(350-449)% increased Armour",
       "+(30-40)% to Cold Resistance",
       "(10-20)% of Fire damage taken as Cold damage",
       "(10-20)% of Lightning damage taken as Cold damage"
@@ -12768,8 +12824,8 @@
     "flavourText": "The combat stance used by Vaal nobles\r\nwas as elegant as it was deadly.",
     "explicitModifiers": [
       "(15-20)% increased Movement Speed",
-      "(60-72)% increased Evasion and Energy Shield",
-      "+(10-19) to Intelligence",
+      "(60-80)% increased Evasion and Energy Shield",
+      "+(10-20) to Intelligence",
       "+1 to Maximum Power Charges",
       "12% increased Critical Damage Bonus per Power Charge"
     ],
@@ -12836,10 +12892,10 @@
     "category": "UniqueArmours",
     "flavourText": "It is often said of nobles that they live off their\r\npeasants... sometimes, it's truer than any suspect.",
     "explicitModifiers": [
-      "(70-99)% increased Armour and Energy Shield",
+      "(50-100)% increased Armour and Energy Shield",
       "(10-15)% increased maximum Life",
       "Life Leech can Overflow Maximum Life",
-      "(42-59)% reduced Duration of Bleeding on You"
+      "(40-60)% reduced Duration of Bleeding on You"
     ],
     "implicitModifiers": [],
     "levelRequired": 65
@@ -12870,9 +12926,9 @@
     "category": "UniqueArmours",
     "flavourText": "A window onto a realm of red,\r\nwhere countless voices scream...",
     "explicitModifiers": [
-      "(10-11)% increased Block chance",
-      "+(14-17)% to Chaos Resistance",
-      "(8-9.3) Life Regeneration per second",
+      "(10-15)% increased Block chance",
+      "+(13-17)% to Chaos Resistance",
+      "(5-10) Life Regeneration per second",
       "Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of\nyour maximum Life as Physical damage per second"
     ],
     "implicitModifiers": [],
@@ -12886,9 +12942,9 @@
     "category": "UniqueArmours",
     "flavourText": "A power unknown aids your own.",
     "explicitModifiers": [
-      "(110-147)% increased Armour and Evasion",
-      "+(21-30) to Strength",
-      "+(100-144) to Stun Threshold",
+      "(100-150)% increased Armour and Evasion",
+      "+(20-30) to Strength",
+      "+(100-150) to Stun Threshold",
       "Iron Grip",
       "Iron Will"
     ],
@@ -12903,11 +12959,11 @@
     "category": "UniqueArmours",
     "flavourText": "The world churned during the Great Wasting.\r\nTawhoa may have stilled the rioting earth,\r\nbut it was Valako that tamed the broken sky.",
     "explicitModifiers": [
-      "(85-112)% increased Armour and Evasion",
-      "+(87-97) to maximum Life",
-      "+(28-30) to Dexterity",
+      "(80-120)% increased Armour and Evasion",
+      "+(80-100) to maximum Life",
+      "+(20-30) to Dexterity",
       "-(40-30)% to Lightning Resistance",
-      "(37-50)% of Physical damage from Hits taken as Lightning damage"
+      "(30-50)% of Physical damage from Hits taken as Lightning damage"
     ],
     "implicitModifiers": [],
     "levelRequired": 65
@@ -12939,9 +12995,9 @@
     "flavourText": "The secret was lost with its maker.",
     "explicitModifiers": [
       "+20 to maximum Energy Shield",
-      "+(13-19) to Intelligence",
-      "+(5-13)% to Fire Resistance",
-      "+(6-11)% to Cold Resistance",
+      "+(10-20) to Intelligence",
+      "+(5-15)% to Fire Resistance",
+      "+(5-15)% to Cold Resistance",
       "100% of Fire Damage Converted to Cold Damage"
     ],
     "implicitModifiers": [],
@@ -12956,7 +13012,7 @@
     "flavourText": "A gift from the Dra\u00edocht, lost in Darkness.\r\nThe bronze hums. The cloth sighs.\r\nLiving pieces of her, yearning to exist.",
     "explicitModifiers": [
       "+(70-100) to Deflection Rating per 50 missing Energy Shield",
-      "(200-300)% increased Evasion and Energy Shield",
+      "(200-298)% increased Evasion and Energy Shield",
       "+(20-30) to Dexterity",
       "Companions have (30-50)% increased maximum Life",
       "(10-15)% of Damage from Deflected Hits is taken from Damageable Companion's Life before you"
@@ -13004,10 +13060,10 @@
     "category": "UniqueArmours",
     "flavourText": "A lightless world\r\na silent reign\r\ntwo sightless eyes\r\nfeed on your pain.",
     "explicitModifiers": [
-      "(71-99)% increased Armour and Energy Shield",
-      "+(48-77) to maximum Life",
+      "(50-100)% increased Armour and Energy Shield",
+      "+(40-80) to maximum Life",
       "10% increased Rarity of Items found",
-      "(12-15) to (21-23) Physical Thorns damage",
+      "(10-15) to (20-25) Physical Thorns damage",
       "Thorns can Retaliate against all Hits"
     ],
     "implicitModifiers": [],
@@ -13021,7 +13077,7 @@
     "category": "UniqueArmours",
     "flavourText": "An endless river of bodies lie in the wake of ambition.",
     "explicitModifiers": [
-      "(11-15)% increased Rarity of Items found",
+      "(10-15)% increased Rarity of Items found",
       "+1 to Level of all Skills",
       "Gain 10 Life per enemy killed",
       "Gain 10 Mana per enemy killed"
@@ -13090,7 +13146,7 @@
     "category": "UniqueArmours",
     "flavourText": "\"A thief in the night, Draven did creep,\r\nfamilies asleep, taken, held on high.\r\nClever, he thought, 'til his children paid.\r\nNay, villain, a man never bleeds alone.\"",
     "explicitModifiers": [
-      "(20-23)% increased Block chance",
+      "(20-30)% increased Block chance",
       "+(20-30) to Evasion Rating",
       "You take 50% of damage from Blocked Hits",
       "50% increased Parried Debuff Magnitude"
@@ -13106,7 +13162,7 @@
     "category": "UniqueArmours",
     "flavourText": "Be not where death falls.",
     "explicitModifiers": [
-      "(159-197)% increased Evasion and Energy Shield",
+      "(150-200)% increased Evasion and Energy Shield",
       "+(10-20)% to Lightning Resistance",
       "20% less Damage taken if you have not been Hit Recently",
       "100% increased Evasion Rating if you have been Hit Recently"
@@ -13154,12 +13210,12 @@
     "category": "UniqueArmours",
     "flavourText": "The roots burrow deeper, unveiling the wood's bounty...",
     "explicitModifiers": [
-      "+(67-73) to maximum Life",
+      "+(60-80) to maximum Life",
       "15% additional Physical Damage Reduction",
       "-10% to all Elemental Resistances",
       "+13% to Chaos Resistance",
       "Remnants you create affect Allies in your Presence as well as you when collected",
-      "(80-98)% increased Reservation Efficiency of Remnant Skills"
+      "(80-100)% increased Reservation Efficiency of Remnant Skills"
     ],
     "implicitModifiers": [],
     "levelRequired": 78
@@ -13188,7 +13244,7 @@
     "category": "UniqueArmours",
     "flavourText": "No metal slips as easily through the fingers as gold.",
     "explicitModifiers": [
-      "+(31-50) to Evasion Rating",
+      "+(30-50) to Evasion Rating",
       "10% increased Rarity of Items found",
       "+(25-35)% to all Elemental Resistances"
     ],
@@ -13288,7 +13344,7 @@
     "category": "UniqueArmours",
     "flavourText": "We happily give our limbs.\r\nA net woven to keep safe the bones of the Lords.",
     "explicitModifiers": [
-      "+(6-40)% to all Elemental Resistances",
+      "+(5-40)% to all Elemental Resistances",
       "Elemental Ailment Threshold is increased by Uncapped Chaos Resistance",
       "Armour is increased by Uncapped Fire Resistance",
       "Energy Shield is increased by Uncapped Cold Resistance",
@@ -13357,7 +13413,7 @@
     "category": "UniqueArmours",
     "flavourText": "To catch an animal, think like an animal.",
     "explicitModifiers": [
-      "+(50-69) to Evasion Rating",
+      "+(50-70) to Evasion Rating",
       "+(20-30) to Dexterity",
       "10% increased Movement Speed when on Full Life",
       "100% increased Evasion Rating when on Full Life"
@@ -13375,7 +13431,7 @@
     "explicitModifiers": [
       "Gain (5-10)% of Elemental Damage as Extra Cold Damage",
       "Gain (5-10)% of Elemental Damage as Extra Fire Damage",
-      "Gain (6-10)% of Elemental Damage as Extra Lightning Damage",
+      "Gain (5-10)% of Elemental Damage as Extra Lightning Damage",
       "33% of Elemental Damage Converted to Cold Damage",
       "33% of Elemental Damage Converted to Fire Damage",
       "33% of Elemental Damage Converted to Lightning Damage"
@@ -13408,10 +13464,10 @@
     "category": "UniqueArmours",
     "flavourText": "Diamora sings not for hunger, but for longing.",
     "explicitModifiers": [
-      "(67-100)% increased Energy Shield",
-      "(31-49)% increased Critical Hit Chance",
-      "+(11-20) to Intelligence",
-      "+(20-29)% to Cold Resistance",
+      "(60-100)% increased Energy Shield",
+      "(30-50)% increased Critical Hit Chance",
+      "+(10-20) to Intelligence",
+      "+(20-30)% to Cold Resistance",
       "150% increased Mana Regeneration Rate if you've dealt a Critical Hit Recently",
       "Cannot Regenerate Mana if you haven't dealt a Critical Hit Recently"
     ],
@@ -13445,8 +13501,8 @@
     "flavourText": "Natural decay can be twisted to dark ends.",
     "explicitModifiers": [
       "10% increased Movement Speed",
-      "(34-50)% increased Armour",
-      "+(5-8) to Strength",
+      "(30-50)% increased Armour",
+      "+(5-10) to Strength",
       "Trigger Decompose every 1.2 metres travelled"
     ],
     "implicitModifiers": [
@@ -13494,10 +13550,10 @@
     "category": "UniqueArmours",
     "flavourText": "A gift, a braid, of golden hair.\r\nThe war, forgotten.\r\nThe reason, remembered.",
     "explicitModifiers": [
-      "(50-59)% increased Energy Shield",
-      "(31-38)% increased Mana Regeneration Rate",
+      "(50-70)% increased Energy Shield",
+      "(30-40)% increased Mana Regeneration Rate",
       "20% increased Light Radius",
-      "(8-9)% increased Spell Damage per 10 Spirit"
+      "(8-12)% increased Spell Damage per 10 Spirit"
     ],
     "implicitModifiers": [],
     "levelRequired": 38
@@ -13510,8 +13566,8 @@
     "category": "UniqueArmours",
     "flavourText": "They screamed her name in adulation as they gave\r\ntheir very lives. She looked on with impatience.",
     "explicitModifiers": [
-      "+(65-94) to maximum Mana",
-      "(13-20)% increased Rarity of Items found",
+      "+(60-100) to maximum Mana",
+      "(10-20)% increased Rarity of Items found",
       "Gain (10-15)% of maximum Life as Extra maximum Energy Shield",
       "10% of Damage taken bypasses Energy Shield"
     ],
@@ -13526,17 +13582,17 @@
     "category": "UniqueArmours",
     "flavourText": "The priests of the Kalguur keep faith through numbers\r\nand calculation, not unprovable promises.",
     "explicitModifiers": [
-      "(242-340)% increased Armour and Energy Shield",
-      "(15.5-24.8) Life Regeneration per second",
-      "(15-24)% increased Mana Regeneration Rate",
+      "(240-340)% increased Armour and Energy Shield",
+      "(15-25) Life Regeneration per second",
+      "(15-25)% increased Mana Regeneration Rate",
       "Alternating every 5 seconds:\nTake 40% less Damage from Hits\nTake 40% less Damage over time"
     ],
     "implicitModifiers": [
+      "Has 3 Sockets",
       "Every 5 seconds, gain a Verisium Infusion",
       "+250 Intelligence Requirement",
-      "Has 3 Sockets",
       "100% reduced Duration of Curses on you",
-      "(27-44)% increased Runic Ward Regeneration Rate"
+      "(25-50)% increased Runic Ward Regeneration Rate"
     ],
     "levelRequired": 65
   },
@@ -13550,9 +13606,9 @@
     "explicitModifiers": [
       "50% increased Strength Requirement",
       "20% reduced Movement Speed",
-      "109% increased Armour",
-      "38% increased Rarity of Items found",
-      "+20% to Fire Resistance"
+      "(100-150)% increased Armour",
+      "(30-50)% increased Rarity of Items found",
+      "+(20-30)% to Fire Resistance"
     ],
     "implicitModifiers": [],
     "levelRequired": 55
@@ -13565,11 +13621,11 @@
     "category": "UniqueArmours",
     "flavourText": "Feed a beast and it will not hunt.\r\nProtect it and it will not fight.\r\nFerocity must be learned, not taught.\r\nIt is suffering that forges the greatest warriors.",
     "explicitModifiers": [
-      "(104-134)% increased Evasion Rating",
-      "+(91-107) to maximum Life",
-      "+(11-12) to Spirit",
-      "(40-56)% reduced Poison Duration on you",
-      "(57-60)% reduced Duration of Bleeding on You",
+      "(100-150)% increased Evasion Rating",
+      "+(80-120) to maximum Life",
+      "+(10-30) to Spirit",
+      "(40-60)% reduced Poison Duration on you",
+      "(40-60)% reduced Duration of Bleeding on You",
       "You can have two Companions of different types"
     ],
     "implicitModifiers": [],
@@ -13600,12 +13656,12 @@
     "category": "UniqueArmours",
     "flavourText": "An Ezomyte endures.",
     "explicitModifiers": [
-      "+(42-57) to Armour",
-      "+(6-15) to Strength",
-      "+(6-15) to Intelligence",
+      "+(40-60) to Armour",
+      "+(5-15) to Strength",
+      "+(5-15) to Intelligence",
       "+10% to all Elemental Resistances",
-      "+(113-146)% of Armour also applies to Elemental Damage",
-      "+(41-58) to Stun Threshold"
+      "+(100-150)% of Armour also applies to Elemental Damage",
+      "+(40-60) to Stun Threshold"
     ],
     "implicitModifiers": [],
     "levelRequired": 38
@@ -13618,11 +13674,11 @@
     "category": "UniqueArmours",
     "flavourText": "There is no safer place\r\nThan the Belly of the Beast",
     "explicitModifiers": [
-      "(116-124)% increased Armour and Evasion",
-      "+(111-145) to maximum Life",
-      "+(106-147) to Stun Threshold",
+      "(101-150)% increased Armour and Evasion",
+      "+(100-150) to maximum Life",
+      "+(100-150) to Stun Threshold",
       "Life Recovery from Flasks is instant",
-      "(25-29) to (35-40) Physical Thorns damage"
+      "(25-30) to (35-40) Physical Thorns damage"
     ],
     "implicitModifiers": [],
     "levelRequired": 55
@@ -13652,9 +13708,9 @@
     "category": "UniqueArmours",
     "flavourText": "Only the High Priests could enact the sacrifices,\r\nbut all who witnessed shared in exultation.",
     "explicitModifiers": [
-      "+(100-140) to Accuracy Rating",
-      "+(66-70) to maximum Life",
-      "+(23-24)% to Fire Resistance",
+      "+(100-150) to Accuracy Rating",
+      "+(60-80) to maximum Life",
+      "+(20-25)% to Fire Resistance",
       "25% increased Light Radius",
       "Leeching Life from your Hits causes Allies in your Presence to also Leech the same amount of Life"
     ],
@@ -13685,9 +13741,9 @@
     "category": "UniqueArmours",
     "flavourText": "The Counts of Ogham share a\r\nlegacy of cunning and power.",
     "explicitModifiers": [
-      "+51 to maximum Life",
-      "+15 to Strength",
-      "+78 to Stun Threshold",
+      "+(40-60) to maximum Life",
+      "+(10-15) to Strength",
+      "+(60-80) to Stun Threshold",
       "Intimidate Enemies on Block for 8 seconds"
     ],
     "implicitModifiers": [],
@@ -13751,9 +13807,9 @@
     "category": "UniqueArmours",
     "flavourText": "The blasted oak stands forever.",
     "explicitModifiers": [
-      "+(48-49) to maximum Life",
-      "+(11-14) to Strength",
-      "+34% to Fire Resistance",
+      "+(40-60) to maximum Life",
+      "+(10-20) to Strength",
+      "+(30-40)% to Fire Resistance",
       "Cannot be Ignited",
       "-10 Physical Damage taken from Attack Hits"
     ],
@@ -13802,7 +13858,7 @@
     "flavourText": "My Soul is your Strength\r\nMy Price is your Blood",
     "explicitModifiers": [
       "(100-150)% increased Energy Shield",
-      "+(101-150) to maximum Life",
+      "+(100-150) to maximum Life",
       "10% of Spell Damage Leeched as Life",
       "Skills Gain 100% of Mana Cost as Extra Life Cost"
     ],
@@ -13865,7 +13921,7 @@
     "category": "UniqueArmours",
     "flavourText": "Wraeclast has suffered many great disasters,\r\nbut life always springs back anew.",
     "explicitModifiers": [
-      "(106-139)% increased Evasion Rating",
+      "(100-150)% increased Evasion Rating",
       "+(20-30)% to Cold Resistance",
       "Maximum 10 Fragile Regrowth",
       "0.5% of maximum Life Regenerated per second per Fragile Regrowth",
@@ -13954,7 +14010,7 @@
     "category": "UniqueArmours",
     "flavourText": "\"Keep smiling. The deepest cut comes not from insults, but from false praise.\"",
     "explicitModifiers": [
-      "(60-100)% increased Energy Shield",
+      "(60-99)% increased Energy Shield",
       "+(60-100) to maximum Mana",
       "(10-15)% increased Rarity of Items found",
       "Damage Penetrates 10% Elemental Resistances",
@@ -14041,10 +14097,10 @@
     "flavourText": "Man retains sanity and strives toward civilisation\r\nonly under the blessed veil of ignorance.",
     "explicitModifiers": [
       "Can be modified while Corrupted",
-      "+(50-148) to maximum Life",
-      "+(50-147) to maximum Mana",
-      "+(-29-30)% to Fire Resistance",
-      "(-30-29)% to Cold Resistance",
+      "+(50-150) to maximum Life",
+      "+(50-150) to maximum Mana",
+      "+(-30-30)% to Fire Resistance",
+      "+(-30-30)% to Cold Resistance",
       "+(-30-30)% to Lightning Resistance",
       "Chaos Resistance is zero"
     ],
@@ -14075,7 +14131,7 @@
     "category": "UniqueArmours",
     "flavourText": "Captivity breeds creativity.",
     "explicitModifiers": [
-      "48% increased Armour and Energy Shield",
+      "(30-50)% increased Armour and Energy Shield",
       "You cannot be Chilled for 6 seconds after being Chilled",
       "You cannot be Frozen for 6 seconds after being Frozen",
       "You cannot be Ignited for 6 seconds after being Ignited",
@@ -14093,10 +14149,10 @@
     "category": "UniqueArmours",
     "flavourText": "For none of us are as cruel as all of us.",
     "explicitModifiers": [
-      "+(37-50) to maximum Life",
-      "+(33-48) to maximum Mana",
+      "+(30-50) to maximum Life",
+      "+(30-50) to maximum Mana",
       "Allies in your Presence deal 50% increased Damage",
-      "+(13-20) to Dexterity",
+      "+(10-20) to Dexterity",
       "25% reduced Damage"
     ],
     "implicitModifiers": [],
@@ -14130,7 +14186,7 @@
     "explicitModifiers": [
       "+20 to Armour",
       "(5-15)% increased Rarity of Items found",
-      "+(22-29) to Strength",
+      "+(20-30) to Strength",
       "Gain 1 Rage on Melee Hit",
       "Every Rage also grants 1% increased Armour"
     ],
@@ -14146,7 +14202,7 @@
     "flavourText": "Tempest's power given form,\r\nFlee before the walking storm.",
     "explicitModifiers": [
       "10% increased Movement Speed",
-      "(33-60)% increased Armour and Energy Shield",
+      "(30-60)% increased Armour and Energy Shield",
       "Adds 1 to (30-50) Lightning damage to Attacks",
       "Drop Shocked Ground while moving, lasting 8 seconds"
     ],
@@ -14163,9 +14219,9 @@
     "category": "UniqueArmours",
     "flavourText": "Beyond madness lies inspiration.",
     "explicitModifiers": [
-      "+(20-29) to Evasion Rating",
+      "+(20-30) to Evasion Rating",
       "25% reduced maximum Mana",
-      "+(12-20)% to Cold Resistance",
+      "+(10-20)% to Cold Resistance",
       "+(13-19)% to Chaos Resistance",
       "100% increased Mana Regeneration Rate"
     ],
@@ -14180,9 +14236,9 @@
     "category": "UniqueArmours",
     "flavourText": "Fight with the ferocity of the First Ones.",
     "explicitModifiers": [
-      "+18 to Evasion Rating",
-      "Adds 5 to 8 Physical Damage to Attacks",
-      "10% increased Critical Damage Bonus",
+      "+(15-25) to Evasion Rating",
+      "Adds (3-5) to (8-10) Physical Damage to Attacks",
+      "(10-15)% increased Critical Damage Bonus",
       "Base Critical Hit Chance for Attacks with Weapons is 7%"
     ],
     "implicitModifiers": [],
@@ -14196,10 +14252,10 @@
     "category": "UniqueArmours",
     "flavourText": "Tale-women do not fight as dekharas.\r\nThey command a power all their own.",
     "explicitModifiers": [
-      "(60-79)% increased Energy Shield",
+      "(50-80)% increased Energy Shield",
       "(10-15)% increased Rarity of Items found",
-      "(22-30)% increased Critical Hit Chance",
-      "+(14-20)% to Lightning Resistance",
+      "(20-30)% increased Critical Hit Chance",
+      "+(10-20)% to Lightning Resistance",
       "Eldritch Battery"
     ],
     "implicitModifiers": [],
@@ -14213,8 +14269,8 @@
     "category": "UniqueArmours",
     "flavourText": "A faith born of flesh.",
     "explicitModifiers": [
-      "(103-149)% increased Energy Shield",
-      "+(24-29) to Strength",
+      "(100-150)% increased Energy Shield",
+      "+(20-30) to Strength",
       "+(20-30) to Intelligence",
       "+(17-23)% to Chaos Resistance",
       "Life Recharges"
@@ -14248,11 +14304,11 @@
     "category": "UniqueArmours",
     "flavourText": "What is worse, the sting of the past, the pain of the present, or the fear of the future?",
     "explicitModifiers": [
-      "94% increased Armour",
-      "20% increased Critical Damage Bonus",
+      "(60-100)% increased Armour",
+      "(20-30)% increased Critical Damage Bonus",
       "Critical Hits inflict Impale",
       "Critical Hits cannot Extract Impale",
-      "29 to 48 Physical Thorns damage"
+      "(20-31) to (32-49) Physical Thorns damage"
     ],
     "implicitModifiers": [],
     "levelRequired": 38
@@ -14265,9 +14321,9 @@
     "category": "UniqueArmours",
     "flavourText": "He never spoke a word. His opponents imagined\r\ntheir own personal mockeries, most cruel.",
     "explicitModifiers": [
-      "(185-198)% increased Armour and Evasion",
-      "+(51-96) to Accuracy Rating",
-      "(17-24)% increased Critical Hit Chance",
+      "(150-200)% increased Armour and Evasion",
+      "+(50-100) to Accuracy Rating",
+      "(15-25)% increased Critical Hit Chance",
       "Aggravate Bleeding on targets you Critically Hit with Attacks"
     ],
     "implicitModifiers": [],
@@ -14297,7 +14353,7 @@
     "category": "UniqueArmours",
     "flavourText": "Lift it lightly, don it slow.\r\nThe spikes point out and in, you know.",
     "explicitModifiers": [
-      "+(105-150) to maximum Energy Shield",
+      "+(100-150) to maximum Energy Shield",
       "Lose 5 Life when you use a Skill",
       "(3-5) to (6-10) Physical Thorns damage",
       "Pain Attunement"
@@ -14330,8 +14386,8 @@
     "category": "UniqueArmours",
     "flavourText": "A wall of steel and muscle.",
     "explicitModifiers": [
-      "+(63-67) to Armour",
-      "+(53-57) to Stun Threshold",
+      "+(50-70) to Armour",
+      "+(50-70) to Stun Threshold",
       "+10% to Block chance",
       "-10 Physical damage taken from Projectile Attacks"
     ],
@@ -14348,14 +14404,16 @@
     "category": "UniqueArmours",
     "flavourText": "His latent potential unleashed itself, a beast\r\nbursting from its shackles. Each strike of Farrow's\r\nhammer rang out a song for the First Ones.",
     "explicitModifiers": [
-      "(190-192)% increased Armour and Energy Shield",
-      "+(11-13) to Strength and Intelligence",
-      "(15-23)% of Damage taken from Hits bypasses Energy Shield if Energy Shield is below half",
+      "(150-250)% increased Armour and Energy Shield",
+      "+(10-20) to Strength and Intelligence",
+      "(15-25)% of Damage taken from Hits bypasses Energy Shield if Energy Shield is below half",
       "Gain 1 Runic Binding on Hit with Spells, no more than once every 0.5 seconds\nLose all Runic Bindings when you Shapeshift to gain that much Unbound Potential"
     ],
     "implicitModifiers": [
       "+1% to all Maximum Elemental Resistances",
-      "10% increased Energy Shield Recharge Rate"
+      "(30-50)% increased effect of Arcane Surge on you",
+      "(11-15)% of Damage taken from Hits bypasses Energy Shield if Energy Shield is below half",
+      "(10-15)% increased Energy Shield Recharge Rate"
     ],
     "levelRequired": 70
   },
@@ -14385,8 +14443,8 @@
     "flavourText": "The druids swore to protect the Grelwood with their very lives.",
     "explicitModifiers": [
       "(20-30)% increased Block chance",
-      "(83-116)% increased Armour and Energy Shield",
-      "+(21-23)% to Chaos Resistance",
+      "(80-120)% increased Armour and Energy Shield",
+      "+(17-23)% to Chaos Resistance",
       "50% increased Life Regeneration rate"
     ],
     "implicitModifiers": [],
@@ -14487,9 +14545,9 @@
     "category": "UniqueArmours",
     "flavourText": "Welcome to Wraeclast.",
     "explicitModifiers": [
-      "(88-99)% increased Block chance",
-      "(109-139)% increased Armour",
-      "+(14-17)% to Chaos Resistance",
+      "(80-100)% increased Block chance",
+      "(100-150)% increased Armour",
+      "+(13-17)% to Chaos Resistance",
       "You take (25-40)% of damage from Blocked Hits",
       "Enemies are Culled on Block"
     ],
@@ -14524,7 +14582,7 @@
     "explicitModifiers": [
       "50% increased Armour and Evasion",
       "Adds (2-3) to (5-6) Physical Damage to Attacks",
-      "+(31-49) to maximum Life",
+      "+(30-50) to maximum Life",
       "(4-8)% increased Attack Speed",
       "Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills"
     ],
@@ -14539,10 +14597,10 @@
     "category": "UniqueArmours",
     "flavourText": "\"Prepare the rack, boy. And be careful with those hooks!\"\r\n- the Master Torturer's last words",
     "explicitModifiers": [
-      "(33-42)% increased Evasion and Energy Shield",
-      "+(13-17) to Dexterity",
+      "(30-50)% increased Evasion and Energy Shield",
+      "+(10-20) to Dexterity",
       "Bleeding you inflict is Aggravated",
-      "(47-50)% reduced Duration of Bleeding on You"
+      "(40-60)% reduced Duration of Bleeding on You"
     ],
     "implicitModifiers": [],
     "levelRequired": 38
@@ -14572,12 +14630,12 @@
     "category": "UniqueArmours",
     "flavourText": "\"Move in ways your enemy does not expect.\r\nConfuse them with elegance and grace.\r\nThey'll never see the axe coming.\"\r\n- Rakiata, Chieftain of the Tasalio Tribe",
     "explicitModifiers": [
-      "+(107-194) to maximum Energy Shield",
-      "+(22-38) to Spirit",
-      "+(25-33)% to Fire Resistance",
+      "+(100-200) to maximum Energy Shield",
+      "+(20-40) to Spirit",
+      "+(25-35)% to Fire Resistance",
       "+(25-35)% to Cold Resistance",
       "Increases and Reductions to Mana Regeneration Rate also\napply to Energy Shield Recharge Rate",
-      "Gain (31-50)% of Maximum Mana as Armour"
+      "Gain (30-50)% of Maximum Mana as Armour"
     ],
     "implicitModifiers": [],
     "levelRequired": 65
@@ -14590,9 +14648,9 @@
     "category": "UniqueArmours",
     "flavourText": "The sky tore asunder, black cleaving upon blue\r\nThe end of life, of Time, with no escape\r\nBut they found a fragment, a void, a haven\r\nAnd there they waited, as it all began again\r\nDark will, dark knowledge, enemies of Fate\r\nThey know your mind, because they remember",
     "explicitModifiers": [
-      "(150-195)% increased Evasion and Energy Shield",
-      "+(61-88) to maximum Mana",
-      "+(20-26)% to Lightning Resistance",
+      "(150-200)% increased Evasion and Energy Shield",
+      "+(60-90) to maximum Mana",
+      "+(20-30)% to Lightning Resistance",
       "Attacks cost an additional 6% of your maximum Mana",
       "Attacks have Added maximum Lightning Damage equal to (6-9)% of maximum Mana"
     ],
@@ -14623,9 +14681,9 @@
     "category": "UniqueArmours",
     "flavourText": "A flash of blue, a stormcloud's kiss,\r\nher motionless dance the pulse of bliss",
     "explicitModifiers": [
-      "(53-68)% increased Energy Shield",
+      "(50-70)% increased Energy Shield",
       "+5% to Maximum Lightning Resistance",
-      "+(21-24)% to Lightning Resistance",
+      "+(20-30)% to Lightning Resistance",
       "40% increased Mana Regeneration Rate",
       "40% increased Mana Regeneration Rate while stationary"
     ],
@@ -14657,7 +14715,7 @@
     "category": "UniqueArmours",
     "flavourText": "The greatest mistakes cause suffering\r\nlong after they have been made",
     "explicitModifiers": [
-      "(85-120)% increased Armour and Energy Shield",
+      "(80-120)% increased Armour and Energy Shield",
       "+75 to Spirit",
       "+10 to Strength",
       "+15 to Intelligence",
@@ -14675,9 +14733,9 @@
     "category": "UniqueArmours",
     "flavourText": "The devil finds work for idle hands.",
     "explicitModifiers": [
-      "(40-59)% increased Evasion Rating",
-      "+(84-86) to Accuracy Rating",
-      "+(5-9) to Intelligence",
+      "(40-60)% increased Evasion Rating",
+      "+(60-100) to Accuracy Rating",
+      "+(5-10) to Intelligence",
       "25% increased Attack Speed while on Full Mana",
       "You count as on Full Mana while at 90% of maximum Mana or above"
     ],
@@ -14692,9 +14750,9 @@
     "category": "UniqueArmours",
     "flavourText": "\"Beyond fire, blood, and nightmare,\r\nthe Saviour will build Utopia.\"",
     "explicitModifiers": [
-      "(62-97)% increased Armour",
-      "+(62-99) to maximum Mana",
-      "+(11-15)% to all Elemental Resistances",
+      "(60-120)% increased Armour",
+      "+(60-100) to maximum Mana",
+      "+(10-15)% to all Elemental Resistances",
       "Inflict Elemental Exposure to Enemies 3 metres in front of you\nfor 4 seconds, every 0.25 seconds while raised"
     ],
     "implicitModifiers": [],
@@ -14827,7 +14885,7 @@
     "category": "UniqueArmours",
     "flavourText": "Shedding away her regal past,\r\nshe forged a new destiny.\r\nSacrificing the ephemeral joys of man,\r\nshe embraced the eternal grasp of nature.\r\nSeizing her one true wish,\r\nshe found peace at last.",
     "explicitModifiers": [
-      "(250-300)% increased Evasion Rating",
+      "(250-298)% increased Evasion Rating",
       "-(15-10)% to Fire Resistance",
       "+(25-30)% to Cold Resistance",
       "+(10-15)% to Lightning Resistance",
@@ -14845,7 +14903,7 @@
     "flavourText": "The truly mighty are never outnumbered.",
     "explicitModifiers": [
       "15% increased Movement Speed",
-      "(50-100)% increased Armour",
+      "(50-99)% increased Armour",
       "50% increased Attribute Requirements",
       "Deal 30% of Overkill damage to enemies within 2 metres of the enemy killed"
     ],
@@ -14860,10 +14918,10 @@
     "category": "UniqueArmours",
     "flavourText": "Knowing she could outlast any opponent,\r\nWrashmin fought not to win, but to delay.",
     "explicitModifiers": [
-      "(85-99)% increased Armour",
-      "+(44-56) to maximum Mana",
-      "+(15-18) to Strength",
-      "+(65-77) to Stun Threshold",
+      "(50-100)% increased Armour",
+      "+(40-60) to maximum Mana",
+      "+(10-20) to Strength",
+      "+(60-80) to Stun Threshold",
       "50% of Physical Damage prevented Recouped as Life"
     ],
     "implicitModifiers": [],
@@ -14878,8 +14936,8 @@
     "flavourText": "As the sun rises and the light approaches,\r\nso too shall your enemies fear you.",
     "explicitModifiers": [
       "20% increased Movement Speed",
-      "+(40-58) to maximum Life",
-      "+(22-30)% to Fire Resistance",
+      "+(40-60) to maximum Life",
+      "+(20-30)% to Fire Resistance",
       "Drop Ignited Ground while moving, which lasts 8 seconds and Ignites as though dealing Fire Damage equal to 10% of your maximum Life"
     ],
     "implicitModifiers": [],
@@ -14982,8 +15040,8 @@
     "explicitModifiers": [
       "+(30-40) to maximum Energy Shield",
       "Minions have (20-30)% increased maximum Life",
-      "(22-30)% increased Mana Regeneration Rate",
-      "Minions deal (20-29)% increased Damage",
+      "(20-30)% increased Mana Regeneration Rate",
+      "Minions deal (20-30)% increased Damage",
       "Minions' Resistances are equal to yours"
     ],
     "implicitModifiers": [],
@@ -15035,8 +15093,8 @@
       "(40-50)% increased Spell Damage",
       "+10 to Intelligence",
       "+(7-13)% to Chaos Resistance",
-      "Critical Hits with Spells apply (2-3) Stacks of Critical Weakness",
-      "Critical Hits with Spells apply 1 Stack of Critical Weakness"
+      "Critical Hits with Spells apply 1 Stack of Critical Weakness",
+      "Critical Hits with Spells apply (2-3) Stacks of Critical Weakness"
     ],
     "implicitModifiers": [],
     "levelRequired": 10
@@ -15089,7 +15147,7 @@
       "All Damage from Hits Contributes to Poison Magnitude"
     ],
     "implicitModifiers": [],
-    "levelRequired": 30
+    "levelRequired": 15
   },
   {
     "id": "ab-aeterno-grand-cuisses",
@@ -15117,7 +15175,7 @@
     "flavourText": "One warrior alone survived to face the Arbiter.",
     "explicitModifiers": [
       "(150-200)% increased Armour, Evasion and Energy Shield",
-      "+(61-100) to maximum Mana",
+      "+(60-100) to maximum Mana",
       "25% increased Light Radius",
       "Equipment and Skill Gems have 25% increased Attribute Requirements",
       "You can Socket 2 additional copies of each Lineage Support Gem, in different Skills"
@@ -15150,7 +15208,7 @@
     "category": "UniqueArmours",
     "flavourText": "The Trickster God turned the very Day and Night against each other.\r\nWhat hope have you?",
     "explicitModifiers": [
-      "(301-449)% increased Armour and Evasion",
+      "(300-448)% increased Armour and Evasion",
       "(10-30)% chance to Avoid Physical Damage from Hits",
       "(10-30)% chance to Avoid Fire Damage from Hits",
       "(10-30)% chance to Avoid Cold Damage from Hits",
@@ -15219,8 +15277,8 @@
     "category": "UniqueArmours",
     "flavourText": "The Banished Architect sought to employ the darkest secrets of the Vaal.",
     "explicitModifiers": [
-      "(81-328)% increased effect of Socketed Soul Cores",
-      "(336-661)% increased Armour and Energy Shield",
+      "(66-332)% increased effect of Socketed Soul Cores",
+      "(333-664)% increased Armour and Energy Shield",
       "Everlasting Sacrifice"
     ],
     "implicitModifiers": [],
@@ -15320,11 +15378,11 @@
     "category": "UniqueArmours",
     "flavourText": "His isolation caused him to treasure\r\ntheir companionship all the more.",
     "explicitModifiers": [
-      "(50-79)% increased Armour and Evasion",
+      "(50-80)% increased Armour and Evasion",
       "+50 to Spirit",
       "+(10-15) to all Attributes",
-      "(10.4-13.8) Life Regeneration per second",
-      "(21-40)% increased Mana Cost Efficiency"
+      "(10-15) Life Regeneration per second",
+      "(20-40)% increased Mana Cost Efficiency"
     ],
     "implicitModifiers": [],
     "levelRequired": 40
@@ -15337,21 +15395,22 @@
     "category": "UniqueArmours",
     "flavourText": "Sometimes patching up your\r\nequipment gets out of hand.",
     "explicitModifiers": [
-      "+(5-32) to Armour",
-      "+(7-30) to Evasion Rating",
-      "+(9-17) to maximum Energy Shield",
-      "+(19-51) to Accuracy Rating",
-      "+(4-27) to maximum Life",
-      "+(8-18) to maximum Mana",
+      "+(1-40) to Armour",
+      "",
+      "+(1-30) to Evasion Rating",
+      "+(1-20) to maximum Energy Shield",
+      "+(1-60) to Accuracy Rating",
+      "+(1-30) to maximum Life",
+      "+(1-20) to maximum Mana",
       "(1-20)% increased Rarity of Items found",
-      "(13-29)% increased Critical Hit Chance",
-      "+(5-9) to Strength",
-      "+(1-8) to Dexterity",
-      "+(3-7) to Intelligence",
-      "+(3-9)% to Fire Resistance",
-      "+(1-9)% to Cold Resistance",
+      "(1-30)% increased Critical Hit Chance",
+      "+(1-10) to Strength",
+      "+(1-10) to Dexterity",
+      "+(1-10) to Intelligence",
+      "+(1-10)% to Fire Resistance",
+      "+(1-10)% to Cold Resistance",
       "+(1-10)% to Lightning Resistance",
-      "(1-5.5) Life Regeneration per second"
+      "(0-6) Life Regeneration per second"
     ],
     "implicitModifiers": [],
     "levelRequired": 38
@@ -15415,10 +15474,10 @@
     "category": "UniqueArmours",
     "flavourText": "Remaining unseen, the Dishonoured Assassin struck\r\nonly in the depths of the harshest sandstorms.",
     "explicitModifiers": [
-      "(101-150)% increased Evasion and Energy Shield",
-      "(31-40)% increased Critical Hit Chance",
-      "+(11-20) to Dexterity",
-      "+(11-19) to Intelligence",
+      "(100-150)% increased Evasion and Energy Shield",
+      "(30-40)% increased Critical Hit Chance",
+      "+(10-20) to Dexterity",
+      "+(10-20) to Intelligence",
       "Critical Hits Poison the enemy"
     ],
     "implicitModifiers": [],
@@ -15432,11 +15491,11 @@
     "category": "UniqueArmours",
     "flavourText": "Only once did Maligaro wonder if he'd gone too far.\r\nHis greatest success took three entire legions to capture.",
     "explicitModifiers": [
-      "(258-297)% increased Armour and Energy Shield",
+      "(200-300)% increased Armour and Energy Shield",
       "+100 to maximum Life",
       "100% increased Attribute Requirements",
-      "+(22-36)% to Lightning Resistance",
-      "(18.1-29.7) Life Regeneration per second",
+      "+(20-40)% to Lightning Resistance",
+      "(15.1-30) Life Regeneration per second",
       "Debuffs you inflict have (20-30)% increased Slow Magnitude",
       "Cannot Immobilise enemies"
     ],
@@ -15451,7 +15510,7 @@
     "category": "UniqueArmours",
     "flavourText": "His latent potential unleashed itself, a beast\r\nbursting from its shackles. Each strike of Farrow's\r\nhammer rang out a song for the First Ones.",
     "explicitModifiers": [
-      "(151-250)% increased Armour and Energy Shield",
+      "(150-250)% increased Armour and Energy Shield",
       "+(10-20) to Strength and Intelligence",
       "(15-25)% of Damage taken from Hits bypasses Energy Shield if Energy Shield is below half",
       "Gain 1 Runic Binding on Hit with Spells, no more than once every 0.5 seconds\nLose all Runic Bindings when you Shapeshift to gain that much Unbound Potential"
@@ -15470,9 +15529,9 @@
     "flavourText": "We move to be closer to her, but the distance yet grows.",
     "explicitModifiers": [
       "10% increased Movement Speed",
-      "(108-150)% increased Armour",
-      "+(80-95) to maximum Life",
-      "(83-98)% increased Chance to be afflicted by Ailments when Hit",
+      "(100-150)% increased Armour",
+      "+(80-100) to maximum Life",
+      "(80-100)% increased Chance to be afflicted by Ailments when Hit",
       "25% increased Movement Speed while affected by an Ailment"
     ],
     "implicitModifiers": [
@@ -15488,10 +15547,10 @@
     "category": "UniqueArmours",
     "flavourText": "All your tomorrows lie ahead of you,\r\nunknown and snarled to the very last.",
     "explicitModifiers": [
-      "(101-139)% increased Evasion Rating",
-      "(10-13)% increased Rarity of Items found",
-      "+(13-15) to Dexterity",
-      "+(21-22)% to Lightning Resistance",
+      "(100-140)% increased Evasion Rating",
+      "(10-15)% increased Rarity of Items found",
+      "+(10-15) to Dexterity",
+      "+(15-25)% to Lightning Resistance",
       "Gain 0% to 40% increased Movement Speed at random when Hit, until Hit again"
     ],
     "implicitModifiers": [
@@ -15507,7 +15566,7 @@
     "category": "UniqueArmours",
     "flavourText": "Cold, miserable and alone... but alive.",
     "explicitModifiers": [
-      "(103-113)% increased Evasion Rating",
+      "(80-120)% increased Evasion Rating",
       "+5% to Maximum Cold Resistance",
       "+40% to Cold Resistance",
       "Modifiers to Stun Buildup apply to Freeze Buildup instead for Parry",
@@ -15526,8 +15585,8 @@
     "flavourText": "He who sows an ember shall reap an inferno.",
     "explicitModifiers": [
       "+(30-50) to maximum Energy Shield",
-      "+(30-49)% to Fire Resistance",
-      "(33-50)% reduced Ignite Duration on you",
+      "+(30-50)% to Fire Resistance",
+      "(30-50)% reduced Ignite Duration on you",
       "50% of Physical Damage taken as Fire Damage",
       "25 to 35 Fire Thorns damage"
     ],
@@ -15542,8 +15601,8 @@
     "category": "UniqueArmours",
     "flavourText": "As a boy, in the arena, Daresso learned to\r\nfeign weakness to open up a lethal blow.",
     "explicitModifiers": [
-      "(76-100)% increased Evasion Rating",
-      "+(13-15)% to all Elemental Resistances",
+      "(60-100)% increased Evasion Rating",
+      "+(10-15)% to all Elemental Resistances",
       "Parrying applies 10 Stacks of Critical Weakness",
       "100% increased Parry Damage"
     ],
@@ -15575,10 +15634,10 @@
     "category": "UniqueArmours",
     "flavourText": "Ride the western wind, and take flight.",
     "explicitModifiers": [
-      "+(22-30) to Strength",
-      "+(20-26) to Dexterity",
+      "+(20-30) to Strength",
+      "+(20-30) to Dexterity",
       "+(20-30)% to Fire Resistance",
-      "+(20-27)% to Cold Resistance",
+      "+(20-30)% to Cold Resistance",
       "No Movement Speed Penalty while Shield is Raised"
     ],
     "implicitModifiers": [],
@@ -15592,7 +15651,7 @@
     "category": "UniqueArmours",
     "flavourText": "In death, the legendary boar's tusks were turned\r\nto the slaying of Phaaryl's Eternal oppressors.",
     "explicitModifiers": [
-      "(140-159)% increased Armour",
+      "(120-160)% increased Armour",
       "50% chance to inflict Bleeding on Hit",
       "50% reduced Slowing Potency of Debuffs on You",
       "(15-20) to (25-30) Physical Thorns damage"
@@ -15695,7 +15754,7 @@
     "flavourText": "An eye for an eye makes the whole world dead.",
     "explicitModifiers": [
       "(80-120)% increased Armour",
-      "(10.1-15) Life Regeneration per second",
+      "(10-15) Life Regeneration per second",
       "+(100-150) to Stun Threshold",
       "(30-60)% increased Presence Area of Effect",
       "Enemies in your Presence have at least 10% of Life Reserved"
@@ -15767,7 +15826,7 @@
       "+(60-80) to maximum Life",
       "+(17-23)% to Chaos Resistance",
       "Gain Deflection Rating equal to (40-60)% of Evasion Rating",
-      "(10-19.9) Life Regeneration per second",
+      "(10-20) Life Regeneration per second",
       "Cannot be Poisoned"
     ],
     "implicitModifiers": [],
@@ -15865,8 +15924,8 @@
     "category": "UniqueArmours",
     "flavourText": "The soul cannot flourish in a doubting mind.",
     "explicitModifiers": [
-      "(93-100)% increased Energy Shield",
-      "+(84-96) to maximum Mana",
+      "(50-100)% increased Energy Shield",
+      "+(50-100) to maximum Mana",
       "50% increased Energy Shield Recharge Rate",
       "Energy Shield Recharge starts when you use a Mana Flask"
     ],
@@ -16067,7 +16126,7 @@
       "+(1-10)% to Fire Resistance",
       "+(1-10)% to Cold Resistance",
       "+(1-10)% to Lightning Resistance",
-      "(0.1-6) Life Regeneration per second"
+      "(0-6) Life Regeneration per second"
     ],
     "implicitModifiers": [],
     "levelRequired": 11
@@ -16086,7 +16145,7 @@
       "(40-60)% reduced Duration of Bleeding on You"
     ],
     "implicitModifiers": [],
-    "levelRequired": 30
+    "levelRequired": 15
   },
   {
     "id": "the-hollow-mask-hewn-mask",
@@ -16277,7 +16336,7 @@
     "category": "UniqueArmours",
     "flavourText": "Not the sound of thunder on the wind, but the\r\nrhoaback riders\u2014death charging from the sands. ",
     "explicitModifiers": [
-      "(400-500)% increased Armour",
+      "(400-499)% increased Armour",
       "(15-30)% increased Strength",
       "10% reduced Dexterity",
       "10% reduced Intelligence",
@@ -16843,7 +16902,7 @@
       "(60-100)% increased Spell Damage",
       "+(80-100) to maximum Mana",
       "15% reduced Cast Speed",
-      "Take (25-100)% of Mana Costs you pay for Skills as Physical Damage"
+      "Take (26-99)% of Mana Costs you pay for Skills as Physical Damage"
     ],
     "implicitModifiers": [],
     "levelRequired": 50
@@ -17115,10 +17174,10 @@
       "(60-80)% increased Evasion and Energy Shield",
       "+(40-60) to maximum Mana",
       "50% increased Attribute Requirements",
-      "(1-30)% increased Life Regeneration rate",
       "(1-30)% reduced Life Regeneration rate",
-      "(1-29)% reduced Mana Regeneration Rate",
-      "(2-29)% increased Mana Regeneration Rate",
+      "(1-30)% increased Life Regeneration rate",
+      "(1-30)% increased Mana Regeneration Rate",
+      "(1-30)% reduced Mana Regeneration Rate",
       "Soul Eater"
     ],
     "implicitModifiers": [],
@@ -17353,7 +17412,7 @@
     "category": "UniqueArmours",
     "flavourText": "A faith born of flesh.",
     "explicitModifiers": [
-      "(100-150)% increased Energy Shield",
+      "(100-149)% increased Energy Shield",
       "+(20-30) to Strength",
       "+(20-30) to Intelligence",
       "+(17-23)% to Chaos Resistance",
@@ -17423,11 +17482,11 @@
     "flavourText": "Heavy is the head.",
     "explicitModifiers": [
       "10% reduced Movement Speed",
-      "(50-76)% increased Armour and Energy Shield",
+      "(50-100)% increased Armour and Energy Shield",
       "+100 to maximum Life",
-      "(36-49)% reduced Effect of Chill on you",
-      "(41-43)% reduced Magnitude of Ignite on you",
-      "(40-49)% reduced effect of Shock on you"
+      "(35-50)% reduced Effect of Chill on you",
+      "(35-50)% reduced Magnitude of Ignite on you",
+      "(35-50)% reduced effect of Shock on you"
     ],
     "implicitModifiers": [],
     "levelRequired": 38
@@ -17457,8 +17516,8 @@
     "category": "UniqueArmours",
     "flavourText": "\"What are you lot looking at? We're\r\nunder fire! Get to your stations!\"\r\n- Captain Sventura, the Unlucky",
     "explicitModifiers": [
-      "(139-179)% increased Armour and Evasion",
-      "+(89-99) to maximum Life",
+      "(120-180)% increased Armour and Evasion",
+      "+(80-120) to maximum Life",
       "30% reduced Life Recovery rate",
       "33% chance to avoid Projectiles",
       "Physical Damage of Enemies Hitting you is Unlucky",
@@ -17494,10 +17553,10 @@
     "category": "UniqueArmours",
     "flavourText": "When Solaris closes her burning eye\r\nAt the end of time,\r\nthe world will perish in ice.",
     "explicitModifiers": [
-      "+(23-29) to Strength",
-      "+(27-28) to Intelligence",
-      "+(31-35)% to Cold Resistance",
-      "Gain Cold Thorns Damage equal to (11-18)% of your maximum Mana"
+      "+(20-30) to Strength",
+      "+(20-30) to Intelligence",
+      "+(30-40)% to Cold Resistance",
+      "Gain Cold Thorns Damage equal to (10-18)% of your maximum Mana"
     ],
     "implicitModifiers": [],
     "levelRequired": 38
@@ -17510,12 +17569,12 @@
     "category": "UniqueArmours",
     "flavourText": "\"I carry neither food nor drink. I rely on the charity\r\nof my fellow wayfarers. Dead men are generous men.\"\r\n- Taruk of the Wildmen",
     "explicitModifiers": [
-      "(81-99)% increased Evasion Rating",
-      "(41-59)% increased Flask Life Recovery rate",
+      "(60-100)% increased Evasion Rating",
+      "(40-60)% increased Flask Life Recovery rate",
       "(40-60)% increased Flask Mana Recovery rate",
-      "+(20-29) to Dexterity",
-      "+(22-28)% to Cold Resistance",
-      "Gain Deflection Rating equal to (21-30)% of Evasion Rating"
+      "+(20-30) to Dexterity",
+      "+(20-30)% to Cold Resistance",
+      "Gain Deflection Rating equal to (20-30)% of Evasion Rating"
     ],
     "implicitModifiers": [],
     "levelRequired": 38
@@ -17528,7 +17587,7 @@
     "category": "UniqueArmours",
     "flavourText": "In the mists they dwell,\r\nforever hungry,\r\nforever cold.",
     "explicitModifiers": [
-      "(63-100)% increased Armour and Evasion",
+      "(60-100)% increased Armour and Evasion",
       "-(20-10)% to Fire Resistance",
       "+50% to Cold Resistance",
       "Damage of Enemies Hitting you is Unlucky while you are on Low Life",
@@ -17545,7 +17604,7 @@
     "category": "UniqueArmours",
     "flavourText": "The truth lies inside every man, if you dig around. \r\nMany a confession was found in the bowels of Axiom.",
     "explicitModifiers": [
-      "(106-150)% increased Evasion Rating",
+      "(100-150)% increased Evasion Rating",
       "+300 to maximum Life",
       "25% reduced Attribute Requirements",
       "100% of Fire Damage from Hits taken as Physical Damage"
@@ -17594,9 +17653,9 @@
     "category": "UniqueArmours",
     "flavourText": "It was in this forsaken land, where mists shroud the world in mystery,\r\nthat thieves, murderers, and outcasts, sought refuge.",
     "explicitModifiers": [
-      "(102-124)% increased Evasion Rating",
-      "+(11-20) to Dexterity",
-      "+(14-20)% to Fire Resistance",
+      "(100-150)% increased Evasion Rating",
+      "+(10-20) to Dexterity",
+      "+(10-20)% to Fire Resistance",
       "20% reduced Light Radius",
       "You have a Smoke Cloud around you while stationary"
     ],
@@ -17611,10 +17670,10 @@
     "category": "UniqueArmours",
     "flavourText": "The spirit hungers for the flesh.",
     "explicitModifiers": [
-      "(63-100)% increased Energy Shield",
-      "+(44-47) to maximum Life",
-      "+(11-19) to Intelligence",
-      "+(16-19)% to Chaos Resistance",
+      "(60-100)% increased Energy Shield",
+      "+(40-60) to maximum Life",
+      "+(10-20) to Intelligence",
+      "+(13-19)% to Chaos Resistance",
       "Every 3 seconds, Consume a nearby Corpse to Recover 20% of maximum Life"
     ],
     "implicitModifiers": [],
@@ -17628,10 +17687,10 @@
     "category": "UniqueArmours",
     "flavourText": "The beasts we fear the most\r\nare the ones who dwell in total darkness.",
     "explicitModifiers": [
-      "(57-80)% increased Armour",
-      "(7-15)% increased Strength",
+      "(50-80)% increased Armour",
+      "(5-15)% increased Strength",
       "(5-15)% increased Dexterity",
-      "(6-13)% increased Intelligence",
+      "(5-15)% increased Intelligence",
       "20% reduced Light Radius"
     ],
     "implicitModifiers": [],
@@ -17661,10 +17720,10 @@
     "category": "UniqueArmours",
     "flavourText": "Fueled by the blackness in the hearts of men,\r\nthe armies of Saresh were just as relentless.",
     "explicitModifiers": [
-      "+45 to maximum Life",
-      "+32 to maximum Mana",
-      "Minions gain 22% of their maximum Life as Extra maximum Energy Shield",
-      "Minions have +17% to Chaos Resistance",
+      "+(40-60) to maximum Life",
+      "+(30-50) to maximum Mana",
+      "Minions gain (20-30)% of their maximum Life as Extra maximum Energy Shield",
+      "Minions have +(17-23)% to Chaos Resistance",
       "Minions Revive 50% faster"
     ],
     "implicitModifiers": [],
@@ -17678,9 +17737,9 @@
     "category": "UniqueArmours",
     "flavourText": "The tale-women of old knew how to build anticipation.",
     "explicitModifiers": [
-      "(102-140)% increased Energy Shield",
-      "+(32-39) to Spirit",
-      "+(26-35)% to Cold Resistance",
+      "(100-140)% increased Energy Shield",
+      "+(30-40) to Spirit",
+      "+(25-35)% to Cold Resistance",
       "1000% increased Energy Shield Recharge Rate",
       "Your base Energy Shield Recharge Delay is 10 seconds"
     ],
@@ -17695,9 +17754,9 @@
     "category": "UniqueArmours",
     "flavourText": "In its final era, the roofs of Keth were rife with\r\nanything and everything that could hold water...\r\nshould the opportunity arise.",
     "explicitModifiers": [
-      "(97-99)% increased Energy Shield",
-      "+(10-13) to Intelligence",
-      "+(10-18)% to Lightning Resistance",
+      "(60-100)% increased Energy Shield",
+      "+(10-15) to Intelligence",
+      "+(10-20)% to Lightning Resistance",
       "30% slower start of Energy Shield Recharge",
       "Energy Shield Recharge is not interrupted by Damage if Recharge began Recently"
     ],
@@ -17713,8 +17772,8 @@
     "flavourText": "When cornered and desperate, look within for the rage to break loose.",
     "explicitModifiers": [
       "50% reduced Evasion Rating",
-      "+(47-55) to maximum Life",
-      "(3.2-3.4) Life Regeneration per second",
+      "+(40-60) to maximum Life",
+      "(3-5) Life Regeneration per second",
       "Gain 5 Rage when Hit by an Enemy",
       "Gain 10 Rage when Critically Hit by an Enemy"
     ],
@@ -18107,7 +18166,7 @@
       "(30-50)% increased Skill Effect Duration"
     ],
     "implicitModifiers": [],
-    "levelRequired": 0
+    "levelRequired": 15
   },
   {
     "id": "the-black-doubt-hexers-robe",
@@ -18154,8 +18213,8 @@
       "(50-80)% increased Evasion Rating",
       "+(20-30) to Dexterity",
       "Charms gain 1 charge per Second",
-      "+2 Charm Slots",
-      "+1 Charm Slot"
+      "+1 Charm Slot",
+      "+2 Charm Slots"
     ],
     "implicitModifiers": [],
     "levelRequired": 33
