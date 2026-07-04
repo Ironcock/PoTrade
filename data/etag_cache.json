@@ -32,7 +32,7 @@
     "__ov_ex_SoulCores": "W/41eb91d44fadb9967b32b235f6ad26fb",
     "__ov_ex_Idols": "W/7afae6400ece3e6bf2023bce3892b378",
     "__ov_ex_Runes": "W/406ce9692d22364a1f84e03ab5f14f9b",
-    "__ov_ex_Ritual": "W/28f38612b7cfd340954580863decbfd7",
+    "__ov_ex_Ritual": "W/cbe890d0e8989641a3de8e8f227caac2",
     "__ov_ex_Expedition": "W/2c978556ae37f0f29a37ef8795a9175b",
     "__ov_ex_Delirium": "W/c11f52350b3a6de84b29e0d2575e1523",
     "__ov_ex_Breach": "W/3368cad2044df756a645d8261a44fe34",
@@ -1441,7 +1441,9 @@
     "__404_tacatis-soul-core-of-affliction": true,
     "__404_greater-mind-rune": true,
     "__404_vaal-arcanists-infuser": true,
-    "__404_hinekoras-lock": true
+    "__404_hinekoras-lock": true,
+    "__404_ancient-rune-of-the-horde": true,
+    "__404_ancient-diluted-liquid-guilt": true
   },
   "standard": {
     "Currency": "W/4ada545de4fd3eb637535792f2577413",
