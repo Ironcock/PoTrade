@@ -38,7 +38,7 @@ jobs:
           while [ $(date +%s) -lt $END ]; do
             echo ""
             echo "--- Scraper Tick: $(date -u +%Y-%m-%dT%H:%M:%SZ) ---"
-            python scripts/poeninja_scraper.py
+            python scripts/poeninja_scraper.py --all-leagues
 
             # Push immediately after each tick if anything changed
             git add data/

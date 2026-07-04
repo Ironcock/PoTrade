@@ -1,424 +1,525 @@
 """
-PoE Trade Extension - Poe Ninja Scraper
-=======================================
-Fetches pricing data from Poe.Ninja for PoE 2 and builds our own independent 168-hour database.
+PoE Trade Extension - Poe Ninja Scraper v2
+==========================================
+Uses per-item exchange API with ETag caching for exchange items.
+Uses category overview + ETag for stash items (unique weapons, etc).
 
-This script runs hourly via GitHub Actions.
+Per-item data stored as:
+  [unix_timestamp_ms, real_market_rate, real_trade_volume]
+
+Exits with code 0 if any prices changed (caller should git push).
+Exits with code 1 if nothing changed (caller should skip push).
 """
 
-import json
-import time
-import os
-import urllib.request
-import urllib.parse
-import urllib.error
-import re
+import json, time, os, re, sys, unicodedata
+import urllib.request, urllib.error
 from datetime import datetime, timezone
 
-# ─── CONFIG ───────────────────────────────────────────────────────────────────
+# ── CONFIG ────────────────────────────────────────────────────────────────────
 DEFAULT_LEAGUE = "Runes of Aldur"
-DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
-METADATA_FILE = os.path.join(DATA_DIR, 'poeninja_metadata.json')
+DATA_DIR       = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
+METADATA_FILE  = os.path.join(DATA_DIR, 'poeninja_metadata.json')
 
-ENDPOINTS = [
-    # (type_name, api_type)
-    ('Currency', 'exchange'),
-    ('Fragments', 'exchange'),
-    ('Abyss', 'exchange'),
-    ('UncutGems', 'exchange'),
-    ('LineageSupportGems', 'exchange'),
-    ('Essences', 'exchange'),
-    ('SoulCores', 'exchange'),
-    ('Idols', 'exchange'),
-    ('Runes', 'exchange'),
-    ('Ritual', 'exchange'),
-    ('Expedition', 'exchange'),
-    ('Delirium', 'exchange'),
-    ('Breach', 'exchange'),
-    ('Verisium', 'exchange'),
-    ('UniqueWeapons', 'stash'),
-    ('UniqueArmours', 'stash'),
-    ('UniqueAccessories', 'stash'),
-    ('UniqueFlasks', 'stash'),
-    ('UniqueCharms', 'stash'),
-    ('UniqueJewels', 'stash'),
-    ('UniqueSanctumRelics', 'stash'),
-    ('UniqueTablets', 'stash'),
-    ('PrecursorTablets', 'stash')
+EXCHANGE_TYPES = [
+    'Currency', 'Fragments', 'Abyss', 'UncutGems', 'LineageSupportGems',
+    'Essences', 'SoulCores', 'Idols', 'Runes', 'Ritual', 'Expedition',
+    'Delirium', 'Breach', 'Verisium'
 ]
 
-# ─── HELPERS ──────────────────────────────────────────────────────────────────
-def fetch_poe_ninja_data(league, item_type, api_type, etag=None):
-    # api_type is 'exchange' or 'stash'
-    if api_type == 'exchange':
-        url = f"https://poe.ninja/poe2/api/economy/exchange/current/overview?league={league.replace(' ', '+')}&type={item_type}"
-    else:
-        url = f"https://poe.ninja/poe2/api/economy/stash/current/item/overview?league={league.replace(' ', '+')}&type={item_type}"
-        
-    headers = {'User-Agent': 'Mozilla/5.0'}
+STASH_TYPES = [
+    'UniqueWeapons', 'UniqueArmours', 'UniqueAccessories', 'UniqueFlasks',
+    'UniqueCharms', 'UniqueJewels', 'UniqueSanctumRelics', 'UniqueTablets',
+    'PrecursorTablets'
+]
+
+PAIR_CURRENCIES = {'chaos', 'divine', 'exalted'}
+MAX_HISTORY_MS  = 7 * 24 * 60 * 60 * 1000   # keep 7 days of price history
+UA              = {'User-Agent': 'Mozilla/5.0 (PoETradeDashboard/2.0)'}
+
+# ── HTTP ──────────────────────────────────────────────────────────────────────
+def http_get(url, etag=None):
+    headers = dict(UA)
     if etag:
         headers['If-None-Match'] = etag
-        
     req = urllib.request.Request(url, headers=headers)
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            new_etag = r.info().get('Etag')
-            return json.loads(r.read().decode('utf-8')), new_etag
-    except urllib.error.HTTPError as e:
-        if e.code == 304:
-            return "304", etag
-        print(f"[ERROR] Could not fetch {url}: {e}")
-        return None, None
-    except Exception as e:
-        print(f"[ERROR] Could not fetch {url}: {e}")
-        return None, None
+    for attempt in range(2):   # retry once on 429
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                new_etag = r.info().get('ETag') or r.info().get('Etag')
+                return r.status, new_etag, json.loads(r.read().decode('utf-8'))
+        except urllib.error.HTTPError as e:
+            if e.code == 304:
+                return 304, etag, None
+            if e.code == 429 and attempt == 0:
+                print(f"  [RATE LIMIT] 429 received — waiting 20s before retry...")
+                time.sleep(20)
+                continue
+            print(f"  [HTTP {e.code}] {url}")
+            return e.code, None, None
+        except Exception as e:
+            print(f"  [NET] {url}: {e}")
+            return None, None, None
+    return None, None, None
 
-def fetch_item_details(league, item_type, details_id):
-    url = f"https://poe.ninja/poe2/api/economy/exchange/current/details?league={league.replace(' ', '+')}&type={item_type}&id={details_id}"
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    try:
-        with urllib.request.urlopen(req, timeout=10) as r:
-            return json.loads(r.read().decode('utf-8'))
-    except Exception as e:
-        print(f"[ERROR] Could not fetch item details for {details_id}: {e}")
-        return None
+def fetch_exchange_overview(league, item_type, etag=None):
+    url = f"https://poe.ninja/poe2/api/economy/exchange/current/overview?league={league.replace(' ','+')}&type={item_type}"
+    return http_get(url, etag)
 
-# ─── MAIN ─────────────────────────────────────────────────────────────────────
+def fetch_stash_overview(league, item_type, etag=None):
+    url = f"https://poe.ninja/poe2/api/economy/stash/current/item/overview?league={league.replace(' ','+')}&type={item_type}"
+    return http_get(url, etag)
+
+def fetch_item_details(league, item_type, details_id, etag=None):
+    url = f"https://poe.ninja/poe2/api/economy/exchange/current/details?league={league.replace(' ','+')}&type={item_type}&id={details_id}"
+    return http_get(url, etag)
+
+# ── HELPERS ───────────────────────────────────────────────────────────────────
+def league_slug(league):
+    return re.sub(r'[^a-zA-Z0-9]+', '_', league).strip('_').lower()
+
+def get_details_id(name):
+    """Convert display name to poe.ninja details ID. e.g. "Chaos Orb" -> "chaos-orb"."""
+    name = unicodedata.normalize('NFKD', name)
+    name = ''.join(c for c in name if not unicodedata.combining(c))
+    name = name.lower().replace("'", '')
+    name = re.sub(r'[^a-z0-9]+', '-', name)
+    return re.sub(r'-+', '-', name).strip('-')
+
+def record_price(history, ts_ms, price, volume):
+    """
+    Append [ts_ms, price, volume] to history only if the price actually changed.
+    If price is unchanged, just update the volume on the last point in place.
+    Returns True if a new data point was added (price changed).
+    """
+    if not price:
+        return False
+    if history:
+        last_price = history[-1][1]
+        # Use relative tolerance: 0.01% difference counts as unchanged
+        if abs(last_price - price) <= 0.0001 * max(abs(last_price), 1e-9):
+            history[-1][2] = volume   # update volume in-place
+            return False
+    history.append([ts_ms, round(price, 6), round(volume, 4)])
+    return True
+
+def trim_history(prices_dict, cutoff_ms):
+    """Remove price history older than cutoff_ms."""
+    for item_id in list(prices_dict):
+        for cur in list(prices_dict[item_id]):
+            prices_dict[item_id][cur] = [
+                pt for pt in prices_dict[item_id][cur] if pt[0] >= cutoff_ms
+            ]
+        # Drop empty currency entries
+        prices_dict[item_id] = {k: v for k, v in prices_dict[item_id].items() if v}
+
+DAY_MS = 24 * 60 * 60 * 1000
+
+def seed_sparkline_history(prices_dict, iid, cur_id, current_price, sparkline, volume, now_ms):
+    """
+    Bootstrap 7-day daily history from poe.ninja's built-in sparkLine data.
+    sparkLine.data is a list of % changes from the reference (day 0) price:
+      data[0] = 0.0  (baseline, earliest day)
+      data[N] = totalChange  (latest day, approx. current price level)
+    current_price = the real price right now (used to anchor the scale).
+
+    Only seeds when the item has no existing v2-format history, so real
+    accumulated data is never overwritten.
+    """
+    if not sparkline or not current_price:
+        return
+
+    data         = sparkline.get('data') or []
+    total_change = sparkline.get('totalChange')
+
+    if not data or total_change is None or len(data) < 2:
+        return
+
+    # Don't seed if the item already has real v2 data (unix ms timestamps > 1e12)
+    existing = prices_dict.get(iid, {}).get(cur_id, [])
+    if existing and existing[0][0] > 1_000_000_000_000:
+        return
+
+    # Reconstruct absolute prices:
+    #   current_price = ref_price * (1 + total_change / 100)
+    #   price_at_day_i = ref_price * (1 + data[i] / 100)
+    if abs(total_change + 100) < 0.001:
+        return   # avoid division by zero (-100% change)
+    ref_price = current_price / (1 + total_change / 100)
+    if ref_price <= 0:
+        return
+
+    prices_dict.setdefault(iid, {})
+    prices_dict[iid].setdefault(cur_id, [])
+
+    n = len(data)
+    seeded = []
+    for i, pct in enumerate(data):
+        if pct is None:
+            continue
+        try:
+            price = ref_price * (1 + pct / 100)
+        except (TypeError, ZeroDivisionError):
+            continue
+        if price <= 0:
+            continue
+        # data[0] = n days ago, data[n-1] = 1 day ago (yesterday)
+        days_ago = n - i
+        ts = now_ms - days_ago * DAY_MS
+        seeded.append([ts, round(price, 6), round(volume, 4)])
+
+    if seeded:
+        # Prepend seeded points before any existing (legacy-format) data
+        prices_dict[iid][cur_id] = seeded + prices_dict[iid][cur_id]
+
+
+def seed_pair_history(prices_dict, iid, cur_id, pair_history, now_ms):
+    """
+    Seed a currency pair's history from the daily `history` array returned by
+    the per-item details endpoint.  Each entry is:
+        {timestamp: "2026-07-04T00:00:00Z", rate: 7.43, volumePrimaryValue: 12345}
+    Only seeds when the item has no existing v2-format history.
+    """
+    if not pair_history:
+        return
+
+    # Skip if already seeded or has real v2 data
+    existing = prices_dict.get(iid, {}).get(cur_id, [])
+    if existing and existing[0][0] > 1_000_000_000_000:
+        return
+
+    prices_dict.setdefault(iid, {})
+    prices_dict[iid].setdefault(cur_id, [])
+
+    seeded = []
+    for entry in pair_history:
+        ts_str = entry.get('timestamp', '')
+        rate   = entry.get('rate') or 0
+        vol    = entry.get('volumePrimaryValue') or 0
+        if not ts_str or not rate:
+            continue
+        try:
+            from datetime import datetime, timezone
+            dt = datetime.fromisoformat(ts_str.replace('Z', '+00:00'))
+            ts_ms = int(dt.timestamp() * 1000)
+        except Exception:
+            continue
+        seeded.append([ts_ms, round(rate, 6), round(vol, 4)])
+
+    if seeded:
+        seeded.sort(key=lambda x: x[0])   # ensure chronological order
+        prices_dict[iid][cur_id] = seeded + prices_dict[iid][cur_id]
+
+
+# ── MAIN ──────────────────────────────────────────────────────────────────────
 def update_own_db(league=DEFAULT_LEAGUE):
-    print(f"\n[PoeNinja Scraper] Starting run at {datetime.now(timezone.utc).isoformat()}")
-    print(f"[PoeNinja Scraper] League: {league}")
-    
-    league_slug = re.sub(r'[^a-zA-Z0-9]+', '_', league).strip('_').lower()
-    own_db_file = os.path.join(DATA_DIR, f'priceoverview_own_{league_slug}.json')
-    
-    # 1. Fetch all data, loading and merging with existing metadata to prevent overwriting between leagues
-    all_items = {}
+    ts_start = datetime.now(timezone.utc)
+    print(f"\n[Scraper v2] {ts_start.strftime('%Y-%m-%d %H:%M:%S UTC')}  League: {league}")
+
+    slug          = league_slug(league)
+    own_db_file   = os.path.join(DATA_DIR, f'priceoverview_own_{slug}.json')
+    etag_file     = os.path.join(DATA_DIR, 'etag_cache.json')
+
+    # ── Load existing DB ──────────────────────────────────────────────────────
+    own = {"prices": {}}
+    if os.path.exists(own_db_file):
+        try:
+            with open(own_db_file, 'r', encoding='utf-8') as f:
+                own = json.load(f)
+        except Exception as e:
+            print(f"  [WARN] Could not load DB: {e}. Starting fresh.")
+    own.setdefault("prices", {})
+
+    # ── Load ETag cache ───────────────────────────────────────────────────────
+    etag_cache = {}
+    if os.path.exists(etag_file):
+        try:
+            with open(etag_file, 'r', encoding='utf-8') as f:
+                etag_cache = json.load(f)
+        except: pass
+    etag_cache.setdefault(slug, {})
+
+    # ── Load metadata ─────────────────────────────────────────────────────────
     metadata_map = {}
     if os.path.exists(METADATA_FILE):
         try:
             with open(METADATA_FILE, 'r', encoding='utf-8') as f:
                 for item in json.load(f):
                     metadata_map[item['id']] = item
-        except Exception as e:
-            print(f"[PoeNinja Scraper] Failed to load existing metadata for merging: {e}")
-            
-    # Load ETag Cache
-    etag_cache_file = os.path.join(DATA_DIR, 'etag_cache.json')
-    etag_cache = {}
-    if os.path.exists(etag_cache_file):
-        try:
-            with open(etag_cache_file, 'r', encoding='utf-8') as f:
-                etag_cache = json.load(f)
-        except:
-            pass
-    if league_slug not in etag_cache:
-        etag_cache[league_slug] = {}
-    
-    for item_type, api_type in ENDPOINTS:
-        print(f"[PoeNinja Scraper] Fetching {item_type} ({api_type})...")
-        etag = etag_cache[league_slug].get(item_type)
-        data, new_etag = fetch_poe_ninja_data(league, item_type, api_type, etag)
-        
-        if data == "304":
-            print(f"[PoeNinja Scraper] {item_type} has not changed (304).")
-            continue
-            
-        if new_etag:
-            etag_cache[league_slug][item_type] = new_etag
-            
-        if data and 'lines' in data:
-            for line in data['lines']:
-                if api_type == 'exchange':
-                    item_id = line.get('id')
-                else:
-                    item_id = line.get('detailsId') or str(line.get('id'))
-                
-                if item_id:
-                    name = line.get('name') or line.get('currencyTypeName') or item_id
-                    icon = line.get('icon') or ''
-                    base_type = line.get('baseType') or ''
-                    
-                    all_items[item_id] = line
-                    
-                    def clean_mod_text(text):
-                        if not text: return ""
-                        text = re.sub(r'\[[^\]|]+\|([^\]]+)\]', r'\1', text)
-                        text = re.sub(r'\[([^\]|]+)\]', r'\1', text)
-                        return text
-                    
-                    explicit_mods = [clean_mod_text(m['text']) for m in line.get('explicitModifiers', [])] if line.get('explicitModifiers') else []
-                    implicit_mods = [clean_mod_text(m['text']) for m in line.get('implicitModifiers', [])] if line.get('implicitModifiers') else []
-                    flavour_text = line.get('flavourText') or ''
-                    
-                    level_req = line.get('levelRequired') or 0
-                    if level_req >= 90 or level_req == 0:
-                        parsed_level = 0
-                        if line.get('requirementModifiers'):
-                            for req in line.get('requirementModifiers', []):
-                                req_text = req.get('text', '')
-                                level_match = re.search(r'Level:\s*\(?(\d+)', req_text)
-                                if level_match:
-                                    parsed_level = int(level_match.group(1))
-                                    break
-                        if parsed_level > 0:
-                            level_req = parsed_level
-                                
-                    metadata_map[item_id] = {
-                        'id': item_id,
-                        'name': name,
-                        'baseType': base_type,
-                        'icon': icon,
-                        'category': item_type,
-                        'flavourText': flavour_text,
-                        'explicitModifiers': explicit_mods,
-                        'implicitModifiers': implicit_mods,
-                        'levelRequired': level_req
+        except: pass
+
+    now_ms      = int(time.time() * 1000)
+    cutoff_ms   = now_ms - MAX_HISTORY_MS
+    any_changed = False
+
+    # =========================================================================
+    # PASS 1 — EXCHANGE ITEMS
+    # Step 1: Discovery via overview API → get all item IDs + metadata
+    # =========================================================================
+    exchange_items = {}  # internal_id -> {type, details_id, name}
+
+    for item_type in EXCHANGE_TYPES:
+        ov_key = f'__ov_ex_{item_type}'
+        status, new_etag, data = fetch_exchange_overview(league, item_type, etag_cache[slug].get(ov_key))
+
+        if status == 304:
+            # Category unchanged — restore known items from persisted metadata
+            for iid, meta in metadata_map.items():
+                if meta.get('category') == item_type:
+                    exchange_items[iid] = {
+                        'type': item_type,
+                        'details_id': meta.get('detailsId') or get_details_id(meta.get('name', iid)),
+                        'name': meta.get('name', iid)
                     }
-                    
-            if api_type == 'exchange' and 'items' in data:
-                for item_detail in data['items']:
-                    det_id = item_detail.get('id')
-                    if not det_id:
-                        continue
-                    
-                    if det_id in metadata_map:
-                        meta = metadata_map[det_id]
-                        if item_detail.get('name'): meta['name'] = item_detail.get('name')
-                        if item_detail.get('image'): meta['icon'] = item_detail.get('image')
-                        if item_detail.get('icon'): meta['icon'] = item_detail.get('icon')
-                    else:
-                        name = item_detail.get('name') or det_id
-                        icon = item_detail.get('image') or item_detail.get('icon') or ''
-                        
-                        metadata_map[det_id] = {
-                            'id': det_id,
-                            'name': name,
-                            'baseType': name,
-                            'icon': icon,
-                            'category': item_type,
-                            'flavourText': '',
-                            'explicitModifiers': [],
-                            'implicitModifiers': [],
-                            'levelRequired': 0
-                        }
-
-                    # Always add to all_items as a placeholder if not present in lines
-                    if det_id not in all_items:
-                        name = item_detail.get('name') or det_id
-                        icon = item_detail.get('image') or item_detail.get('icon') or ''
-                        all_items[det_id] = {
-                            'id': det_id,
-                            'detailsId': det_id,
-                            'name': name,
-                            'icon': icon,
-                            'primaryValue': None,
-                            'volumePrimaryValue': 0
-                        }
-
-    metadata_list = list(metadata_map.values())
-    print(f"[PoeNinja Scraper] Fetched {len(all_items)} total items for this league. Merged metadata has {len(metadata_list)} items.")
-
-    if not all_items:
-        print(f"[PoeNinja Scraper] No updates detected for {league}. Database is up to date.")
-        with open(etag_cache_file, 'w', encoding='utf-8') as f:
-            json.dump(etag_cache, f, indent=2)
-        return False
-
-    # Fetch official PoE Trade API static data to fix broken internal names
-    print("[PoeNinja Scraper] Fetching official static data to fix broken names...")
-    static_mapping = {}
-    try:
-        req = urllib.request.Request('https://www.pathofexile.com/api/trade2/data/static', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'})
-        with urllib.request.urlopen(req, timeout=10) as r:
-            static_data = json.loads(r.read())
-            for cat in static_data.get('result', []):
-                for entry in cat.get('entries', []):
-                    entry_id = entry.get('id')
-                    if entry_id:
-                        static_mapping[entry_id] = {
-                            'name': entry.get('text'),
-                            'icon': 'https://web.poecdn.com' + entry.get('image', '') if entry.get('image') else None
-                        }
-        
-        fixed_count = 0
-        for meta in metadata_list:
-            if meta['id'] in static_mapping:
-                if meta['name'] == meta['id'] or meta['name'].islower():
-                    meta['name'] = static_mapping[meta['id']]['name']
-                    fixed_count += 1
-                if static_mapping[meta['id']]['icon'] and (not meta['icon'] or 'gen/image' not in meta['icon']):
-                    meta['icon'] = static_mapping[meta['id']]['icon']
-        print(f"[PoeNinja Scraper] Fixed {fixed_count} broken names using official static data.")
-    except Exception as e:
-        print(f"[PoeNinja Scraper] Failed to fetch official static data: {e}")
-
-    # Wiki tooltip HTML is bundled directly with the extension (wiki_tooltips.json).
-    # The extension fetches new tooltips on-demand and caches them locally.
-    # No wiki API calls needed in the scraper.
-
-    # Write metadata to file (shared)
-    os.makedirs(DATA_DIR, exist_ok=True)
-    with open(METADATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(metadata_list, f, indent=2)
-    print(f"[PoeNinja Scraper] Saved metadata for {len(metadata_list)} items to {METADATA_FILE}")
-
-    # 3. Load or init our own DB
-    if os.path.exists(own_db_file):
-        with open(own_db_file, 'r', encoding='utf-8') as f:
-            own = json.load(f)
-    else:
-        own = {"timestamps": [], "prices": {}}
-
-    # 2. Find base currency values (chaos, divine, exalted)
-    divine_primary = 1.0
-    chaos_primary = 0.1013
-    exalted_primary = 0.0025
-    annul_primary = 0.075
-
-    if 'divine' in all_items:
-        divine_primary = all_items['divine'].get('primaryValue', 1.0)
-
-    if 'chaos' in all_items:
-        chaos_primary = all_items['chaos'].get('primaryValue', 0.1013)
-    elif own and 'prices' in own and 'chaos' in own['prices'] and 'divine' in own['prices']['chaos']:
-        history = own['prices']['chaos']['divine']
-        if history:
-            chaos_primary = history[-1][1]
-
-    if 'exalted' in all_items:
-        exalted_primary = all_items['exalted'].get('primaryValue', 0.0025)
-    elif own and 'prices' in own and 'exalted' in own['prices'] and 'divine' in own['prices']['exalted']:
-        history = own['prices']['exalted']['divine']
-        if history:
-            exalted_primary = history[-1][1]
-
-    if 'annul' in all_items:
-        annul_primary = all_items['annul'].get('primaryValue', 0.075)
-    elif own and 'prices' in own and 'annul' in own['prices'] and 'divine' in own['prices']['annul']:
-        history = own['prices']['annul']['divine']
-        if history:
-            annul_primary = history[-1][1]
-            
-    print(f"[PoeNinja Scraper] Base Rates:")
-    if chaos_primary > 0:
-        print(f"  - 1 Divine = {1/chaos_primary:.2f} Chaos")
-        print(f"  - 1 Exalted = {exalted_primary/chaos_primary:.2f} Chaos")
-
-    now_ms = int(time.time() * 1000)
-    own["timestamps"].append(now_ms)
-    time_index = len(own["timestamps"]) - 1
-
-    # 4. Process each item and add to own DB
-    for item_id, item_data in all_items.items():
-        if item_id not in own["prices"]:
-            own["prices"][item_id] = {}
-
-        item_primary = item_data.get('primaryValue')
-        if item_primary is None:
-            # For placeholder items with no primary value, we fetch their specific details endpoint
-            meta = metadata_map.get(item_id)
-            if meta:
-                category = meta.get('category')
-                print(f"[PoeNinja Scraper] Fetching missing details for {item_id} ({category})...")
-                details_data = fetch_item_details(league, category, item_id)
-                if details_data and 'pairs' in details_data:
-                    prices_in_currencies = {}
-                    qty = 0
-                    for pair in details_data['pairs']:
-                        pair_id = pair.get('id')
-                        if pair_id in ['chaos', 'divine', 'exalted']:
-                            prices_in_currencies[pair_id] = pair.get('rate', 0)
-                            if pair_id == 'chaos' or (pair_id == 'divine' and 'chaos' not in prices_in_currencies):
-                                qty = pair.get('volumePrimaryValue', 0)
-                    
-                    for currency, price in prices_in_currencies.items():
-                        if item_id == currency:
-                            continue
-                        if currency not in own["prices"][item_id]:
-                            own["prices"][item_id][currency] = []
-                        own["prices"][item_id][currency].append([time_index, price, qty])
-                time.sleep(0.1) # Sleep to be polite
             continue
-            
-        qty = item_data.get('volumePrimaryValue') or item_data.get('listingCount') or 0
 
-        prices_in_currencies = {
-            'chaos': item_primary / chaos_primary if chaos_primary > 0 else 0,
-            'divine': item_primary / divine_primary if divine_primary > 0 else 0,
-            'exalted': item_primary / exalted_primary if exalted_primary > 0 else 0
-        }
+        if status != 200 or not data:
+            continue
 
-        if annul_primary > 0:
-            prices_in_currencies['annul'] = item_primary / annul_primary
+        if new_etag:
+            etag_cache[slug][ov_key] = new_etag
 
-        for currency, price in prices_in_currencies.items():
-            if item_id == currency:
+        # From 'lines': primary item list — also writes to metadata for 304 fallback
+        for line in data.get('lines', []):
+            iid  = line.get('id')
+            if not iid:
                 continue
-                
-            if currency not in own["prices"][item_id]:
-                own["prices"][item_id][currency] = []
-            
-            own["prices"][item_id][currency].append([time_index, price, qty])
+            name       = line.get('name') or line.get('currencyTypeName') or iid
+            details_id = line.get('detailsId') or get_details_id(name)
+            icon       = line.get('icon') or ''
+            exchange_items[iid] = {'type': item_type, 'details_id': details_id, 'name': name}
+            # Write to metadata so the 304 fallback can recover item list on future runs
+            metadata_map.setdefault(iid, {})
+            metadata_map[iid].update({
+                'id': iid, 'name': name, 'detailsId': details_id,
+                'icon': icon, 'category': item_type, 'baseType': name
+            })
+            # Note: history seeding for exchange items happens in the per-item details loop
+            # (pair.history contains exact daily rates — see seed_pair_history call below)
 
-    # 5. Trim to last 168 hours
-    if len(own["timestamps"]) > 168:
-        trim = len(own["timestamps"]) - 168
-        own["timestamps"] = own["timestamps"][trim:]
-        for item_id in own["prices"]:
-            for cur in own["prices"][item_id]:
-                hist = own["prices"][item_id][cur]
-                hist = [[pt[0] - trim, pt[1], pt[2]] for pt in hist if pt[0] >= trim]
-                own["prices"][item_id][cur] = hist
 
-    # 6. Save
+        # From 'items': richer info (icons, corrected names)
+        for det in data.get('items', []):
+            iid = det.get('id')
+            if not iid:
+                continue
+            name       = det.get('name') or iid
+            details_id = det.get('detailsId') or get_details_id(name)
+            icon       = det.get('image') or det.get('icon') or ''
+
+            exchange_items.setdefault(iid, {'type': item_type, 'details_id': details_id, 'name': name})
+            exchange_items[iid].update({'name': name, 'details_id': details_id})
+
+            metadata_map[iid] = {
+                'id': iid, 'name': name, 'detailsId': details_id,
+                'icon': icon, 'category': item_type, 'baseType': name,
+                'flavourText': '', 'explicitModifiers': [],
+                'implicitModifiers': [], 'levelRequired': 0
+            }
+
+    print(f"  Discovered {len(exchange_items)} exchange items.")
+
+    # Step 2: Per-item price fetch (ETag per item)
+    n_changed = 0
+    n_304     = 0
+    n_miss    = 0
+    item_delay = 0.2   # base inter-item delay; increases after 429 hits
+
+    for iid, info in exchange_items.items():
+        item_key    = f'i_{iid}'
+        blacklist_k = f'__404_{iid}'
+
+        # Skip items that previously consistently returned 404
+        if blacklist_k in etag_cache[slug]:
+            n_miss += 1
+            continue
+
+        status, new_etag, data = fetch_item_details(
+            league, info['type'], info['details_id'],
+            etag_cache[slug].get(item_key)
+        )
+
+        if status == 304:
+            n_304 += 1
+            time.sleep(0.05)   # 304 is instant, tiny sleep
+            continue
+
+        if status in (404, None) or not data:
+            n_miss += 1
+            if status == 404:
+                etag_cache[slug][blacklist_k] = True
+            if status == 429:
+                item_delay = max(item_delay, 0.5)   # slow down after rate limit hit
+            time.sleep(0.05)
+            continue
+
+        if new_etag:
+            etag_cache[slug][item_key] = new_etag
+
+        # Refresh metadata from details response
+        if 'item' in data and iid in metadata_map:
+            d = data['item']
+            if d.get('name'):  metadata_map[iid]['name'] = d['name']
+            if d.get('image'): metadata_map[iid]['icon'] = d['image']
+
+        own["prices"].setdefault(iid, {})
+        item_changed = False
+
+        for pair in data.get('pairs', []):
+            cur_id = pair.get('id')
+            if cur_id not in PAIR_CURRENCIES or cur_id == iid:
+                continue
+            rate   = pair.get('rate') or 0
+            volume = pair.get('volumePrimaryValue') or 0
+            own["prices"][iid].setdefault(cur_id, [])
+            # Seed full daily history from pair.history (exact rates, already in the response)
+            seed_pair_history(own["prices"], iid, cur_id, pair.get('history', []), now_ms)
+            if record_price(own["prices"][iid][cur_id], now_ms, rate, volume):
+                item_changed = True
+
+        if item_changed:
+            n_changed += 1
+            any_changed = True
+
+        time.sleep(item_delay)   # polite delay; auto-increases after any 429
+
+    print(f"  Exchange: {n_changed} prices changed | {n_304} unchanged (304) | {n_miss} not found")
+
+    # =========================================================================
+    # PASS 2 — STASH ITEMS (Unique items, Tablets, etc.)
+    # Category overview with per-category ETag — one call per category.
+    # Prices stored as: chaos (from API), divine (from API or derived),
+    # exalted (derived from chaos using live exchange rate).
+    # =========================================================================
+
+    # Get live exchange rates for derivation (chaos <-> divine <-> exalted)
+    chaos_per_divine   = 1.0    # how many chaos per 1 divine
+    exalted_per_chaos  = 1.0    # how many exalted per 1 chaos
+
+    divine_chaos_hist = own["prices"].get("divine", {}).get("chaos", [])
+    if divine_chaos_hist:
+        chaos_per_divine = divine_chaos_hist[-1][1]
+
+    # exalted rate: stored as "chaos" pair on divine (rate = exalted per divine)
+    # So exalted per chaos = (exalted per divine) / (chaos per divine)
+    divine_exalted_hist = own["prices"].get("divine", {}).get("exalted", [])
+    if divine_exalted_hist and chaos_per_divine > 0:
+        exalted_per_divine = divine_exalted_hist[-1][1]
+        exalted_per_chaos  = exalted_per_divine / chaos_per_divine
+
+    n_stash = 0
+
+    for item_type in STASH_TYPES:
+        ov_key = f'__ov_st_{item_type}'
+        status, new_etag, data = fetch_stash_overview(league, item_type, etag_cache[slug].get(ov_key))
+
+        if status == 304:
+            continue
+
+        if status != 200 or not data:
+            continue
+
+        if new_etag:
+            etag_cache[slug][ov_key] = new_etag
+
+        for line in data.get('lines', []):
+            iid = line.get('detailsId') or str(line.get('id', ''))
+            if not iid:
+                continue
+
+            name     = line.get('name') or iid
+            icon     = line.get('icon') or ''
+            volume   = line.get('listingCount') or line.get('count') or 0
+
+            # poe.ninja PoE2 stash overview: prices are in exalted orbs (primaryValue)
+            # Derive chaos and divine using live exchange rates from exchange items
+            exalt_p  = line.get('primaryValue') or 0
+            chaos_p  = (exalt_p / exalted_per_chaos) if exalt_p and exalted_per_chaos > 0 else 0
+            divine_p = (chaos_p / chaos_per_divine)  if chaos_p and chaos_per_divine  > 0 else 0
+
+            # Update or create metadata
+            if iid not in metadata_map:
+                metadata_map[iid] = {
+                    'id': iid, 'name': name, 'detailsId': iid,
+                    'icon': icon, 'category': item_type,
+                    'baseType': line.get('baseType', name),
+                    'flavourText': line.get('flavourText', ''),
+                    'explicitModifiers': [m.get('text','') for m in line.get('explicitModifiers',[])],
+                    'implicitModifiers': [m.get('text','') for m in line.get('implicitModifiers',[])],
+                    'levelRequired': line.get('levelRequired', 0)
+                }
+            else:
+                metadata_map[iid]['name'] = name
+                metadata_map[iid]['icon'] = icon
+
+            own["prices"].setdefault(iid, {})
+            item_changed = False
+
+            # Seed 7-day history from poe.ninja's built-in sparkLine (runs once per item)
+            # primaryValue is in exalted orbs — seed all three derived currencies
+            sparkline = line.get('sparkLine')
+            if sparkline and exalt_p:
+                seed_sparkline_history(own["prices"], iid, 'exalted', exalt_p, sparkline, volume, now_ms)
+                if chaos_p:
+                    seed_sparkline_history(own["prices"], iid, 'chaos',  chaos_p,  sparkline, volume, now_ms)
+                if divine_p:
+                    seed_sparkline_history(own["prices"], iid, 'divine', divine_p, sparkline, volume, now_ms)
+
+            for cur_id, price in [('chaos', chaos_p), ('divine', divine_p), ('exalted', exalt_p)]:
+                if price and price > 0:
+                    own["prices"][iid].setdefault(cur_id, [])
+                    if record_price(own["prices"][iid][cur_id], now_ms, price, volume):
+                        item_changed = True
+
+            if item_changed:
+                n_stash += 1
+                any_changed = True
+
+    print(f"  Stash:    {n_stash} prices changed")
+
+    # =========================================================================
+    # SAVE
+    # =========================================================================
+    trim_history(own["prices"], cutoff_ms)
+    own["updatedAt"] = datetime.now(timezone.utc).isoformat()
+
+    os.makedirs(DATA_DIR, exist_ok=True)
+
     with open(own_db_file, 'w', encoding='utf-8') as f:
         json.dump(own, f, separators=(',', ':'))
+    print(f"  Saved {os.path.basename(own_db_file)} ({os.path.getsize(own_db_file)//1024} KB)")
 
-    own_pts = len(own["timestamps"])
-    print(f"[PoeNinja Scraper] Snapshot #{own_pts}/168 saved to {os.path.basename(own_db_file)}. {168 - own_pts} more runs until fully independent.")
+    with open(METADATA_FILE, 'w', encoding='utf-8') as f:
+        json.dump(list(metadata_map.values()), f, indent=2)
 
-    # Save ETag Cache
-    with open(etag_cache_file, 'w', encoding='utf-8') as f:
+    with open(etag_file, 'w', encoding='utf-8') as f:
         json.dump(etag_cache, f, indent=2)
 
-    return True
+    elapsed = (datetime.now(timezone.utc) - ts_start).total_seconds()
+    print(f"  Done in {elapsed:.1f}s  |  any_changed={any_changed}")
+    return any_changed
 
+
+# ── ENTRY POINT ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    import sys
     import argparse
-    
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--loop', action='store_true', help='(Legacy) Run scraper in a loop for 25 minutes. The workflow now handles looping via bash.')
-    parser.add_argument('league', nargs='?', help='Specify a single league to scrape')
+    parser = argparse.ArgumentParser(description='PoE Trade Scraper v2')
+    parser.add_argument('--league',      default=DEFAULT_LEAGUE, help='League name')
+    parser.add_argument('--all-leagues', action='store_true',    help='Run for all active leagues')
     args = parser.parse_args()
-    
-    if args.league:
-        leagues = [args.league]
-    else:
-        leagues = ["Runes of Aldur", "HC Runes of Aldur", "Standard", "Hardcore"]
 
-    # Default: run a single tick across all leagues and exit.
-    # The workflow's bash loop calls this script every 5 minutes and handles git pushes.
-    if args.loop:
-        print("[PoeNinja Scraper] (Legacy loop mode) Starting looping worker mode (runs for 25 minutes)...")
-        start_time = time.time()
-        run_duration = 1500  # 25 minutes
-        tick_interval = 300  # check every 5 minutes
-        
-        while time.time() - start_time < run_duration:
-            print(f"\n--- Scraper Tick: {datetime.now(timezone.utc).isoformat()} ---")
-            for l in leagues:
-                update_own_db(l)
-            
-            if time.time() - start_time + tick_interval < run_duration:
-                print(f"[PoeNinja Scraper] Sleeping {tick_interval}s until next check...")
-                time.sleep(tick_interval)
-            else:
-                break
-        print("[PoeNinja Scraper] Looping worker finished lifecycle gracefully.")
-    else:
-        # Single tick mode — called by the bash loop in scraper.yml
-        print(f"[PoeNinja Scraper] Starting single tick at {datetime.now(timezone.utc).isoformat()}")
-        for l in leagues:
-            update_own_db(l)
-        print(f"[PoeNinja Scraper] Single tick complete.")
+    leagues = (
+        ["Runes of Aldur", "HC Runes of Aldur", "Standard", "Hardcore"]
+        if args.all_leagues else [args.league]
+    )
+
+    any_league_changed = False
+    for lg in leagues:
+        try:
+            changed = update_own_db(lg)
+            any_league_changed = any_league_changed or changed
+        except Exception as e:
+            print(f"[FATAL] League '{lg}' failed: {e}")
+            import traceback; traceback.print_exc()
+
+    # Exit code signals to the bash loop whether to push to GitHub
+    sys.exit(0 if any_league_changed else 1)
