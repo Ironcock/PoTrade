@@ -2,32 +2,65 @@ name: PoE2 Economy Scraper
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Run every 30 minutes
+    - cron: '0 */6 * * *' # Fallback safety net: triggers every 6 hours in case self-trigger fails
   workflow_dispatch: # Enable manual run trigger from the actions UI
 
 permissions:
-  contents: write # Give the GHA runner push permission to update database files
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 360 # Allow up to 6 hours
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }} # Use PAT so git push works inside the loop
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Run Scraper Loop
-        run: |
-          python scripts/poeninja_scraper.py --loop
-
-      - name: Commit and Push changes
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          # Commit and push only if the database files changed
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update database snapshots" && git push)
+
+      - name: Run Scraper Loop (5h 45m)
+        run: |
+          START=$(date +%s)
+          DURATION=20700  # 5 hours 45 minutes
+          INTERVAL=300    # check every 5 minutes
+          END=$((START + DURATION))
+
+          while [ $(date +%s) -lt $END ]; do
+            echo ""
+            echo "--- Scraper Tick: $(date -u +%Y-%m-%dT%H:%M:%SZ) ---"
+            python scripts/poeninja_scraper.py
+
+            # Push immediately after each tick if anything changed
+            git add data/
+            git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update database snapshots" && git push)
+
+            REMAINING=$((END - $(date +%s)))
+            if [ $REMAINING -gt $INTERVAL ]; then
+              echo "[Scraper] Sleeping ${INTERVAL}s until next check... (${REMAINING}s remaining in this run)"
+              sleep $INTERVAL
+            else
+              echo "[Scraper] Less than ${INTERVAL}s remaining. Finishing this run."
+              break
+            fi
+          done
+          echo "[Scraper] 5h 45m lifecycle complete."
+
+      - name: Trigger next run
+        run: |
+          echo "[Scraper] Triggering next run via API..."
+          curl -s -X POST \
+            -H "Authorization: token ${{ secrets.GH_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/Ironcock/PoTrade/actions/workflows/scraper.yml/dispatches \
+            -d '{"ref":"main"}'
+          echo "[Scraper] Next run triggered. Exiting."

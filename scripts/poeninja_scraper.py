@@ -432,7 +432,7 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('--loop', action='store_true', help='Run scraper in a loop for 25 minutes')
+    parser.add_argument('--loop', action='store_true', help='(Legacy) Run scraper in a loop for 25 minutes. The workflow now handles looping via bash.')
     parser.add_argument('league', nargs='?', help='Specify a single league to scrape')
     args = parser.parse_args()
     
@@ -440,19 +440,19 @@ if __name__ == "__main__":
         leagues = [args.league]
     else:
         leagues = ["Runes of Aldur", "HC Runes of Aldur", "Standard", "Hardcore"]
-        
+
+    # Default: run a single tick across all leagues and exit.
+    # The workflow's bash loop calls this script every 5 minutes and handles git pushes.
     if args.loop:
-        print("[PoeNinja Scraper] Starting looping worker mode (runs for 25 minutes)...")
+        print("[PoeNinja Scraper] (Legacy loop mode) Starting looping worker mode (runs for 25 minutes)...")
         start_time = time.time()
         run_duration = 1500  # 25 minutes
         tick_interval = 300  # check every 5 minutes
         
         while time.time() - start_time < run_duration:
             print(f"\n--- Scraper Tick: {datetime.now(timezone.utc).isoformat()} ---")
-            any_updates = False
             for l in leagues:
-                if update_own_db(l):
-                    any_updates = True
+                update_own_db(l)
             
             if time.time() - start_time + tick_interval < run_duration:
                 print(f"[PoeNinja Scraper] Sleeping {tick_interval}s until next check...")
@@ -461,5 +461,8 @@ if __name__ == "__main__":
                 break
         print("[PoeNinja Scraper] Looping worker finished lifecycle gracefully.")
     else:
+        # Single tick mode — called by the bash loop in scraper.yml
+        print(f"[PoeNinja Scraper] Starting single tick at {datetime.now(timezone.utc).isoformat()}")
         for l in leagues:
             update_own_db(l)
+        print(f"[PoeNinja Scraper] Single tick complete.")
