@@ -324,7 +324,9 @@ def update_own_db(league=DEFAULT_LEAGUE):
     n_miss    = 0
     item_delay = 0.2   # base inter-item delay; increases after 429 hits
 
-    for iid, info in exchange_items.items():
+    for idx, (iid, info) in enumerate(exchange_items.items()):
+        if idx > 0 and idx % 100 == 0:
+            print(f"    Checking exchange items: {idx}/{len(exchange_items)}...")
         item_key    = f'i_{iid}'
         blacklist_k = f'__404_{iid}'
 
