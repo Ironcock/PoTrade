@@ -42,7 +42,7 @@ jobs:
 
             # Push immediately after each tick if anything changed
             git add data/
-            git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update database snapshots" && git push)
+            git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update database snapshots" && git pull --rebase -X theirs && git push)
 
             REMAINING=$((END - $(date +%s)))
             if [ $REMAINING -gt $INTERVAL ]; then
