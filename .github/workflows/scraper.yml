@@ -35,21 +35,10 @@ jobs:
           INTERVAL=300    # check every 5 minutes
           END=$((START + DURATION))
 
-          LAST_DETAILS_RUN=0
-          DETAILS_INTERVAL=3600 # Run details fetcher once every hour
-
           while [ $(date +%s) -lt $END ]; do
-            NOW=$(date +%s)
             echo ""
             echo "--- Scraper Tick: $(date -u +%Y-%m-%dT%H:%M:%SZ) ---"
             python scripts/poeninja_scraper.py
-
-            # Run details fetcher hourly
-            if [ $((NOW - LAST_DETAILS_RUN)) -ge $DETAILS_INTERVAL ]; then
-              echo "[Scraper] Running details fetcher (hourly update)..."
-              python scripts/fetch_all_details.py
-              LAST_DETAILS_RUN=$(date +%s)
-            fi
 
             # Push immediately after each tick if anything changed
             git add data/
