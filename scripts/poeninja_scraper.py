@@ -252,53 +252,9 @@ def update_own_db(league=DEFAULT_LEAGUE):
     except Exception as e:
         print(f"[PoeNinja Scraper] Failed to fetch official static data: {e}")
 
-    def clean_wiki_text(text):
-        if not text: return ""
-        text = text.replace("&lt;br&gt;", " ")
-        text = text.replace("<br>", " ")
-        text = text.replace("<br/>", " ")
-        text = re.sub(r'\[\[([^\]|]+\|)?([^\]]+)\]\]', r'\2', text)
-        return text.strip()
-
-    # Fetch missing descriptions from poe2wiki via Cargo API
-    print("[PoeNinja Scraper] Fetching missing descriptions from poe2wiki...")
-    wiki_batch = []
-    for meta in metadata_list:
-        if not meta.get('flavourText') and not meta.get('explicitModifiers'):
-            wiki_batch.append(meta)
-    
-    chunk_size = 40
-    for i in range(0, len(wiki_batch), chunk_size):
-        chunk = wiki_batch[i:i+chunk_size]
-        names_sql = ', '.join([f'"{m["name"]}"' for m in chunk])
-        params = urllib.parse.urlencode({
-            'action': 'cargoquery',
-            'tables': 'items',
-            'fields': 'name, description, help_text',
-            'where': f'name IN ({names_sql})',
-            'limit': chunk_size,
-            'format': 'json',
-            'origin': '*'
-        })
-        url = 'https://www.poe2wiki.net/api.php?' + params
-        try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            with urllib.request.urlopen(req, timeout=10) as r:
-                data = json.loads(r.read())
-                for row in data.get('cargoquery', []):
-                    title = row.get('title', {})
-                    w_name = title.get('name')
-                    desc = clean_wiki_text(title.get('description'))
-                    help_t = clean_wiki_text(title.get('help text'))
-                    if w_name:
-                        for m in chunk:
-                            if m['name'] == w_name:
-                                m['wikiDescription'] = desc
-                                m['wikiHelpText'] = help_t
-                                break
-        except Exception as e:
-            print(f"[PoeNinja Scraper] Wiki fetch failed for chunk: {e}")
-        time.sleep(0.5)
+    # Wiki tooltip HTML is bundled directly with the extension (wiki_tooltips.json).
+    # The extension fetches new tooltips on-demand and caches them locally.
+    # No wiki API calls needed in the scraper.
 
     # Write metadata to file (shared)
     os.makedirs(DATA_DIR, exist_ok=True)
