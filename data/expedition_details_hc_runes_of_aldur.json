@@ -1,0 +1,5855 @@
+{
+  "aldurs-saga": {
+    "item": {
+      "id": "aldurs-saga",
+      "name": "Aldur's Saga",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvU3BlY2lhbEV4cGVkaXRpb25QYWdlNSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e4e66b1f57/SpecialExpeditionPage5.png",
+      "category": "Expedition",
+      "detailsId": "aldurs-saga"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "rate": 28.21,
+        "volumePrimaryValue": 159.8,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 28.21,
+            "volumePrimaryValue": 141.0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 23.89,
+            "volumePrimaryValue": 152.8
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 22.39,
+            "volumePrimaryValue": 85.91
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 22.03,
+            "volumePrimaryValue": 99.55
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 22.32,
+            "volumePrimaryValue": 87.24
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 20.6,
+            "volumePrimaryValue": 148.8
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 20.85,
+            "volumePrimaryValue": 109.8
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 18.02,
+            "volumePrimaryValue": 145.1
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 23.14,
+            "volumePrimaryValue": 150.3
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 19.61,
+            "volumePrimaryValue": 98.39
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 21.52,
+            "volumePrimaryValue": 72.27
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 18.89,
+            "volumePrimaryValue": 82.96
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 16.15,
+            "volumePrimaryValue": 72.94
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 16.06,
+            "volumePrimaryValue": 106.2
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 15.78,
+            "volumePrimaryValue": 70.8
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 20.18,
+            "volumePrimaryValue": 48.25
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 16.24,
+            "volumePrimaryValue": 17.3
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 16.65,
+            "volumePrimaryValue": 36
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 15.34,
+            "volumePrimaryValue": 28.33
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 16.85,
+            "volumePrimaryValue": 35.29
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 17.74,
+            "volumePrimaryValue": 33.24
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 21.6,
+            "volumePrimaryValue": 36.67
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 21.32,
+            "volumePrimaryValue": 22.1
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 19.8,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 18.28,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 15.33,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 16.52,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 13.93,
+            "volumePrimaryValue": 16
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 15.42,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 9.75,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 4.5,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "volumePrimaryValue": 0,
+        "history": []
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": []
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "blazing-flux": {
+    "item": {
+      "id": "blazing-flux",
+      "name": "Blazing Flux",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQXJjYW5lRmx1eEZpcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5894d96668/ArcaneFluxFire.png",
+      "category": "Expedition",
+      "detailsId": "blazing-flux"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 1.5,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 39.18,
+        "volumePrimaryValue": 0.5582,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 39.18,
+            "volumePrimaryValue": 0.394
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 33.35,
+            "volumePrimaryValue": 1.07
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 16.6,
+            "volumePrimaryValue": 0.2699
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 25.79,
+            "volumePrimaryValue": 0.4984
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 14.92,
+            "volumePrimaryValue": 0.4777
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 23.02,
+            "volumePrimaryValue": 0.3235
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 14.44,
+            "volumePrimaryValue": 0.3279
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 10.54,
+            "volumePrimaryValue": 0.2716
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 13.87,
+            "volumePrimaryValue": 0.2859
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 15.87,
+            "volumePrimaryValue": 0.4096
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 13.74,
+            "volumePrimaryValue": 0.2302
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 9.73,
+            "volumePrimaryValue": 0.2297
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 23.98,
+            "volumePrimaryValue": 1.03
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 11.41,
+            "volumePrimaryValue": 0.4772
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 17.45,
+            "volumePrimaryValue": 0.3567
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 14.85,
+            "volumePrimaryValue": 0.2783
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 16.29,
+            "volumePrimaryValue": 0.311
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 9.62,
+            "volumePrimaryValue": 0.2743
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 9.99,
+            "volumePrimaryValue": 0.2963
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 6.84,
+            "volumePrimaryValue": 0.2473
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 15.0,
+            "volumePrimaryValue": 0.5859
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 9.89,
+            "volumePrimaryValue": 0.2322
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 8.39,
+            "volumePrimaryValue": 0.1841
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 10.26,
+            "volumePrimaryValue": 0.2134
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 13.47,
+            "volumePrimaryValue": 0.2217
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 14.37,
+            "volumePrimaryValue": 0.3452
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 12.3,
+            "volumePrimaryValue": 0.3218
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 7.71,
+            "volumePrimaryValue": 0.1165
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 11.43,
+            "volumePrimaryValue": 0.1602
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 15.26,
+            "volumePrimaryValue": 0.2921
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 13.85,
+            "volumePrimaryValue": 0.1243
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 14.96,
+            "volumePrimaryValue": 0.2959
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 15.51,
+            "volumePrimaryValue": 0.07242
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 19.83,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "chilling-flux": {
+    "item": {
+      "id": "chilling-flux",
+      "name": "Chilling Flux",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQXJjYW5lRmx1eENvbGQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8be4ea67ff/ArcaneFluxCold.png",
+      "category": "Expedition",
+      "detailsId": "chilling-flux"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 25.94,
+        "volumePrimaryValue": 0.7828,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 25.94,
+            "volumePrimaryValue": 0.7828
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 22.27,
+            "volumePrimaryValue": 0.347
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 23.49,
+            "volumePrimaryValue": 0.2732
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 21.53,
+            "volumePrimaryValue": 0.3866
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 15.5,
+            "volumePrimaryValue": 0.3755
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 18.5,
+            "volumePrimaryValue": 0.2602
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 21.85,
+            "volumePrimaryValue": 0.3852
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 19.53,
+            "volumePrimaryValue": 0.3101
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 18.43,
+            "volumePrimaryValue": 0.4263
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 22.35,
+            "volumePrimaryValue": 0.8992
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 13.34,
+            "volumePrimaryValue": 0.1628
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 18.38,
+            "volumePrimaryValue": 0.519
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 17.04,
+            "volumePrimaryValue": 0.4861
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 11.32,
+            "volumePrimaryValue": 0.253
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 14.47,
+            "volumePrimaryValue": 0.2263
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 11.83,
+            "volumePrimaryValue": 0.2879
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 11.86,
+            "volumePrimaryValue": 0.2885
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 11.97,
+            "volumePrimaryValue": 0.3081
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 10.48,
+            "volumePrimaryValue": 0.2794
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 7.94,
+            "volumePrimaryValue": 0.2337
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 12.58,
+            "volumePrimaryValue": 0.272
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 9.5,
+            "volumePrimaryValue": 0.1704
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 11.06,
+            "volumePrimaryValue": 0.1679
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 10.25,
+            "volumePrimaryValue": 0.2249
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 13.81,
+            "volumePrimaryValue": 0.3156
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 12.7,
+            "volumePrimaryValue": 0.1645
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 13.68,
+            "volumePrimaryValue": 0.3286
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 9.38,
+            "volumePrimaryValue": 0.2012
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 12.13,
+            "volumePrimaryValue": 0.123
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 12.61,
+            "volumePrimaryValue": 0.1712
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 18.2,
+            "volumePrimaryValue": 0.137
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 10.74,
+            "volumePrimaryValue": 0.1191
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 12.04,
+            "volumePrimaryValue": 0.05979
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 16.08,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "crackling-flux": {
+    "item": {
+      "id": "crackling-flux",
+      "name": "Crackling Flux",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQXJjYW5lRmx1eExpZ2h0bmluZyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6f9758e0a3/ArcaneFluxLightning.png",
+      "category": "Expedition",
+      "detailsId": "crackling-flux"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 18.1,
+        "volumePrimaryValue": 0.5917,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 18.1,
+            "volumePrimaryValue": 0.5462
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 17.47,
+            "volumePrimaryValue": 0.518
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 16.54,
+            "volumePrimaryValue": 0.1955
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 27.73,
+            "volumePrimaryValue": 0.5265
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 17.87,
+            "volumePrimaryValue": 0.453
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 8.72,
+            "volumePrimaryValue": 0.1888
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 10.85,
+            "volumePrimaryValue": 0.1755
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 9.88,
+            "volumePrimaryValue": 0.2666
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 8.77,
+            "volumePrimaryValue": 0.1947
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 9.52,
+            "volumePrimaryValue": 0.2101
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 8.57,
+            "volumePrimaryValue": 0.1033
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 7.73,
+            "volumePrimaryValue": 0.2982
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 14.07,
+            "volumePrimaryValue": 0.441
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 9.55,
+            "volumePrimaryValue": 0.3545
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 9.36,
+            "volumePrimaryValue": 0.1373
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 11.24,
+            "volumePrimaryValue": 0.3332
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 10.15,
+            "volumePrimaryValue": 0.2088
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 6.42,
+            "volumePrimaryValue": 0.1529
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 7.39,
+            "volumePrimaryValue": 0.1734
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 6.13,
+            "volumePrimaryValue": 0.1525
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 9.58,
+            "volumePrimaryValue": 0.2329
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 8.52,
+            "volumePrimaryValue": 0.2071
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 7.9,
+            "volumePrimaryValue": 0.1179
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 7.61,
+            "volumePrimaryValue": 0.1855
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 8.87,
+            "volumePrimaryValue": 0.164
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 8.44,
+            "volumePrimaryValue": 0.1487
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 12.94,
+            "volumePrimaryValue": 0.34
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 8.01,
+            "volumePrimaryValue": 0.1841
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 12.31,
+            "volumePrimaryValue": 0.07395
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 12.42,
+            "volumePrimaryValue": 0.2297
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 17.03,
+            "volumePrimaryValue": 0.2428
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 11.84,
+            "volumePrimaryValue": 0.1274
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 10.03,
+            "volumePrimaryValue": 0.04526
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 9.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-30T00:00:00Z",
+            "rate": 10,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "perfect-flux": {
+    "item": {
+      "id": "perfect-flux",
+      "name": "Perfect Flux",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5UG93ZXJmdWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/43be23e971/ExpeditionGemCurrencyPowerful.png",
+      "category": "Expedition",
+      "detailsId": "perfect-flux"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "rate": 20.6,
+        "volumePrimaryValue": 34.33,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 20.6,
+            "volumePrimaryValue": 20.6
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 23.17,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 29.45,
+            "volumePrimaryValue": 28
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 20.97,
+            "volumePrimaryValue": 15
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 30.11,
+            "volumePrimaryValue": 26.22
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 22.11,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 21.52,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 14.69,
+            "volumePrimaryValue": 17
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 22.92,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 23.58,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 20.41,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 17.42,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 15.04,
+            "volumePrimaryValue": 17.29
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 14.0,
+            "volumePrimaryValue": 13.4
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 17.07,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 21.06,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 16.38,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 21.51,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 13.5,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 12.27,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 12.96,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 19.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 16.08,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 13.4,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 11.0,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 16.42,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 13.4,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 7.58,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 3.25,
+            "volumePrimaryValue": 0.0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "volumePrimaryValue": 0,
+        "history": []
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": []
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "thaumaturgic-flux-15": {
+    "item": {
+      "id": "thaumaturgic-flux-15",
+      "name": "Thaumaturgic Flux (Level 15)",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51fec6d0d5/ExpeditionGemCurrency.png",
+      "category": "Expedition",
+      "detailsId": "thaumaturgic-flux-level-15"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": []
+      },
+      {
+        "id": "exalted",
+        "rate": 10.25,
+        "volumePrimaryValue": 0.03436,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 10.25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 11.56,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 7.55,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 7.94,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 5.88,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 9.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 11.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 18,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 9.25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 5.45,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 8.25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 7.28,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 6.81,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 3.32,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 2.38,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 1.12,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 3.6,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 3.2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 3.7,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 7.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 8.2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 2.94,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 1.38,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 1.49,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-30T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "thaumaturgic-flux-16": {
+    "item": {
+      "id": "thaumaturgic-flux-16",
+      "name": "Thaumaturgic Flux (Level 16)",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51fec6d0d5/ExpeditionGemCurrency.png",
+      "category": "Expedition",
+      "detailsId": "thaumaturgic-flux-level-16"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 3,
+        "volumePrimaryValue": 0.007543,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 6,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 4.89,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 6.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 3.66,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 3.18,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 5.63,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 4.61,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 6,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 5.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 3.42,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 5.74,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 3.46,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 3.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 2.55,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 2.44,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 3.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 2.12,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 2.3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 2.76,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 3.3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 2.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 2.08,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 1.93,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-30T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": []
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "thaumaturgic-flux-17": {
+    "item": {
+      "id": "thaumaturgic-flux-17",
+      "name": "Thaumaturgic Flux (Level 17)",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51fec6d0d5/ExpeditionGemCurrency.png",
+      "category": "Expedition",
+      "detailsId": "thaumaturgic-flux-level-17"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "rate": 2,
+        "volumePrimaryValue": 0.3333,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 39.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 20.4,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 9.7,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 12.83,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 25.16,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 25.82,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 12.83,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 8.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 7.12,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 6.06,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 8.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 5.79,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 4.56,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 5.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 4.1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 6.31,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 4.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 4.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 5.08,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 4.02,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 4.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 4.36,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 2.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 4.45,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 4.22,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 2.93,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 3.88,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 2.53,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 1.29,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 1.31,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 1.11,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 1.39,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 1.75,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 5.5,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "thaumaturgic-flux-18": {
+    "item": {
+      "id": "thaumaturgic-flux-18",
+      "name": "Thaumaturgic Flux (Level 18)",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51fec6d0d5/ExpeditionGemCurrency.png",
+      "category": "Expedition",
+      "detailsId": "thaumaturgic-flux-level-18"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 0.6667,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 11.33,
+        "volumePrimaryValue": 0.0285,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 11.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 13.53,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 24.28,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 62.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 19.86,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 20.23,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 30.38,
+            "volumePrimaryValue": 0.1882
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 7.78,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 13.54,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 7.98,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 10.4,
+            "volumePrimaryValue": 0.04239
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 11.89,
+            "volumePrimaryValue": 0.06349
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 7.68,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 7.55,
+            "volumePrimaryValue": 0.03621
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 13.41,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 14.78,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 4.9,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 5.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 7.01,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 9.73,
+            "volumePrimaryValue": 0.04777
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 21.59,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 7.08,
+            "volumePrimaryValue": 0.04191
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 5.88,
+            "volumePrimaryValue": 0.04079
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 2.52,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 2.46,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 1.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 2.45,
+            "volumePrimaryValue": 0.0109
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 2.2,
+            "volumePrimaryValue": 0.01509
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 2.96,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 2.57,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 2.2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 3.24,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 1.76,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 2.58,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-30T00:00:00Z",
+            "rate": 4,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "thaumaturgic-flux-19": {
+    "item": {
+      "id": "thaumaturgic-flux-19",
+      "name": "Thaumaturgic Flux (Level 19)",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51fec6d0d5/ExpeditionGemCurrency.png",
+      "category": "Expedition",
+      "detailsId": "thaumaturgic-flux-level-19"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 19.5,
+        "volumePrimaryValue": 0.03269,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 19.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 12.61,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 13.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 18.31,
+            "volumePrimaryValue": 0.07208
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 10.3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 8.41,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 6.06,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 3.62,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 4.23,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 5.21,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 4.56,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 5.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 3.22,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 5.56,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 8.58,
+            "volumePrimaryValue": 0.06035
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 2.77,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 6.68,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 6.32,
+            "volumePrimaryValue": 0.03206
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 5.5,
+            "volumePrimaryValue": 0.04358
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 3.45,
+            "volumePrimaryValue": 0.0109
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 3.59,
+            "volumePrimaryValue": 0.01676
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 4.54,
+            "volumePrimaryValue": 0.02103
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 7.3,
+            "volumePrimaryValue": 0.03269
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 6.66,
+            "volumePrimaryValue": 0.03297
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 4.3,
+            "volumePrimaryValue": 0.03269
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 3.35,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 4.53,
+            "volumePrimaryValue": 0.01868
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 3.28,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 3.35,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 5.22,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 4.15,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 3.61,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 4.12,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 10.08,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 1.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "thaumaturgic-flux-20": {
+    "item": {
+      "id": "thaumaturgic-flux-20",
+      "name": "Thaumaturgic Flux (Level 20)",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51fec6d0d5/ExpeditionGemCurrency.png",
+      "category": "Expedition",
+      "detailsId": "thaumaturgic-flux-level-20"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "rate": 1.5,
+        "volumePrimaryValue": 0.5,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 1.5,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 1.5,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 2.0,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 3.08,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 3.5,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 2.22,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 2.58,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 2.38,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 1.44,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 2.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 1.75,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 3.78,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 2.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 4,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 3.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 6,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 130,
+        "volumePrimaryValue": 0.109,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 130,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 90.25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 97.88,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 58.44,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 45.25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 66.21,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 30.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 28,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 28,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 20,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 20,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 140,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 45,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 65.25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 40.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 45,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 10,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 35,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 31,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 40,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "void-flux": {
+    "item": {
+      "id": "void-flux",
+      "name": "Void Flux",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQXJjYW5lRmx1eCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/05c5ace7f7/ArcaneFlux.png",
+      "category": "Expedition",
+      "detailsId": "void-flux"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "rate": 1,
+        "volumePrimaryValue": 0.3333,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 0.6667,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 2.11,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 1.14,
+            "volumePrimaryValue": 1.14
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 59.04,
+        "volumePrimaryValue": 1.29,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 59.04,
+            "volumePrimaryValue": 1.19
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 53.12,
+            "volumePrimaryValue": 0.4919
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 48.04,
+            "volumePrimaryValue": 0.8437
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 36.02,
+            "volumePrimaryValue": 0.5532
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 46.27,
+            "volumePrimaryValue": 0.7787
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 59.56,
+            "volumePrimaryValue": 1.01
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 50.53,
+            "volumePrimaryValue": 0.5897
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 31.53,
+            "volumePrimaryValue": 0.6561
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 26.56,
+            "volumePrimaryValue": 0.479
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 28.73,
+            "volumePrimaryValue": 0.3704
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 45.25,
+            "volumePrimaryValue": 0.9794
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 32.23,
+            "volumePrimaryValue": 0.8154
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 27.32,
+            "volumePrimaryValue": 0.6358
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 24.52,
+            "volumePrimaryValue": 0.5472
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 22.58,
+            "volumePrimaryValue": 0.4367
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 30.02,
+            "volumePrimaryValue": 0.6829
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 32.63,
+            "volumePrimaryValue": 0.5592
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 25.23,
+            "volumePrimaryValue": 0.7086
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 21.49,
+            "volumePrimaryValue": 0.2716
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 26.57,
+            "volumePrimaryValue": 0.7607
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 31.19,
+            "volumePrimaryValue": 1.06
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 19.58,
+            "volumePrimaryValue": 0.4602
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 69.29,
+            "volumePrimaryValue": 0.5137
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 43.6,
+            "volumePrimaryValue": 1.61
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 32.24,
+            "volumePrimaryValue": 0.4242
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 36.78,
+            "volumePrimaryValue": 0.7535
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 31.97,
+            "volumePrimaryValue": 0.523
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 25.64,
+            "volumePrimaryValue": 0.2615
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 29.19,
+            "volumePrimaryValue": 0.3264
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 21.34,
+            "volumePrimaryValue": 0.2706
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 19.97,
+            "volumePrimaryValue": 0.2174
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 36.54,
+            "volumePrimaryValue": 0.3229
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 33.2,
+            "volumePrimaryValue": 0.1178
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 1.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 1.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 4,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "expedition-logbook": {
+    "item": {
+      "id": "expedition-logbook",
+      "name": "Expedition Logbook",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkxvZ2Jvb2s1Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/841a5e9622/ExpeditionLogbook5.png",
+      "category": "Expedition",
+      "detailsId": "expedition-logbook"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "rate": 1.15,
+        "volumePrimaryValue": 21.17,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 1.15,
+            "volumePrimaryValue": 20.78
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 0.921,
+            "volumePrimaryValue": 20.69
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 0.8987,
+            "volumePrimaryValue": 16.82
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 0.7541,
+            "volumePrimaryValue": 10.69
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 0.8521,
+            "volumePrimaryValue": 10.69
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 0.898,
+            "volumePrimaryValue": 21.69
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 1.29,
+            "volumePrimaryValue": 17.77
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 1.54,
+            "volumePrimaryValue": 31.74
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 2.31,
+            "volumePrimaryValue": 73.39
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 1.4,
+            "volumePrimaryValue": 28.0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 1.51,
+            "volumePrimaryValue": 17.25
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1.79,
+            "volumePrimaryValue": 18.33
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 1.84,
+            "volumePrimaryValue": 20.96
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 1.63,
+            "volumePrimaryValue": 18.52
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 1.98,
+            "volumePrimaryValue": 19.56
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 1.18,
+            "volumePrimaryValue": 23.08
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 0.888,
+            "volumePrimaryValue": 3
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 0.8725,
+            "volumePrimaryValue": 2.77
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 1.04,
+            "volumePrimaryValue": 6.0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 1.28,
+            "volumePrimaryValue": 13.72
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 1.61,
+            "volumePrimaryValue": 8.72
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 2.1,
+            "volumePrimaryValue": 13.69
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 2.0,
+            "volumePrimaryValue": 23.09
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 1.63,
+            "volumePrimaryValue": 7.0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 1.48,
+            "volumePrimaryValue": 5.0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 1.6,
+            "volumePrimaryValue": 3.2
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 1.91,
+            "volumePrimaryValue": 4
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 2.33,
+            "volumePrimaryValue": 6.67
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 2.03,
+            "volumePrimaryValue": 1.93
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 1.76,
+            "volumePrimaryValue": 1.78
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 1.76,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 212.5,
+        "volumePrimaryValue": 9.44,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 212.5,
+            "volumePrimaryValue": 8.55
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 192.2,
+            "volumePrimaryValue": 5.09
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 169.7,
+            "volumePrimaryValue": 10.81
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 155.2,
+            "volumePrimaryValue": 6.59
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 125.9,
+            "volumePrimaryValue": 7.5
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 141.1,
+            "volumePrimaryValue": 6.8
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 190.6,
+            "volumePrimaryValue": 7.97
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 208.4,
+            "volumePrimaryValue": 12.9
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 255.2,
+            "volumePrimaryValue": 10.45
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 160.3,
+            "volumePrimaryValue": 10.0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 131.4,
+            "volumePrimaryValue": 9.58
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 137.9,
+            "volumePrimaryValue": 10.44
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 138.8,
+            "volumePrimaryValue": 11.17
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 116.7,
+            "volumePrimaryValue": 9.62
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 145.9,
+            "volumePrimaryValue": 9.09
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 84.47,
+            "volumePrimaryValue": 8.82
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 58.69,
+            "volumePrimaryValue": 4.14
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 53.21,
+            "volumePrimaryValue": 4.3
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 78.13,
+            "volumePrimaryValue": 2.66
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 96.65,
+            "volumePrimaryValue": 6.0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 114.6,
+            "volumePrimaryValue": 6.43
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 136.9,
+            "volumePrimaryValue": 6.53
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 126.0,
+            "volumePrimaryValue": 6.06
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 98.61,
+            "volumePrimaryValue": 5.41
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 93.37,
+            "volumePrimaryValue": 3.43
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 89.04,
+            "volumePrimaryValue": 2.56
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 96.05,
+            "volumePrimaryValue": 2.26
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 125.2,
+            "volumePrimaryValue": 1.95
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 100.8,
+            "volumePrimaryValue": 1.39
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 85.24,
+            "volumePrimaryValue": 1.2
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 38.33,
+            "volumePrimaryValue": 0.522
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 22.2,
+            "volumePrimaryValue": 0.2313
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 26.03,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 11.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 9.83,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 15,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 15,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 9,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 8.12,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 10.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 12,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 18,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 17.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 18.5,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "medveds-saga": {
+    "item": {
+      "id": "medveds-saga",
+      "name": "Medved's Saga",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvU3BlY2lhbEV4cGVkaXRpb25QYWdlMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9eb5b576fc/SpecialExpeditionPage3.png",
+      "category": "Expedition",
+      "detailsId": "medveds-saga"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 0.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 0.5,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 0.3333,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 0.9565,
+            "volumePrimaryValue": 2.87
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 0.5,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 0.5,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 22.83,
+        "volumePrimaryValue": 0.5548,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 22.83,
+            "volumePrimaryValue": 0.4592
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 8.83,
+            "volumePrimaryValue": 0.149
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 4.91,
+            "volumePrimaryValue": 0.1154
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 15.22,
+            "volumePrimaryValue": 0.1081
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 11.2,
+            "volumePrimaryValue": 0.1911
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 12.6,
+            "volumePrimaryValue": 0.1326
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 9.48,
+            "volumePrimaryValue": 0.207
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 7.91,
+            "volumePrimaryValue": 0.1566
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 14.3,
+            "volumePrimaryValue": 0.2131
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 7.71,
+            "volumePrimaryValue": 0.08734
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 7.95,
+            "volumePrimaryValue": 0.1035
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 6.0,
+            "volumePrimaryValue": 0.1157
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 10.78,
+            "volumePrimaryValue": 0.1037
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 13.02,
+            "volumePrimaryValue": 0.5597
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 11.57,
+            "volumePrimaryValue": 0.3847
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 7.19,
+            "volumePrimaryValue": 0.1307
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 7.87,
+            "volumePrimaryValue": 0.1157
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 9.35,
+            "volumePrimaryValue": 0.2319
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 9.07,
+            "volumePrimaryValue": 0.2899
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 12.78,
+            "volumePrimaryValue": 0.5833
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 9.73,
+            "volumePrimaryValue": 0.3381
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 9.94,
+            "volumePrimaryValue": 0.1164
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 12.81,
+            "volumePrimaryValue": 0.2668
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 9.98,
+            "volumePrimaryValue": 0.2371
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 10.22,
+            "volumePrimaryValue": 0.1338
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 14.39,
+            "volumePrimaryValue": 0.216
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 8.3,
+            "volumePrimaryValue": 0.09115
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 6.46,
+            "volumePrimaryValue": 0.03808
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 6.84,
+            "volumePrimaryValue": 0.02012
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 3.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 4.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 4.67,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "olroths-saga": {
+    "item": {
+      "id": "olroths-saga",
+      "name": "Olroth's Saga",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvU3BlY2lhbEV4cGVkaXRpb25QYWdlMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e4b423d772/SpecialExpeditionPage1.png",
+      "category": "Expedition",
+      "detailsId": "olroths-saga"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 0.9,
+            "volumePrimaryValue": 0.9
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 0.5625,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 0.7708,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 1
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 1
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 37.32,
+        "volumePrimaryValue": 1.66,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 37.32,
+            "volumePrimaryValue": 1.5
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 24.04,
+            "volumePrimaryValue": 0.3315
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 19.31,
+            "volumePrimaryValue": 0.2414
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 18.21,
+            "volumePrimaryValue": 0.4795
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 18.73,
+            "volumePrimaryValue": 0.3017
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 18.85,
+            "volumePrimaryValue": 0.2297
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 17.45,
+            "volumePrimaryValue": 0.3912
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 21.82,
+            "volumePrimaryValue": 0.1234
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 29.95,
+            "volumePrimaryValue": 1.42
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 11.42,
+            "volumePrimaryValue": 0.232
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 12.84,
+            "volumePrimaryValue": 0.1402
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 19.47,
+            "volumePrimaryValue": 0.366
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 19.62,
+            "volumePrimaryValue": 0.4468
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 17.62,
+            "volumePrimaryValue": 0.3379
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 17.66,
+            "volumePrimaryValue": 0.5222
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 15.31,
+            "volumePrimaryValue": 0.1961
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 21.75,
+            "volumePrimaryValue": 0.2584
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 22.1,
+            "volumePrimaryValue": 1.01
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 14.98,
+            "volumePrimaryValue": 0.3445
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 18.36,
+            "volumePrimaryValue": 0.7323
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 18.1,
+            "volumePrimaryValue": 0.5296
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 17.04,
+            "volumePrimaryValue": 0.3369
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 42.03,
+            "volumePrimaryValue": 0.5223
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 21.01,
+            "volumePrimaryValue": 0.532
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 22.68,
+            "volumePrimaryValue": 0.2706
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 20.09,
+            "volumePrimaryValue": 0.2139
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 17.06,
+            "volumePrimaryValue": 0.175
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 16.59,
+            "volumePrimaryValue": 0.2606
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 14.8,
+            "volumePrimaryValue": 0.05934
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 10.22,
+            "volumePrimaryValue": 0.04358
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 14.39,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 12.36,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 14.69,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 9.67,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "thaumaturgic-flux-11": {
+    "item": {
+      "id": "thaumaturgic-flux-11",
+      "name": "Thaumaturgic Flux (Level 11)",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51fec6d0d5/ExpeditionGemCurrency.png",
+      "category": "Expedition",
+      "detailsId": "thaumaturgic-flux-level-11"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": []
+      },
+      {
+        "id": "exalted",
+        "rate": 3,
+        "volumePrimaryValue": 0.002514,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 2.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 3.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 32.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 23.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 18.56,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 11.89,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 17.26,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 9.83,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 22.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 7.61,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 30.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 10.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 16.0,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 4,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 39.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 38.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 14.08,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 14.06,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 16,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 28.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 24.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 16.12,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 13,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 14.62,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 4.12,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 1.89,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 1.62,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 1.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-30T00:00:00Z",
+            "rate": 2.67,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "thaumaturgic-flux-12": {
+    "item": {
+      "id": "thaumaturgic-flux-12",
+      "name": "Thaumaturgic Flux (Level 12)",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51fec6d0d5/ExpeditionGemCurrency.png",
+      "category": "Expedition",
+      "detailsId": "thaumaturgic-flux-level-12"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 0.5,
+            "volumePrimaryValue": 0.0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 21.25,
+        "volumePrimaryValue": 0.07124,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 21.25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 17.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 16.44,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 10,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 8.62,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 5.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 11.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 18.58,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 16.31,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 13.28,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 8.3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 10.94,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 11.71,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 10.58,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 8.14,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 8.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 3.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 7.96,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 8.25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 3.63,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 6.51,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 6.08,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 5.19,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 4.04,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 1.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 2.32,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 1.2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 1.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 1.38,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 1.54,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-30T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 1.5,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "thaumaturgic-flux-14": {
+    "item": {
+      "id": "thaumaturgic-flux-14",
+      "name": "Thaumaturgic Flux (Level 14)",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbkdlbUN1cnJlbmN5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51fec6d0d5/ExpeditionGemCurrency.png",
+      "category": "Expedition",
+      "detailsId": "thaumaturgic-flux-level-14"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 3,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 10,
+        "volumePrimaryValue": 0.008381,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 10,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 20,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 15,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 19.22,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 24.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 12.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 22.62,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 28.42,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 20.08,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 18.12,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 15.25,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 14.15,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 7.6,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 15.44,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 17.0,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 30.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 6,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 18.11,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 13.83,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 12.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 11.94,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 11.33,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 7.44,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 6.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 3.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 4.27,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 4,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 2.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 2.04,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 2.62,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 6.17,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 3.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-05-31T00:00:00Z",
+            "rate": 5.83,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "uhtreds-saga": {
+    "item": {
+      "id": "uhtreds-saga",
+      "name": "Uhtred's Saga",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvU3BlY2lhbEV4cGVkaXRpb25QYWdlNCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0470c24911/SpecialExpeditionPage4.png",
+      "category": "Expedition",
+      "detailsId": "uhtreds-saga"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "rate": 1.46,
+        "volumePrimaryValue": 11.67,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 1.46,
+            "volumePrimaryValue": 11.67
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 1.54,
+            "volumePrimaryValue": 10.91
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 1.73,
+            "volumePrimaryValue": 9.78
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 1.0,
+            "volumePrimaryValue": 4.98
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 1.36,
+            "volumePrimaryValue": 2
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 1.56,
+            "volumePrimaryValue": 9.17
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 1.0,
+            "volumePrimaryValue": 2.14
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 1.41,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 1.41,
+            "volumePrimaryValue": 1.5
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 1.16,
+            "volumePrimaryValue": 2
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 1.08,
+            "volumePrimaryValue": 1.29
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 1
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 1.34,
+            "volumePrimaryValue": 2
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 1.22,
+            "volumePrimaryValue": 1.67
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 0.9524,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 0.8333,
+            "volumePrimaryValue": 1
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 0.5,
+            "volumePrimaryValue": 0.0
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 0.75,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 2
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 199.2,
+        "volumePrimaryValue": 6.01,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 199.2,
+            "volumePrimaryValue": 6.01
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 215.8,
+            "volumePrimaryValue": 3.61
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 215.5,
+            "volumePrimaryValue": 3.37
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 113.8,
+            "volumePrimaryValue": 3.31
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 165.6,
+            "volumePrimaryValue": 4.3
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 143.7,
+            "volumePrimaryValue": 3.56
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 107.6,
+            "volumePrimaryValue": 3.45
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 73.69,
+            "volumePrimaryValue": 3.29
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 83.15,
+            "volumePrimaryValue": 2.58
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 100.6,
+            "volumePrimaryValue": 2.54
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 58.35,
+            "volumePrimaryValue": 2.32
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 68.98,
+            "volumePrimaryValue": 3.1
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 55.7,
+            "volumePrimaryValue": 2.3
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 68.6,
+            "volumePrimaryValue": 2.24
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 75.76,
+            "volumePrimaryValue": 3.48
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 68.41,
+            "volumePrimaryValue": 2.83
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 55.0,
+            "volumePrimaryValue": 1.57
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 56.75,
+            "volumePrimaryValue": 2.21
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 43.82,
+            "volumePrimaryValue": 1.42
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 50.61,
+            "volumePrimaryValue": 2.29
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 40.1,
+            "volumePrimaryValue": 1.33
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 39.22,
+            "volumePrimaryValue": 1.34
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 44.46,
+            "volumePrimaryValue": 0.6772
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 38.9,
+            "volumePrimaryValue": 1.01
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 26.37,
+            "volumePrimaryValue": 0.4913
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 15.85,
+            "volumePrimaryValue": 0.06873
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 13.74,
+            "volumePrimaryValue": 0.1941
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 13.01,
+            "volumePrimaryValue": 0.05029
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 10.1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 10.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 37,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "rate": 21,
+        "volumePrimaryValue": 0.5669,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 20.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 9,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 8,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 4.5,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 7,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 4,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 15,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  },
+  "voranas-saga": {
+    "item": {
+      "id": "voranas-saga",
+      "name": "Vorana's Saga",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvU3BlY2lhbEV4cGVkaXRpb25QYWdlMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/057899d625/SpecialExpeditionPage2.png",
+      "category": "Expedition",
+      "detailsId": "voranas-saga"
+    },
+    "pairs": [
+      {
+        "id": "divine",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 0.7778,
+            "volumePrimaryValue": 0.7778
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 1,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "exalted",
+        "rate": 16,
+        "volumePrimaryValue": 0.05364,
+        "history": [
+          {
+            "timestamp": "2026-07-03T00:00:00Z",
+            "rate": 16,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-07-02T00:00:00Z",
+            "rate": 21.65,
+            "volumePrimaryValue": 0.1173
+          },
+          {
+            "timestamp": "2026-07-01T00:00:00Z",
+            "rate": 13.26,
+            "volumePrimaryValue": 0.08499
+          },
+          {
+            "timestamp": "2026-06-30T00:00:00Z",
+            "rate": 13.19,
+            "volumePrimaryValue": 0.1228
+          },
+          {
+            "timestamp": "2026-06-29T00:00:00Z",
+            "rate": 21.16,
+            "volumePrimaryValue": 0.1031
+          },
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 30.66,
+            "volumePrimaryValue": 0.3237
+          },
+          {
+            "timestamp": "2026-06-27T00:00:00Z",
+            "rate": 19.56,
+            "volumePrimaryValue": 0.2414
+          },
+          {
+            "timestamp": "2026-06-26T00:00:00Z",
+            "rate": 21.96,
+            "volumePrimaryValue": 0.07669
+          },
+          {
+            "timestamp": "2026-06-25T00:00:00Z",
+            "rate": 24.63,
+            "volumePrimaryValue": 0.477
+          },
+          {
+            "timestamp": "2026-06-24T00:00:00Z",
+            "rate": 10.84,
+            "volumePrimaryValue": 0.1167
+          },
+          {
+            "timestamp": "2026-06-23T00:00:00Z",
+            "rate": 12.52,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-22T00:00:00Z",
+            "rate": 15.57,
+            "volumePrimaryValue": 0.05364
+          },
+          {
+            "timestamp": "2026-06-21T00:00:00Z",
+            "rate": 24.01,
+            "volumePrimaryValue": 0.285
+          },
+          {
+            "timestamp": "2026-06-20T00:00:00Z",
+            "rate": 20.36,
+            "volumePrimaryValue": 0.2324
+          },
+          {
+            "timestamp": "2026-06-19T00:00:00Z",
+            "rate": 20.04,
+            "volumePrimaryValue": 0.2049
+          },
+          {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "rate": 10.0,
+            "volumePrimaryValue": 0.1287
+          },
+          {
+            "timestamp": "2026-06-17T00:00:00Z",
+            "rate": 16.14,
+            "volumePrimaryValue": 0.06681
+          },
+          {
+            "timestamp": "2026-06-16T00:00:00Z",
+            "rate": 13.48,
+            "volumePrimaryValue": 0.09857
+          },
+          {
+            "timestamp": "2026-06-15T00:00:00Z",
+            "rate": 10.83,
+            "volumePrimaryValue": 0.02766
+          },
+          {
+            "timestamp": "2026-06-14T00:00:00Z",
+            "rate": 14.66,
+            "volumePrimaryValue": 0.1433
+          },
+          {
+            "timestamp": "2026-06-13T00:00:00Z",
+            "rate": 16.07,
+            "volumePrimaryValue": 0.1584
+          },
+          {
+            "timestamp": "2026-06-12T00:00:00Z",
+            "rate": 16.96,
+            "volumePrimaryValue": 0.2607
+          },
+          {
+            "timestamp": "2026-06-11T00:00:00Z",
+            "rate": 26.06,
+            "volumePrimaryValue": 0.204
+          },
+          {
+            "timestamp": "2026-06-10T00:00:00Z",
+            "rate": 21.15,
+            "volumePrimaryValue": 0.2159
+          },
+          {
+            "timestamp": "2026-06-09T00:00:00Z",
+            "rate": 20.43,
+            "volumePrimaryValue": 0.1523
+          },
+          {
+            "timestamp": "2026-06-08T00:00:00Z",
+            "rate": 16.71,
+            "volumePrimaryValue": 0.1609
+          },
+          {
+            "timestamp": "2026-06-07T00:00:00Z",
+            "rate": 18.79,
+            "volumePrimaryValue": 0.09052
+          },
+          {
+            "timestamp": "2026-06-06T00:00:00Z",
+            "rate": 18.54,
+            "volumePrimaryValue": 0.2249
+          },
+          {
+            "timestamp": "2026-06-05T00:00:00Z",
+            "rate": 18.05,
+            "volumePrimaryValue": 0.07292
+          },
+          {
+            "timestamp": "2026-06-04T00:00:00Z",
+            "rate": 26.67,
+            "volumePrimaryValue": 0.1458
+          },
+          {
+            "timestamp": "2026-06-03T00:00:00Z",
+            "rate": 22.35,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-02T00:00:00Z",
+            "rate": 14.67,
+            "volumePrimaryValue": 0
+          },
+          {
+            "timestamp": "2026-06-01T00:00:00Z",
+            "rate": 42.17,
+            "volumePrimaryValue": 0
+          }
+        ]
+      },
+      {
+        "id": "chaos",
+        "volumePrimaryValue": 0,
+        "history": [
+          {
+            "timestamp": "2026-06-28T00:00:00Z",
+            "rate": 2,
+            "volumePrimaryValue": 0
+          }
+        ]
+      }
+    ],
+    "core": {
+      "items": [
+        {
+          "id": "divine",
+          "name": "Divine Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+          "category": "Currency",
+          "detailsId": "divine-orb"
+        },
+        {
+          "id": "exalted",
+          "name": "Exalted Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+          "category": "Currency",
+          "detailsId": "exalted-orb"
+        },
+        {
+          "id": "chaos",
+          "name": "Chaos Orb",
+          "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+          "category": "Currency",
+          "detailsId": "chaos-orb"
+        }
+      ],
+      "rates": {
+        "exalted": 198.9,
+        "chaos": 6.17
+      },
+      "primary": "divine",
+      "secondary": "chaos"
+    }
+  }
+}
