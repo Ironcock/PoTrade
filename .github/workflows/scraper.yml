@@ -5,6 +5,10 @@ on:
     - cron: '0 */6 * * *' # Fallback safety net: triggers every 6 hours in case self-trigger fails
   workflow_dispatch: # Enable manual run trigger from the actions UI
 
+concurrency:
+  group: scraper-concurrency
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
