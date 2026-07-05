@@ -1228,9 +1228,9 @@
     "__ov_st_UniqueArmours": "W/6bf9b0027bc4abb82d3df569410cc77b",
     "__ov_st_UniqueAccessories": "W/10929263f21ea4f0faa032e10815e803",
     "__ov_st_UniqueFlasks": "W/69cace96b944ff118d19f2cb4e7a9592",
-    "__ov_st_UniqueCharms": "W/6493bbb10a2156d339cc762bb053494f",
+    "__ov_st_UniqueCharms": "W/be22b70d936dd33d6fb779984002567b",
     "__ov_st_UniqueJewels": "W/c1aab8966ca7fbe57b4eaf9d34c4584f",
-    "__ov_st_UniqueSanctumRelics": "W/8472ae811e1e0745b2d1ead0642060ed",
+    "__ov_st_UniqueSanctumRelics": "W/722bea0d99af125edc368cf7a36cf7ff",
     "__ov_st_UniqueTablets": "W/bf014af99f46e55ef927331479a50126",
     "__ov_st_PrecursorTablets": "W/5b9d5b27ed7c0018c67b6f66c1177ebd",
     "i_mirror": "W/e4f5d077908b190cedef60b51df9d2f6",
@@ -2449,7 +2449,9 @@
     "__404_eshs-radiance": true,
     "__404_hayoxis-fulmination": true,
     "__404_greater-adept-rune": true,
-    "__404_omen-of-chance": true
+    "__404_omen-of-chance": true,
+    "__404_eshs-radiance": true,
+    "__404_hayoxis-fulmination": true
   },
   "hardcore": {
     "Currency": "W/17020e4c496c7a5722c46aa099e3aeb0",
