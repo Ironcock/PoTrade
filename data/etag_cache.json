@@ -37,7 +37,7 @@
     "__ov_ex_Delirium": "W/edbbbcc9e50cae475c9759a455df6376",
     "__ov_ex_Breach": "W/a39a5b3d7b21b5bcdcfa366640e0ce4c",
     "__ov_ex_Verisium": "W/0b509ecee40df81146006831c38dfde9",
-    "i_chaos": "W/0bcec806de9ff1c42b4e331da79b1648",
+    "i_chaos": "W/e84465d7d4b18a69366c58dee84b840b",
     "i_bauble": "W/a08df7d0cc70b62f25b5a65d1975d99d",
     "i_exalted": "W/cfa70f4638140d0c7881f03dbf240021",
     "i_artificers-shard": "W/c0bb273275d3263339a95a80b5e7d260",
@@ -1541,9 +1541,9 @@
     "__404_ancient-rune-of-detonation": true,
     "__404_rune-of-consistency": true,
     "__404_rune-of-renown": true,
+    "__404_thane-myrks-rune-of-summer": true,
     "__404_perfect-essence-of-ruin": true,
-    "__404_essence-of-ruin": true,
-    "__404_thane-myrks-rune-of-summer": true
+    "__404_essence-of-ruin": true
   },
   "standard": {
     "Currency": "W/4ada545de4fd3eb637535792f2577413",
