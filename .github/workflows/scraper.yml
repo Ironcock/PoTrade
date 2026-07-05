@@ -2,37 +2,55 @@ name: PoE2 Economy Scraper
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Fallback safety net: triggers every 6 hours in case self-trigger fails
+    - cron: '*/5 * * * *' # Trigger every 5 minutes as a watchdog
   workflow_dispatch: # Enable manual run trigger from the actions UI
-
-concurrency:
-  group: scraper-concurrency
-  cancel-in-progress: true
 
 permissions:
   contents: write
+  actions: read # Needed to query the workflow runs API to check for running instances
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 360 # Allow up to 6 hours
     steps:
+      - name: Check for active runs
+        id: check_active
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ACTIVE_RUNS=$(curl -s -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/Ironcock/PoTrade/actions/workflows/scraper.yml/runs?status=in_progress" \
+            | jq --arg current_id "${{ github.run_id }}" '.workflow_runs | map(select(.id != ($current_id | tonumber))) | length')
+          
+          echo "Found $ACTIVE_RUNS other active run(s)."
+          if [ "$ACTIVE_RUNS" -gt 0 ]; then
+            echo "duplicate=true" >> $GITHUB_OUTPUT
+            echo "Another scraper instance is already running. Skipping execution."
+          else
+            echo "duplicate=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout repository
+        if: steps.check_active.outputs.duplicate != 'true'
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_PAT }} # Use PAT so git push works inside the loop
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
+        if: steps.check_active.outputs.duplicate != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Configure Git
+        if: steps.check_active.outputs.duplicate != 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Run Scraper Loop (5h 45m)
+        if: steps.check_active.outputs.duplicate != 'true'
         run: |
           START=$(date +%s)
           DURATION=20700  # 5 hours 45 minutes
@@ -58,13 +76,3 @@ jobs:
             fi
           done
           echo "[Scraper] 5h 45m lifecycle complete."
-
-      - name: Trigger next run
-        run: |
-          echo "[Scraper] Triggering next run via API..."
-          curl -s -X POST \
-            -H "Authorization: token ${{ secrets.GH_PAT }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/Ironcock/PoTrade/actions/workflows/scraper.yml/dispatches \
-            -d '{"ref":"main"}'
-          echo "[Scraper] Next run triggered. Exiting."
