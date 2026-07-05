@@ -28,7 +28,7 @@
     "__ov_ex_Abyss": "W/de2606496171dfcb4e1689c7446b32d8",
     "__ov_ex_UncutGems": "W/414dfa74ba2533e37bea0a9dca077ed8",
     "__ov_ex_LineageSupportGems": "W/3fab7105d85900b1b4405ae6b14c93be",
-    "__ov_ex_Essences": "W/852ee9f60dac8492be921beffba360a7",
+    "__ov_ex_Essences": "W/54a176ec22a7537444f23fdc65881bb2",
     "__ov_ex_SoulCores": "W/a7093b84a19f4c536b905cee1fac80dc",
     "__ov_ex_Idols": "W/3d94c970523b4f3a610409e8c6be0459",
     "__ov_ex_Runes": "W/3c6a3eafb709ea27d36dc2706ea3f940",
@@ -1571,6 +1571,7 @@
     "__404_citaqualotls-soul-core-of-foulness": true,
     "__404_greater-adept-rune": true,
     "__404_thaumaturgic-flux-19": true,
+    "__404_bhatairs-vengeance": true,
     "__404_ire-of-aldur": true
   },
   "standard": {
@@ -2445,6 +2446,9 @@
     "__404_kaoms-madness": true,
     "__404_tuls-stillness": true,
     "__404_soul-core-of-topotante": true,
+    "__404_eshs-radiance": true,
+    "__404_hayoxis-fulmination": true,
+    "__404_greater-adept-rune": true,
     "__404_omen-of-chance": true
   },
   "hardcore": {
