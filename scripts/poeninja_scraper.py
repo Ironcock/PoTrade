@@ -32,8 +32,14 @@ STASH_TYPES = [
     'PrecursorTablets'
 ]
 
-PAIR_CURRENCIES = {'chaos', 'divine', 'exalted'}
-MAX_HISTORY_MS  = 7 * 24 * 60 * 60 * 1000   # keep 7 days of price history
+PAIR_CURRENCIES  = {'chaos', 'divine', 'exalted'}
+MAX_HISTORY_MS   = 7 * 24 * 60 * 60 * 1000   # keep 7 days of price history
+
+# Active leagues get 30-min currency refresh; legacy leagues get 60-min
+CURRENT_LEAGUES  = {'Runes of Aldur', 'HC Runes of Aldur'}
+TTL_MS_30MIN     = 30 * 60 * 1000   # 30 minutes in ms
+TTL_MS_60MIN     = 60 * 60 * 1000   # 60 minutes in ms
+MAX_FETCHES_PER_TICK = 130          # max per-item detail requests per 5-min tick
 UA              = {'User-Agent': 'Mozilla/5.0 (PoETradeDashboard/2.0)'}
 
 # ── HTTP ──────────────────────────────────────────────────────────────────────
@@ -320,22 +326,51 @@ def update_own_db(league=DEFAULT_LEAGUE):
 
     print(f"  Discovered {len(exchange_items)} exchange items.")
 
-    # Step 2: Per-item price fetch (ETag per item)
-    n_changed = 0
-    n_304     = 0
-    n_miss    = 0
-    item_delay = 0.2   # base inter-item delay; increases after 429 hits
+    # Step 2: Per-item price fetch — time-based TTL batching
+    # Each item has a TTL that determines how often it needs a fresh fetch:
+    #   - Currency in active leagues (Runes of Aldur / HC Runes): 30 min
+    #   - Everything else: 60 min
+    # On each 5-minute tick we only fetch items whose TTL has expired,
+    # sorted oldest-first, capped at MAX_FETCHES_PER_TICK to stay well
+    # inside poe.ninja's rate limits.
+    def item_ttl(iid, info):
+        if info['type'] == 'Currency' and league in CURRENT_LEAGUES:
+            return TTL_MS_30MIN
+        return TTL_MS_60MIN
 
-    for idx, (iid, info) in enumerate(exchange_items.items()):
-        if idx > 0 and idx % 100 == 0:
-            print(f"    Checking exchange items: {idx}/{len(exchange_items)}...")
-        item_key    = f'i_{iid}'
+    # Build the list of items that need a refresh this tick
+    lft_key = lambda iid: f'__lft_{iid}'   # last-fetch-time key in etag_cache
+    expired = []
+    skipped_ttl = 0
+    for iid, info in exchange_items.items():
         blacklist_k = f'__404_{iid}'
-
-        # Skip items that previously consistently returned 404
         if blacklist_k in etag_cache[slug]:
-            n_miss += 1
-            continue
+            continue   # permanently 404'd — never retry
+        last_fetch = etag_cache[slug].get(lft_key(iid), 0)
+        ttl = item_ttl(iid, info)
+        if now_ms - last_fetch >= ttl:
+            expired.append((last_fetch, iid, info))   # (age, id, info)
+        else:
+            skipped_ttl += 1
+
+    # Sort oldest-fetched-first so the most stale items get priority
+    expired.sort(key=lambda x: x[0])
+
+    # Cap to avoid rate limiting
+    to_fetch = expired[:MAX_FETCHES_PER_TICK]
+    deferred  = len(expired) - len(to_fetch)
+
+    print(f"  TTL batch: {len(to_fetch)} to fetch | {skipped_ttl} still fresh | {deferred} deferred to next tick")
+
+    n_changed  = 0
+    n_304      = 0
+    n_miss     = 0
+    item_delay = 0.5   # polite inter-item delay (keeps us well under rate limits)
+
+    for batch_idx, (_, iid, info) in enumerate(to_fetch):
+        if batch_idx > 0 and batch_idx % 25 == 0:
+            print(f"    Fetching: {batch_idx}/{len(to_fetch)}...")
+        item_key = f'i_{iid}'
 
         status, new_etag, data = fetch_item_details(
             league, info['type'], info['details_id'],
@@ -344,18 +379,23 @@ def update_own_db(league=DEFAULT_LEAGUE):
 
         if status == 304:
             n_304 += 1
-            time.sleep(0.05)   # 304 is instant, tiny sleep
+            # Item is unchanged — still counts as a fresh fetch, update LFT
+            etag_cache[slug][lft_key(iid)] = now_ms
+            time.sleep(0.05)
             continue
 
         if status in (404, None) or not data:
             n_miss += 1
             if status == 404:
-                etag_cache[slug][blacklist_k] = True
+                etag_cache[slug][f'__404_{iid}'] = True
+            # On 429 the retry logic in http_get() already waited; slow down slightly
             if status == 429:
-                item_delay = max(item_delay, 0.5)   # slow down after rate limit hit
+                item_delay = min(item_delay + 0.2, 2.0)
             time.sleep(0.05)
             continue
 
+        # Successful 200 response — record the fetch time
+        etag_cache[slug][lft_key(iid)] = now_ms
         if new_etag:
             etag_cache[slug][item_key] = new_etag
 
@@ -375,7 +415,6 @@ def update_own_db(league=DEFAULT_LEAGUE):
             rate   = pair.get('rate') or 0
             volume = pair.get('volumePrimaryValue') or 0
             own["prices"][iid].setdefault(cur_id, [])
-            # Seed full daily history from pair.history (exact rates, already in the response)
             seed_pair_history(own["prices"], iid, cur_id, pair.get('history', []), now_ms)
             if record_price(own["prices"][iid][cur_id], now_ms, rate, volume):
                 item_changed = True
@@ -384,7 +423,7 @@ def update_own_db(league=DEFAULT_LEAGUE):
             n_changed += 1
             any_changed = True
 
-        time.sleep(item_delay)   # polite delay; auto-increases after any 429
+        time.sleep(item_delay)
 
     print(f"  Exchange: {n_changed} prices changed | {n_304} unchanged (304) | {n_miss} not found")
 
