@@ -32,7 +32,7 @@
     "__ov_ex_SoulCores": "W/7c366467640d591560eee3179db0059d",
     "__ov_ex_Idols": "W/e735ed94ad8c8bbd1ab52f8fc47493db",
     "__ov_ex_Runes": "W/ae13e84cb1229b374ff43840b9f0f672",
-    "__ov_ex_Ritual": "W/43eac86e466a25a4fb807a9b19c72dbb",
+    "__ov_ex_Ritual": "W/e28d043be454be9cdd9c8224d7b34c28",
     "__ov_ex_Expedition": "W/dbc57a8934b7c410f6a1ed10c8402786",
     "__ov_ex_Delirium": "W/37aec777d73ea1ac99fc865c0bbc8db9",
     "__ov_ex_Breach": "W/3116a831e6c30fc95a5c397ca2e82c54",
@@ -732,7 +732,7 @@
     "__ov_ex_Ritual": "W/5c9351a0263151a22cd32e61f314ad27",
     "__ov_ex_Expedition": "W/10a169608e395a028942930bbed567ba",
     "__ov_ex_Delirium": "W/0d43b0aee6062ca9d11540f52a1678f6",
-    "__ov_ex_Breach": "W/74c78d9d568d59855e2d522d7727586d",
+    "__ov_ex_Breach": "W/b0b978fb28c4f2aa6dbea07a9e2f8379",
     "__ov_ex_Verisium": "W/66d944b17ccdfb7a0f446b5b0b5e800e",
     "i_alch": "W/709289b67f14b97dcf5cc9b7a269a2d4",
     "i_exalted": "W/9f9957cd76526bd43c4d2f0d125fc04b",
@@ -1229,7 +1229,7 @@
     "__ov_st_UniqueCharms": "W/be22b70d936dd33d6fb779984002567b",
     "__ov_st_UniqueJewels": "W/1b3f1d8c2bfa1d89c06a9651eac828ac",
     "__ov_st_UniqueSanctumRelics": "W/722bea0d99af125edc368cf7a36cf7ff",
-    "__ov_st_UniqueTablets": "W/41d0715ec44ad24a2d99cf7af942f896",
+    "__ov_st_UniqueTablets": "W/bf014af99f46e55ef927331479a50126",
     "__ov_st_PrecursorTablets": "W/5a98a32a763484842c973c22f271103a",
     "i_mirror": "W/e4f5d077908b190cedef60b51df9d2f6",
     "i_uncut-spirit-gem-15": "W/16068d7f7763960b3c665666039c3ca7",
@@ -1523,7 +1523,11 @@
     "__404_rune-of-accumulation": true,
     "__404_thaumaturgic-flux-12": true,
     "__404_ancient-concentrated-liquid-suffering": true,
-    "__404_ancient-liquid-paranoia": true
+    "__404_guatelitzis-ablation": true,
+    "__404_essence-of-the-body": true,
+    "__404_lesser-essence-of-abrasion": true,
+    "__404_ancient-liquid-paranoia": true,
+    "__404_breachlords-rift": true
   },
   "standard": {
     "Currency": "W/4ada545de4fd3eb637535792f2577413",
@@ -2362,7 +2366,8 @@
     "__404_hayoxis-soul-core-of-heatproofing": true,
     "__404_aug": true,
     "__404_chance-shard": true,
-    "__404_greater-essence-of-opulence": true
+    "__404_greater-essence-of-opulence": true,
+    "__404_omen-of-the-sovereign": true
   },
   "hardcore": {
     "Currency": "W/17020e4c496c7a5722c46aa099e3aeb0",
