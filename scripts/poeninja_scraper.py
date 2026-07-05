@@ -42,7 +42,8 @@ def http_get(url, etag=None):
     if etag:
         headers['If-None-Match'] = etag
     req = urllib.request.Request(url, headers=headers)
-    for attempt in range(2):   # retry once on 429
+    backoff = 65
+    for attempt in range(4):   # retry up to 3 times on 429 (4 total attempts)
         try:
             with urllib.request.urlopen(req, timeout=20) as r:
                 new_etag = r.info().get('ETag') or r.info().get('Etag')
@@ -50,9 +51,10 @@ def http_get(url, etag=None):
         except urllib.error.HTTPError as e:
             if e.code == 304:
                 return 304, etag, None
-            if e.code == 429 and attempt == 0:
-                print(f"  [RATE LIMIT] 429 received — waiting 20s before retry...")
-                time.sleep(20)
+            if e.code == 429 and attempt < 3:
+                print(f"  [RATE LIMIT 429] Too many requests. Waiting {backoff}s before retry (Attempt {attempt+1}/4)...")
+                time.sleep(backoff)
+                backoff *= 2  # Exponential backoff: 65s, 130s, 260s...
                 continue
             print(f"  [HTTP {e.code}] {url}")
             return e.code, None, None
