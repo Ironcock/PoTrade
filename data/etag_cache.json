@@ -1571,8 +1571,8 @@
     "__404_citaqualotls-soul-core-of-foulness": true,
     "__404_greater-adept-rune": true,
     "__404_thaumaturgic-flux-19": true,
-    "__404_bhatairs-vengeance": true,
-    "__404_ire-of-aldur": true
+    "__404_ire-of-aldur": true,
+    "__404_bhatairs-vengeance": true
   },
   "standard": {
     "Currency": "W/4ada545de4fd3eb637535792f2577413",
@@ -2446,12 +2446,10 @@
     "__404_kaoms-madness": true,
     "__404_tuls-stillness": true,
     "__404_soul-core-of-topotante": true,
-    "__404_eshs-radiance": true,
-    "__404_hayoxis-fulmination": true,
-    "__404_greater-adept-rune": true,
     "__404_omen-of-chance": true,
     "__404_eshs-radiance": true,
-    "__404_hayoxis-fulmination": true
+    "__404_hayoxis-fulmination": true,
+    "__404_greater-adept-rune": true
   },
   "hardcore": {
     "Currency": "W/17020e4c496c7a5722c46aa099e3aeb0",
