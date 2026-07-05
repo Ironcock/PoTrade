@@ -23,11 +23,11 @@
     "UniqueSanctumRelics": "W/30ca2ef103d8de7770f2f24387087046",
     "UniqueTablets": "W/12f80f58f8a646f1e9a2576536a7100e",
     "PrecursorTablets": "W/043d764624acb9f0e889f4914537cafe",
-    "__ov_ex_Currency": "W/a43c90ea10208d36ee286f92cc23fcd1",
+    "__ov_ex_Currency": "W/159982cca8e237706befc95d6a7f2cdc",
     "__ov_ex_Fragments": "W/a4195d6bdd92063ed9ae996156f9dbef",
-    "__ov_ex_Abyss": "W/3d7c94df4506b43a010a0f67ab3ad296",
+    "__ov_ex_Abyss": "W/6ffeabff3bdc070767c9ac6693dfbb0b",
     "__ov_ex_UncutGems": "W/94640a5d0eb42aad07091aa572211860",
-    "__ov_ex_LineageSupportGems": "W/ee626d691806bc4b3546610bd3b3ef73",
+    "__ov_ex_LineageSupportGems": "W/6a9d993692f15c75b0f290e4965fb217",
     "__ov_ex_Essences": "W/71ea02480072c49b7e0c1174c1913fdf",
     "__ov_ex_SoulCores": "W/3478399ee70b305e7f2972809a40a474",
     "__ov_ex_Idols": "W/628ae224e168250c3f352b533e1eb4c3",
@@ -170,7 +170,7 @@
     "i_uncut-support-gem-3": "W/13e48659bf56a80f7b1c4bdf1890f56e",
     "i_uncut-support-gem-4": "W/00b7646cb4082d479d3feac16ed0b007",
     "i_uncut-support-gem-5": "W/796136c50692be847bb1279f2ecc85fb",
-    "i_ahns-citadel": "W/43277026d12451ff7fa97c753cbb2784",
+    "i_ahns-citadel": "W/fe86c361c58e912bd9795bd0211dbdeb",
     "i_ailiths-chimes": "W/b9d8d5cd27d92b054d803ebc8fe925c9",
     "i_amanamus-tithe": "W/3193348048f7cea57d115ba1c8234644",
     "i_arbiters-ignition": "W/c2769bbc983d369c2c129c804f98e5c6",
@@ -209,7 +209,7 @@
     "i_tasalios-rhythm": "W/318bf1087b7e8de8c1329bfc1c72e650",
     "i_tuls-avalanche": "W/aa59287d7f129637d272856d62ebaa42",
     "i_uhtreds-rite": "W/f02c18fc54b240d1b0b722eccf92d2da",
-    "i_uul-netols-embrace": "W/bac604140ae1272afc419b38e5111d9f",
+    "i_uul-netols-embrace": "W/f7b9998553d4804f5a3c989937a3831e",
     "i_vilentas-propulsion": "W/95464d22c5d18150e91226b794428a0e",
     "i_vruuns-aftermath": "W/e2eb6a2c2979e7bc19aeacc0fd44f550",
     "i_xibaquas-rending": "W/4e49726b22b9f06d3dde38ad5ea0639d",
@@ -735,7 +735,7 @@
     "__ov_ex_Expedition": "W/2fc9d3af895eeeaf69b3ca964fd69849",
     "__ov_ex_Delirium": "W/e22037d5b4adc6cad4704e36aee82ea2",
     "__ov_ex_Breach": "W/07d1516282f52d26a567a684996ba525",
-    "__ov_ex_Verisium": "W/a56337f12274cc9b61dc5399c3880e97",
+    "__ov_ex_Verisium": "W/e225faf5736989dae45fe192c795e47d",
     "i_alch": "W/eed9696e4afe88c8802a2ca1e74125c7",
     "i_exalted": "W/310f3234a4274c14804630eb61b7b644",
     "i_ancient-infuser": "W/25b2782cc50297b027bf2731cf6dbea3",
@@ -1580,7 +1580,8 @@
     "__404_refined-adaptive-catalyst": true,
     "__404_atziris-impatience": true,
     "__404_saqawals-rune-of-memory": true,
-    "__404_uncut-skill-gem-10": true
+    "__404_uncut-skill-gem-10": true,
+    "__404_refined-xophs-catalyst": true
   },
   "standard": {
     "Currency": "W/4ada545de4fd3eb637535792f2577413",
@@ -2465,7 +2466,9 @@
     "__404_idol-of-yeena": true,
     "__404_uncut-spirit-gem-10": true,
     "__404_tricksters-shard": true,
-    "__404_soul-core-of-azcapa": true
+    "__404_soul-core-of-azcapa": true,
+    "__404_greater-essence-of-abrasion": true,
+    "__404_ancient-liquid-despair": true
   },
   "hardcore": {
     "Currency": "W/17020e4c496c7a5722c46aa099e3aeb0",
