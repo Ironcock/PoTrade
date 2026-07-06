@@ -1,9 +1,7 @@
 name: PoE2 Economy Scraper
 
 on:
-  schedule:
-    - cron: '*/5 * * * *' # Trigger every 5 minutes as a watchdog
-  workflow_dispatch: # Enable manual run trigger from the actions UI
+  workflow_dispatch: # Enabled via cron-job.org trigger or manual trigger
 
 permissions:
   contents: write
