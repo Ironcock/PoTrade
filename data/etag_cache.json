@@ -35,7 +35,7 @@
     "__ov_ex_Ritual": "W/9f3d61f9e2dc00e8c12da5bd2de217d6",
     "__ov_ex_Expedition": "W/dc15f91593d0f816a79da48967290e77",
     "__ov_ex_Delirium": "W/7dbca0aab10b5ab2dadaae28f9aca51e",
-    "__ov_ex_Breach": "W/f5d11141f69777e74c376cea4d829553",
+    "__ov_ex_Breach": "W/a671e7c064892c3e70738287a6ddca6f",
     "__ov_ex_Verisium": "W/50352e684bb521b58419688ab7d1b947",
     "i_chaos": "W/5ddd20ba3c52020561251dc91e0e9eed",
     "i_bauble": "W/e6a404ecb56a96b11e886af5e096e571",
@@ -2622,7 +2622,8 @@
     "__404_protective-alloy": true,
     "__404_uncut-spirit-gem-16": true,
     "__404_expansive-alloy": true,
-    "__404_uncut-spirit-gem-15": true
+    "__404_uncut-spirit-gem-15": true,
+    "__404_diallas-desire": true
   },
   "standard": {
     "Currency": "W/4ada545de4fd3eb637535792f2577413",
@@ -2658,7 +2659,7 @@
     "__ov_ex_Idols": "W/680bdd3d894177dcddf7e8c5d0fef892",
     "__ov_ex_Runes": "W/17b154b96c89fdc9835e921c73f2bcfe",
     "__ov_ex_Ritual": "W/c49299f778e7d28d88a7de7aacbdeb9d",
-    "__ov_ex_Expedition": "W/3f6e832c6f360418b095f425180bac6a",
+    "__ov_ex_Expedition": "W/b3c7f8efbd5c060b3cfb3280673db358",
     "__ov_ex_Delirium": "W/ef97bb94f49dcd834b2230d49aeecbf4",
     "__ov_ex_Breach": "W/7d7fff2ef018614c5a68d1136cfbfcea",
     "__ov_ex_Verisium": "W/3f6e832c6f360418b095f425180bac6a",
