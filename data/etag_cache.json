@@ -711,8 +711,8 @@
     "__lft_greater-orb-of-augmentation": 1784855831157,
     "__lft_regal": 1784855831157,
     "__lft_etcher": 1784855831157,
-    "__lft_vaal-arcanists-infuser": 1784853945927,
-    "__lft_wisdom": 1784853945927,
+    "__lft_vaal-arcanists-infuser": 1784856285117,
+    "__lft_wisdom": 1784856285117,
     "__lft_perfect-jewellers-orb": 1784854580532,
     "__lft_aug": 1784854580532,
     "__lft_yaomacs-orb-of-sacrifice": 1784854580532,
@@ -2790,7 +2790,8 @@
     "__404_perfect-essence-of-sorcery": true,
     "__404_ancient-potent-liquid-melancholy": true,
     "__404_ancient-potent-liquid-contempt": true,
-    "__404_diluted-liquid-ire": true
+    "__404_diluted-liquid-ire": true,
+    "__404_uul-netols-catalyst": true
   },
   "standard": {
     "Currency": "W/4ada545de4fd3eb637535792f2577413",
