@@ -436,18 +436,16 @@ def update_own_db(league=DEFAULT_LEAGUE):
 
     # Get live exchange rates for derivation (chaos <-> divine <-> exalted)
     chaos_per_divine   = 1.0    # how many chaos per 1 divine
-    exalted_per_chaos  = 1.0    # how many exalted per 1 chaos
+    exalted_per_divine = 1.0    # how many exalted per 1 divine
 
     divine_chaos_hist = own["prices"].get("divine", {}).get("chaos", [])
     if divine_chaos_hist:
         chaos_per_divine = divine_chaos_hist[-1][1]
 
-    # exalted rate: stored as "chaos" pair on divine (rate = exalted per divine)
-    # So exalted per chaos = (exalted per divine) / (chaos per divine)
+    # exalted rate: stored as "exalted" pair on divine (rate = exalted per divine)
     divine_exalted_hist = own["prices"].get("divine", {}).get("exalted", [])
-    if divine_exalted_hist and chaos_per_divine > 0:
+    if divine_exalted_hist:
         exalted_per_divine = divine_exalted_hist[-1][1]
-        exalted_per_chaos  = exalted_per_divine / chaos_per_divine
 
     n_stash = 0
 
@@ -473,11 +471,11 @@ def update_own_db(league=DEFAULT_LEAGUE):
             icon     = line.get('icon') or ''
             volume   = line.get('listingCount') or line.get('count') or 0
 
-            # poe.ninja PoE2 stash overview: prices are in exalted orbs (primaryValue)
-            # Derive chaos and divine using live exchange rates from exchange items
-            exalt_p  = line.get('primaryValue') or 0
-            chaos_p  = (exalt_p / exalted_per_chaos) if exalt_p and exalted_per_chaos > 0 else 0
-            divine_p = (chaos_p / chaos_per_divine)  if chaos_p and chaos_per_divine  > 0 else 0
+            # poe.ninja PoE2 stash overview: prices are in divine orbs (primaryValue)
+            # Derive chaos and exalted using live exchange rates from exchange items
+            divine_p = line.get('primaryValue') or 0
+            chaos_p  = (divine_p * chaos_per_divine)   if divine_p and chaos_per_divine > 0 else 0
+            exalt_p  = (divine_p * exalted_per_divine) if divine_p and exalted_per_divine > 0 else 0
 
             # Update or create metadata
             if iid not in metadata_map:
@@ -498,14 +496,14 @@ def update_own_db(league=DEFAULT_LEAGUE):
             item_changed = False
 
             # Seed 7-day history from poe.ninja's built-in sparkLine (runs once per item)
-            # primaryValue is in exalted orbs — seed all three derived currencies
+            # primaryValue is in divine orbs — seed all three derived currencies
             sparkline = line.get('sparkLine')
-            if sparkline and exalt_p:
-                seed_sparkline_history(own["prices"], iid, 'exalted', exalt_p, sparkline, volume, now_ms)
+            if sparkline and divine_p:
+                seed_sparkline_history(own["prices"], iid, 'divine', divine_p, sparkline, volume, now_ms)
                 if chaos_p:
-                    seed_sparkline_history(own["prices"], iid, 'chaos',  chaos_p,  sparkline, volume, now_ms)
-                if divine_p:
-                    seed_sparkline_history(own["prices"], iid, 'divine', divine_p, sparkline, volume, now_ms)
+                    seed_sparkline_history(own["prices"], iid, 'chaos',   chaos_p,   sparkline, volume, now_ms)
+                if exalt_p:
+                    seed_sparkline_history(own["prices"], iid, 'exalted', exalt_p,   sparkline, volume, now_ms)
 
             for cur_id, price in [('chaos', chaos_p), ('divine', divine_p), ('exalted', exalt_p)]:
                 if price and price > 0:
@@ -530,6 +528,28 @@ def update_own_db(league=DEFAULT_LEAGUE):
     with open(own_db_file, 'w', encoding='utf-8') as f:
         json.dump(own, f, separators=(',', ':'))
     print(f"  Saved {os.path.basename(own_db_file)} ({os.path.getsize(own_db_file)//1024} KB)")
+
+    # Save dedicated lightweight currency rates file (~1 KB vs 850 KB full database)
+    rates_file = os.path.join(DATA_DIR, f'currency_rates_{slug}.json')
+    rates_map  = {
+        "divine": round(chaos_per_divine, 4),
+        "chaos":  1.0,
+        "exa":    round(exalted_per_divine / chaos_per_divine, 6) if chaos_per_divine > 0 else 0.0203
+    }
+    for iid, cur_dict in own["prices"].items():
+        if iid in ('divine', 'chaos', 'exalted'):
+            continue
+        if 'chaos' in cur_dict and cur_dict['chaos']:
+            rates_map[iid] = round(cur_dict['chaos'][-1][1], 6)
+        elif 'divine' in cur_dict and cur_dict['divine']:
+            rates_map[iid] = round(cur_dict['divine'][-1][1] * chaos_per_divine, 6)
+
+    currency_rates_data = {
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "rates": rates_map
+    }
+    with open(rates_file, 'w', encoding='utf-8') as f:
+        json.dump(currency_rates_data, f, indent=2)
 
     with open(METADATA_FILE, 'w', encoding='utf-8') as f:
         json.dump(list(metadata_map.values()), f, indent=2)
