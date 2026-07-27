@@ -536,20 +536,30 @@ def update_own_db(league=DEFAULT_LEAGUE):
         json.dump(own, f, separators=(',', ':'))
     print(f"  Saved {os.path.basename(own_db_file)} ({os.path.getsize(own_db_file)//1024} KB)")
 
-    # Save dedicated lightweight currency rates file (~1 KB vs 850 KB full database)
+    # Save dedicated ultra-lightweight currency rates file (~2 KB, ~85 lines)
     rates_file = os.path.join(DATA_DIR, f'currency_rates_{slug}.json')
     rates_map  = {
         "divine": round(chaos_per_divine, 4),
         "chaos":  1.0,
         "exa":    round(exalted_per_divine / chaos_per_divine, 6) if chaos_per_divine > 0 else 0.0203
     }
+    allowed_categories = {'Currency'}
     for iid, cur_dict in own["prices"].items():
+        meta = metadata_map.get(iid)
+        if not meta or meta.get('category') not in allowed_categories:
+            continue
         if iid in ('divine', 'chaos', 'exalted'):
             continue
+        
+        trade_key = iid.replace('-orb', '').replace('-', '')
         if 'chaos' in cur_dict and cur_dict['chaos']:
-            rates_map[iid] = round(cur_dict['chaos'][-1][1], 6)
+            val = round(cur_dict['chaos'][-1][1], 6)
+            rates_map[trade_key] = val
+            rates_map[iid] = val
         elif 'divine' in cur_dict and cur_dict['divine']:
-            rates_map[iid] = round(cur_dict['divine'][-1][1] * chaos_per_divine, 6)
+            val = round(cur_dict['divine'][-1][1] * chaos_per_divine, 6)
+            rates_map[trade_key] = val
+            rates_map[iid] = val
 
     currency_rates_data = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
