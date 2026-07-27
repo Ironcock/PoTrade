@@ -21141,5 +21141,29 @@
     "explicitModifiers": [],
     "implicitModifiers": [],
     "levelRequired": 0
+  },
+  {
+    "id": "ravens-reflection",
+    "name": "Raven's Reflection",
+    "detailsId": "ravens-reflection",
+    "icon": "",
+    "category": "Fragments",
+    "baseType": "Raven's Reflection",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "hawk-idol",
+    "name": "Hawk Idol",
+    "detailsId": "hawk-idol",
+    "icon": "",
+    "category": "Idols",
+    "baseType": "Hawk Idol",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
   }
 ]
