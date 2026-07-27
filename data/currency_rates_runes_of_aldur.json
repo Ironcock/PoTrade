@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T13:42:56.205495+00:00",
+  "updatedAt": "2026-07-27T13:49:03.999457+00:00",
   "rates": {
     "divine": 8.76,
     "chaos": 1.0,
@@ -268,7 +268,7 @@
     "quipolatls-soul-core-of-flow": 2.91,
     "soul-core-of-azcapa": 17.76,
     "soul-core-of-citaqualotl": 1.25,
-    "soul-core-of-jiquani": 2.56,
+    "soul-core-of-jiquani": 2.57,
     "soul-core-of-opiloti": 0.2162,
     "soul-core-of-puhuarte": 1,
     "soul-core-of-tacati": 0.6255,
@@ -1340,10 +1340,10 @@
     "ironbound-runeforged-warden-bow": 0.001906,
     "helbryms-hide": 0.1667,
     "eonyrs-thunder": 0.5,
-    "ravens-reflection": 2.6,
-    "shattered-triskelion": 0.5926,
-    "the-triskelion-reforged": 0.7333,
-    "stoat-idol": 3,
+    "ravens-reflection": 2.57,
+    "shattered-triskelion": 0.6333,
+    "the-triskelion-reforged": 0.7059,
+    "stoat-idol": 3.75,
     "panther-idol": 1,
     "hawk-idol": 1
   }
