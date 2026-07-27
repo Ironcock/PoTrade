@@ -21165,5 +21165,53 @@
     "explicitModifiers": [],
     "implicitModifiers": [],
     "levelRequired": 0
+  },
+  {
+    "id": "shattered-triskelion",
+    "name": "Shattered Triskelion",
+    "detailsId": "shattered-triskelion",
+    "icon": "",
+    "category": "Fragments",
+    "baseType": "Shattered Triskelion",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "the-triskelion-reforged",
+    "name": "The Triskelion Reforged",
+    "detailsId": "the-triskelion-reforged",
+    "icon": "",
+    "category": "Fragments",
+    "baseType": "The Triskelion Reforged",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "stoat-idol",
+    "name": "Stoat Idol",
+    "detailsId": "stoat-idol",
+    "icon": "",
+    "category": "Idols",
+    "baseType": "Stoat Idol",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "panther-idol",
+    "name": "Panther Idol",
+    "detailsId": "panther-idol",
+    "icon": "",
+    "category": "Idols",
+    "baseType": "Panther Idol",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T10:31:13.369387+00:00",
+  "updatedAt": "2026-07-27T10:37:22.162008+00:00",
   "rates": {
     "divine": 8.75,
     "chaos": 1.0,
@@ -268,7 +268,7 @@
     "quipolatls-soul-core-of-flow": 3.12,
     "soul-core-of-azcapa": 18.7,
     "soul-core-of-citaqualotl": 1.38,
-    "soul-core-of-jiquani": 2.43,
+    "soul-core-of-jiquani": 2.54,
     "soul-core-of-opiloti": 0.2162,
     "soul-core-of-puhuarte": 1,
     "soul-core-of-tacati": 0.5749,
@@ -1337,6 +1337,12 @@
     "delirium-tablet-delirium-tablet-rare": 0.00023,
     "overseer-tablet-overseer-tablet-magic": 0.000184,
     "overseer-tablet-overseer-tablet-rare": 0.000184,
-    "ironbound-runeforged-warden-bow": 0.001906
+    "ironbound-runeforged-warden-bow": 0.001906,
+    "ravens-reflection": 2.6,
+    "shattered-triskelion": 0.8,
+    "the-triskelion-reforged": 0.8182,
+    "stoat-idol": 3,
+    "panther-idol": 1,
+    "hawk-idol": 1
   }
 }
