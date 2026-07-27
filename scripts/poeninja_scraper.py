@@ -493,6 +493,13 @@ def update_own_db(league=DEFAULT_LEAGUE):
                 metadata_map[iid]['icon'] = icon
 
             own["prices"].setdefault(iid, {})
+
+            # Self-healing: if existing history was stored under old broken format (where exalted < 10 * divine), wipe it to re-seed cleanly
+            existing_div = own["prices"][iid].get("divine", [])
+            existing_exa = own["prices"][iid].get("exalted", [])
+            if existing_div and existing_exa and existing_exa[0][1] < existing_div[0][1] * 10:
+                own["prices"][iid] = {}
+
             item_changed = False
 
             # Seed 7-day history from poe.ninja's built-in sparkLine (runs once per item)
