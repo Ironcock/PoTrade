@@ -21117,5 +21117,29 @@
       "28% chance to Chain an additional time"
     ],
     "levelRequired": 40
+  },
+  {
+    "id": "helbryms-hide",
+    "name": "Helbrym's Hide",
+    "detailsId": "helbryms-hide",
+    "icon": "",
+    "category": "LineageSupportGems",
+    "baseType": "Helbrym's Hide",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "eonyrs-thunder",
+    "name": "Eonyr's Thunder",
+    "detailsId": "eonyrs-thunder",
+    "icon": "",
+    "category": "LineageSupportGems",
+    "baseType": "Eonyr's Thunder",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
   }
 ]
