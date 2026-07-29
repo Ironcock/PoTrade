@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T21:00:25.658994+00:00",
+  "updatedAt": "2026-07-29T21:05:34.864465+00:00",
   "rates": {
     "divine": 8.79,
     "chaos": 1.0,
@@ -12,8 +12,8 @@
     "whetstone": 0.03948,
     "orbofextraction": 5.76,
     "orb-of-extraction": 5.76,
-    "greaterexalted": 0.08464,
-    "greater-exalted-orb": 0.08464,
+    "greaterexalted": 0.08361,
+    "greater-exalted-orb": 0.08361,
     "greaterofaugmentation": 0.01446,
     "greater-orb-of-augmentation": 0.01446,
     "regal": 0.01117,
@@ -56,8 +56,8 @@
     "core-destabiliser": 24.09,
     "transmute": 0.005355,
     "scrap": 0.05206,
-    "perfectchaos": 49.94,
-    "perfect-chaos-orb": 49.94,
+    "perfectchaos": 49.8,
+    "perfect-chaos-orb": 49.8,
     "vaalblacksmithsinfuser": 2.57,
     "vaal-blacksmiths-infuser": 2.57,
     "artificers": 0.0468,
