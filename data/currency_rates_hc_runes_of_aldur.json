@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T18:08:52.325810+00:00",
+  "updatedAt": "2026-07-30T18:15:13.944163+00:00",
   "rates": {
     "divine": 5.03,
     "chaos": 1.0,
@@ -37,7 +37,7 @@
     "greater-regal-orb": 0.457277,
     "lesserjewellers": 0.2,
     "lesser-jewellers-orb": 0.2,
-    "gcp": 0.2565,
+    "gcp": 0.25,
     "greaterchaos": 2.27,
     "greater-chaos-orb": 2.27,
     "greaterexalted": 1,
@@ -52,8 +52,8 @@
     "orb-of-extraction": 5.03,
     "perfectofaugmentation": 0.4141,
     "perfect-orb-of-augmentation": 0.4141,
-    "perfectoftransmutation": 0.457277,
-    "perfect-orb-of-transmutation": 0.457277,
+    "perfectoftransmutation": 0.41915,
+    "perfect-orb-of-transmutation": 0.41915,
     "transmute": 0.2,
     "vaalcatalysinginfuser": 10.06,
     "vaal-catalysing-infuser": 10.06,
