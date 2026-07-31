@@ -2,10 +2,10 @@
   "runes_of_aldur": {
     "__ov_ex_Currency": "W/24851fcfdc81b6e3350286891cdf936b",
     "__ov_ex_Fragments": "W/772e89961738c964041340828ed442d1",
-    "__ov_ex_Abyss": "W/4460282ac0965bf2be148aae2f7c4c05",
+    "__ov_ex_Abyss": "W/798d833161f58d46b6c0306bdca981a2",
     "__ov_ex_UncutGems": "W/38c07031e1bf3f668dee6b6d590f700c",
     "__ov_ex_LineageSupportGems": "W/6b18f5d043bbdad0495732fb5ce23c3f",
-    "__ov_ex_Essences": "W/b7d77ba17a2ff9ea94660fe7aeec9e39",
+    "__ov_ex_Essences": "W/aeffd24e1fa6e6fa18b8831e00592995",
     "__ov_ex_SoulCores": "W/81013fcd507bc8828df7e91390a84b4f",
     "__ov_ex_Idols": "W/46b50527bf7061eb3886ee0e12e7461c",
     "__ov_ex_Runes": "W/03aac5c7a3cb97a788803fc562bfae8e",
@@ -13,7 +13,7 @@
     "__ov_ex_Expedition": "W/781d2f056d7d500c4d57ddf148d7ff41",
     "__ov_ex_Delirium": "W/29dee4c885a9750f4fd14fc53603b4f7",
     "__ov_ex_Breach": "W/4889e9035a52e43a89c63859b4b6c558",
-    "__ov_ex_Verisium": "W/09338116d0a8d474936aff4f6397e708",
+    "__ov_ex_Verisium": "W/463332ef850214efc4584e06a94f000f",
     "__lft_chaos": 1785461373431,
     "i_chaos": "W/65e48359d74b65e5a914c68678b10db2",
     "__lft_bauble": 1785461373431,
@@ -1379,7 +1379,7 @@
     "__404_greater-essence-of-the-infinite": true
   },
   "hc_runes_of_aldur": {
-    "__ov_ex_Currency": "W/da854c9d048a46bbf6a6bc73d418bc94",
+    "__ov_ex_Currency": "W/a9c38e5af5e1ea27953ad42053d57685",
     "__ov_ex_Fragments": "W/22fe667732bd37ce9b4db02b44675e4c",
     "__ov_ex_Abyss": "W/6a8637dc30936615fe603298d8819c8b",
     "__ov_ex_UncutGems": "W/0457908ab8d0a8e1a1dfdf2cec85550b",
