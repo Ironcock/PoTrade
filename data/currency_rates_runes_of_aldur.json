@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T12:17:14.181720+00:00",
+  "updatedAt": "2026-08-01T12:22:39.814010+00:00",
   "rates": {
     "divine": 8.21,
     "chaos": 1.0,
@@ -63,8 +63,8 @@
     "artificers": 0.06661,
     "greaterjewellers": 0.05937,
     "greater-jewellers-orb": 0.05937,
-    "greaterchaos": 2.89,
-    "greater-chaos-orb": 2.89,
+    "greaterchaos": 2.9,
+    "greater-chaos-orb": 2.9,
     "perfectoftransmutation": 0.107,
     "perfect-orb-of-transmutation": 0.107,
     "architects": 43.07,
@@ -82,7 +82,7 @@
     "chance-shard": 0.3333,
     "vaalsiphoner": 0.08333,
     "vaal-siphoner": 0.08333,
-    "mirror": 38825.09,
+    "mirror": 38898.98,
     "hinekoraslock": 6899,
     "hinekoras-lock": 6899,
     "transmutationshard": 0.75,
