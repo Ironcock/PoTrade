@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T23:56:15.739772+00:00",
+  "updatedAt": "2026-08-03T00:02:56.451452+00:00",
   "rates": {
     "divine": 4.6,
     "chaos": 1.0,
@@ -30,8 +30,8 @@
     "etcher": 0.1667,
     "fracturing": 50.094,
     "fracturing-orb": 50.094,
-    "perfectchaos": 10,
-    "perfect-chaos-orb": 10,
+    "perfectchaos": 20.516,
+    "perfect-chaos-orb": 20.516,
     "regal": 0.1368,
     "greaterregal": 1,
     "greater-regal-orb": 1,
@@ -44,22 +44,15 @@
     "greater-exalted-orb": 0.1552,
     "greaterjewellers": 1,
     "greater-jewellers-orb": 1,
-    "greateroftransmutation": 0.02083,
-    "greater-orb-of-transmutation": 0.02083,
-    "orbofextraction": 4.6,
-    "orb-of-extraction": 4.6,
     "perfectofaugmentation": 0.4,
     "perfect-orb-of-augmentation": 0.4,
     "perfectoftransmutation": 0.65734,
     "perfect-orb-of-transmutation": 0.65734,
-    "transmute": 0.153318,
     "vaalcatalysinginfuser": 9.2,
     "vaal-catalysing-infuser": 9.2,
     "vaalcultivation": 12.328,
     "vaal-cultivation-orb": 12.328,
     "vaal": 0.225,
-    "whetstone": 0.1875,
-    "yaomacsofsacrifice": 4.6,
-    "yaomacs-orb-of-sacrifice": 4.6
+    "whetstone": 0.1875
   }
 }

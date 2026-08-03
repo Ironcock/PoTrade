@@ -1,12 +1,11 @@
 {
-  "updatedAt": "2026-08-02T23:56:16.750627+00:00",
+  "updatedAt": "2026-08-03T00:03:01.034090+00:00",
   "rates": {
     "divine": 4.54,
     "chaos": 1.0,
     "exa": 71.013216,
     "whetstone": 0.1667,
     "etcher": 1,
-    "wisdom": 0.000908,
     "perfectexalted": 0.5,
     "perfect-exalted-orb": 0.5,
     "gcp": 1,
@@ -44,8 +43,6 @@
     "perfect-chaos-orb": 10,
     "perfectofaugmentation": 4,
     "perfect-orb-of-augmentation": 4,
-    "greateroftransmutation": 0.030268,
-    "greater-orb-of-transmutation": 0.030268,
     "vaalarcanistsinfuser": 42.3582,
     "vaal-arcanists-infuser": 42.3582,
     "annul": 0.8182,
@@ -59,10 +56,6 @@
     "fracturing-orb": 10.33,
     "cryptickey": 67.873,
     "cryptic-key": 67.873,
-    "greaterofaugmentation": 0.102513,
-    "greater-orb-of-augmentation": 0.102513,
-    "yugulsofsacrifice": 18.16,
-    "yuguls-orb-of-sacrifice": 18.16,
     "yaomacsofsacrifice": 27.24,
     "yaomacs-orb-of-sacrifice": 27.24,
     "kamasasofsacrifice": 45.4,
@@ -70,7 +63,6 @@
     "greaterregal": 0.908,
     "greater-regal-orb": 0.908,
     "perfectoftransmutation": 0.14646,
-    "perfect-orb-of-transmutation": 0.14646,
-    "aug": 0.0227
+    "perfect-orb-of-transmutation": 0.14646
   }
 }
