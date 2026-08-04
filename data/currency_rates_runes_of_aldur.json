@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T03:21:46.079562+00:00",
+  "updatedAt": "2026-08-04T03:28:08.058177+00:00",
   "rates": {
     "divine": 7.94,
     "chaos": 1.0,
@@ -39,7 +39,7 @@
     "greater-regal-orb": 0.1058,
     "perfectexalted": 20.51,
     "perfect-exalted-orb": 20.51,
-    "gcp": 0.1377,
+    "gcp": 0.1351,
     "fracturing": 79.24,
     "fracturing-orb": 79.24,
     "yugulsofsacrifice": 1,
@@ -80,7 +80,7 @@
     "chance-shard": 0.5,
     "vaalsiphoner": 0.07692,
     "vaal-siphoner": 0.07692,
-    "mirror": 36468.42,
+    "mirror": 36452.54,
     "hinekoraslock": 6899,
     "hinekoras-lock": 6899
   }
