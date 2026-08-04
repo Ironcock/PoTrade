@@ -1,6 +1,6 @@
 {
   "runes_of_aldur": {
-    "__ov_ex_Currency": "W/98841dd7affb45306b6fb94d63e6a2f0",
+    "__ov_ex_Currency": "W/bd95832118b9438673c663ed804b4420",
     "__ov_ex_Fragments": "W/64bf54b67e68a0170b91a8395435ec48",
     "__ov_ex_Abyss": "W/ea62da4fceaa3b50f9ad9a2b5bd7e95e",
     "__ov_ex_UncutGems": "W/52c85588ce410cbb627a38f92ee7688f",
@@ -46,12 +46,12 @@
     "i_perfect-jewellers-orb": "W/062ed7de39bc55b559be2801bc5ab1fd",
     "__lft_aug": 1785861727767,
     "i_aug": "W/7282717c32aca063b1b3fb2fa5c7dc72",
-    "__lft_yaomacs-orb-of-sacrifice": 1785859973202,
-    "i_yaomacs-orb-of-sacrifice": "W/daf2433e61ca74afb09e9a3a9c5fef83",
-    "__lft_kopecs-orb-of-sacrifice": 1785859973202,
-    "i_kopecs-orb-of-sacrifice": "W/029d64a012128c9c3fa36eca35153a2f",
-    "__lft_vaal-cultivation-orb": 1785859973202,
-    "i_vaal-cultivation-orb": "W/68b477a3ac500f16278bcc6fc80f4325",
+    "__lft_yaomacs-orb-of-sacrifice": 1785862050074,
+    "i_yaomacs-orb-of-sacrifice": "W/d910e6e34ea5dc27d644ae4765fd4859",
+    "__lft_kopecs-orb-of-sacrifice": 1785862050074,
+    "i_kopecs-orb-of-sacrifice": "W/7c57ef1dd5b177748401ebb06820e9c3",
+    "__lft_vaal-cultivation-orb": 1785862050074,
+    "i_vaal-cultivation-orb": "W/e55296c4b640ebb0ebf4a2de1cbdab6a",
     "__lft_vaal": 1785860282170,
     "i_vaal": "W/ff7c404659df9643ac86ecd72435b541",
     "__lft_alch": 1785860282170,
@@ -2694,7 +2694,7 @@
     "__404_greater-essence-of-enhancement": true
   },
   "standard": {
-    "__ov_ex_Currency": "W/51302b33eba893210e90f46bbf76d2b8",
+    "__ov_ex_Currency": "W/de6f1714033035a7062169a92b1bd25b",
     "__ov_ex_Fragments": "W/597a72ac9513b0a1cd229a80935daf5a",
     "__ov_ex_Abyss": "W/2e59813f5391a76534afeb4bba3a91e9",
     "__ov_ex_UncutGems": "W/bb097fddec4457adad8c503d196814e9",
