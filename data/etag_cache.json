@@ -46,11 +46,11 @@
     "i_perfect-jewellers-orb": "W/881399f81260fdc37af4bb9c4fec5d8d",
     "__lft_aug": 1785859638672,
     "i_aug": "W/4d1567ae7241298deda281654a1fe8ec",
-    "__lft_yaomacs-orb-of-sacrifice": 1785858024267,
+    "__lft_yaomacs-orb-of-sacrifice": 1785859973202,
     "i_yaomacs-orb-of-sacrifice": "W/daf2433e61ca74afb09e9a3a9c5fef83",
-    "__lft_kopecs-orb-of-sacrifice": 1785858024267,
+    "__lft_kopecs-orb-of-sacrifice": 1785859973202,
     "i_kopecs-orb-of-sacrifice": "W/029d64a012128c9c3fa36eca35153a2f",
-    "__lft_vaal-cultivation-orb": 1785858024267,
+    "__lft_vaal-cultivation-orb": 1785859973202,
     "i_vaal-cultivation-orb": "W/68b477a3ac500f16278bcc6fc80f4325",
     "__lft_vaal": 1785858335059,
     "i_vaal": "W/ff7c404659df9643ac86ecd72435b541",
@@ -2694,7 +2694,7 @@
     "__404_greater-essence-of-enhancement": true
   },
   "standard": {
-    "__ov_ex_Currency": "W/4624e685d9d4ac24a51c1b59c8d9f528",
+    "__ov_ex_Currency": "W/51302b33eba893210e90f46bbf76d2b8",
     "__ov_ex_Fragments": "W/597a72ac9513b0a1cd229a80935daf5a",
     "__ov_ex_Abyss": "W/2e59813f5391a76534afeb4bba3a91e9",
     "__ov_ex_UncutGems": "W/bb097fddec4457adad8c503d196814e9",
