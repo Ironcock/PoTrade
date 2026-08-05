@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T00:52:55.592842+00:00",
+  "updatedAt": "2026-08-05T00:59:53.360408+00:00",
   "rates": {
     "divine": 4.17,
     "chaos": 1.0,
@@ -49,8 +49,6 @@
     "fracturing": 12,
     "fracturing-orb": 12,
     "cryptickey": 62.3415,
-    "cryptic-key": 62.3415,
-    "perfectoftransmutation": 0.134524,
-    "perfect-orb-of-transmutation": 0.134524
+    "cryptic-key": 62.3415
   }
 }
