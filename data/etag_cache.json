@@ -14,7 +14,7 @@
     "__ov_ex_Delirium": "W/3bd5f94036b37e3ef1ccae39633a56e0",
     "__ov_ex_Breach": "W/69741a461c81a75c259b844996fbee6a",
     "__ov_ex_Verisium": "W/ea8e1804c175c6f452874151cc0a114e",
-    "__lft_chaos": 1785926788218,
+    "__lft_chaos": 1785928716381,
     "i_chaos": "W/536628354af20c5ffc059470ebfaeae4",
     "__lft_bauble": 1785927103523,
     "i_bauble": "W/fe15fde954de62a7a2e1fd18468bc1e5",
@@ -1395,7 +1395,8 @@
     "__404_perfect-essence-of-thawing": true,
     "__404_vruuns-aftermath": true,
     "__404_essence-of-haste": true,
-    "__404_idol-of-silk": true
+    "__404_idol-of-silk": true,
+    "__404_greater-rune-of-nobility": true
   },
   "hc_runes_of_aldur": {
     "__ov_ex_Currency": "W/d413fc97184f26fb1f20e5a0cdd03e5e",
