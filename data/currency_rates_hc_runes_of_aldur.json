@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T20:48:17.704224+00:00",
+  "updatedAt": "2026-08-05T20:55:21.763056+00:00",
   "rates": {
     "divine": 4.64,
     "chaos": 1.0,
@@ -21,7 +21,6 @@
     "vaal-armourers-infuser": 1,
     "vaalblacksmithsinfuser": 3,
     "vaal-blacksmiths-infuser": 3,
-    "aug": 0.05,
     "chance": 1,
     "coredestabiliser": 9.8368,
     "core-destabiliser": 9.8368,
