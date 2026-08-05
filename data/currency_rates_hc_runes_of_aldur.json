@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T09:20:16.519691+00:00",
+  "updatedAt": "2026-08-05T09:28:02.963574+00:00",
   "rates": {
     "divine": 4.37,
     "chaos": 1.0,
@@ -50,9 +50,9 @@
     "perfect-orb-of-transmutation": 0.397277,
     "vaalcatalysinginfuser": 8.74,
     "vaal-catalysing-infuser": 8.74,
-    "vaalcultivation": 11.7116,
-    "vaal-cultivation-orb": 11.7116,
-    "vaal": 0.4286,
+    "vaalcultivation": 10.6628,
+    "vaal-cultivation-orb": 10.6628,
+    "vaal": 0.4,
     "whetstone": 0.1667
   }
 }
