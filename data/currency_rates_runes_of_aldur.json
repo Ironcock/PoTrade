@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T20:34:38.593055+00:00",
+  "updatedAt": "2026-08-05T20:41:38.687366+00:00",
   "rates": {
     "divine": 7.83,
     "chaos": 1.0,
@@ -71,8 +71,8 @@
     "architects-orb": 37.37,
     "perfectofaugmentation": 0.6956,
     "perfect-orb-of-augmentation": 0.6956,
-    "cryptickey": 4.86,
-    "cryptic-key": 4.86,
+    "cryptickey": 5.11,
+    "cryptic-key": 5.11,
     "lesserjewellers": 0.02,
     "lesser-jewellers-orb": 0.02,
     "annul": 4.26,
@@ -80,7 +80,7 @@
     "chance-shard": 0.5,
     "vaalsiphoner": 0.07143,
     "vaal-siphoner": 0.07143,
-    "mirror": 35830.08,
+    "mirror": 35861.4,
     "hinekoraslock": 8832.24,
     "hinekoras-lock": 8832.24
   }
