@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-06T20:36:12.461198+00:00",
+  "updatedAt": "2026-08-06T20:43:55.907549+00:00",
   "rates": {
-    "divine": 7.79,
+    "divine": 7.8,
     "chaos": 1.0,
-    "exa": 48.459564,
-    "bauble": 0.06324,
+    "exa": 48.282051,
+    "bauble": 0.06652,
     "crystallisedcorruption": 24.44,
     "crystallised-corruption": 24.44,
     "vaalarmourersinfuser": 6.53,
@@ -26,8 +26,8 @@
     "aug": 0.009001,
     "yaomacsofsacrifice": 3,
     "yaomacs-orb-of-sacrifice": 3,
-    "kopecsofsacrifice": 1.09,
-    "kopecs-orb-of-sacrifice": 1.09,
+    "kopecsofsacrifice": 1.16,
+    "kopecs-orb-of-sacrifice": 1.16,
     "vaalcultivation": 11.86,
     "vaal-cultivation-orb": 11.86,
     "vaal": 0.1277,
@@ -80,8 +80,8 @@
     "chance-shard": 0.5,
     "vaalsiphoner": 0.0303,
     "vaal-siphoner": 0.0303,
-    "mirror": 35312.07,
-    "hinekoraslock": 9036.4,
-    "hinekoras-lock": 9036.4
+    "mirror": 35357.4,
+    "hinekoraslock": 9048.0,
+    "hinekoras-lock": 9048.0
   }
 }
