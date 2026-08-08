@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T10:22:39.363062+00:00",
+  "updatedAt": "2026-08-08T10:29:16.638687+00:00",
   "rates": {
     "divine": 7.72,
     "chaos": 1.0,
@@ -26,8 +26,8 @@
     "aug": 0.01037,
     "yaomacsofsacrifice": 2.5,
     "yaomacs-orb-of-sacrifice": 2.5,
-    "kopecsofsacrifice": 1.52,
-    "kopecs-orb-of-sacrifice": 1.52,
+    "kopecsofsacrifice": 1.72,
+    "kopecs-orb-of-sacrifice": 1.72,
     "vaalcultivation": 12.35,
     "vaal-cultivation-orb": 12.35,
     "vaal": 0.1125,
@@ -54,7 +54,7 @@
     "perfect-regal-orb": 0.7334,
     "coredestabiliser": 20.95,
     "core-destabiliser": 20.95,
-    "transmute": 0.01291,
+    "transmute": 0.01125,
     "scrap": 0.04835,
     "perfectchaos": 33.31,
     "perfect-chaos-orb": 33.31,
