@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T23:06:06.020435+00:00",
+  "updatedAt": "2026-08-08T23:11:19.510855+00:00",
   "rates": {
     "divine": 7.74,
     "chaos": 1.0,
@@ -80,8 +80,8 @@
     "chance-shard": 0.5,
     "vaalsiphoner": 0.0303,
     "vaal-siphoner": 0.0303,
-    "mirror": 34853.22,
-    "hinekoraslock": 8815.86,
-    "hinekoras-lock": 8815.86
+    "mirror": 34806.78,
+    "hinekoraslock": 8823.6,
+    "hinekoras-lock": 8823.6
   }
 }
