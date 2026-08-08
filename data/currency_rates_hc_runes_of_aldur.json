@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T23:53:37.833013+00:00",
+  "updatedAt": "2026-08-08T00:00:29.909276+00:00",
   "rates": {
     "divine": 4.77,
     "chaos": 1.0,
@@ -29,8 +29,8 @@
     "perfectchaos": 22.4667,
     "perfect-chaos-orb": 22.4667,
     "regal": 0.06667,
-    "greaterregal": 1,
-    "greater-regal-orb": 1,
+    "greaterregal": 0.366908,
+    "greater-regal-orb": 0.366908,
     "gcp": 0.25,
     "greaterchaos": 2,
     "greater-chaos-orb": 2,
