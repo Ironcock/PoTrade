@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T02:12:58.105899+00:00",
+  "updatedAt": "2026-08-09T02:18:06.179608+00:00",
   "rates": {
     "divine": 7.73,
     "chaos": 1.0,
@@ -10,8 +10,8 @@
     "vaalarmourersinfuser": 6.59,
     "vaal-armourers-infuser": 6.59,
     "whetstone": 0.04064,
-    "orbofextraction": 2.78,
-    "orb-of-extraction": 2.78,
+    "orbofextraction": 2.77,
+    "orb-of-extraction": 2.77,
     "greaterexalted": 0.1117,
     "greater-exalted-orb": 0.1117,
     "greaterofaugmentation": 0.01275,
@@ -81,7 +81,7 @@
     "vaalsiphoner": 0.0303,
     "vaal-siphoner": 0.0303,
     "mirror": 34622.67,
-    "hinekoraslock": 8812.2,
-    "hinekoras-lock": 8812.2
+    "hinekoraslock": 8804.47,
+    "hinekoras-lock": 8804.47
   }
 }
