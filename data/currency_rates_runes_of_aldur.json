@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-10T11:40:39.286473+00:00",
+  "updatedAt": "2026-08-10T11:46:55.876192+00:00",
   "rates": {
-    "divine": 7.91,
+    "divine": 8.01,
     "chaos": 1.0,
-    "exa": 42.389381,
-    "bauble": 0.04539,
+    "exa": 41.672909,
+    "bauble": 0.04596,
     "crystallisedcorruption": 24.13,
     "crystallised-corruption": 24.13,
     "vaalarmourersinfuser": 6.07,
@@ -16,7 +16,7 @@
     "greater-exalted-orb": 0.09526,
     "greaterofaugmentation": 0.0767,
     "greater-orb-of-augmentation": 0.0767,
-    "regal": 0.007808,
+    "regal": 0.009575,
     "etcher": 0.1061,
     "vaalarcanistsinfuser": 0.3231,
     "vaal-arcanists-infuser": 0.3231,
@@ -28,8 +28,8 @@
     "yaomacs-orb-of-sacrifice": 2,
     "kopecsofsacrifice": 0.5185,
     "kopecs-orb-of-sacrifice": 0.5185,
-    "vaalcultivation": 12.68,
-    "vaal-cultivation-orb": 12.68,
+    "vaalcultivation": 12.67,
+    "vaal-cultivation-orb": 12.67,
     "vaal": 0.1031,
     "alch": 0.01667,
     "vaalcatalysinginfuser": 30.41,
@@ -80,8 +80,8 @@
     "chance-shard": 0.2,
     "vaalsiphoner": 0.0303,
     "vaal-siphoner": 0.0303,
-    "mirror": 36022.14,
-    "hinekoraslock": 8859.2,
-    "hinekoras-lock": 8859.2
+    "mirror": 36477.54,
+    "hinekoraslock": 8971.2,
+    "hinekoras-lock": 8971.2
   }
 }
