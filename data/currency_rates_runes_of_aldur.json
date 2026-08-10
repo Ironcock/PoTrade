@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T17:29:20.621449+00:00",
+  "updatedAt": "2026-08-10T17:35:01.715966+00:00",
   "rates": {
     "divine": 8.19,
     "chaos": 1.0,
@@ -56,11 +56,11 @@
     "core-destabiliser": 20.67,
     "transmute": 0.01241,
     "scrap": 0.04399,
-    "perfectchaos": 38.71,
-    "perfect-chaos-orb": 38.71,
+    "perfectchaos": 38.58,
+    "perfect-chaos-orb": 38.58,
     "vaalblacksmithsinfuser": 1.75,
     "vaal-blacksmiths-infuser": 1.75,
-    "artificers": 0.02779,
+    "artificers": 0.0282,
     "greaterjewellers": 0.06943,
     "greater-jewellers-orb": 0.06943,
     "greaterchaos": 2.95,
@@ -69,19 +69,19 @@
     "perfect-orb-of-transmutation": 0.08242,
     "architects": 33.43,
     "architects-orb": 33.43,
-    "perfectofaugmentation": 0.7353,
-    "perfect-orb-of-augmentation": 0.7353,
+    "perfectofaugmentation": 0.7495,
+    "perfect-orb-of-augmentation": 0.7495,
     "cryptickey": 7.04,
     "cryptic-key": 7.04,
     "lesserjewellers": 0.01835,
     "lesser-jewellers-orb": 0.01835,
-    "annul": 3.99,
-    "chanceshard": 0.2,
-    "chance-shard": 0.2,
+    "annul": 4.06,
+    "chanceshard": 0.2222,
+    "chance-shard": 0.2222,
     "vaalsiphoner": 0.0303,
     "vaal-siphoner": 0.0303,
     "mirror": 37248.12,
-    "hinekoraslock": 9205.56,
-    "hinekoras-lock": 9205.56
+    "hinekoraslock": 9172.8,
+    "hinekoras-lock": 9172.8
   }
 }
