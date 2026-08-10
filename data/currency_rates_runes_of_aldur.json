@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T16:45:53.053996+00:00",
+  "updatedAt": "2026-08-10T16:53:32.768529+00:00",
   "rates": {
     "divine": 8.19,
     "chaos": 1.0,
@@ -32,16 +32,16 @@
     "vaal-cultivation-orb": 13.37,
     "vaal": 0.1044,
     "alch": 0.018,
-    "vaalcatalysinginfuser": 29.45,
-    "vaal-catalysing-infuser": 29.45,
+    "vaalcatalysinginfuser": 29.16,
+    "vaal-catalysing-infuser": 29.16,
     "chance": 0.1496,
     "greaterregal": 0.0577,
     "greater-regal-orb": 0.0577,
     "perfectexalted": 21.37,
     "perfect-exalted-orb": 21.37,
     "gcp": 0.1746,
-    "fracturing": 83.12,
-    "fracturing-orb": 83.12,
+    "fracturing": 83.65,
+    "fracturing-orb": 83.65,
     "yugulsofsacrifice": 4,
     "yuguls-orb-of-sacrifice": 4,
     "greateroftransmutation": 0.004819,
@@ -69,8 +69,8 @@
     "perfect-orb-of-transmutation": 0.08469,
     "architects": 33.27,
     "architects-orb": 33.27,
-    "perfectofaugmentation": 0.7204,
-    "perfect-orb-of-augmentation": 0.7204,
+    "perfectofaugmentation": 0.7353,
+    "perfect-orb-of-augmentation": 0.7353,
     "cryptickey": 7.08,
     "cryptic-key": 7.08,
     "lesserjewellers": 0.01835,
@@ -81,7 +81,7 @@
     "vaalsiphoner": 0.0303,
     "vaal-siphoner": 0.0303,
     "mirror": 37272.69,
-    "hinekoraslock": 9213.75,
-    "hinekoras-lock": 9213.75
+    "hinekoraslock": 9205.56,
+    "hinekoras-lock": 9205.56
   }
 }
