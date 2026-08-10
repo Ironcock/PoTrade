@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T12:15:08.071015+00:00",
+  "updatedAt": "2026-08-10T12:24:32.611909+00:00",
   "rates": {
     "divine": 8.01,
     "chaos": 1.0,
@@ -34,7 +34,7 @@
     "alch": 0.01667,
     "vaalcatalysinginfuser": 30.41,
     "vaal-catalysing-infuser": 30.41,
-    "chance": 0.1457,
+    "chance": 0.1442,
     "greaterregal": 0.05505,
     "greater-regal-orb": 0.05505,
     "perfectexalted": 20.62,
@@ -80,7 +80,7 @@
     "chance-shard": 0.2,
     "vaalsiphoner": 0.0303,
     "vaal-siphoner": 0.0303,
-    "mirror": 36477.54,
+    "mirror": 36453.51,
     "hinekoraslock": 8971.2,
     "hinekoras-lock": 8971.2
   }
