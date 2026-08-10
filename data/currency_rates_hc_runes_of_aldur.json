@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T07:07:27.180904+00:00",
+  "updatedAt": "2026-08-10T07:13:37.505624+00:00",
   "rates": {
     "divine": 4.55,
     "chaos": 1.0,
@@ -11,8 +11,8 @@
     "artificers": 0.3333,
     "perfectexalted": 9,
     "perfect-exalted-orb": 9,
-    "perfectjewellers": 9,
-    "perfect-jewellers-orb": 9,
+    "perfectjewellers": 11.5,
+    "perfect-jewellers-orb": 11.5,
     "perfectregal": 4,
     "perfect-regal-orb": 4,
     "scrap": 0.1429,
