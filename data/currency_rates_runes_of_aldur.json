@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T23:03:44.971133+00:00",
+  "updatedAt": "2026-08-12T23:12:12.251182+00:00",
   "rates": {
     "divine": 8.39,
     "chaos": 1.0,
@@ -60,7 +60,7 @@
     "perfect-chaos-orb": 39.62,
     "vaalblacksmithsinfuser": 1.27,
     "vaal-blacksmiths-infuser": 1.27,
-    "artificers": 0.03112,
+    "artificers": 0.03161,
     "greaterjewellers": 0.1416,
     "greater-jewellers-orb": 0.1416,
     "greaterchaos": 2.92,
@@ -80,7 +80,7 @@
     "chance-shard": 0.2,
     "vaalsiphoner": 0.0303,
     "vaal-siphoner": 0.0303,
-    "mirror": 39785.38,
+    "mirror": 39827.33,
     "hinekoraslock": 9010.86,
     "hinekoras-lock": 9010.86
   }
