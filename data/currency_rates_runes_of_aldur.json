@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T13:42:40.389268+00:00",
+  "updatedAt": "2026-08-13T13:50:11.448545+00:00",
   "rates": {
     "divine": 8.49,
     "chaos": 1.0,
@@ -76,10 +76,10 @@
     "lesserjewellers": 0.01299,
     "lesser-jewellers-orb": 0.01299,
     "annul": 3.83,
-    "chanceshard": 0.3333,
-    "chance-shard": 0.3333,
-    "mirror": 41159.52,
-    "hinekoraslock": 9279.57,
-    "hinekoras-lock": 9279.57
+    "chanceshard": 0.5,
+    "chance-shard": 0.5,
+    "mirror": 41083.11,
+    "hinekoraslock": 9364.47,
+    "hinekoras-lock": 9364.47
   }
 }
