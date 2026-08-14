@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T08:07:54.057321+00:00",
+  "updatedAt": "2026-08-14T08:15:32.475477+00:00",
   "rates": {
     "divine": 4.87,
     "chaos": 1.0,
@@ -8,7 +8,7 @@
     "annul": 4,
     "architects": 22.7916,
     "architects-orb": 22.7916,
-    "artificers": 0.1,
+    "artificers": 0.1429,
     "perfectexalted": 12,
     "perfect-exalted-orb": 12,
     "perfectjewellers": 5.64,
@@ -32,14 +32,14 @@
     "greater-chaos-orb": 2.33,
     "greaterexalted": 0.5714,
     "greater-exalted-orb": 0.5714,
-    "greaterjewellers": 2.2,
-    "greater-jewellers-orb": 2.2,
+    "greaterjewellers": 2.33,
+    "greater-jewellers-orb": 2.33,
     "perfectofaugmentation": 1,
     "perfect-orb-of-augmentation": 1,
     "perfectoftransmutation": 1,
     "perfect-orb-of-transmutation": 1,
-    "vaalcultivation": 10.9575,
-    "vaal-cultivation-orb": 10.9575,
+    "vaalcultivation": 11.4932,
+    "vaal-cultivation-orb": 11.4932,
     "vaal": 0.25,
     "whetstone": 0.05
   }
