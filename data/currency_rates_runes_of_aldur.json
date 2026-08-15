@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-08-15T06:12:38.582845+00:00",
+  "updatedAt": "2026-08-15T06:19:31.760538+00:00",
   "rates": {
-    "divine": 9.85,
+    "divine": 9.86,
     "chaos": 1.0,
-    "exa": 34.974619,
-    "bauble": 0.04874,
-    "crystallisedcorruption": 30.64,
-    "crystallised-corruption": 30.64,
-    "vaalarmourersinfuser": 5.53,
-    "vaal-armourers-infuser": 5.53,
-    "whetstone": 0.03973,
+    "exa": 35.162272,
+    "bauble": 0.0505,
+    "crystallisedcorruption": 30.93,
+    "crystallised-corruption": 30.93,
+    "vaalarmourersinfuser": 5.55,
+    "vaal-armourers-infuser": 5.55,
+    "whetstone": 0.04148,
     "orbofextraction": 4.17,
     "orb-of-extraction": 4.17,
     "greaterexalted": 0.09533,
@@ -44,8 +44,8 @@
     "fracturing-orb": 81.39,
     "yugulsofsacrifice": 2,
     "yuguls-orb-of-sacrifice": 2,
-    "greateroftransmutation": 0.009499,
-    "greater-orb-of-transmutation": 0.009499,
+    "greateroftransmutation": 0.009342,
+    "greater-orb-of-transmutation": 0.009342,
     "kamasasofsacrifice": 2.95,
     "kamasas-orb-of-sacrifice": 2.95,
     "ancientinfuser": 2.37,
@@ -78,8 +78,8 @@
     "annul": 4.22,
     "chanceshard": 0.5,
     "chance-shard": 0.5,
-    "mirror": 47634.6,
-    "hinekoraslock": 11396.45,
-    "hinekoras-lock": 11396.45
+    "mirror": 47682.96,
+    "hinekoraslock": 11408.02,
+    "hinekoras-lock": 11408.02
   }
 }
