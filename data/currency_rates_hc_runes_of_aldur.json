@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T22:57:55.141971+00:00",
+  "updatedAt": "2026-08-15T23:03:52.128668+00:00",
   "rates": {
     "divine": 5.01,
     "chaos": 1.0,
@@ -16,8 +16,8 @@
     "perfectregal": 2,
     "perfect-regal-orb": 2,
     "scrap": 0.1667,
-    "vaalarmourersinfuser": 2,
-    "vaal-armourers-infuser": 2,
+    "vaalarmourersinfuser": 2.396283,
+    "vaal-armourers-infuser": 2.396283,
     "chance": 1,
     "crystallisedcorruption": 25.05,
     "crystallised-corruption": 25.05,
@@ -34,8 +34,8 @@
     "greater-exalted-orb": 0.125,
     "greaterjewellers": 6,
     "greater-jewellers-orb": 6,
-    "perfectofaugmentation": 1,
-    "perfect-orb-of-augmentation": 1,
+    "perfectofaugmentation": 1.336167,
+    "perfect-orb-of-augmentation": 1.336167,
     "perfectoftransmutation": 1,
     "perfect-orb-of-transmutation": 1,
     "vaalcultivation": 13.3767,
