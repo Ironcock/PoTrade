@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:43:03.431305+00:00",
+  "updatedAt": "2026-08-17T07:48:37.456059+00:00",
   "rates": {
     "divine": 4.24,
     "chaos": 1.0,
@@ -21,8 +21,8 @@
     "scrap": 0.3077,
     "greaterexalted": 5,
     "greater-exalted-orb": 5,
-    "crystallisedcorruption": 10,
-    "crystallised-corruption": 10,
+    "crystallisedcorruption": 30.952,
+    "crystallised-corruption": 30.952,
     "greaterjewellers": 3,
     "greater-jewellers-orb": 3,
     "perfectchaos": 6.36,
