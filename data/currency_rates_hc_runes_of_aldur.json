@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T06:45:02.132109+00:00",
+  "updatedAt": "2026-08-20T06:51:46.097662+00:00",
   "rates": {
     "divine": 6.54,
     "chaos": 1.0,
@@ -13,8 +13,8 @@
     "perfect-exalted-orb": 16,
     "perfectjewellers": 12,
     "perfect-jewellers-orb": 12,
-    "perfectregal": 2,
-    "perfect-regal-orb": 2,
+    "perfectregal": 0.544978,
+    "perfect-regal-orb": 0.544978,
     "scrap": 0.1429,
     "chance": 1,
     "etcher": 0.2,
