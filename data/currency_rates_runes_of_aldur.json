@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-21T03:30:22.937682+00:00",
+  "updatedAt": "2026-08-21T03:35:39.249509+00:00",
   "rates": {
-    "divine": 11.04,
+    "divine": 11.07,
     "chaos": 1.0,
-    "exa": 33.21558,
+    "exa": 33.134598,
     "bauble": 0.07873,
-    "crystallisedcorruption": 41.45,
-    "crystallised-corruption": 41.45,
+    "crystallisedcorruption": 42.3,
+    "crystallised-corruption": 42.3,
     "vaalarmourersinfuser": 6.76,
     "vaal-armourers-infuser": 6.76,
     "whetstone": 0.03844,
@@ -75,11 +75,11 @@
     "cryptic-key": 37.75,
     "lesserjewellers": 0.009009,
     "lesser-jewellers-orb": 0.009009,
-    "annul": 4.63,
+    "annul": 4.6,
     "chanceshard": 0.25,
     "chance-shard": 0.25,
-    "mirror": 53367.36,
-    "hinekoraslock": 13060.32,
-    "hinekoras-lock": 13060.32
+    "mirror": 53556.66,
+    "hinekoraslock": 13095.81,
+    "hinekoras-lock": 13095.81
   }
 }
