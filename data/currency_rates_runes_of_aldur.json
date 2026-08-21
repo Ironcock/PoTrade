@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-21T22:14:12.470063+00:00",
+  "updatedAt": "2026-08-21T22:19:45.347671+00:00",
   "rates": {
-    "divine": 10.99,
+    "divine": 10.96,
     "chaos": 1.0,
-    "exa": 32.848044,
+    "exa": 32.864964,
     "bauble": 0.06238,
     "crystallisedcorruption": 46.39,
     "crystallised-corruption": 46.39,
@@ -78,8 +78,8 @@
     "annul": 4.53,
     "chanceshard": 0.25,
     "chance-shard": 0.25,
-    "mirror": 52938.83,
-    "hinekoraslock": 12748.4,
-    "hinekoras-lock": 12748.4
+    "mirror": 52794.32,
+    "hinekoraslock": 12713.6,
+    "hinekoras-lock": 12713.6
   }
 }
