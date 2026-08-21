@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T08:48:55.928738+00:00",
+  "updatedAt": "2026-08-21T08:54:30.515772+00:00",
   "rates": {
     "divine": 11.18,
     "chaos": 1.0,
@@ -30,7 +30,7 @@
     "kopecs-orb-of-sacrifice": 6.5,
     "vaalcultivation": 19.74,
     "vaal-cultivation-orb": 19.74,
-    "vaal": 0.07428,
+    "vaal": 0.07452,
     "alch": 0.007575,
     "vaalcatalysinginfuser": 37.35,
     "vaal-catalysing-infuser": 37.35,
@@ -78,7 +78,7 @@
     "annul": 4.55,
     "chanceshard": 0.25,
     "chance-shard": 0.25,
-    "mirror": 54223.0,
+    "mirror": 54167.1,
     "hinekoraslock": 13248.3,
     "hinekoras-lock": 13248.3
   }
