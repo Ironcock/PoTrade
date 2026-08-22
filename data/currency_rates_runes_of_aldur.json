@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-22T20:41:10.002752+00:00",
+  "updatedAt": "2026-08-22T20:47:42.275643+00:00",
   "rates": {
     "divine": 10.94,
     "chaos": 1.0,
     "exa": 33.299817,
-    "bauble": 0.1019,
+    "bauble": 0.09489,
     "crystallisedcorruption": 47.35,
     "crystallised-corruption": 47.35,
     "vaalarmourersinfuser": 7.01,
@@ -44,8 +44,8 @@
     "fracturing-orb": 88.87,
     "yugulsofsacrifice": 3,
     "yuguls-orb-of-sacrifice": 3,
-    "greateroftransmutation": 0.5,
-    "greater-orb-of-transmutation": 0.5,
+    "greateroftransmutation": 0.02143,
+    "greater-orb-of-transmutation": 0.02143,
     "kamasasofsacrifice": 4.95,
     "kamasas-orb-of-sacrifice": 4.95,
     "ancientinfuser": 2.75,
