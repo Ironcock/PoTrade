@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T11:29:20.666199+00:00",
+  "updatedAt": "2026-08-24T11:37:22.582089+00:00",
   "rates": {
     "divine": 10.68,
     "chaos": 1.0,
@@ -9,11 +9,11 @@
     "crystallised-corruption": 43.9,
     "vaalarmourersinfuser": 7.37,
     "vaal-armourers-infuser": 7.37,
-    "whetstone": 0.0268,
-    "orbofextraction": 3.7,
-    "orb-of-extraction": 3.7,
-    "greaterexalted": 0.1351,
-    "greater-exalted-orb": 0.1351,
+    "whetstone": 0.02662,
+    "orbofextraction": 3.61,
+    "orb-of-extraction": 3.61,
+    "greaterexalted": 0.14,
+    "greater-exalted-orb": 0.14,
     "greaterofaugmentation": 0.0125,
     "greater-orb-of-augmentation": 0.0125,
     "regal": 0.02312,
