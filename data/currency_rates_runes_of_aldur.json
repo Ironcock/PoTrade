@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T17:56:30.146604+00:00",
+  "updatedAt": "2026-08-25T18:03:49.444801+00:00",
   "rates": {
     "divine": 10.67,
     "chaos": 1.0,
@@ -23,11 +23,11 @@
     "wisdom": 0.001227,
     "perfectjewellers": 1.72,
     "perfect-jewellers-orb": 1.72,
-    "aug": 0.009539,
+    "aug": 0.01165,
     "yaomacsofsacrifice": 4,
     "yaomacs-orb-of-sacrifice": 4,
-    "kopecsofsacrifice": 4,
-    "kopecs-orb-of-sacrifice": 4,
+    "kopecsofsacrifice": 4.6,
+    "kopecs-orb-of-sacrifice": 4.6,
     "vaalcultivation": 24.12,
     "vaal-cultivation-orb": 24.12,
     "vaal": 0.0597,
