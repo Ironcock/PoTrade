@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T04:52:01.301359+00:00",
+  "updatedAt": "2026-08-27T04:57:32.199078+00:00",
   "rates": {
     "divine": 10.68,
     "chaos": 1.0,
@@ -23,7 +23,7 @@
     "wisdom": 0.001227,
     "perfectjewellers": 1.77,
     "perfect-jewellers-orb": 1.77,
-    "aug": 0.02041,
+    "aug": 0.01944,
     "yaomacsofsacrifice": 10,
     "yaomacs-orb-of-sacrifice": 10,
     "kopecsofsacrifice": 1.85,
@@ -32,9 +32,9 @@
     "vaal-cultivation-orb": 25.43,
     "vaal": 0.0837,
     "alch": 0.02233,
-    "vaalcatalysinginfuser": 37.78,
-    "vaal-catalysing-infuser": 37.78,
-    "chance": 0.159,
+    "vaalcatalysinginfuser": 37.72,
+    "vaal-catalysing-infuser": 37.72,
+    "chance": 0.1446,
     "greaterregal": 0.1448,
     "greater-regal-orb": 0.1448,
     "perfectexalted": 22.99,
