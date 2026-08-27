@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T11:28:22.052803+00:00",
+  "updatedAt": "2026-08-27T11:35:21.519041+00:00",
   "rates": {
-    "divine": 10.61,
+    "divine": 10.6,
     "chaos": 1.0,
-    "exa": 34.674835,
+    "exa": 34.830189,
     "bauble": 0.06181,
-    "crystallisedcorruption": 53.86,
-    "crystallised-corruption": 53.86,
+    "crystallisedcorruption": 54.33,
+    "crystallised-corruption": 54.33,
     "vaalarmourersinfuser": 7.18,
     "vaal-armourers-infuser": 7.18,
     "whetstone": 0.04369,
@@ -78,8 +78,8 @@
     "annul": 4.06,
     "chanceshard": 1,
     "chance-shard": 1,
-    "mirror": 56211.78,
-    "hinekoraslock": 17570.16,
-    "hinekoras-lock": 17570.16
+    "mirror": 56158.8,
+    "hinekoraslock": 17553.6,
+    "hinekoras-lock": 17553.6
   }
 }
