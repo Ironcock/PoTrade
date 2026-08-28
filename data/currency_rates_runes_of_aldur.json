@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T17:26:49.138141+00:00",
+  "updatedAt": "2026-08-28T17:32:52.141863+00:00",
   "rates": {
     "divine": 11.61,
     "chaos": 1.0,
@@ -78,7 +78,7 @@
     "annul": 4.11,
     "chanceshard": 1,
     "chance-shard": 1,
-    "mirror": 64481.94,
+    "mirror": 64644.48,
     "hinekoraslock": 19040.4,
     "hinekoras-lock": 19040.4
   }
