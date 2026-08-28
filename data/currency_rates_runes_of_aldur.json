@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T20:11:25.996831+00:00",
+  "updatedAt": "2026-08-28T20:16:07.476173+00:00",
   "rates": {
     "divine": 12.02,
     "chaos": 1.0,
@@ -18,9 +18,9 @@
     "greater-orb-of-augmentation": 0.08333,
     "regal": 0.01317,
     "etcher": 0.07731,
-    "vaalarcanistsinfuser": 0.3182,
-    "vaal-arcanists-infuser": 0.3182,
-    "wisdom": 0.001133,
+    "vaalarcanistsinfuser": 0.3125,
+    "vaal-arcanists-infuser": 0.3125,
+    "wisdom": 0.001,
     "perfectjewellers": 1.74,
     "perfect-jewellers-orb": 1.74,
     "aug": 0.01945,
