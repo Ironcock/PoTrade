@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-28T16:41:50.709410+00:00",
+  "updatedAt": "2026-08-28T16:47:39.872550+00:00",
   "rates": {
     "divine": 6.02,
     "chaos": 1.0,
-    "exa": 50.614618,
+    "exa": 48.72093,
     "alch": 0.1429,
     "annul": 3.43,
     "architects": 37.023,
@@ -18,8 +18,8 @@
     "scrap": 0.09091,
     "chance": 1,
     "etcher": 0.1505,
-    "fracturing": 54.18,
-    "fracturing-orb": 54.18,
+    "fracturing": 55.986,
+    "fracturing-orb": 55.986,
     "perfectchaos": 44.3674,
     "perfect-chaos-orb": 44.3674,
     "regal": 0.1667,
@@ -35,6 +35,6 @@
     "vaalcultivation": 5,
     "vaal-cultivation-orb": 5,
     "vaal": 0.5424,
-    "whetstone": 0.02857
+    "whetstone": 0.05
   }
 }
