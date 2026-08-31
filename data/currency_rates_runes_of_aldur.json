@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T14:55:10.114745+00:00",
+  "updatedAt": "2026-08-31T15:00:41.824612+00:00",
   "rates": {
     "divine": 11.23,
     "chaos": 1.0,
@@ -32,8 +32,8 @@
     "vaal-cultivation-orb": 22.28,
     "vaal": 0.0646,
     "alch": 0.006534,
-    "vaalcatalysinginfuser": 45.84,
-    "vaal-catalysing-infuser": 45.84,
+    "vaalcatalysinginfuser": 45.93,
+    "vaal-catalysing-infuser": 45.93,
     "chance": 0.07477,
     "greaterregal": 0.04528,
     "greater-regal-orb": 0.04528,
@@ -48,8 +48,8 @@
     "greater-orb-of-transmutation": 0.01429,
     "kamasasofsacrifice": 0.5,
     "kamasas-orb-of-sacrifice": 0.5,
-    "ancientinfuser": 3.38,
-    "ancient-infuser": 3.38,
+    "ancientinfuser": 3.41,
+    "ancient-infuser": 3.41,
     "perfectregal": 0.4881,
     "perfect-regal-orb": 0.4881,
     "coredestabiliser": 35.18,
@@ -79,7 +79,7 @@
     "chanceshard": 1,
     "chance-shard": 1,
     "mirror": 11000,
-    "hinekoraslock": 23560.54,
-    "hinekoras-lock": 23560.54
+    "hinekoraslock": 23818.83,
+    "hinekoras-lock": 23818.83
   }
 }
