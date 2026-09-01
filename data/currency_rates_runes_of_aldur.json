@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T20:10:04.175898+00:00",
+  "updatedAt": "2026-09-01T20:18:08.020425+00:00",
   "rates": {
     "divine": 9.69,
     "chaos": 1.0,
@@ -16,8 +16,8 @@
     "greater-exalted-orb": 0.1038,
     "greaterofaugmentation": 0.05008,
     "greater-orb-of-augmentation": 0.05008,
-    "regal": 0.01498,
-    "etcher": 0.1186,
+    "regal": 0.0156,
+    "etcher": 0.1191,
     "vaalarcanistsinfuser": 0.3722,
     "vaal-arcanists-infuser": 0.3722,
     "wisdom": 0.001227,
@@ -79,7 +79,7 @@
     "chanceshard": 1,
     "chance-shard": 1,
     "mirror": 11000,
-    "hinekoraslock": 20135.82,
-    "hinekoras-lock": 20135.82
+    "hinekoraslock": 20193.96,
+    "hinekoras-lock": 20193.96
   }
 }
