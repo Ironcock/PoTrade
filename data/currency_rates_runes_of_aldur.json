@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-01T13:31:30.848296+00:00",
+  "updatedAt": "2026-09-01T13:36:47.058494+00:00",
   "rates": {
-    "divine": 9.8,
+    "divine": 9.81,
     "chaos": 1.0,
-    "exa": 42.510204,
+    "exa": 42.579001,
     "bauble": 0.1368,
     "crystallisedcorruption": 45.69,
     "crystallised-corruption": 45.69,
@@ -44,8 +44,8 @@
     "fracturing-orb": 66.7,
     "yugulsofsacrifice": 1,
     "yuguls-orb-of-sacrifice": 1,
-    "greateroftransmutation": 0.01316,
-    "greater-orb-of-transmutation": 0.01316,
+    "greateroftransmutation": 0.01304,
+    "greater-orb-of-transmutation": 0.01304,
     "kamasasofsacrifice": 3.6,
     "kamasas-orb-of-sacrifice": 3.6,
     "ancientinfuser": 3.23,
@@ -79,7 +79,7 @@
     "chanceshard": 1,
     "chance-shard": 1,
     "mirror": 11000,
-    "hinekoraslock": 19943.0,
-    "hinekoras-lock": 19943.0
+    "hinekoraslock": 19963.35,
+    "hinekoras-lock": 19963.35
   }
 }
