@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-02T19:25:36.038520+00:00",
+  "updatedAt": "2026-09-02T19:33:21.413510+00:00",
   "rates": {
     "divine": 10.11,
     "chaos": 1.0,
     "exa": 40.722057,
-    "bauble": 0.1491,
+    "bauble": 0.1507,
     "crystallisedcorruption": 30.51,
     "crystallised-corruption": 30.51,
     "vaalarmourersinfuser": 9.15,
@@ -46,8 +46,8 @@
     "yuguls-orb-of-sacrifice": 1,
     "greateroftransmutation": 0.01266,
     "greater-orb-of-transmutation": 0.01266,
-    "kamasasofsacrifice": 1.44,
-    "kamasas-orb-of-sacrifice": 1.44,
+    "kamasasofsacrifice": 1,
+    "kamasas-orb-of-sacrifice": 1,
     "ancientinfuser": 2.68,
     "ancient-infuser": 2.68,
     "perfectregal": 0.4004,
