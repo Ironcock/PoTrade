@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-04T03:13:20.605884+00:00",
+  "updatedAt": "2026-09-04T03:20:52.573961+00:00",
   "rates": {
     "divine": 9.61,
     "chaos": 1.0,
     "exa": 45.16129,
-    "bauble": 0.1635,
+    "bauble": 0.1994,
     "crystallisedcorruption": 30.25,
     "crystallised-corruption": 30.25,
     "vaalarmourersinfuser": 7.45,
@@ -16,8 +16,8 @@
     "greater-exalted-orb": 0.2519,
     "greaterofaugmentation": 0.07143,
     "greater-orb-of-augmentation": 0.07143,
-    "regal": 0.01659,
-    "etcher": 0.1021,
+    "regal": 0.009773,
+    "etcher": 0.08292,
     "vaalarcanistsinfuser": 0.3125,
     "vaal-arcanists-infuser": 0.3125,
     "wisdom": 0.001217,
