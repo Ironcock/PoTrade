@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T00:25:52.381594+00:00",
+  "updatedAt": "2026-09-04T00:31:25.863163+00:00",
   "rates": {
     "divine": 9.65,
     "chaos": 1.0,
@@ -12,12 +12,12 @@
     "whetstone": 0.03155,
     "orbofextraction": 5.36,
     "orb-of-extraction": 5.36,
-    "greaterexalted": 0.1253,
-    "greater-exalted-orb": 0.1253,
+    "greaterexalted": 0.1486,
+    "greater-exalted-orb": 0.1486,
     "greaterofaugmentation": 0.07143,
     "greater-orb-of-augmentation": 0.07143,
-    "regal": 0.02095,
-    "etcher": 0.09768,
+    "regal": 0.02182,
+    "etcher": 0.09884,
     "vaalarcanistsinfuser": 0.3158,
     "vaal-arcanists-infuser": 0.3158,
     "wisdom": 0.001217,
