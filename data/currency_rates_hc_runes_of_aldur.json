@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T16:46:53.903001+00:00",
+  "updatedAt": "2026-09-04T16:52:21.242291+00:00",
   "rates": {
     "divine": 6.39,
     "chaos": 1.0,
@@ -28,6 +28,6 @@
     "perfectofaugmentation": 2.129787,
     "perfect-orb-of-augmentation": 2.129787,
     "vaal": 0.5,
-    "whetstone": 0.05
+    "whetstone": 0.125308
   }
 }
