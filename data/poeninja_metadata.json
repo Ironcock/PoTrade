@@ -21381,5 +21381,41 @@
     "explicitModifiers": [],
     "implicitModifiers": [],
     "levelRequired": 0
+  },
+  {
+    "id": "atziris-soul-core-of-inoculation",
+    "name": "Atziri's Soul Core of Inoculation",
+    "detailsId": "atziris-soul-core-of-inoculation",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1NvdWxDb3JlU3BlY2lhbEJvb3RzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4770c53928/SoulCoreSpecialBoots.png",
+    "category": "SoulCores",
+    "baseType": "Atziri's Soul Core of Inoculation",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-snares",
+    "name": "Jiquani's Soul Core of Snares",
+    "detailsId": "jiquanis-soul-core-of-snares",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZUhhemFyZHMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/23c8ce4e3d/RareSoulCoreHazards.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Snares",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-targeting",
+    "name": "Jiquani's Soul Core of Targeting",
+    "detailsId": "jiquanis-soul-core-of-targeting",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZU1hcmtzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cfe012547b/RareSoulCoreMarks.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Targeting",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
   }
 ]
