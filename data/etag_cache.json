@@ -1669,8 +1669,8 @@
     "i_preserved-collarbone": "W/a10e3a45ea3f22b0d16b2d5a186f3a40",
     "__lft_preserved-jawbone": 1788251198033,
     "i_preserved-jawbone": "W/acb0ea2abf9abd9e9be44d5a3263d1a8",
-    "__lft_preserved-rib": 1788583822459,
-    "i_preserved-rib": "W/2d8b29e34ca4cdc82dc407d09d728e96",
+    "__lft_preserved-rib": 1788587714645,
+    "i_preserved-rib": "W/c3f81c29db3322c364069e89cc776f87",
     "__lft_ulamans-gaze": 1785169645571,
     "i_ulamans-gaze": "W/2c6ec7070e817105dfe38502d8fd313c",
     "__lft_uncut-spirit-gem-19": 1786574502408,
@@ -2916,7 +2916,8 @@
     "__404_perfect-chaos-orb": true,
     "__404_greater-chaos-orb": true,
     "__404_jiquanis-soul-core-of-munitions": true,
-    "__404_jiquanis-soul-core-of-rippling": true
+    "__404_jiquanis-soul-core-of-rippling": true,
+    "__404_omen-of-whittling": true
   },
   "standard": {
     "__ov_ex_Currency": "W/33482f0b25788a0f0b37e8266b62dd34",
