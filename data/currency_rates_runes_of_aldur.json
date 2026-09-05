@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:52:27.136946+00:00",
+  "updatedAt": "2026-09-05T18:57:59.248451+00:00",
   "rates": {
     "divine": 11.52,
     "chaos": 1.0,
@@ -30,11 +30,11 @@
     "kopecs-orb-of-sacrifice": 14,
     "vaalcultivation": 17.68,
     "vaal-cultivation-orb": 17.68,
-    "vaal": 0.0985,
-    "alch": 0.01093,
+    "vaal": 0.101,
+    "alch": 0.01945,
     "vaalcatalysinginfuser": 73,
     "vaal-catalysing-infuser": 73,
-    "chance": 0.2271,
+    "chance": 0.2617,
     "greaterregal": 0.5,
     "greater-regal-orb": 0.5,
     "perfectexalted": 21.95,
