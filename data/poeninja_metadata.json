@@ -21213,5 +21213,65 @@
     "explicitModifiers": [],
     "implicitModifiers": [],
     "levelRequired": 0
+  },
+  {
+    "id": "atziris-soul-core-of-alacrity",
+    "name": "Atziri's Soul Core of Alacrity",
+    "detailsId": "atziris-soul-core-of-alacrity",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1NvdWxDb3JlU3BlY2lhbEdsb3ZlcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/bfd1353fac/SoulCoreSpecialGloves.png",
+    "category": "SoulCores",
+    "baseType": "Atziri's Soul Core of Alacrity",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "atziris-soul-core-of-vitality",
+    "name": "Atziri's Soul Core of Vitality",
+    "detailsId": "atziris-soul-core-of-vitality",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1NvdWxDb3JlU3BlY2lhbEJvZHlBcm1vdXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4c31085f18/SoulCoreSpecialBodyArmour.png",
+    "category": "SoulCores",
+    "baseType": "Atziri's Soul Core of Vitality",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-automation",
+    "name": "Jiquani's Soul Core of Automation",
+    "detailsId": "jiquanis-soul-core-of-automation",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZVRvdGVtcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/71877a6b6e/RareSoulCoreTotems.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Automation",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-severing",
+    "name": "Jiquani's Soul Core of Severing",
+    "detailsId": "jiquanis-soul-core-of-severing",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZVN0cmlrZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a23de522f7/RareSoulCoreStrikes.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Severing",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-thundering",
+    "name": "Jiquani's Soul Core of Thundering",
+    "detailsId": "jiquanis-soul-core-of-thundering",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZVN0b3JtcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/21e5b8a994/RareSoulCoreStorms.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Thundering",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
   }
 ]
