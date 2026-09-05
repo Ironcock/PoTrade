@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-09-05T16:32:30.992309+00:00",
+  "updatedAt": "2026-09-05T16:40:13.565154+00:00",
   "rates": {
-    "divine": 11.02,
+    "divine": 11.16,
     "chaos": 1.0,
-    "exa": 41.742287,
-    "bauble": 0.3241,
+    "exa": 41.308244,
+    "bauble": 0.3252,
     "crystallisedcorruption": 29,
     "crystallised-corruption": 29,
-    "vaalarmourersinfuser": 9.81,
-    "vaal-armourers-infuser": 9.81,
+    "vaalarmourersinfuser": 5.59,
+    "vaal-armourers-infuser": 5.59,
     "whetstone": 0.1429,
     "orbofextraction": 7.04,
     "orb-of-extraction": 7.04,
-    "greaterexalted": 0.5285,
-    "greater-exalted-orb": 0.5285,
+    "greaterexalted": 0.2078,
+    "greater-exalted-orb": 0.2078,
     "greaterofaugmentation": 0.05556,
     "greater-orb-of-augmentation": 0.05556,
-    "regal": 0.01775,
+    "regal": 0.0174,
     "etcher": 0.08571,
     "vaalarcanistsinfuser": 0.4,
     "vaal-arcanists-infuser": 0.4,
@@ -78,8 +78,8 @@
     "annul": 4.05,
     "chanceshard": 1,
     "chance-shard": 1,
-    "mirror": 80908.84,
-    "hinekoraslock": 27869.58,
-    "hinekoras-lock": 27869.58
+    "mirror": 81936.72,
+    "hinekoraslock": 28223.64,
+    "hinekoras-lock": 28223.64
   }
 }
