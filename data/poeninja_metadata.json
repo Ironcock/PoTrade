@@ -21357,5 +21357,29 @@
     "explicitModifiers": [],
     "implicitModifiers": [],
     "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-munitions",
+    "name": "Jiquani's Soul Core of Munitions",
+    "detailsId": "jiquanis-soul-core-of-munitions",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZUdyZW5hZGVzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b3566867d7/RareSoulCoreGrenades.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Munitions",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-rippling",
+    "name": "Jiquani's Soul Core of Rippling",
+    "detailsId": "jiquanis-soul-core-of-rippling",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZU5vdmFzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/28c6fc50b7/RareSoulCoreNovas.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Rippling",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
   }
 ]
