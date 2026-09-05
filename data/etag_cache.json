@@ -1494,7 +1494,12 @@
     "i_jiquanis-soul-core-of-squalls": "W/b2517ea68f8465948a9138d96cfca4d7",
     "__404_thaumaturgic-flux-18": true,
     "__404_thaumaturgic-flux-20": true,
-    "__404_thaumaturgic-flux-14": true
+    "__404_thaumaturgic-flux-14": true,
+    "__404_atziris-soul-core-of-devotion": true,
+    "__404_jiquanis-soul-core-of-abundance": true,
+    "__404_jiquanis-soul-core-of-malediction": true,
+    "__404_jiquanis-soul-core-of-rallying": true,
+    "__404_ancient-liquid-despair": true
   },
   "hc_runes_of_aldur": {
     "__ov_ex_Currency": "W/8a31d8c85959da0b07e0cab36ba9a19b",
@@ -2883,7 +2888,11 @@
     "__404_omen-of-abyssal-echoes": true,
     "__404_jiquanis-soul-core-of-quaking": true,
     "__404_jiquanis-soul-core-of-radiance": true,
-    "__404_jiquanis-soul-core-of-squalls": true
+    "__404_jiquanis-soul-core-of-squalls": true,
+    "__404_atziris-soul-core-of-devotion": true,
+    "__404_jiquanis-soul-core-of-abundance": true,
+    "__404_jiquanis-soul-core-of-malediction": true,
+    "__404_jiquanis-soul-core-of-rallying": true
   },
   "standard": {
     "__ov_ex_Currency": "W/d60399057f0579aa5f38b9ebc3079cfa",
@@ -4083,7 +4092,10 @@
     "__lft_jiquanis-soul-core-of-malediction": 1788572011618,
     "i_jiquanis-soul-core-of-malediction": "W/10fd6494fa73223ac08880e23f5b9679",
     "__lft_jiquanis-soul-core-of-rallying": 1788572011618,
-    "i_jiquanis-soul-core-of-rallying": "W/470a8c3cf06e7f9c5b5b9ce47da26aa6"
+    "i_jiquanis-soul-core-of-rallying": "W/470a8c3cf06e7f9c5b5b9ce47da26aa6",
+    "__404_jiquanis-soul-core-of-quaking": true,
+    "__404_jiquanis-soul-core-of-radiance": true,
+    "__404_jiquanis-soul-core-of-squalls": true
   },
   "hardcore": {
     "__ov_ex_Currency": "W/7300a6146e4af6c9999a39f4eaa7558e",
