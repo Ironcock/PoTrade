@@ -21273,5 +21273,89 @@
     "explicitModifiers": [],
     "implicitModifiers": [],
     "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-quaking",
+    "name": "Jiquani's Soul Core of Quaking",
+    "detailsId": "jiquanis-soul-core-of-quaking",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZVNsYW1zIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/69ad233e77/RareSoulCoreSlams.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Quaking",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-radiance",
+    "name": "Jiquani's Soul Core of Radiance",
+    "detailsId": "jiquanis-soul-core-of-radiance",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZUhlcmFsZHMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6c7b4a05b7/RareSoulCoreHeralds.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Radiance",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-squalls",
+    "name": "Jiquani's Soul Core of Squalls",
+    "detailsId": "jiquanis-soul-core-of-squalls",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZVdpbmQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/48023bf3ae/RareSoulCoreWind.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Squalls",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "atziris-soul-core-of-devotion",
+    "name": "Atziri's Soul Core of Devotion",
+    "detailsId": "atziris-soul-core-of-devotion",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1NvdWxDb3JlU3BlY2lhbEhlbG1ldCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8794f35eaf/SoulCoreSpecialHelmet.png",
+    "category": "SoulCores",
+    "baseType": "Atziri's Soul Core of Devotion",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-abundance",
+    "name": "Jiquani's Soul Core of Abundance",
+    "detailsId": "jiquanis-soul-core-of-abundance",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZVBsYW50cyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ee46e1c420/RareSoulCorePlants.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Abundance",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-malediction",
+    "name": "Jiquani's Soul Core of Malediction",
+    "detailsId": "jiquanis-soul-core-of-malediction",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZUN1cnNlcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1c32444d33/RareSoulCoreCurses.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Malediction",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
+  },
+  {
+    "id": "jiquanis-soul-core-of-rallying",
+    "name": "Jiquani's Soul Core of Rallying",
+    "detailsId": "jiquanis-soul-core-of-rallying",
+    "icon": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1JhcmVTb3VsQ29yZVdhcmNyaWVzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/29ccae030b/RareSoulCoreWarcries.png",
+    "category": "SoulCores",
+    "baseType": "Jiquani's Soul Core of Rallying",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
   }
 ]
