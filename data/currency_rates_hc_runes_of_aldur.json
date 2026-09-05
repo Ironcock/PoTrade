@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-09-05T13:19:55.211432+00:00",
+  "updatedAt": "2026-09-05T13:27:32.872676+00:00",
   "rates": {
-    "divine": 6.89,
+    "divine": 6.86,
     "chaos": 1.0,
-    "exa": 77.329463,
+    "exa": 77.667638,
     "annul": 2,
     "artificers": 0.5,
-    "perfectexalted": 34.45,
-    "perfect-exalted-orb": 34.45,
+    "perfectexalted": 34.3,
+    "perfect-exalted-orb": 34.3,
     "perfectjewellers": 3,
     "perfect-jewellers-orb": 3,
     "scrap": 0.06667,
-    "fracturing": 75.79,
-    "fracturing-orb": 75.79,
+    "fracturing": 75.46,
+    "fracturing-orb": 75.46,
     "perfectchaos": 20,
     "perfect-chaos-orb": 20,
     "regal": 0.1,
@@ -23,9 +23,9 @@
     "greater-exalted-orb": 0.5,
     "greaterjewellers": 5,
     "greater-jewellers-orb": 5,
-    "perfectofaugmentation": 2.296437,
-    "perfect-orb-of-augmentation": 2.296437,
+    "perfectofaugmentation": 2.286438,
+    "perfect-orb-of-augmentation": 2.286438,
     "vaal": 0.5,
-    "whetstone": 0.135113
+    "whetstone": 0.134525
   }
 }
