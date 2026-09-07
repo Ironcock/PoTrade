@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T17:49:05.166528+00:00",
+  "updatedAt": "2026-09-07T17:57:05.112674+00:00",
   "rates": {
     "divine": 15.73,
     "chaos": 1.0,
@@ -56,8 +56,8 @@
     "core-destabiliser": 42.2,
     "transmute": 0.006667,
     "scrap": 0.08214,
-    "perfectchaos": 83.69,
-    "perfect-chaos-orb": 83.69,
+    "perfectchaos": 77.24,
+    "perfect-chaos-orb": 77.24,
     "vaalblacksmithsinfuser": 8.88,
     "vaal-blacksmiths-infuser": 8.88,
     "artificers": 0.3333,
@@ -69,8 +69,8 @@
     "perfect-orb-of-transmutation": 0.2,
     "architects": 100,
     "architects-orb": 100,
-    "perfectofaugmentation": 0.4062,
-    "perfect-orb-of-augmentation": 0.4062,
+    "perfectofaugmentation": 0.3956,
+    "perfect-orb-of-augmentation": 0.3956,
     "cryptickey": 2,
     "cryptic-key": 2,
     "lesserjewellers": 0.04,
@@ -78,7 +78,7 @@
     "annul": 4.2,
     "chanceshard": 1,
     "chance-shard": 1,
-    "mirror": 118210.95,
+    "mirror": 119422.16,
     "hinekoraslock": 50194.43,
     "hinekoras-lock": 50194.43
   }
