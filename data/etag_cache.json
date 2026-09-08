@@ -1,18 +1,18 @@
 {
   "runes_of_aldur": {
     "__ov_ex_Currency": "W/75bc90d9a56bad7bf36d39ce3543f928",
-    "__ov_ex_Fragments": "W/b216e6340f959d018f69148929fc6f84",
-    "__ov_ex_Abyss": "W/16c15ed343acad2600954164363560e2",
-    "__ov_ex_UncutGems": "W/85b1217dcdad334a35c0816def635c1f",
+    "__ov_ex_Fragments": "W/3730137fbdb38f7d4634ac8a1e598843",
+    "__ov_ex_Abyss": "W/784eb261af97e9f558a8d33d96451eb3",
+    "__ov_ex_UncutGems": "W/edf15cfa2e7950ec6fc8d4c4ac0e9a4f",
     "__ov_ex_LineageSupportGems": "W/59b0d96823bbf5d8a34abe9917ee2556",
     "__ov_ex_Essences": "W/ce2de1882754a2b088a5dc92d8b74e5b",
-    "__ov_ex_SoulCores": "W/99b68750487f8eff1e919d5fc816997f",
-    "__ov_ex_Idols": "W/811b8150b7303a6547c7b8548832e281",
+    "__ov_ex_SoulCores": "W/67c20b411eda984b001d4339b3c9f02a",
+    "__ov_ex_Idols": "W/b5d00c8f13093ee9e4c06bf8e6ffa933",
     "__ov_ex_Runes": "W/a7403dbc03a5498abd7e5497a76955d7",
     "__ov_ex_Ritual": "W/125704a11089ecf5137321ac2586844b",
-    "__ov_ex_Expedition": "W/ee5b518d656d65e5abf907768fd5de91",
-    "__ov_ex_Delirium": "W/e771c0ca581512eb0fe3100902bb33fa",
-    "__ov_ex_Breach": "W/d80a35215650f873ef075fa25188d13d",
+    "__ov_ex_Expedition": "W/8666df19005008c4563e2cb98e34d4b8",
+    "__ov_ex_Delirium": "W/697fc0b715b23d014fe5495415c1fe10",
+    "__ov_ex_Breach": "W/937b14118e1deee007c4352b94dc5f24",
     "__ov_ex_Verisium": "W/8fe875c0895141d9b6005c2834d98630",
     "__lft_chaos": 1788872040901,
     "i_chaos": "W/fa437e8a576e75137a3c445694caf019",
@@ -1646,7 +1646,7 @@
     "__404_eonyrs-thunder": true
   },
   "hc_runes_of_aldur": {
-    "__ov_ex_Currency": "W/1afe5bb8ff84c658b88a0f9965913bd1",
+    "__ov_ex_Currency": "W/1144d4bcc6fb0cc8b60187adca34d492",
     "__ov_ex_Fragments": "W/f162cd6bf21b2260beb514051422855b",
     "__ov_ex_Abyss": "W/eb8ea5cd4f7dad02c2ed0b4fb7ba287c",
     "__ov_ex_UncutGems": "W/a39be591e86a50242775bd994dec25c5",
@@ -3058,7 +3058,7 @@
     "__404_omen-of-light": true
   },
   "standard": {
-    "__ov_ex_Currency": "W/3a4e02d3899b024bc1c850db8234db11",
+    "__ov_ex_Currency": "W/3bcd74461389fd5a593e00def0d6ef14",
     "__ov_ex_Fragments": "W/3d45ac1d2966ff9738b4907d9d3565ee",
     "__ov_ex_Abyss": "W/cb8f2ba4917e081adb7543f8ff7fe830",
     "__ov_ex_UncutGems": "W/ae2be015e46123abbdaa86c057e0a2dd",
