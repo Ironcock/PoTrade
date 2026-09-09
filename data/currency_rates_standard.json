@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T23:56:16.079030+00:00",
+  "updatedAt": "2026-09-09T00:01:56.809362+00:00",
   "rates": {
     "divine": 3.04,
     "chaos": 1.0,
@@ -18,8 +18,8 @@
     "mirror": 28329.76,
     "vaal": 0.8344,
     "scrap": 0.1429,
-    "greaterexalted": 5,
-    "greater-exalted-orb": 5,
+    "greaterexalted": 0.375136,
+    "greater-exalted-orb": 0.375136,
     "greaterjewellers": 8,
     "greater-jewellers-orb": 8,
     "perfectchaos": 10,
