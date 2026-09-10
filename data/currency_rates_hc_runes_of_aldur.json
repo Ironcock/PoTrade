@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-10T03:42:34.888970+00:00",
+  "updatedAt": "2026-09-10T03:48:55.370976+00:00",
   "rates": {
-    "divine": 7.21,
+    "divine": 7.36,
     "chaos": 1.0,
-    "exa": 65.880721,
+    "exa": 64.538043,
     "annul": 2,
     "perfectjewellers": 3,
     "perfect-jewellers-orb": 3,
     "scrap": 0.06667,
-    "perfectchaos": 86.52,
-    "perfect-chaos-orb": 86.52,
+    "perfectchaos": 88.32,
+    "perfect-chaos-orb": 88.32,
     "regal": 0.1,
     "gcp": 0.5,
     "greaterchaos": 2.12,
     "greater-chaos-orb": 2.12,
-    "greaterexalted": 1.442,
-    "greater-exalted-orb": 1.442,
-    "perfectofaugmentation": 2.403093,
-    "perfect-orb-of-augmentation": 2.403093,
+    "greaterexalted": 1.472,
+    "greater-exalted-orb": 1.472,
+    "perfectofaugmentation": 2.453088,
+    "perfect-orb-of-augmentation": 2.453088,
     "vaal": 0.5
   }
 }
