@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T12:38:22.196820+00:00",
+  "updatedAt": "2026-09-10T12:44:06.614131+00:00",
   "rates": {
     "divine": 7.4,
     "chaos": 1.0,
@@ -16,8 +16,6 @@
     "greater-chaos-orb": 2.12,
     "greaterexalted": 1.48,
     "greater-exalted-orb": 1.48,
-    "perfectofaugmentation": 2.46642,
-    "perfect-orb-of-augmentation": 2.46642,
     "vaal": 0.5
   }
 }
