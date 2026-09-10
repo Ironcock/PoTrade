@@ -1,16 +1,16 @@
 {
   "runes_of_aldur": {
-    "__ov_ex_Currency": "W/21b6081de53928deb265edac62df4b3d",
-    "__ov_ex_Fragments": "W/f77c6148133f0a11e23e06064ec9b0ff",
+    "__ov_ex_Currency": "W/60dde88ba724f7e660b53db6ded32b7a",
+    "__ov_ex_Fragments": "W/d28e77fa8547a55e0ffb05c6cc02adcc",
     "__ov_ex_Abyss": "W/9896e58ccdb8d2cda4d8e2a14562f485",
-    "__ov_ex_UncutGems": "W/b8efe2d763c6df81db6dd70a79bb493e",
+    "__ov_ex_UncutGems": "W/a21f899bc22e14295d267c3efa123c65",
     "__ov_ex_LineageSupportGems": "W/535f378d4bf14c7da9bdaf560351d1bd",
     "__ov_ex_Essences": "W/8292132bd82c6940df34e5bfaadef942",
     "__ov_ex_SoulCores": "W/4750fe0fcd5d9e20c71d938cefddb742",
     "__ov_ex_Idols": "W/d1508aa5612fe4e038c03ecaf47678d5",
-    "__ov_ex_Runes": "W/e2686e233b9f8bde9fcabfaf1014f9e1",
+    "__ov_ex_Runes": "W/46a55095e655fa091004cff3bbac07ad",
     "__ov_ex_Ritual": "W/c27772db00fbcc36b8ea1f39c5e341d9",
-    "__ov_ex_Expedition": "W/c521c12c55f1785b6bd6be30f8a28cc5",
+    "__ov_ex_Expedition": "W/82fc2ba8ed5058d5eeca58ee02ae9094",
     "__ov_ex_Delirium": "W/509deee1d28e32ad6701e0a29c2e324d",
     "__ov_ex_Breach": "W/6f7b41f4499c8854e8fe3ca7637d7334",
     "__ov_ex_Verisium": "W/6c190e24c047fb3a615ed96e45e15dd6",
@@ -1662,7 +1662,8 @@
     "__404_greater-resolve-rune": true,
     "__404_passion-of-aldur": true,
     "__404_bhatairs-vengeance": true,
-    "__404_greater-orb-of-transmutation": true
+    "__404_greater-orb-of-transmutation": true,
+    "__404_zarokhs-refrain": true
   },
   "hc_runes_of_aldur": {
     "__ov_ex_Currency": "W/9d5bcfdf0d2178f2034c65a0134fbfea",
@@ -3077,7 +3078,7 @@
     "__404_omen-of-light": true
   },
   "standard": {
-    "__ov_ex_Currency": "W/6a6a6d0935dde9d455401fe1946291dc",
+    "__ov_ex_Currency": "W/8d9481c75ddf84a7432226db59cf36e6",
     "__ov_ex_Fragments": "W/4febe56bbfeedc3a8463aaec86ff52a8",
     "__ov_ex_Abyss": "W/5087eff68730d515eae7380471a005a6",
     "__ov_ex_UncutGems": "W/99f5ab51b60593f17be5613088151188",
