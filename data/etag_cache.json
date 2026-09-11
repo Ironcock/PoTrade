@@ -1,19 +1,19 @@
 {
   "runes_of_aldur": {
-    "__ov_ex_Currency": "W/1febe8c04dcc0baf272d04f5e9574791",
-    "__ov_ex_Fragments": "W/e63708ad9462c124ffee89edd27ea5af",
+    "__ov_ex_Currency": "W/38813b2fc752bf22a1a02eed25003499",
+    "__ov_ex_Fragments": "W/ff8ab047961497c46f2d8984fed65a16",
     "__ov_ex_Abyss": "W/dbab76b598c832de20e8cab517420a0c",
-    "__ov_ex_UncutGems": "W/199400e6c6a956abc6dab3fcf8530597",
-    "__ov_ex_LineageSupportGems": "W/912c290416515a7a83b671b9d264dfa0",
+    "__ov_ex_UncutGems": "W/1b17c8a664e96f36a643277865ae9b0b",
+    "__ov_ex_LineageSupportGems": "W/dd443158fb15ff656dfae8b47051d973",
     "__ov_ex_Essences": "W/4eb8daa652799b8055faeda1b26b415b",
-    "__ov_ex_SoulCores": "W/e64f7b778becb0c6348806856851c512",
+    "__ov_ex_SoulCores": "W/6f94ffac9e014498d6a82a3c07e1ec21",
     "__ov_ex_Idols": "W/4a381dbcad2efdc1abd7f1bc610939fd",
-    "__ov_ex_Runes": "W/1ea2c92ba794f6aa5d4a88c707fe4a83",
+    "__ov_ex_Runes": "W/12f47d033826bcacb7d3ac3cdb6a8751",
     "__ov_ex_Ritual": "W/11d9411af0482d6aa2dd71c6c4a4c010",
-    "__ov_ex_Expedition": "W/738ededea146ffd30a02a45f1ee7cbe1",
+    "__ov_ex_Expedition": "W/adcae8c878443a459e5d45ec7b003c8d",
     "__ov_ex_Delirium": "W/991925f229068b27881a656da9de6ead",
-    "__ov_ex_Breach": "W/364d81287ac00b72559fb47a2ec001be",
-    "__ov_ex_Verisium": "W/2de2c8a912428431ddfa5d6115504c5d",
+    "__ov_ex_Breach": "W/acc8132b171bd477228b9fd2346421cc",
+    "__ov_ex_Verisium": "W/66f23e0e62c2fece3166aaadc9513569",
     "__lft_chaos": 1789117385203,
     "i_chaos": "W/c63fb490c1500944e2df57dd80fcc9d6",
     "__lft_bauble": 1789117385203,
@@ -1681,8 +1681,8 @@
     "__404_carved-tenacity": true
   },
   "hc_runes_of_aldur": {
-    "__ov_ex_Currency": "W/0999df04ff6e75d7eb278f1cd3c112f6",
-    "__ov_ex_Fragments": "W/df31daa73ec694b5aab4bd3e0959b92e",
+    "__ov_ex_Currency": "W/2719d6c79b7944cefc919e722db3358a",
+    "__ov_ex_Fragments": "W/627b0834c45a8a0a9b3517e1d6d93d64",
     "__ov_ex_Abyss": "W/cb882e07b022fb4da112b8ed24559be3",
     "__ov_ex_UncutGems": "W/7fbbe060e218cda31a29410d7487f84c",
     "__ov_ex_LineageSupportGems": "W/6fe13a599e1e82936bb6cbbda247cd8a",
@@ -3093,7 +3093,7 @@
     "__404_omen-of-light": true
   },
   "standard": {
-    "__ov_ex_Currency": "W/dd7ee52cecf4b30be845fc4b1c8c8796",
+    "__ov_ex_Currency": "W/099d0a50988a85dbd2270ec1fadf4239",
     "__ov_ex_Fragments": "W/abb03393e11a22deaf36ef541ee39e6d",
     "__ov_ex_Abyss": "W/492c0814b84655341a04c1121b259a2f",
     "__ov_ex_UncutGems": "W/790cd966de4aec795052312cad2b2b51",
@@ -4309,7 +4309,7 @@
     "__404_refined-reaver-catalyst": true
   },
   "hardcore": {
-    "__ov_ex_Currency": "W/6a955cd65999ea082a53344b262d49ab",
+    "__ov_ex_Currency": "W/ba32b002e9fd350f4945335ea5ad4424",
     "__ov_ex_Fragments": "W/7300a6146e4af6c9999a39f4eaa7558e",
     "__ov_ex_Abyss": "W/7300a6146e4af6c9999a39f4eaa7558e",
     "__ov_ex_UncutGems": "W/7300a6146e4af6c9999a39f4eaa7558e",
