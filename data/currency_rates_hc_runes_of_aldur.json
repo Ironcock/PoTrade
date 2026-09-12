@@ -1,10 +1,8 @@
 {
-  "updatedAt": "2026-09-12T17:41:38.344545+00:00",
+  "updatedAt": "2026-09-12T17:48:00.728911+00:00",
   "rates": {
     "divine": 5.52,
     "chaos": 1.0,
-    "exa": 41.666667,
-    "greaterexalted": 1.104,
-    "greater-exalted-orb": 1.104
+    "exa": 41.666667
   }
 }
