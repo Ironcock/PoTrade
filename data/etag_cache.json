@@ -1,7 +1,7 @@
 {
   "runes_of_aldur": {
     "__ov_ex_Currency": "W/0216b06ac96a073d4a36a106f23592c6",
-    "__ov_ex_Fragments": "W/16d0c331c1fc283435b510bf026d9a3d",
+    "__ov_ex_Fragments": "W/79de6fbf2d96715ca8cc856321213ce1",
     "__ov_ex_Abyss": "W/da4afde77203b58e3f0f736487318945",
     "__ov_ex_UncutGems": "W/a225bb2d872bd8b162fc6429876b1d50",
     "__ov_ex_LineageSupportGems": "W/bc93b8ad4c5bb9b40ea0de4ffb5add9f",
@@ -1698,7 +1698,7 @@
   },
   "hc_runes_of_aldur": {
     "__ov_ex_Currency": "W/0a84f38685b8ca6252d4929cf91968bb",
-    "__ov_ex_Fragments": "W/be929b5c71a688049bbcd89220e29cd7",
+    "__ov_ex_Fragments": "W/07d9db0b8071c5ea981eb18c6b00b61a",
     "__ov_ex_Abyss": "W/59812db9f97b0a88d10b642b441be57d",
     "__ov_ex_UncutGems": "W/87986f1e4e9d19b5849d1c8abd17ca0d",
     "__ov_ex_LineageSupportGems": "W/be929b5c71a688049bbcd89220e29cd7",
@@ -1710,7 +1710,7 @@
     "__ov_ex_Expedition": "W/be929b5c71a688049bbcd89220e29cd7",
     "__ov_ex_Delirium": "W/be929b5c71a688049bbcd89220e29cd7",
     "__ov_ex_Breach": "W/be929b5c71a688049bbcd89220e29cd7",
-    "__ov_ex_Verisium": "W/74b678837b1c8e40c120914c5fef93f5",
+    "__ov_ex_Verisium": "W/3f4cc428f6fb8a1ce2479023941c021c",
     "__lft_alch": 1787871965787,
     "i_alch": "W/13ed11c39e2fb9800020470013c9800b",
     "__lft_exalted": 1788741697958,
@@ -3110,7 +3110,7 @@
     "__404_divine": true
   },
   "standard": {
-    "__ov_ex_Currency": "W/31b1fc78e89f58e63902303f94c4388f",
+    "__ov_ex_Currency": "W/aeecb8cd3d9c7e228538aa06ae8b2126",
     "__ov_ex_Fragments": "W/479e08e185fd3ce30716ff60afa98f57",
     "__ov_ex_Abyss": "W/d73ec70c8f47f125db864248db02f201",
     "__ov_ex_UncutGems": "W/365aaf496b57abe10b0839fa0e3253d3",
@@ -3119,7 +3119,7 @@
     "__ov_ex_SoulCores": "W/bc5b0860f79fbc97fd05b9775db2f5c1",
     "__ov_ex_Idols": "W/4ab0fec8e7f040aef47d5905fb7a6462",
     "__ov_ex_Runes": "W/ca8f70d7fcf29eddf8f9bba4f801b054",
-    "__ov_ex_Ritual": "W/80937915a5541138afc7b363189078cd",
+    "__ov_ex_Ritual": "W/bb3ed6f312d595db62f2917017411e9d",
     "__ov_ex_Expedition": "W/399e73db145143f1ee52ff8b9d38672b",
     "__ov_ex_Delirium": "W/1b4c75173fa2e43fc3c3603bbf5a5c0b",
     "__ov_ex_Breach": "W/6d4f130971626ff6a0d4c50b7e94d687",
