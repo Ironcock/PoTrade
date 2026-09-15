@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:08:08.492151+00:00",
+  "updatedAt": "2026-09-15T23:15:42.334328+00:00",
   "rates": {
     "divine": 11.02,
     "chaos": 1.0,
@@ -40,13 +40,13 @@
     "greater-orb-of-transmutation": 0.1429,
     "kamasasofsacrifice": 115.71,
     "kamasas-orb-of-sacrifice": 115.71,
-    "ancientinfuser": 4.5,
-    "ancient-infuser": 4.5,
+    "ancientinfuser": 4,
+    "ancient-infuser": 4,
     "perfectregal": 0.1971,
     "perfect-regal-orb": 0.1971,
     "coredestabiliser": 25,
     "core-destabiliser": 25,
-    "transmute": 0.001,
+    "transmute": 0.001428,
     "scrap": 0.2083,
     "perfectchaos": 79.81,
     "perfect-chaos-orb": 79.81,
