@@ -1,13 +1,13 @@
 {
   "runes_of_aldur": {
     "__ov_ex_Currency": "W/b8c3dae7f8e54f98c8be8d1b3f3b7cc7",
-    "__ov_ex_Fragments": "W/8a1600a5ea3e9c2fb56d68d9f3e34dfe",
-    "__ov_ex_Abyss": "W/91451aff715fa44d23b7e3938bb2db6b",
+    "__ov_ex_Fragments": "W/633903eb79cb0e6b82217440f1c6b58e",
+    "__ov_ex_Abyss": "W/abc3871c5a19f8f85a118e8429da6713",
     "__ov_ex_UncutGems": "W/27683d2c3bf9662ea736d9eae8ddf92a",
     "__ov_ex_LineageSupportGems": "W/68e36a62a595332b8fb5dc471b33a8b6",
     "__ov_ex_Essences": "W/a203d72d1dbb9dd617ce4a2605ed1428",
     "__ov_ex_SoulCores": "W/bfc98b77a26d1edab5a9ffe685a0714e",
-    "__ov_ex_Idols": "W/6e4bd4dc474e720da04a67478f33fb59",
+    "__ov_ex_Idols": "W/1dcc47ce8ac1c0e020a19594228f02f2",
     "__ov_ex_Runes": "W/c4cd1cf7eaae57390281f9917f289952",
     "__ov_ex_Ritual": "W/2f9378d7bda986babd5f3c142704ca1f",
     "__ov_ex_Expedition": "W/bad69388364bf65ce76bb68164680d5f",
@@ -3134,7 +3134,7 @@
     "__404_divine": true
   },
   "standard": {
-    "__ov_ex_Currency": "W/9286e82db21f8c635a0d90804c4d0d7b",
+    "__ov_ex_Currency": "W/709715511397e2f355df564155ed5245",
     "__ov_ex_Fragments": "W/9e21f6a4b5fe8f80dcce8e81918f5a5f",
     "__ov_ex_Abyss": "W/a7879035e3d0652d56240b4ec917d582",
     "__ov_ex_UncutGems": "W/5da096f6b129a9c648ad6b34580b7762",
