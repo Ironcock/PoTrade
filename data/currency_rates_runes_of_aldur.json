@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T11:11:44.015973+00:00",
+  "updatedAt": "2026-09-23T11:17:33.467508+00:00",
   "rates": {
     "divine": 9.75,
     "chaos": 1.0,
@@ -34,12 +34,12 @@
     "perfectexalted": 28.39,
     "perfect-exalted-orb": 28.39,
     "gcp": 0.2279,
-    "fracturing": 37.18,
-    "fracturing-orb": 37.18,
+    "fracturing": 38.24,
+    "fracturing-orb": 38.24,
     "ancientinfuser": 3.64,
     "ancient-infuser": 3.64,
-    "perfectregal": 0.8095,
-    "perfect-regal-orb": 0.8095,
+    "perfectregal": 0.75,
+    "perfect-regal-orb": 0.75,
     "coredestabiliser": 24,
     "core-destabiliser": 24,
     "transmute": 0.007937,
@@ -61,9 +61,9 @@
     "perfect-orb-of-augmentation": 0.3376,
     "cryptickey": 10,
     "cryptic-key": 10,
-    "annul": 3.4,
+    "annul": 3.31,
     "mirror": 57700.5,
-    "hinekoraslock": 16428.75,
-    "hinekoras-lock": 16428.75
+    "hinekoraslock": 17062.5,
+    "hinekoras-lock": 17062.5
   }
 }
