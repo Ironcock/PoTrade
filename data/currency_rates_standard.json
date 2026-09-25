@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T16:19:29.067476+00:00",
+  "updatedAt": "2026-09-25T16:23:59.139366+00:00",
   "rates": {
     "divine": 2.72,
     "chaos": 1.0,
@@ -24,8 +24,8 @@
     "greater-jewellers-orb": 9,
     "perfectchaos": 20,
     "perfect-chaos-orb": 20,
-    "perfectofaugmentation": 4,
-    "perfect-orb-of-augmentation": 4,
+    "perfectofaugmentation": 0.489056,
+    "perfect-orb-of-augmentation": 0.489056,
     "annul": 1,
     "chance": 2,
     "vaalcultivation": 2.5024,
