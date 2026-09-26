@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T05:43:18.763696+00:00",
+  "updatedAt": "2026-09-26T05:48:59.366200+00:00",
   "rates": {
     "divine": 9.49,
     "chaos": 1.0,
@@ -10,8 +10,8 @@
     "vaalarmourersinfuser": 3.12,
     "vaal-armourers-infuser": 3.12,
     "whetstone": 0.1429,
-    "orbofextraction": 25,
-    "orb-of-extraction": 25,
+    "orbofextraction": 8,
+    "orb-of-extraction": 8,
     "greaterexalted": 1,
     "greater-exalted-orb": 1,
     "greaterofaugmentation": 0.08333,
@@ -24,7 +24,7 @@
     "aug": 0.01538,
     "vaalcultivation": 8.33,
     "vaal-cultivation-orb": 8.33,
-    "vaal": 0.3051,
+    "vaal": 0.3141,
     "alch": 0.02496,
     "vaalcatalysinginfuser": 58,
     "vaal-catalysing-infuser": 58,
