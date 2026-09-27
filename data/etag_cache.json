@@ -1,15 +1,15 @@
 {
   "runes_of_aldur": {
     "__ov_ex_Currency": "W/476d8249990c9783c91a5aa5d1bf0911",
-    "__ov_ex_Fragments": "W/0dae759dea864a1d1facc23901eb978e",
-    "__ov_ex_Abyss": "W/13b38164fe4311f75a399afef93cec24",
-    "__ov_ex_UncutGems": "W/2d90c250a18faaeda5aa54e3eddf50e7",
+    "__ov_ex_Fragments": "W/b9c6690445b4bf2843b15553809ff825",
+    "__ov_ex_Abyss": "W/2dd9c47f38660e8ace1f203b6499734c",
+    "__ov_ex_UncutGems": "W/b150a41b207b4a92cee02151ac2c8b5c",
     "__ov_ex_LineageSupportGems": "W/b13138b9f47ed75c8d7f2e6226e7d900",
     "__ov_ex_Essences": "W/1ca30e3299cd9ae7bca19cc765d66898",
     "__ov_ex_SoulCores": "W/cd1cde962b7118228ea74612373c59d6",
-    "__ov_ex_Idols": "W/bdcfbf07125e6bcdcbfd6439901cb513",
+    "__ov_ex_Idols": "W/58569182f697e38f4317dc7d7bb3f54e",
     "__ov_ex_Runes": "W/e7d5b8d125c8361c24c3c6831f76e6c2",
-    "__ov_ex_Ritual": "W/c3b57d5599682a93614c2e74396f396a",
+    "__ov_ex_Ritual": "W/84a1e9640bdaf09cccd1144719961dbf",
     "__ov_ex_Expedition": "W/2e5aca42f145988b006f814a521aef04",
     "__ov_ex_Delirium": "W/abc9392906813d41e84518d3e5e6c0bb",
     "__ov_ex_Breach": "W/dad95479a85a147f939c5992936bf990",
@@ -3174,7 +3174,7 @@
     "__404_chaos": true
   },
   "standard": {
-    "__ov_ex_Currency": "W/b8ca0ec3858a564859222ddb6ef307f1",
+    "__ov_ex_Currency": "W/f0d950f400c4363f1d42a4bf0f85f108",
     "__ov_ex_Fragments": "W/4743c2a7e690452b34a4b24f593606cc",
     "__ov_ex_Abyss": "W/bb04b8e0fe4ddc214854348d13c82ba6",
     "__ov_ex_UncutGems": "W/62ce54e1776c25cd7fdc64f8cf0c26e7",
