@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T06:41:15.889512+00:00",
+  "updatedAt": "2026-09-28T06:47:19.111136+00:00",
   "rates": {
     "divine": 9.3,
     "chaos": 1.0,
@@ -24,7 +24,7 @@
     "aug": 0.01266,
     "vaalcultivation": 19.33,
     "vaal-cultivation-orb": 19.33,
-    "vaal": 0.149,
+    "vaal": 0.1413,
     "alch": 0.08333,
     "vaalcatalysinginfuser": 5,
     "vaal-catalysing-infuser": 5,
@@ -57,8 +57,8 @@
     "perfect-orb-of-transmutation": 0.5,
     "architects": 41,
     "architects-orb": 41,
-    "perfectofaugmentation": 0.3889,
-    "perfect-orb-of-augmentation": 0.3889,
+    "perfectofaugmentation": 0.3908,
+    "perfect-orb-of-augmentation": 0.3908,
     "cryptickey": 2.16,
     "cryptic-key": 2.16,
     "annul": 3.04,
