@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T21:19:51.709104+00:00",
+  "updatedAt": "2026-09-29T21:26:47.553504+00:00",
   "rates": {
     "divine": 9.48,
     "chaos": 1.0,
@@ -51,18 +51,18 @@
     "artificers": 0.125,
     "greaterjewellers": 0.5652,
     "greater-jewellers-orb": 0.5652,
-    "greaterchaos": 2.79,
-    "greater-chaos-orb": 2.79,
+    "greaterchaos": 2.78,
+    "greater-chaos-orb": 2.78,
     "perfectoftransmutation": 1.43,
     "perfect-orb-of-transmutation": 1.43,
     "architects": 190,
     "architects-orb": 190,
-    "perfectofaugmentation": 0.3927,
-    "perfect-orb-of-augmentation": 0.3927,
+    "perfectofaugmentation": 0.3761,
+    "perfect-orb-of-augmentation": 0.3761,
     "cryptickey": 9,
     "cryptic-key": 9,
-    "annul": 2.9,
-    "mirror": 59013.0,
+    "annul": 4.18,
+    "mirror": 58444.2,
     "hinekoraslock": 16590.0,
     "hinekoras-lock": 16590.0
   }
