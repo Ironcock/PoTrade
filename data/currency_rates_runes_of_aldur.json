@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-06T00:48:12.377913+00:00",
+  "updatedAt": "2026-10-06T00:53:49.989637+00:00",
   "rates": {
-    "divine": 7.98,
+    "divine": 7.99,
     "chaos": 1.0,
-    "exa": 64.924812,
+    "exa": 65.181477,
     "bauble": 0.7722,
     "crystallisedcorruption": 33.67,
     "crystallised-corruption": 33.67,
@@ -58,7 +58,7 @@
     "perfect-orb-of-augmentation": 1,
     "cryptickey": 1.56,
     "cryptic-key": 1.56,
-    "annul": 4.1,
-    "mirror": 49539.84
+    "annul": 4.17,
+    "mirror": 49601.92
   }
 }
