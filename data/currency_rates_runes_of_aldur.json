@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-06T07:13:01.203878+00:00",
+  "updatedAt": "2026-10-06T07:18:27.264095+00:00",
   "rates": {
-    "divine": 8.27,
+    "divine": 8.26,
     "chaos": 1.0,
-    "exa": 63.76058,
+    "exa": 63.874092,
     "bauble": 1,
     "crystallisedcorruption": 38.1,
     "crystallised-corruption": 38.1,
@@ -34,8 +34,8 @@
     "gcp": 0.1937,
     "fracturing": 38.36,
     "fracturing-orb": 38.36,
-    "ancientinfuser": 3,
-    "ancient-infuser": 3,
+    "ancientinfuser": 1.67,
+    "ancient-infuser": 1.67,
     "perfectregal": 0.84,
     "perfect-regal-orb": 0.84,
     "coredestabiliser": 3,
@@ -58,7 +58,7 @@
     "perfect-orb-of-augmentation": 1,
     "cryptickey": 1,
     "cryptic-key": 1,
-    "annul": 3.48,
-    "mirror": 51340.16
+    "annul": 3.43,
+    "mirror": 51278.08
   }
 }
