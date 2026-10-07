@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-07T04:37:15.213623+00:00",
+  "updatedAt": "2026-10-07T04:42:56.759560+00:00",
   "rates": {
-    "divine": 7.97,
+    "divine": 7.98,
     "chaos": 1.0,
-    "exa": 67.892095,
+    "exa": 66.353383,
     "bauble": 1,
     "crystallisedcorruption": 28,
     "crystallised-corruption": 28,
@@ -22,18 +22,18 @@
     "aug": 0.005128,
     "vaalcultivation": 5,
     "vaal-cultivation-orb": 5,
-    "vaal": 0.2222,
+    "vaal": 0.2096,
     "alch": 0.007609,
     "vaalcatalysinginfuser": 50,
     "vaal-catalysing-infuser": 50,
-    "chance": 0.2147,
+    "chance": 0.2171,
     "greaterregal": 2,
     "greater-regal-orb": 2,
-    "perfectexalted": 5.93,
-    "perfect-exalted-orb": 5.93,
-    "gcp": 0.06333,
-    "fracturing": 41.31,
-    "fracturing-orb": 41.31,
+    "perfectexalted": 6,
+    "perfect-exalted-orb": 6,
+    "gcp": 0.07805,
+    "fracturing": 41.78,
+    "fracturing-orb": 41.78,
     "ancientinfuser": 2.67,
     "ancient-infuser": 2.67,
     "perfectregal": 0.6538,
@@ -59,6 +59,6 @@
     "cryptickey": 2,
     "cryptic-key": 2,
     "annul": 3.39,
-    "mirror": 49477.76
+    "mirror": 49539.84
   }
 }
