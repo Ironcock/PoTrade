@@ -1,19 +1,19 @@
 {
   "runes_of_aldur": {
     "__ov_ex_Currency": "W/2f7ee9004c44785934cdb9beb78c2e0a",
-    "__ov_ex_Fragments": "W/ce3daebd30e213e6527ddee1d50c0677",
-    "__ov_ex_Abyss": "W/b75bdeaabbf706778c0fec6e8b1d799e",
-    "__ov_ex_UncutGems": "W/bfaca9606ad1b8b97fde9ff110633901",
-    "__ov_ex_LineageSupportGems": "W/b71443cd949643f1fd565e66bfa90a48",
+    "__ov_ex_Fragments": "W/21ef71b50fdf9d8268250f27a4af9abb",
+    "__ov_ex_Abyss": "W/07635fc682163e099012a0e633b60fca",
+    "__ov_ex_UncutGems": "W/5b41d18b77c09385b334ea5e8f54cbc8",
+    "__ov_ex_LineageSupportGems": "W/44b9a903aed6ef8e074c44a453a5a1bc",
     "__ov_ex_Essences": "W/e4cfbbd2c8ea39c73c36fcba83426344",
     "__ov_ex_SoulCores": "W/fd6b4d9fbaa3d7b452453b86fe034cba",
-    "__ov_ex_Idols": "W/a43fe3e341f4397cc6efe21f0ec3870b",
+    "__ov_ex_Idols": "W/b44212f23f941c2a9382c9a14b63952c",
     "__ov_ex_Runes": "W/bc57ed679e117bdaedc8b586369dc84e",
     "__ov_ex_Ritual": "W/cec5d18cd2ca9462386c61a328b52a9f",
-    "__ov_ex_Expedition": "W/3ad9e508ce7ec0ad6c66c67737648cb5",
+    "__ov_ex_Expedition": "W/2f5511a2f69d997621cc6e39faef6b13",
     "__ov_ex_Delirium": "W/50a344abf2f3800203865c276e72d49a",
     "__ov_ex_Breach": "W/bfc5d151a09fb066708956d16dad8d3d",
-    "__ov_ex_Verisium": "W/662c25a5f3b2bd64149290a7232aa99e",
+    "__ov_ex_Verisium": "W/2294e3398851a7afda6399f02588bee6",
     "__lft_chaos": 1791821234922,
     "i_chaos": "W/6830054cc5c3dc8cbe513773467b1ba2",
     "__lft_bauble": 1791821234922,
@@ -1804,11 +1804,11 @@
     "__404_omen-of-putrefaction": true
   },
   "hc_runes_of_aldur": {
-    "__ov_ex_Currency": "W/1bc6ac7e608200c0a8a5d4f8a528babb",
-    "__ov_ex_Fragments": "W/2ba7339c6919b13f50a356971ef37597",
+    "__ov_ex_Currency": "W/ad52bc80490aa1a76af11948bd64e382",
+    "__ov_ex_Fragments": "W/4f48bddc3749cd3a0e961d434ce3e9d8",
     "__ov_ex_Abyss": "W/d601f8fefc249629d0f9ce84a021744d",
     "__ov_ex_UncutGems": "W/dbf03b84653a79ad1c77564dfd2658de",
-    "__ov_ex_LineageSupportGems": "W/d601f8fefc249629d0f9ce84a021744d",
+    "__ov_ex_LineageSupportGems": "W/109f3372072b6bc062944ec840d7a18e",
     "__ov_ex_Essences": "W/d601f8fefc249629d0f9ce84a021744d",
     "__ov_ex_SoulCores": "W/d601f8fefc249629d0f9ce84a021744d",
     "__ov_ex_Idols": "W/d601f8fefc249629d0f9ce84a021744d",
@@ -3218,7 +3218,7 @@
     "__404_chaos": true
   },
   "standard": {
-    "__ov_ex_Currency": "W/cdffd77a0c061323688d8ff3201c2971",
+    "__ov_ex_Currency": "W/6892d5fa5b061cc7c374b0f3b625fd02",
     "__ov_ex_Fragments": "W/88b6a45fe05a84d6cbaa6b6e90280463",
     "__ov_ex_Abyss": "W/2e63ddd15a7ee099b5435859cacd3cf0",
     "__ov_ex_UncutGems": "W/16fcaa9b5923f50fdc7d46a53e6e9fb7",
@@ -4437,7 +4437,7 @@
     "__404_hedgewitch-assandras-rune-of-wisdom": true
   },
   "hardcore": {
-    "__ov_ex_Currency": "W/c87962273229965dfdfcf74a08e0ea0f",
+    "__ov_ex_Currency": "W/ba09d7d2dffe73b4c81b26a43c05dc83",
     "__ov_ex_Fragments": "W/97879c638410172c979aa2fbcf4867d5",
     "__ov_ex_Abyss": "W/97879c638410172c979aa2fbcf4867d5",
     "__ov_ex_UncutGems": "W/97879c638410172c979aa2fbcf4867d5",
