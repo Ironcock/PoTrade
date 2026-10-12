@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T03:31:49.169938+00:00",
+  "updatedAt": "2026-10-12T03:37:29.715464+00:00",
   "rates": {
     "divine": 8.33,
     "chaos": 1.0,
@@ -29,18 +29,18 @@
     "chance": 0.2353,
     "greaterregal": 1,
     "greater-regal-orb": 1,
-    "perfectexalted": 10.75,
-    "perfect-exalted-orb": 10.75,
-    "gcp": 0.5797,
-    "fracturing": 33.67,
-    "fracturing-orb": 33.67,
+    "perfectexalted": 10.46,
+    "perfect-exalted-orb": 10.46,
+    "gcp": 0.5726,
+    "fracturing": 33.8,
+    "fracturing-orb": 33.8,
     "ancientinfuser": 1.33,
     "ancient-infuser": 1.33,
-    "perfectregal": 0.5096,
-    "perfect-regal-orb": 0.5096,
+    "perfectregal": 0.5153,
+    "perfect-regal-orb": 0.5153,
     "coredestabiliser": 5,
     "core-destabiliser": 5,
-    "scrap": 0.1502,
+    "scrap": 0.1501,
     "perfectchaos": 34,
     "perfect-chaos-orb": 34,
     "vaalblacksmithsinfuser": 1,
@@ -48,8 +48,8 @@
     "artificers": 1,
     "greaterjewellers": 0.7,
     "greater-jewellers-orb": 0.7,
-    "greaterchaos": 2.91,
-    "greater-chaos-orb": 2.91,
+    "greaterchaos": 2.95,
+    "greater-chaos-orb": 2.95,
     "perfectoftransmutation": 0.5714,
     "perfect-orb-of-transmutation": 0.5714,
     "architects": 54,
@@ -58,6 +58,6 @@
     "perfect-orb-of-augmentation": 1.99,
     "cryptickey": 1,
     "cryptic-key": 1,
-    "annul": 1.74
+    "annul": 2.22
   }
 }
