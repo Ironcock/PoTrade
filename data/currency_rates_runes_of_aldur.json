@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-13T06:53:05.094609+00:00",
+  "updatedAt": "2026-10-13T06:59:05.632376+00:00",
   "rates": {
-    "divine": 8.36,
+    "divine": 8.38,
     "chaos": 1.0,
-    "exa": 60.9689,
+    "exa": 61.539379,
     "bauble": 0.9091,
     "crystallisedcorruption": 40,
     "crystallised-corruption": 40,
@@ -22,8 +22,8 @@
     "aug": 0.01515,
     "vaalcultivation": 8,
     "vaal-cultivation-orb": 8,
-    "vaal": 0.06942,
-    "alch": 0.05495,
+    "vaal": 0.088,
+    "alch": 0.03846,
     "vaalcatalysinginfuser": 22,
     "vaal-catalysing-infuser": 22,
     "chance": 0.2222,
