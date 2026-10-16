@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T23:32:11.406552+00:00",
+  "updatedAt": "2026-10-16T23:38:16.347669+00:00",
   "rates": {
     "divine": 8.5,
     "chaos": 1.0,
@@ -32,8 +32,8 @@
     "perfectexalted": 13.6,
     "perfect-exalted-orb": 13.6,
     "gcp": 0.1279,
-    "fracturing": 52.9,
-    "fracturing-orb": 52.9,
+    "fracturing": 53.09,
+    "fracturing-orb": 53.09,
     "ancientinfuser": 3.83,
     "ancient-infuser": 3.83,
     "perfectregal": 1.55,
@@ -41,8 +41,8 @@
     "coredestabiliser": 5.67,
     "core-destabiliser": 5.67,
     "scrap": 0.07016,
-    "perfectchaos": 45.83,
-    "perfect-chaos-orb": 45.83,
+    "perfectchaos": 46.1,
+    "perfect-chaos-orb": 46.1,
     "vaalblacksmithsinfuser": 3,
     "vaal-blacksmiths-infuser": 3,
     "artificers": 0.06667,
@@ -54,10 +54,10 @@
     "perfect-orb-of-transmutation": 2,
     "architects": 167,
     "architects-orb": 167,
-    "perfectofaugmentation": 1.5,
-    "perfect-orb-of-augmentation": 1.5,
+    "perfectofaugmentation": 0.875,
+    "perfect-orb-of-augmentation": 0.875,
     "cryptickey": 3,
     "cryptic-key": 3,
-    "annul": 3.38
+    "annul": 3.04
   }
 }
