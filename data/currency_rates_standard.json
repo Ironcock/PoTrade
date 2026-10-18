@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-18T06:47:27.738526+00:00",
+  "updatedAt": "2026-10-18T06:53:58.305679+00:00",
   "rates": {
     "divine": 1.61,
     "chaos": 1.0,
-    "exa": 141.428571,
+    "exa": 140.248447,
     "etcher": 0.3333,
     "perfectexalted": 10,
     "perfect-exalted-orb": 10,
@@ -15,8 +15,8 @@
     "architects-orb": 8,
     "perfectjewellers": 10,
     "perfect-jewellers-orb": 10,
-    "mirror": 16178.89,
-    "vaal": 0.07576,
+    "mirror": 16100.0,
+    "vaal": 0.1239,
     "scrap": 0.2,
     "greaterexalted": 0.5,
     "greater-exalted-orb": 0.5,
