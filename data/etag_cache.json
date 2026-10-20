@@ -11,7 +11,7 @@
     "__ov_ex_Runes": "W/151ed1b89b7b108d3f73dc4fc119b46e",
     "__ov_ex_Ritual": "W/7db55b5398cef84dc6e89111476cbc24",
     "__ov_ex_Expedition": "W/89089cb576d4c9439d96e16b049365e6",
-    "__ov_ex_Delirium": "W/3aad93de1ca00fe850f8a254e5ac3555",
+    "__ov_ex_Delirium": "W/44b9b3d6ab33249923e03b80c3c0093e",
     "__ov_ex_Breach": "W/ae9234824b5570a06041c8b91928d71a",
     "__ov_ex_Verisium": "W/0ca5675e3f65aa4d400ec005c5f6b4b6",
     "__lft_chaos": 1792461792304,
@@ -1823,7 +1823,8 @@
     "__404_omen-of-dextral-exaltation": true,
     "__404_perfect-mind-rune": true,
     "__404_artificers": true,
-    "__404_carapace-catalyst": true
+    "__404_carapace-catalyst": true,
+    "__404_olroths-conviction": true
   },
   "hc_runes_of_aldur": {
     "__ov_ex_Currency": "W/c63da4b3ab13f2e9f52fdfbc140675f8",
