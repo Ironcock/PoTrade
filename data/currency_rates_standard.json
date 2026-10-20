@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T17:15:23.621062+00:00",
+  "updatedAt": "2026-10-20T17:20:55.821754+00:00",
   "rates": {
     "divine": 1.87,
     "chaos": 1.0,
@@ -30,8 +30,8 @@
     "chance": 4,
     "vaalcultivation": 1,
     "vaal-cultivation-orb": 1,
-    "greaterchaos": 4,
-    "greater-chaos-orb": 4,
+    "greaterchaos": 3.4595,
+    "greater-chaos-orb": 3.4595,
     "fracturing": 386,
     "fracturing-orb": 386
   }
