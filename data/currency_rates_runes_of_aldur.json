@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T21:09:37.806067+00:00",
+  "updatedAt": "2026-10-20T21:17:06.544473+00:00",
   "rates": {
     "divine": 9.32,
     "chaos": 1.0,
@@ -26,11 +26,11 @@
     "alch": 0.02671,
     "vaalcatalysinginfuser": 22,
     "vaal-catalysing-infuser": 22,
-    "chance": 0.1915,
+    "chance": 0.1871,
     "greaterregal": 0.5,
     "greater-regal-orb": 0.5,
-    "perfectexalted": 14.86,
-    "perfect-exalted-orb": 14.86,
+    "perfectexalted": 16.19,
+    "perfect-exalted-orb": 16.19,
     "gcp": 0.1859,
     "fracturing": 42.86,
     "fracturing-orb": 42.86,
@@ -54,8 +54,8 @@
     "perfect-orb-of-transmutation": 2,
     "architects": 200,
     "architects-orb": 200,
-    "perfectofaugmentation": 1.9,
-    "perfect-orb-of-augmentation": 1.9,
+    "perfectofaugmentation": 1.99,
+    "perfect-orb-of-augmentation": 1.99,
     "cryptickey": 3,
     "cryptic-key": 3,
     "annul": 2.85
