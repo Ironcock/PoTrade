@@ -6,9 +6,9 @@
     "__ov_ex_UncutGems": "W/c9e25ea5e4999549f78d392e8f12da17",
     "__ov_ex_LineageSupportGems": "W/0e721dbb40efb4ea389565045c5cfff9",
     "__ov_ex_Essences": "W/262a3b0aaf76f45c2d08c8466118dbbe",
-    "__ov_ex_SoulCores": "W/682802e4749c228386e304e74f8f601a",
+    "__ov_ex_SoulCores": "W/1d7f69dd2ddfd6b423a8c71ccb380030",
     "__ov_ex_Idols": "W/44f5075ccc05dfedcd42bf7aae15c757",
-    "__ov_ex_Runes": "W/758a0ae365e336a0f594b57aa73c9707",
+    "__ov_ex_Runes": "W/a5c5e79d231a8ded61dfafca662299bf",
     "__ov_ex_Ritual": "W/add8811c577c0bc3e2f2bff269754c50",
     "__ov_ex_Expedition": "W/f0cd41b549ae4ada01d789d4279fd3b0",
     "__ov_ex_Delirium": "W/8327fa483f6a0f224b9a4e9ab37e6061",
@@ -1826,7 +1826,8 @@
     "__404_carapace-catalyst": true,
     "__404_olroths-conviction": true,
     "__404_idol-of-eeshta": true,
-    "__404_uhtreds-constellation": true
+    "__404_uhtreds-constellation": true,
+    "__404_neural-catalyst": true
   },
   "hc_runes_of_aldur": {
     "__ov_ex_Currency": "W/ab2c0fe001e3b94e8e6a68dea4559502",
