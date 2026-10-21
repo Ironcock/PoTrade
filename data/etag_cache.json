@@ -1,8 +1,8 @@
 {
   "runes_of_aldur": {
     "__ov_ex_Currency": "W/9810ff69be14559296e8c50882d922cf",
-    "__ov_ex_Fragments": "W/c0250105664fde1d87229028c09411f6",
-    "__ov_ex_Abyss": "W/17fc0289dee3e63a1e10a20ad5adb2ac",
+    "__ov_ex_Fragments": "W/43120753b300fbde65fd0740640b7be8",
+    "__ov_ex_Abyss": "W/ab74fa5b7243af64b48e11edcc2f8272",
     "__ov_ex_UncutGems": "W/50da10abc35034fae3cd48a6802f2db7",
     "__ov_ex_LineageSupportGems": "W/fb7c70960b09abc63996e4574a25ea3f",
     "__ov_ex_Essences": "W/be476e5d5d254f8b8e8ba6fd80019645",
@@ -13,7 +13,7 @@
     "__ov_ex_Expedition": "W/43dc4d1620c1734f5b65c94243d0f697",
     "__ov_ex_Delirium": "W/7b54eccd60022c83b079e5d1b0c814f9",
     "__ov_ex_Breach": "W/4250dc950dffed5162e518c750e2e114",
-    "__ov_ex_Verisium": "W/039cdcd6f1d0e5597ef33d6209b26136",
+    "__ov_ex_Verisium": "W/75a3b96f9a4acdfefbb1f61b3d6db7f2",
     "__lft_chaos": 1792610909335,
     "i_chaos": "W/3570f6deb6aa22108046b9213246b013",
     "__lft_bauble": 1792610909335,
@@ -3246,10 +3246,10 @@
   },
   "standard": {
     "__ov_ex_Currency": "W/750a7943c7e8a30b936e712855c94e18",
-    "__ov_ex_Fragments": "W/89ff7aa3bb6b8127c3b244f25ac45f65",
+    "__ov_ex_Fragments": "W/5a13bfd597a40b92efc380bc2319cae6",
     "__ov_ex_Abyss": "W/4c6d2901dd3e9d33b08bef68c115d922",
     "__ov_ex_UncutGems": "W/26e1c9b48e6141a212e13d9ef8737178",
-    "__ov_ex_LineageSupportGems": "W/3a94f4b793dc87a46ce7823057816aa6",
+    "__ov_ex_LineageSupportGems": "W/3b50a0b8d48ea9f3f975f9e79e895374",
     "__ov_ex_Essences": "W/38298f87f995891b59e4611cc869dba6",
     "__ov_ex_SoulCores": "W/4b30860fb5527ebc4419253049b24437",
     "__ov_ex_Idols": "W/653f4244e94d3c16fd88639f4f8d6c24",
