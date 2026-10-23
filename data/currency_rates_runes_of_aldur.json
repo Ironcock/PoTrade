@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-23T04:07:24.691003+00:00",
+  "updatedAt": "2026-10-23T04:13:01.896941+00:00",
   "rates": {
-    "divine": 9.44,
+    "divine": 9.33,
     "chaos": 1.0,
-    "exa": 57.161017,
+    "exa": 57.170418,
     "bauble": 1,
     "crystallisedcorruption": 50,
     "crystallised-corruption": 50,
@@ -48,8 +48,8 @@
     "greater-jewellers-orb": 0.6667,
     "greaterchaos": 2.91,
     "greater-chaos-orb": 2.91,
-    "perfectoftransmutation": 0.235056,
-    "perfect-orb-of-transmutation": 0.235056,
+    "perfectoftransmutation": 0.232317,
+    "perfect-orb-of-transmutation": 0.232317,
     "architects": 15,
     "architects-orb": 15,
     "perfectofaugmentation": 1.05,
