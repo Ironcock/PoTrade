@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T09:20:22.855077+00:00",
+  "updatedAt": "2026-10-23T09:25:51.815002+00:00",
   "rates": {
     "divine": 9.23,
     "chaos": 1.0,
@@ -27,11 +27,11 @@
     "chance": 0.25,
     "greaterregal": 0.5,
     "greater-regal-orb": 0.5,
-    "perfectexalted": 12.56,
-    "perfect-exalted-orb": 12.56,
-    "gcp": 0.3721,
-    "fracturing": 51.12,
-    "fracturing-orb": 51.12,
+    "perfectexalted": 12,
+    "perfect-exalted-orb": 12,
+    "gcp": 0.4188,
+    "fracturing": 50.88,
+    "fracturing-orb": 50.88,
     "ancientinfuser": 4,
     "ancient-infuser": 4,
     "perfectregal": 0.25,
