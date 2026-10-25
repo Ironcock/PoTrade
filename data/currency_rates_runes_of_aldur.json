@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T05:39:23.353391+00:00",
+  "updatedAt": "2026-10-25T05:44:56.284555+00:00",
   "rates": {
     "divine": 9.5,
     "chaos": 1.0,
@@ -44,16 +44,16 @@
     "vaalblacksmithsinfuser": 17.2,
     "vaal-blacksmiths-infuser": 17.2,
     "artificers": 0.006849,
-    "greaterjewellers": 0.6341,
-    "greater-jewellers-orb": 0.6341,
-    "greaterchaos": 2.68,
-    "greater-chaos-orb": 2.68,
-    "architects": 81.2,
-    "architects-orb": 81.2,
+    "greaterjewellers": 0.6364,
+    "greater-jewellers-orb": 0.6364,
+    "greaterchaos": 2.69,
+    "greater-chaos-orb": 2.69,
+    "architects": 97.25,
+    "architects-orb": 97.25,
     "perfectofaugmentation": 1.17,
     "perfect-orb-of-augmentation": 1.17,
     "cryptickey": 2,
     "cryptic-key": 2,
-    "annul": 2.87
+    "annul": 2.8
   }
 }
