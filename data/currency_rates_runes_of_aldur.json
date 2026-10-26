@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T07:54:58.762219+00:00",
+  "updatedAt": "2026-10-26T08:00:39.374877+00:00",
   "rates": {
     "divine": 8.9,
     "chaos": 1.0,
@@ -27,8 +27,8 @@
     "chance": 0.2973,
     "greaterregal": 0.5,
     "greater-regal-orb": 0.5,
-    "perfectexalted": 13.06,
-    "perfect-exalted-orb": 13.06,
+    "perfectexalted": 12.75,
+    "perfect-exalted-orb": 12.75,
     "gcp": 0.4054,
     "fracturing": 59.67,
     "fracturing-orb": 59.67,
@@ -38,7 +38,7 @@
     "perfect-regal-orb": 2,
     "coredestabiliser": 4,
     "core-destabiliser": 4,
-    "scrap": 0.06316,
+    "scrap": 0.09924,
     "perfectchaos": 28.69,
     "perfect-chaos-orb": 28.69,
     "vaalblacksmithsinfuser": 2.75,
@@ -53,6 +53,6 @@
     "perfect-orb-of-augmentation": 2,
     "cryptickey": 2.05,
     "cryptic-key": 2.05,
-    "annul": 4.67
+    "annul": 4.5
   }
 }
