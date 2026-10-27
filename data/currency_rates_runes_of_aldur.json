@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-27T01:39:21.059006+00:00",
+  "updatedAt": "2026-10-27T01:45:03.743519+00:00",
   "rates": {
     "divine": 9.02,
     "chaos": 1.0,
     "exa": 61.463415,
     "bauble": 1,
-    "crystallisedcorruption": 69,
-    "crystallised-corruption": 69,
+    "crystallisedcorruption": 31,
+    "crystallised-corruption": 31,
     "vaalarmourersinfuser": 0.4,
     "vaal-armourers-infuser": 0.4,
     "whetstone": 0.06667,
@@ -47,12 +47,12 @@
     "greater-jewellers-orb": 0.3478,
     "greaterchaos": 2.68,
     "greater-chaos-orb": 2.68,
-    "architects": 72,
-    "architects-orb": 72,
+    "architects": 22,
+    "architects-orb": 22,
     "perfectofaugmentation": 0.5455,
     "perfect-orb-of-augmentation": 0.5455,
     "cryptickey": 4,
     "cryptic-key": 4,
-    "annul": 3.1
+    "annul": 2.92
   }
 }
