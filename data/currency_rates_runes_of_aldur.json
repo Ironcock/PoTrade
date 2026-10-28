@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-28T20:17:09.969852+00:00",
+  "updatedAt": "2026-10-28T20:22:48.533090+00:00",
   "rates": {
-    "divine": 9.11,
+    "divine": 9.08,
     "chaos": 1.0,
-    "exa": 59.648738,
+    "exa": 59.72467,
     "bauble": 1,
     "crystallisedcorruption": 30,
     "crystallised-corruption": 30,
@@ -15,13 +15,13 @@
     "greaterexalted": 0.1007,
     "greater-exalted-orb": 0.1007,
     "regal": 0.02222,
-    "etcher": 0.2782,
-    "perfectjewellers": 5.46,
-    "perfect-jewellers-orb": 5.46,
+    "etcher": 0.2903,
+    "perfectjewellers": 5.29,
+    "perfect-jewellers-orb": 5.29,
     "vaalcultivation": 15.73,
     "vaal-cultivation-orb": 15.73,
-    "vaal": 0.1297,
-    "alch": 0.02078,
+    "vaal": 0.1328,
+    "alch": 0.0209,
     "vaalcatalysinginfuser": 20,
     "vaal-catalysing-infuser": 20,
     "chance": 0.3333,
@@ -53,6 +53,6 @@
     "perfect-orb-of-augmentation": 1,
     "cryptickey": 3.71,
     "cryptic-key": 3.71,
-    "annul": 3.53
+    "annul": 3.52
   }
 }
