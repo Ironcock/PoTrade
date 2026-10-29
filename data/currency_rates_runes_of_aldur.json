@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T04:54:47.242526+00:00",
+  "updatedAt": "2026-10-29T05:02:51.647764+00:00",
   "rates": {
     "divine": 9.0,
     "chaos": 1.0,
@@ -12,8 +12,8 @@
     "whetstone": 0.05263,
     "orbofextraction": 7.67,
     "orb-of-extraction": 7.67,
-    "greaterexalted": 0.377,
-    "greater-exalted-orb": 0.377,
+    "greaterexalted": 0.3667,
+    "greater-exalted-orb": 0.3667,
     "regal": 0.02083,
     "etcher": 0.275,
     "perfectjewellers": 7.29,
@@ -24,7 +24,7 @@
     "alch": 0.01789,
     "vaalcatalysinginfuser": 20,
     "vaal-catalysing-infuser": 20,
-    "chance": 0.05405,
+    "chance": 0.08462,
     "greaterregal": 0.5,
     "greater-regal-orb": 0.5,
     "perfectexalted": 14.83,
