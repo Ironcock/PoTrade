@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T23:53:32.257268+00:00",
+  "updatedAt": "2026-10-31T00:01:50.431610+00:00",
   "rates": {
     "divine": 2.03,
     "chaos": 1.0,
@@ -8,8 +8,8 @@
     "perfectexalted": 5,
     "perfect-exalted-orb": 5,
     "gcp": 2.95,
-    "perfectregal": 1,
-    "perfect-regal-orb": 1,
+    "perfectregal": 0.675584,
+    "perfect-regal-orb": 0.675584,
     "alch": 0.08333,
     "architects": 5.1765,
     "architects-orb": 5.1765,
@@ -28,8 +28,8 @@
     "chance": 5,
     "vaalcultivation": 5,
     "vaal-cultivation-orb": 5,
-    "greaterchaos": 3,
-    "greater-chaos-orb": 3,
+    "greaterchaos": 3.2886,
+    "greater-chaos-orb": 3.2886,
     "fracturing": 69.9335,
     "fracturing-orb": 69.9335
   }
