@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:04:57.879637+00:00",
+  "updatedAt": "2026-11-02T11:10:48.398636+00:00",
   "rates": {
     "divine": 9.4,
     "chaos": 1.0,
@@ -39,20 +39,20 @@
     "coredestabiliser": 8.47,
     "core-destabiliser": 8.47,
     "scrap": 0.1,
-    "perfectchaos": 24.22,
-    "perfect-chaos-orb": 24.22,
+    "perfectchaos": 23.87,
+    "perfect-chaos-orb": 23.87,
     "vaalblacksmithsinfuser": 5,
     "vaal-blacksmiths-infuser": 5,
-    "greaterjewellers": 0.1628,
-    "greater-jewellers-orb": 0.1628,
-    "greaterchaos": 2.9,
-    "greater-chaos-orb": 2.9,
-    "architects": 11,
-    "architects-orb": 11,
+    "greaterjewellers": 0.2857,
+    "greater-jewellers-orb": 0.2857,
+    "greaterchaos": 2.89,
+    "greater-chaos-orb": 2.89,
+    "architects": 47,
+    "architects-orb": 47,
     "perfectofaugmentation": 1,
     "perfect-orb-of-augmentation": 1,
     "cryptickey": 5,
     "cryptic-key": 5,
-    "annul": 3.19
+    "annul": 2.51
   }
 }
