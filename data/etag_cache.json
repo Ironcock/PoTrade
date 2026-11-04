@@ -1097,8 +1097,8 @@
     "i_omen-of-putrefaction": "W/9697c4b81c6d13cde6919ff2e3164e60",
     "__lft_omen-of-resurgence": 1793787343899,
     "i_omen-of-resurgence": "W/7625dad59adf589b2037294cc98d9a03",
-    "__lft_omen-of-sanctification": 1793784007960,
-    "i_omen-of-sanctification": "W/544137e03ff22163eb6bfa53ed6a759d",
+    "__lft_omen-of-sanctification": 1793787719885,
+    "i_omen-of-sanctification": "W/60e6e818813da8b2b84f889f6f2a2d94",
     "__lft_omen-of-sinistral-erasure": 1793787343899,
     "i_omen-of-sinistral-erasure": "W/6da1d0d900e3ec93173cebf34ae4d34d",
     "__lft_omen-of-the-ancients": 1793787343899,
@@ -1849,7 +1849,8 @@
     "__404_liquid-disgust": true,
     "__404_core-destabiliser": true,
     "__404_greater-regal-orb": true,
-    "__404_arbiters-ignition": true
+    "__404_arbiters-ignition": true,
+    "__404_refined-xophs-catalyst": true
   },
   "hc_runes_of_aldur": {
     "__ov_ex_Currency": "W/ca30d8c735dd26a195b1c28d23962c15",
