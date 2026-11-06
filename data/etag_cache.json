@@ -9,10 +9,10 @@
     "__ov_ex_SoulCores": "W/16bf621376506b2a36be6776d2635566",
     "__ov_ex_Idols": "W/f3d336a8f66cb2c25326efca3ee3b8db",
     "__ov_ex_Runes": "W/335eeed0fd568651b071dd2f44192869",
-    "__ov_ex_Ritual": "W/e9df93fb911677bd7479ca87dd77b94e",
-    "__ov_ex_Expedition": "W/31ffb12601d0d0b935e6e3c6137f13b5",
-    "__ov_ex_Delirium": "W/610810164c75f0da9de8d0e3e5d8285f",
-    "__ov_ex_Breach": "W/6c8b09e15098a5e78249cf6ee1cccb5c",
+    "__ov_ex_Ritual": "W/896f0396b45730dec992cf5321750f2f",
+    "__ov_ex_Expedition": "W/9216adb195a57c6dce5e89c546797ed2",
+    "__ov_ex_Delirium": "W/140a1d944632f672f7d53fb10737534f",
+    "__ov_ex_Breach": "W/9aa85066fe8a478ac99a150e408f8343",
     "__ov_ex_Verisium": "W/4c3cd47ff014566a6fff4d3055dd095e",
     "__lft_chaos": 1793945531507,
     "i_chaos": "W/d4e806299e4832b87eb678e74a999ede",
@@ -4491,7 +4491,8 @@
     "__404_chance": true,
     "__404_greater-jewellers-orb": true,
     "__404_etcher": true,
-    "__404_alch": true
+    "__404_alch": true,
+    "__404_greater-iron-rune": true
   },
   "hardcore": {
     "__ov_ex_Currency": "W/6d9311ddb429ca2bd4054606134fd9bc",
