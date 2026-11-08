@@ -2,9 +2,9 @@
   "runes_of_aldur": {
     "__ov_ex_Currency": "W/a4cbf6c20eb9c2060a64f00ddf6af467",
     "__ov_ex_Fragments": "W/2520482eb5b610b2cc80e23a02f07f50",
-    "__ov_ex_Abyss": "W/4e9baea411777b2749f454538fc7b49a",
+    "__ov_ex_Abyss": "W/febe43daa91910b80f7b45b8dcf91e3b",
     "__ov_ex_UncutGems": "W/da927f476100a8ca201a558f7e397e75",
-    "__ov_ex_LineageSupportGems": "W/e45753ebd6852e2a565d9d3986381b85",
+    "__ov_ex_LineageSupportGems": "W/3365afd6fb25ae06d679c3bf53c7db40",
     "__ov_ex_Essences": "W/0a65643453dcfc11fe1ce4b19df96225",
     "__ov_ex_SoulCores": "W/886e2595d21a9b79321bba42b70e07b8",
     "__ov_ex_Idols": "W/9ec5ff503fecfc6b0518ac7bec0093d8",
@@ -12,8 +12,8 @@
     "__ov_ex_Ritual": "W/dbd918b5713e68d804825485d0d47c0e",
     "__ov_ex_Expedition": "W/4598057e11e75e925d8426738a92b525",
     "__ov_ex_Delirium": "W/32a225171313c60ce92422f9674137e5",
-    "__ov_ex_Breach": "W/e29e9af0012016a615e6404e328cff45",
-    "__ov_ex_Verisium": "W/8301b28b1acbb93cea6080fab190b33f",
+    "__ov_ex_Breach": "W/e234cc0b444708b9bab02174dba47d6a",
+    "__ov_ex_Verisium": "W/f8f17417a93cbdf021e4c757817f223e",
     "__lft_chaos": 1794165342503,
     "i_chaos": "W/7dd3412ad6a2080adc4e57785a91e174",
     "__lft_bauble": 1794165342503,
@@ -4499,7 +4499,7 @@
     "__404_vaal-cultivation-orb": true
   },
   "hardcore": {
-    "__ov_ex_Currency": "W/5bec4a7dc47dffb4f0829d4a3134828c",
+    "__ov_ex_Currency": "W/8b2d1e619f81e8ba8e5061e7a98848b2",
     "__ov_ex_Fragments": "W/9408c13b7db6946c65ae34c1570a4e41",
     "__ov_ex_Abyss": "W/9408c13b7db6946c65ae34c1570a4e41",
     "__ov_ex_UncutGems": "W/9408c13b7db6946c65ae34c1570a4e41",
