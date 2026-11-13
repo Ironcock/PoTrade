@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-13T04:46:48.389924+00:00",
+  "updatedAt": "2026-11-13T04:52:25.576785+00:00",
   "rates": {
-    "divine": 8.42,
+    "divine": 8.41,
     "chaos": 1.0,
-    "exa": 63.087886,
+    "exa": 63.127229,
     "bauble": 0.5,
     "crystallisedcorruption": 29,
     "crystallised-corruption": 29,
@@ -24,7 +24,7 @@
     "alch": 0.04762,
     "vaalcatalysinginfuser": 22,
     "vaal-catalysing-infuser": 22,
-    "chance": 5.57,
+    "chance": 4,
     "perfectexalted": 14.5,
     "perfect-exalted-orb": 14.5,
     "gcp": 0.2734,
@@ -49,6 +49,6 @@
     "perfect-orb-of-augmentation": 2.51,
     "cryptickey": 4,
     "cryptic-key": 4,
-    "annul": 3.26
+    "annul": 2.7
   }
 }
