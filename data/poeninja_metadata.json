@@ -21417,5 +21417,17 @@
     "explicitModifiers": [],
     "implicitModifiers": [],
     "levelRequired": 0
+  },
+  {
+    "id": "expedition-tablet-expedition-tablet-rare",
+    "name": "Expedition Tablet",
+    "detailsId": "expedition-tablet-expedition-tablet-rare",
+    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRFeHBlZGl0aW9uIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1f8dc7fd47/PrecursorTabletExpedition.png",
+    "category": "PrecursorTablets",
+    "baseType": "Expedition Tablet",
+    "flavourText": "",
+    "explicitModifiers": [],
+    "implicitModifiers": [],
+    "levelRequired": 0
   }
 ]
