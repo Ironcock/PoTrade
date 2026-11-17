@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T13:31:18.013372+00:00",
+  "updatedAt": "2026-11-17T13:38:29.750351+00:00",
   "rates": {
     "divine": 7.1,
     "chaos": 1.0,
@@ -49,6 +49,6 @@
     "perfect-orb-of-augmentation": 3,
     "cryptickey": 5.8,
     "cryptic-key": 5.8,
-    "annul": 4.4
+    "annul": 4.75
   }
 }
